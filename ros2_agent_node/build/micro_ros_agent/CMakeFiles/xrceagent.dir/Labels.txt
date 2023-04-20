@@ -1,0 +1,13 @@
+# Target labels
+ xrceagent
+# Source files and their labels
+/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_agent/CMakeFiles/xrceagent
+/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_agent/CMakeFiles/xrceagent.rule
+/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_agent/CMakeFiles/xrceagent-complete.rule
+/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-build.rule
+/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-configure.rule
+/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-download.rule
+/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-install.rule
+/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-mkdir.rule
+/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-patch.rule
+/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-update.rule

@@ -1,0 +1,283 @@
+[0.079s] Invoking command in '/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /mnt/d/prueba/TFG-ROS2/ros2_agent_node/src/uros/micro_ros_msgs -DUAGENT_BUILD_EXECUTABLE=OFF -DUAGENT_P2P_PROFILE=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs
+[0.080s] Not searching for unused variables given on the command line.
+[0.270s] -- The C compiler identification is GNU 11.3.0
+[0.535s] -- The CXX compiler identification is GNU 11.3.0
+[0.695s] -- Detecting C compiler ABI info
+[1.107s] -- Detecting C compiler ABI info - done
+[1.130s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.130s] -- Detecting C compile features
+[1.132s] -- Detecting C compile features - done
+[1.179s] -- Detecting CXX compiler ABI info
+[1.585s] -- Detecting CXX compiler ABI info - done
+[1.608s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.608s] -- Detecting CXX compile features
+[1.609s] -- Detecting CXX compile features - done
+[1.657s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.853s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.164s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.184s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.232s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.447s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.588s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.350s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.799s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.312s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.366s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[4.383s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.522s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[4.523s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.524s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.524s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.544s] -- Found PythonExtra: .so  
+[4.869s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.794s] -- Added test 'lint_cmake' to check CMake code style
+[13.842s] -- Added test 'xmllint' to check XML markup files
+[14.320s] -- Configuring done
+[16.060s] -- Generating done
+[16.310s] -- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_msgs
+[16.317s] Invoked command in '/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /mnt/d/prueba/TFG-ROS2/ros2_agent_node/src/uros/micro_ros_msgs -DUAGENT_BUILD_EXECUTABLE=OFF -DUAGENT_P2P_PROFILE=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs
+[16.329s] Invoking command in '/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_msgs -- -j12 -l12
+[16.527s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[16.548s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[16.577s] [  4%] Built target ament_cmake_python_copy_micro_ros_msgs
+[16.974s] running egg_info
+[16.976s] creating micro_ros_msgs.egg-info
+[16.978s] writing micro_ros_msgs.egg-info/PKG-INFO
+[16.984s] writing dependency_links to micro_ros_msgs.egg-info/dependency_links.txt
+[16.994s] writing top-level names to micro_ros_msgs.egg-info/top_level.txt
+[16.998s] writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[17.024s] reading manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[17.053s] writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[17.102s] [  4%] Built target ament_cmake_python_build_micro_ros_msgs_egg
+[17.328s] [  4%] Built target micro_ros_msgs__cpp
+[17.384s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[17.392s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[17.394s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[17.519s] [ 12%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/graph__functions.c.o[0m
+[17.528s] [ 14%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/node__functions.c.o[0m
+[17.542s] [ 17%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/entity__functions.c.o[0m
+[17.750s] [ 19%] [32m[1mLinking C shared library libmicro_ros_msgs__rosidl_generator_c.so[0m
+[17.982s] [ 19%] Built target micro_ros_msgs__rosidl_generator_c
+[18.045s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[18.046s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[18.048s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[18.106s] [ 29%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/graph__type_support.cpp.o[0m
+[18.108s] [ 29%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/node__type_support.cpp.o[0m
+[18.117s] [ 31%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/entity__type_support.cpp.o[0m
+[18.350s] [ 34%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/graph__type_support.cpp.o[0m
+[18.362s] [ 36%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/node__type_support.cpp.o[0m
+[18.372s] [ 38%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/entity__type_support.cpp.o[0m
+[18.393s] [ 40%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/graph__type_support.cpp.o[0m
+[18.410s] [ 42%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/node__type_support.cpp.o[0m
+[18.428s] [ 44%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/entity__type_support.cpp.o[0m
+[19.315s] [ 46%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/graph__type_support.cpp.o[0m
+[19.364s] [ 48%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/node__type_support.cpp.o[0m
+[19.378s] [ 51%] [32m[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_cpp.so[0m
+[19.390s] [ 53%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/entity__type_support.cpp.o[0m
+[19.662s] [ 55%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/graph__type_support.c.o[0m
+[19.691s] [ 57%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/node__type_support.c.o[0m
+[19.708s] [ 59%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/entity__type_support.c.o[0m
+[19.718s] [ 61%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/graph__type_support_c.cpp.o[0m
+[19.755s] [ 63%] [32m[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_c.so[0m
+[19.959s] [ 63%] Built target micro_ros_msgs__rosidl_typesupport_cpp
+[19.996s] [ 65%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/node__type_support_c.cpp.o[0m
+[20.230s] [ 68%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/entity__type_support_c.cpp.o[0m
+[20.257s] [ 70%] [32m[1mLinking C shared library libmicro_ros_msgs__rosidl_typesupport_introspection_c.so[0m
+[20.282s] [ 70%] Built target micro_ros_msgs__rosidl_typesupport_c
+[20.653s] [ 70%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c
+[20.786s] [ 72%] [32m[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[20.864s] [ 74%] [32m[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[21.279s] [ 74%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp
+[21.317s] [ 74%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[21.415s] [ 76%] [32m[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[21.677s] [ 76%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c
+[21.739s] [ 76%] Built target micro_ros_msgs
+[21.809s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[22.477s] [ 78%] Built target micro_ros_msgs__py
+[22.554s] [ 80%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_graph_s.c.o[0m
+[22.558s] [ 82%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_node_s.c.o[0m
+[22.567s] [ 85%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_entity_s.c.o[0m
+[22.932s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so[0m
+[23.129s] [ 87%] Built target micro_ros_msgs__rosidl_generator_py
+[23.218s] [ 93%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[23.219s] [ 93%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[23.220s] [ 93%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[23.640s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[23.735s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[23.740s] [100%] [32m[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[23.845s] [100%] Built target micro_ros_msgs__rosidl_typesupport_c__pyext
+[23.911s] [100%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext
+[23.912s] [100%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext
+[24.103s] Invoked command in '/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_msgs -- -j12 -l12
+[24.292s] Invoking command in '/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_msgs
+[24.305s] -- Install configuration: ""
+[24.334s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs
+[24.401s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[24.421s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[24.447s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[24.480s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.c
+[24.551s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.h
+[24.622s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.h
+[24.692s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.h
+[24.758s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.c
+[24.825s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.h
+[24.895s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.h
+[24.963s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.h
+[25.032s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.c
+[25.101s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.h
+[25.170s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.h
+[25.244s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.h
+[25.313s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.h
+[25.378s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.h
+[25.444s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.h
+[25.511s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h
+[25.575s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh
+[25.620s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv
+[25.670s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so
+[25.745s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so" to ""
+[25.754s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[25.769s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[25.790s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[25.817s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h
+[25.890s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h
+[25.962s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h
+[26.033s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[26.096s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so
+[26.169s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[26.177s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[26.197s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[26.218s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[26.246s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h
+[26.321s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.c
+[26.400s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h
+[26.476s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.c
+[26.553s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h
+[26.631s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.c
+[26.714s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[26.775s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so
+[26.839s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so" to ""
+[26.849s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so
+[26.915s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so" to ""
+[26.922s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[26.939s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[26.958s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[26.984s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__builder.hpp
+[27.051s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.hpp
+[27.121s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__traits.hpp
+[27.186s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__builder.hpp
+[27.251s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.hpp
+[27.319s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__traits.hpp
+[27.391s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__builder.hpp
+[27.458s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.hpp
+[27.526s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__traits.hpp
+[27.591s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.hpp
+[27.649s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.hpp
+[27.708s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.hpp
+[27.761s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[27.776s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[27.796s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[27.816s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/dds_fastrtps
+[27.849s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp
+[27.914s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp
+[27.984s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp
+[28.053s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[28.108s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+[28.179s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[28.186s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[28.201s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[28.224s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[28.253s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp
+[28.327s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.cpp
+[28.408s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp
+[28.487s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.cpp
+[28.562s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp
+[28.628s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.cpp
+[28.695s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so
+[28.775s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[28.786s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so
+[28.864s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so" to ""
+[28.879s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh
+[28.937s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv
+[28.985s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-1.0.0-py3.10.egg-info
+[29.016s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-1.0.0-py3.10.egg-info/dependency_links.txt
+[29.087s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-1.0.0-py3.10.egg-info/PKG-INFO
+[29.154s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-1.0.0-py3.10.egg-info/SOURCES.txt
+[29.220s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-1.0.0-py3.10.egg-info/top_level.txt
+[29.281s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs
+[29.307s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so
+[29.372s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[29.435s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[29.501s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[29.564s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg
+[29.597s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity.py
+[29.671s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity_s.c
+[29.745s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph.py
+[29.807s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph_s.c
+[29.863s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node.py
+[29.917s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node_s.c
+[29.980s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/__init__.py
+[30.034s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c
+[30.085s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[30.133s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[30.183s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/__init__.py
+[30.645s] Listing '/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs'...
+[30.646s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/__init__.py'...
+[30.647s] Listing '/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg'...
+[30.649s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/__init__.py'...
+[30.650s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity.py'...
+[30.651s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph.py'...
+[30.652s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node.py'...
+[30.702s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[30.809s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[30.859s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[30.962s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[31.015s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[31.142s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[31.159s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so
+[31.245s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so" to ""
+[31.269s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl
+[31.331s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl
+[31.391s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl
+[31.452s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg
+[31.509s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg
+[31.568s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg
+[31.633s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs
+[31.712s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs
+[31.772s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh
+[31.813s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv
+[31.860s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh
+[31.900s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv
+[31.943s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash
+[31.982s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh
+[32.021s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh
+[32.063s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv
+[32.103s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv
+[32.163s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs
+[32.235s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport.cmake
+[32.298s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake
+[32.362s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[32.423s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[32.490s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake
+[32.555s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[32.619s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake
+[32.683s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[32.750s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cppExport.cmake
+[32.814s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[32.885s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[32.958s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[33.033s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[33.106s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake
+[33.172s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[33.239s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport.cmake
+[33.304s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport-noconfig.cmake
+[33.363s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake
+[33.415s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[33.473s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[33.537s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[33.592s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[33.641s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[33.692s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[33.739s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake
+[33.786s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake
+[33.835s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/share/micro_ros_msgs/package.xml
+[33.884s] Invoked command in '/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_msgs

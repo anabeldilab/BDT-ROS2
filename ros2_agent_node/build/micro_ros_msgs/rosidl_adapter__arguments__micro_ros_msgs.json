@@ -1,0 +1,8 @@
+{
+  "package_name": "micro_ros_msgs",
+  "non_idl_tuples": [
+    "/mnt/d/prueba/TFG-ROS2/ros2_agent_node/src/uros/micro_ros_msgs:msg/Graph.msg",
+    "/mnt/d/prueba/TFG-ROS2/ros2_agent_node/src/uros/micro_ros_msgs:msg/Node.msg",
+    "/mnt/d/prueba/TFG-ROS2/ros2_agent_node/src/uros/micro_ros_msgs:msg/Entity.msg"
+  ]
+}
