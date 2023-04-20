@@ -1,0 +1,9 @@
+/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_setup/CMakeFiles/uninstall.dir
+/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_setup/CMakeFiles/micro_ros_setup_uninstall.dir
+/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_setup/CMakeFiles/test.dir
+/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_setup/CMakeFiles/edit_cache.dir
+/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_setup/CMakeFiles/rebuild_cache.dir
+/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_setup/CMakeFiles/list_install_components.dir
+/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_setup/CMakeFiles/install.dir
+/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_setup/CMakeFiles/install/local.dir
+/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_setup/CMakeFiles/install/strip.dir

@@ -1,0 +1,210 @@
+[0.050s] Invoking command in '/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /mnt/d/prueba/TFG-ROS2/ros2_agent_node/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup
+[0.237s] -- The C compiler identification is GNU 11.3.0
+[0.510s] -- The CXX compiler identification is GNU 11.3.0
+[0.671s] -- Detecting C compiler ABI info
+[1.045s] -- Detecting C compiler ABI info - done
+[1.068s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.069s] -- Detecting C compile features
+[1.071s] -- Detecting C compile features - done
+[1.110s] -- Detecting CXX compiler ABI info
+[1.525s] -- Detecting CXX compiler ABI info - done
+[1.548s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.549s] -- Detecting CXX compile features
+[1.550s] -- Detecting CXX compile features - done
+[1.586s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.738s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.872s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.118s] -- Added test 'copyright' to check source files copyright and LICENSE
+[19.106s] -- Added test 'flake8' to check Python code syntax and style conventions
+[21.257s] -- Added test 'lint_cmake' to check CMake code style
+[22.377s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[31.722s] -- Added test 'xmllint' to check XML markup files
+[31.863s] -- Configuring done
+[32.083s] -- Generating done
+[32.144s] -- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_setup
+[32.148s] Invoked command in '/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /mnt/d/prueba/TFG-ROS2/ros2_agent_node/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup
+[32.161s] Invoking command in '/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_setup -- -j12 -l12
+[32.264s] Invoked command in '/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_setup -- -j12 -l12
+[32.318s] Invoking command in '/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_setup
+[32.329s] -- Install configuration: ""
+[32.359s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup
+[32.443s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup
+[32.512s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh
+[32.560s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv
+[32.615s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh
+[32.672s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv
+[32.731s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash
+[32.785s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh
+[32.839s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh
+[32.889s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv
+[32.945s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/share/micro_ros_setup/package.dsv
+[33.019s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup
+[33.099s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake
+[33.159s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake
+[33.222s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/share/micro_ros_setup/package.xml
+[33.273s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config
+[33.294s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/agent_ros2_packages.txt
+[33.349s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/agent_uros_packages.repos
+[33.398s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/android
+[33.427s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/android/dev_ros2_packages.txt
+[33.491s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/android/dev_uros_packages.repos
+[33.555s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/android/generic
+[33.588s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/android/generic/build.sh
+[33.662s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/android/generic/client-colcon.meta
+[33.732s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos
+[33.801s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/android/generic/create.sh
+[33.873s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/android/generic/flash.sh
+[33.943s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/android/generic/package.xml
+[34.005s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/client_ros2_packages.txt
+[34.052s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/client_uros_packages.repos
+[34.094s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos
+[34.117s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/crazyflie21
+[34.149s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos
+[34.215s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh
+[34.281s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta
+[34.347s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos
+[34.370s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh
+[34.436s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh
+[34.518s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh
+[34.582s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml
+[34.646s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt
+[34.704s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos
+[34.756s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/esp32
+[34.786s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/esp32/board.repos
+[34.855s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/esp32/build.sh
+[34.926s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta
+[34.998s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos
+[35.028s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/esp32/configure.sh
+[35.101s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/esp32/create.sh
+[35.174s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/esp32/flash.sh
+[35.247s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/esp32/package.xml
+[35.318s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/esp32/README.md
+[35.392s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/list_apps.sh
+[35.460s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f446re
+[35.499s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos
+[35.587s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh
+[35.671s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta
+[35.747s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos
+[35.776s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh
+[35.849s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh
+[35.922s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh
+[35.991s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml
+[36.060s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f446ze
+[36.093s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos
+[36.168s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh
+[36.251s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta
+[36.320s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos
+[36.346s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh
+[36.422s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh
+[36.498s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh
+[36.577s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml
+[36.645s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f746zg
+[36.677s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos
+[36.748s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh
+[36.834s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta
+[36.904s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos
+[36.929s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh
+[36.999s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh
+[37.070s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh
+[37.148s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml
+[37.221s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f767zi
+[37.260s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos
+[37.338s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh
+[37.414s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta
+[37.489s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos
+[37.519s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh
+[37.601s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh
+[37.690s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh
+[37.783s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml
+[37.871s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/olimex-stm32-e407
+[37.913s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos
+[37.992s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh
+[38.065s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta
+[38.138s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos
+[38.163s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh
+[38.236s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh
+[38.307s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh
+[38.380s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml
+[38.444s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/generate_lib
+[38.469s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt
+[38.530s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos
+[38.585s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/generate_lib/generic
+[38.617s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/generate_lib/generic/build.sh
+[38.685s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta
+[38.751s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos
+[38.774s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/generate_lib/generic/create.sh
+[38.843s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake
+[38.917s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/generate_lib/generic/flash.sh
+[38.986s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/generate_lib/generic/package.xml
+[39.047s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/host
+[39.073s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/host/client_ros2_packages.txt
+[39.134s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/host/dev_ros2_packages.txt
+[39.191s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/host/dev_uros_packages.repos
+[39.245s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/host/generic
+[39.276s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/host/generic/build.sh
+[39.343s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta
+[39.417s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/host/generic/client_host_packages.repos
+[39.496s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/host/generic/create.sh
+[39.575s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/host/generic/flash.sh
+[39.648s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/host/generic/package.xml
+[39.713s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/mbed
+[39.741s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/mbed/dev_ros2_packages.txt
+[39.802s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/mbed/dev_uros_packages.repos
+[39.857s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/mbed/generic
+[39.889s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/mbed/generic/board.repos
+[39.962s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/mbed/generic/build.sh
+[40.037s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/mbed/generic/client_uros_packages.repos
+[40.116s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/mbed/generic/create.sh
+[40.194s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/mbed/generic/flash.sh
+[40.267s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/mbed/generic/package.xml
+[40.337s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/mbed/generic/supported_platforms
+[40.404s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/mbed/list_apps.sh
+[40.460s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/raspbian
+[40.486s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt
+[40.546s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos
+[40.600s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/raspbian/generic
+[40.632s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/raspbian/generic/build.sh
+[40.699s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta
+[40.766s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos
+[40.832s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/raspbian/generic/configure.sh
+[40.896s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/raspbian/generic/create.sh
+[40.965s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/raspbian/generic/flash.sh
+[41.036s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/raspbian/generic/supported_platforms
+[41.100s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/renesas_ra
+[41.130s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/renesas_ra/dev_ros2_packages.txt
+[41.197s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/renesas_ra/dev_uros_packages.repos
+[41.260s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/renesas_ra/list_apps.sh
+[41.316s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/renesas_ra/ra6m5
+[41.350s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/renesas_ra/ra6m5/board.repos
+[41.418s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/renesas_ra/ra6m5/build.sh
+[41.487s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/renesas_ra/ra6m5/client-colcon.meta
+[41.562s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/renesas_ra/ra6m5/client_uros_packages.repos
+[41.629s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/renesas_ra/ra6m5/configure.sh
+[41.701s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/renesas_ra/ra6m5/create.sh
+[41.785s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/renesas_ra/ra6m5/flash.sh
+[41.858s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/utils.sh
+[41.907s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/zephyr
+[41.935s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt
+[41.998s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos
+[42.056s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/zephyr/generic
+[42.089s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/zephyr/generic/board.repos
+[42.161s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/zephyr/generic/build.sh
+[42.238s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta
+[42.308s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos
+[42.335s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/zephyr/generic/configure.sh
+[42.412s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/zephyr/generic/create.sh
+[42.491s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/zephyr/generic/flash.sh
+[42.570s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/zephyr/generic/package.xml
+[42.643s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/zephyr/generic/supported_platforms
+[42.712s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/zephyr/list_apps.sh
+[42.777s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh
+[42.831s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh
+[42.884s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh
+[42.937s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh
+[42.987s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh
+[43.041s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh
+[43.091s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh
+[43.144s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py
+[43.198s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh
+[43.251s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/lib/micro_ros_setup/component
+[43.299s] Invoked command in '/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_setup

@@ -1,0 +1,656 @@
+[0.000000] (-) TimerEvent: {}
+[0.001438] (micro_ros_setup) JobQueued: {'identifier': 'micro_ros_setup', 'dependencies': OrderedDict()}
+[0.003039] (micro_ros_setup) JobStarted: {'identifier': 'micro_ros_setup'}
+[0.031546] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'cmake'}
+[0.041403] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '/mnt/d/prueba/TFG-ROS2/ros2_agent_node/src/micro_ros_setup', '-DCMAKE_INSTALL_PREFIX=/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup'], 'cwd': '/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_setup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alu0101206011'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('HOME', '/home/alu0101206011'), ('OLDPWD', '/mnt/d/prueba/TFG-ROS2'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alu0101206011'), ('NAME', 'DESKTOP-JKMU7OT'), ('WSL_INTEROP', '/run/WSL/5417_interop'), ('_', '/home/alu0101206011/.local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/alu0101206011/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Anabel Díaz Labrador/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'd2148ba2-cf61-4772-bbd3-5ce1472132e8'), ('DISPLAY', '172.29.64.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_setup'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_CLI_REMOTE_ENV/w:ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.095866] (-) TimerEvent: {}
+[0.196340] (-) TimerEvent: {}
+[0.240727] (micro_ros_setup) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.296464] (-) TimerEvent: {}
+[0.396982] (-) TimerEvent: {}
+[0.497613] (-) TimerEvent: {}
+[0.512983] (micro_ros_setup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.597771] (-) TimerEvent: {}
+[0.673956] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.697896] (-) TimerEvent: {}
+[0.798352] (-) TimerEvent: {}
+[0.898835] (-) TimerEvent: {}
+[0.999540] (-) TimerEvent: {}
+[1.048758] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.071839] (micro_ros_setup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.072860] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.073897] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.099659] (-) TimerEvent: {}
+[1.113067] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.199784] (-) TimerEvent: {}
+[1.300248] (-) TimerEvent: {}
+[1.400821] (-) TimerEvent: {}
+[1.501307] (-) TimerEvent: {}
+[1.528851] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.551467] (micro_ros_setup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.552493] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.553359] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.589563] (micro_ros_setup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.601418] (-) TimerEvent: {}
+[1.702024] (-) TimerEvent: {}
+[1.741023] (micro_ros_setup) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[1.802182] (-) TimerEvent: {}
+[1.875098] (micro_ros_setup) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.902352] (-) TimerEvent: {}
+[2.002819] (-) TimerEvent: {}
+[2.103379] (-) TimerEvent: {}
+[2.121881] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.203505] (-) TimerEvent: {}
+[2.304014] (-) TimerEvent: {}
+[2.404512] (-) TimerEvent: {}
+[2.505083] (-) TimerEvent: {}
+[2.605573] (-) TimerEvent: {}
+[2.706077] (-) TimerEvent: {}
+[2.806645] (-) TimerEvent: {}
+[2.907245] (-) TimerEvent: {}
+[3.007790] (-) TimerEvent: {}
+[3.108270] (-) TimerEvent: {}
+[3.208844] (-) TimerEvent: {}
+[3.309437] (-) TimerEvent: {}
+[3.410132] (-) TimerEvent: {}
+[3.510603] (-) TimerEvent: {}
+[3.611094] (-) TimerEvent: {}
+[3.711606] (-) TimerEvent: {}
+[3.812179] (-) TimerEvent: {}
+[3.912716] (-) TimerEvent: {}
+[4.013233] (-) TimerEvent: {}
+[4.113740] (-) TimerEvent: {}
+[4.214194] (-) TimerEvent: {}
+[4.314680] (-) TimerEvent: {}
+[4.415148] (-) TimerEvent: {}
+[4.515623] (-) TimerEvent: {}
+[4.616154] (-) TimerEvent: {}
+[4.716718] (-) TimerEvent: {}
+[4.817221] (-) TimerEvent: {}
+[4.917777] (-) TimerEvent: {}
+[5.018343] (-) TimerEvent: {}
+[5.118872] (-) TimerEvent: {}
+[5.219380] (-) TimerEvent: {}
+[5.320005] (-) TimerEvent: {}
+[5.420546] (-) TimerEvent: {}
+[5.521056] (-) TimerEvent: {}
+[5.621611] (-) TimerEvent: {}
+[5.722197] (-) TimerEvent: {}
+[5.822735] (-) TimerEvent: {}
+[5.923266] (-) TimerEvent: {}
+[6.023796] (-) TimerEvent: {}
+[6.124400] (-) TimerEvent: {}
+[6.224979] (-) TimerEvent: {}
+[6.325548] (-) TimerEvent: {}
+[6.426012] (-) TimerEvent: {}
+[6.526501] (-) TimerEvent: {}
+[6.627052] (-) TimerEvent: {}
+[6.727528] (-) TimerEvent: {}
+[6.828099] (-) TimerEvent: {}
+[6.928616] (-) TimerEvent: {}
+[7.029120] (-) TimerEvent: {}
+[7.129616] (-) TimerEvent: {}
+[7.230230] (-) TimerEvent: {}
+[7.330711] (-) TimerEvent: {}
+[7.431182] (-) TimerEvent: {}
+[7.531685] (-) TimerEvent: {}
+[7.632148] (-) TimerEvent: {}
+[7.732687] (-) TimerEvent: {}
+[7.833203] (-) TimerEvent: {}
+[7.933688] (-) TimerEvent: {}
+[8.034250] (-) TimerEvent: {}
+[8.134850] (-) TimerEvent: {}
+[8.235446] (-) TimerEvent: {}
+[8.335988] (-) TimerEvent: {}
+[8.436610] (-) TimerEvent: {}
+[8.537166] (-) TimerEvent: {}
+[8.637789] (-) TimerEvent: {}
+[8.738372] (-) TimerEvent: {}
+[8.839012] (-) TimerEvent: {}
+[8.939544] (-) TimerEvent: {}
+[9.040134] (-) TimerEvent: {}
+[9.140733] (-) TimerEvent: {}
+[9.241309] (-) TimerEvent: {}
+[9.341922] (-) TimerEvent: {}
+[9.442492] (-) TimerEvent: {}
+[9.543073] (-) TimerEvent: {}
+[9.643604] (-) TimerEvent: {}
+[9.744128] (-) TimerEvent: {}
+[9.844632] (-) TimerEvent: {}
+[9.945237] (-) TimerEvent: {}
+[10.045795] (-) TimerEvent: {}
+[10.147099] (-) TimerEvent: {}
+[10.247721] (-) TimerEvent: {}
+[10.348352] (-) TimerEvent: {}
+[10.448933] (-) TimerEvent: {}
+[10.549478] (-) TimerEvent: {}
+[10.650068] (-) TimerEvent: {}
+[10.750684] (-) TimerEvent: {}
+[10.851360] (-) TimerEvent: {}
+[10.951927] (-) TimerEvent: {}
+[11.052513] (-) TimerEvent: {}
+[11.153111] (-) TimerEvent: {}
+[11.253735] (-) TimerEvent: {}
+[11.354355] (-) TimerEvent: {}
+[11.454913] (-) TimerEvent: {}
+[11.555465] (-) TimerEvent: {}
+[11.655995] (-) TimerEvent: {}
+[11.756606] (-) TimerEvent: {}
+[11.857149] (-) TimerEvent: {}
+[11.957660] (-) TimerEvent: {}
+[12.058230] (-) TimerEvent: {}
+[12.158856] (-) TimerEvent: {}
+[12.259410] (-) TimerEvent: {}
+[12.359953] (-) TimerEvent: {}
+[12.460545] (-) TimerEvent: {}
+[12.561141] (-) TimerEvent: {}
+[12.661735] (-) TimerEvent: {}
+[12.762286] (-) TimerEvent: {}
+[12.862792] (-) TimerEvent: {}
+[12.963423] (-) TimerEvent: {}
+[13.063969] (-) TimerEvent: {}
+[13.164473] (-) TimerEvent: {}
+[13.265068] (-) TimerEvent: {}
+[13.365682] (-) TimerEvent: {}
+[13.466194] (-) TimerEvent: {}
+[13.566737] (-) TimerEvent: {}
+[13.667383] (-) TimerEvent: {}
+[13.767936] (-) TimerEvent: {}
+[13.868485] (-) TimerEvent: {}
+[13.969032] (-) TimerEvent: {}
+[14.069608] (-) TimerEvent: {}
+[14.170220] (-) TimerEvent: {}
+[14.270746] (-) TimerEvent: {}
+[14.371337] (-) TimerEvent: {}
+[14.471887] (-) TimerEvent: {}
+[14.572360] (-) TimerEvent: {}
+[14.672885] (-) TimerEvent: {}
+[14.773520] (-) TimerEvent: {}
+[14.874246] (-) TimerEvent: {}
+[14.974788] (-) TimerEvent: {}
+[15.075350] (-) TimerEvent: {}
+[15.175937] (-) TimerEvent: {}
+[15.276524] (-) TimerEvent: {}
+[15.377114] (-) TimerEvent: {}
+[15.477667] (-) TimerEvent: {}
+[15.578203] (-) TimerEvent: {}
+[15.678722] (-) TimerEvent: {}
+[15.779241] (-) TimerEvent: {}
+[15.879760] (-) TimerEvent: {}
+[15.980309] (-) TimerEvent: {}
+[16.080926] (-) TimerEvent: {}
+[16.181522] (-) TimerEvent: {}
+[16.282056] (-) TimerEvent: {}
+[16.382626] (-) TimerEvent: {}
+[16.483162] (-) TimerEvent: {}
+[16.583693] (-) TimerEvent: {}
+[16.684268] (-) TimerEvent: {}
+[16.784808] (-) TimerEvent: {}
+[16.885344] (-) TimerEvent: {}
+[16.985859] (-) TimerEvent: {}
+[17.086357] (-) TimerEvent: {}
+[17.186879] (-) TimerEvent: {}
+[17.287507] (-) TimerEvent: {}
+[17.388088] (-) TimerEvent: {}
+[17.488670] (-) TimerEvent: {}
+[17.589253] (-) TimerEvent: {}
+[17.689806] (-) TimerEvent: {}
+[17.790346] (-) TimerEvent: {}
+[17.890866] (-) TimerEvent: {}
+[17.991408] (-) TimerEvent: {}
+[18.126523] (-) TimerEvent: {}
+[18.227104] (-) TimerEvent: {}
+[18.327570] (-) TimerEvent: {}
+[18.428084] (-) TimerEvent: {}
+[18.528540] (-) TimerEvent: {}
+[18.629063] (-) TimerEvent: {}
+[18.729606] (-) TimerEvent: {}
+[18.830196] (-) TimerEvent: {}
+[18.930756] (-) TimerEvent: {}
+[19.031348] (-) TimerEvent: {}
+[19.109625] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[19.131504] (-) TimerEvent: {}
+[19.232091] (-) TimerEvent: {}
+[19.332708] (-) TimerEvent: {}
+[19.433277] (-) TimerEvent: {}
+[19.533880] (-) TimerEvent: {}
+[19.634394] (-) TimerEvent: {}
+[19.734958] (-) TimerEvent: {}
+[19.835501] (-) TimerEvent: {}
+[19.936029] (-) TimerEvent: {}
+[20.036557] (-) TimerEvent: {}
+[20.137043] (-) TimerEvent: {}
+[20.237595] (-) TimerEvent: {}
+[20.338142] (-) TimerEvent: {}
+[20.438728] (-) TimerEvent: {}
+[20.539258] (-) TimerEvent: {}
+[20.639810] (-) TimerEvent: {}
+[20.740358] (-) TimerEvent: {}
+[20.840983] (-) TimerEvent: {}
+[20.941475] (-) TimerEvent: {}
+[21.041974] (-) TimerEvent: {}
+[21.142508] (-) TimerEvent: {}
+[21.243126] (-) TimerEvent: {}
+[21.260270] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[21.343292] (-) TimerEvent: {}
+[21.443883] (-) TimerEvent: {}
+[21.544500] (-) TimerEvent: {}
+[21.645163] (-) TimerEvent: {}
+[21.745763] (-) TimerEvent: {}
+[21.846289] (-) TimerEvent: {}
+[21.946834] (-) TimerEvent: {}
+[22.047553] (-) TimerEvent: {}
+[22.148125] (-) TimerEvent: {}
+[22.248688] (-) TimerEvent: {}
+[22.349194] (-) TimerEvent: {}
+[22.380676] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[22.449338] (-) TimerEvent: {}
+[22.549885] (-) TimerEvent: {}
+[22.650443] (-) TimerEvent: {}
+[22.751062] (-) TimerEvent: {}
+[22.851620] (-) TimerEvent: {}
+[22.952200] (-) TimerEvent: {}
+[23.052811] (-) TimerEvent: {}
+[23.153382] (-) TimerEvent: {}
+[23.253967] (-) TimerEvent: {}
+[23.354487] (-) TimerEvent: {}
+[23.455014] (-) TimerEvent: {}
+[23.555565] (-) TimerEvent: {}
+[23.656200] (-) TimerEvent: {}
+[23.756776] (-) TimerEvent: {}
+[23.857398] (-) TimerEvent: {}
+[23.958030] (-) TimerEvent: {}
+[24.058595] (-) TimerEvent: {}
+[24.159151] (-) TimerEvent: {}
+[24.259743] (-) TimerEvent: {}
+[24.360370] (-) TimerEvent: {}
+[24.460947] (-) TimerEvent: {}
+[24.561500] (-) TimerEvent: {}
+[24.662107] (-) TimerEvent: {}
+[24.762630] (-) TimerEvent: {}
+[24.863173] (-) TimerEvent: {}
+[24.963733] (-) TimerEvent: {}
+[25.064261] (-) TimerEvent: {}
+[25.164841] (-) TimerEvent: {}
+[25.265407] (-) TimerEvent: {}
+[25.365978] (-) TimerEvent: {}
+[25.466604] (-) TimerEvent: {}
+[25.567224] (-) TimerEvent: {}
+[25.667822] (-) TimerEvent: {}
+[25.768388] (-) TimerEvent: {}
+[25.868916] (-) TimerEvent: {}
+[25.969443] (-) TimerEvent: {}
+[26.070096] (-) TimerEvent: {}
+[26.170752] (-) TimerEvent: {}
+[26.271305] (-) TimerEvent: {}
+[26.371825] (-) TimerEvent: {}
+[26.472373] (-) TimerEvent: {}
+[26.573022] (-) TimerEvent: {}
+[26.673675] (-) TimerEvent: {}
+[26.774292] (-) TimerEvent: {}
+[26.874921] (-) TimerEvent: {}
+[26.975447] (-) TimerEvent: {}
+[27.076052] (-) TimerEvent: {}
+[27.176616] (-) TimerEvent: {}
+[27.277216] (-) TimerEvent: {}
+[27.377808] (-) TimerEvent: {}
+[27.478358] (-) TimerEvent: {}
+[27.578910] (-) TimerEvent: {}
+[27.679463] (-) TimerEvent: {}
+[27.780079] (-) TimerEvent: {}
+[27.880665] (-) TimerEvent: {}
+[27.981185] (-) TimerEvent: {}
+[28.081749] (-) TimerEvent: {}
+[28.182321] (-) TimerEvent: {}
+[28.282850] (-) TimerEvent: {}
+[28.383483] (-) TimerEvent: {}
+[28.484111] (-) TimerEvent: {}
+[28.584750] (-) TimerEvent: {}
+[28.685323] (-) TimerEvent: {}
+[28.785941] (-) TimerEvent: {}
+[28.886524] (-) TimerEvent: {}
+[28.987108] (-) TimerEvent: {}
+[29.087610] (-) TimerEvent: {}
+[29.188184] (-) TimerEvent: {}
+[29.288723] (-) TimerEvent: {}
+[29.389280] (-) TimerEvent: {}
+[29.489821] (-) TimerEvent: {}
+[29.590421] (-) TimerEvent: {}
+[29.691014] (-) TimerEvent: {}
+[29.791545] (-) TimerEvent: {}
+[29.892049] (-) TimerEvent: {}
+[29.992573] (-) TimerEvent: {}
+[30.093120] (-) TimerEvent: {}
+[30.193664] (-) TimerEvent: {}
+[30.294218] (-) TimerEvent: {}
+[30.394762] (-) TimerEvent: {}
+[30.495322] (-) TimerEvent: {}
+[30.595929] (-) TimerEvent: {}
+[30.696517] (-) TimerEvent: {}
+[30.797037] (-) TimerEvent: {}
+[30.897603] (-) TimerEvent: {}
+[30.998145] (-) TimerEvent: {}
+[31.098752] (-) TimerEvent: {}
+[31.199349] (-) TimerEvent: {}
+[31.299965] (-) TimerEvent: {}
+[31.400661] (-) TimerEvent: {}
+[31.501228] (-) TimerEvent: {}
+[31.601812] (-) TimerEvent: {}
+[31.702459] (-) TimerEvent: {}
+[31.725049] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[31.802584] (-) TimerEvent: {}
+[31.866709] (micro_ros_setup) StdoutLine: {'line': b'-- Configuring done\n'}
+[31.902738] (-) TimerEvent: {}
+[32.003296] (-) TimerEvent: {}
+[32.086222] (micro_ros_setup) StdoutLine: {'line': b'-- Generating done\n'}
+[32.103473] (-) TimerEvent: {}
+[32.147077] (micro_ros_setup) StdoutLine: {'line': b'-- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_setup\n'}
+[32.151357] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[32.157843] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'build'}
+[32.164229] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_setup', '--', '-j12', '-l12'], 'cwd': '/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_setup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alu0101206011'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('HOME', '/home/alu0101206011'), ('OLDPWD', '/mnt/d/prueba/TFG-ROS2'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alu0101206011'), ('NAME', 'DESKTOP-JKMU7OT'), ('WSL_INTEROP', '/run/WSL/5417_interop'), ('_', '/home/alu0101206011/.local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/alu0101206011/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Anabel Díaz Labrador/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'd2148ba2-cf61-4772-bbd3-5ce1472132e8'), ('DISPLAY', '172.29.64.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_setup'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_CLI_REMOTE_ENV/w:ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[32.203619] (-) TimerEvent: {}
+[32.267803] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[32.303722] (-) TimerEvent: {}
+[32.307101] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'install'}
+[32.321251] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_setup'], 'cwd': '/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_setup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alu0101206011'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('HOME', '/home/alu0101206011'), ('OLDPWD', '/mnt/d/prueba/TFG-ROS2'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alu0101206011'), ('NAME', 'DESKTOP-JKMU7OT'), ('WSL_INTEROP', '/run/WSL/5417_interop'), ('_', '/home/alu0101206011/.local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/alu0101206011/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Anabel Díaz Labrador/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'd2148ba2-cf61-4772-bbd3-5ce1472132e8'), ('DISPLAY', '172.29.64.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_setup'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_CLI_REMOTE_ENV/w:ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[32.332231] (micro_ros_setup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[32.362122] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup\n'}
+[32.403882] (-) TimerEvent: {}
+[32.446137] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup\n'}
+[32.504045] (-) TimerEvent: {}
+[32.515074] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh\n'}
+[32.562921] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv\n'}
+[32.604175] (-) TimerEvent: {}
+[32.617983] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh\n'}
+[32.675250] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv\n'}
+[32.704348] (-) TimerEvent: {}
+[32.734234] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash\n'}
+[32.788689] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh\n'}
+[32.804541] (-) TimerEvent: {}
+[32.842389] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh\n'}
+[32.892341] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv\n'}
+[32.904608] (-) TimerEvent: {}
+[32.948063] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/share/micro_ros_setup/package.dsv\n'}
+[33.004745] (-) TimerEvent: {}
+[33.022056] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup\n'}
+[33.102090] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake\n'}
+[33.104886] (-) TimerEvent: {}
+[33.161898] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake\n'}
+[33.205028] (-) TimerEvent: {}
+[33.224994] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/share/micro_ros_setup/package.xml\n'}
+[33.276589] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config\n'}
+[33.297872] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/agent_ros2_packages.txt\n'}
+[33.305146] (-) TimerEvent: {}
+[33.351924] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/agent_uros_packages.repos\n'}
+[33.401133] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/android\n'}
+[33.405282] (-) TimerEvent: {}
+[33.430225] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/android/dev_ros2_packages.txt\n'}
+[33.494705] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/android/dev_uros_packages.repos\n'}
+[33.505440] (-) TimerEvent: {}
+[33.558147] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/android/generic\n'}
+[33.591996] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/android/generic/build.sh\n'}
+[33.605544] (-) TimerEvent: {}
+[33.664831] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/android/generic/client-colcon.meta\n'}
+[33.705682] (-) TimerEvent: {}
+[33.735972] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos\n'}
+[33.804828] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/android/generic/create.sh\n'}
+[33.805818] (-) TimerEvent: {}
+[33.876086] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/android/generic/flash.sh\n'}
+[33.905982] (-) TimerEvent: {}
+[33.946094] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/android/generic/package.xml\n'}
+[34.006109] (-) TimerEvent: {}
+[34.008421] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/client_ros2_packages.txt\n'}
+[34.054860] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/client_uros_packages.repos\n'}
+[34.097378] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos\n'}
+[34.106258] (-) TimerEvent: {}
+[34.120921] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/crazyflie21\n'}
+[34.152068] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos\n'}
+[34.206399] (-) TimerEvent: {}
+[34.218610] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh\n'}
+[34.284412] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta\n'}
+[34.306579] (-) TimerEvent: {}
+[34.350225] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos\n'}
+[34.373006] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh\n'}
+[34.406717] (-) TimerEvent: {}
+[34.439383] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh\n'}
+[34.506864] (-) TimerEvent: {}
+[34.521075] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh\n'}
+[34.585068] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml\n'}
+[34.606988] (-) TimerEvent: {}
+[34.649687] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt\n'}
+[34.706801] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos\n'}
+[34.708003] (-) TimerEvent: {}
+[34.759513] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/esp32\n'}
+[34.789242] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/esp32/board.repos\n'}
+[34.808165] (-) TimerEvent: {}
+[34.858434] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/esp32/build.sh\n'}
+[34.908319] (-) TimerEvent: {}
+[34.929143] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta\n'}
+[35.001876] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos\n'}
+[35.008497] (-) TimerEvent: {}
+[35.031176] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/esp32/configure.sh\n'}
+[35.104556] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/esp32/create.sh\n'}
+[35.108581] (-) TimerEvent: {}
+[35.177500] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/esp32/flash.sh\n'}
+[35.208760] (-) TimerEvent: {}
+[35.250584] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/esp32/package.xml\n'}
+[35.308929] (-) TimerEvent: {}
+[35.320977] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/esp32/README.md\n'}
+[35.395143] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/list_apps.sh\n'}
+[35.409107] (-) TimerEvent: {}
+[35.463560] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f446re\n'}
+[35.502222] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos\n'}
+[35.509242] (-) TimerEvent: {}
+[35.590587] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh\n'}
+[35.609395] (-) TimerEvent: {}
+[35.674264] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta\n'}
+[35.709542] (-) TimerEvent: {}
+[35.750767] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos\n'}
+[35.778983] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh\n'}
+[35.809704] (-) TimerEvent: {}
+[35.852683] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh\n'}
+[35.909841] (-) TimerEvent: {}
+[35.924637] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh\n'}
+[35.994795] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml\n'}
+[36.010018] (-) TimerEvent: {}
+[36.063589] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f446ze\n'}
+[36.096553] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos\n'}
+[36.110156] (-) TimerEvent: {}
+[36.171104] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh\n'}
+[36.210301] (-) TimerEvent: {}
+[36.254408] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta\n'}
+[36.310479] (-) TimerEvent: {}
+[36.323714] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos\n'}
+[36.349506] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh\n'}
+[36.410599] (-) TimerEvent: {}
+[36.425084] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh\n'}
+[36.501565] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh\n'}
+[36.510737] (-) TimerEvent: {}
+[36.580524] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml\n'}
+[36.610871] (-) TimerEvent: {}
+[36.648030] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f746zg\n'}
+[36.680754] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos\n'}
+[36.710999] (-) TimerEvent: {}
+[36.751156] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh\n'}
+[36.811161] (-) TimerEvent: {}
+[36.837231] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta\n'}
+[36.907798] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos\n'}
+[36.911291] (-) TimerEvent: {}
+[36.932829] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh\n'}
+[37.002186] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh\n'}
+[37.011467] (-) TimerEvent: {}
+[37.073589] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh\n'}
+[37.111587] (-) TimerEvent: {}
+[37.151868] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml\n'}
+[37.211725] (-) TimerEvent: {}
+[37.224350] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f767zi\n'}
+[37.263381] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos\n'}
+[37.311857] (-) TimerEvent: {}
+[37.341367] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh\n'}
+[37.412030] (-) TimerEvent: {}
+[37.417464] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta\n'}
+[37.492195] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos\n'}
+[37.512169] (-) TimerEvent: {}
+[37.522188] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh\n'}
+[37.603975] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh\n'}
+[37.612312] (-) TimerEvent: {}
+[37.693202] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh\n'}
+[37.712490] (-) TimerEvent: {}
+[37.786728] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml\n'}
+[37.812622] (-) TimerEvent: {}
+[37.874316] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/olimex-stm32-e407\n'}
+[37.912773] (-) TimerEvent: {}
+[37.916636] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos\n'}
+[37.995268] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh\n'}
+[38.012957] (-) TimerEvent: {}
+[38.067943] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta\n'}
+[38.113126] (-) TimerEvent: {}
+[38.141069] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos\n'}
+[38.166851] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh\n'}
+[38.213252] (-) TimerEvent: {}
+[38.239842] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh\n'}
+[38.310342] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh\n'}
+[38.313357] (-) TimerEvent: {}
+[38.383775] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml\n'}
+[38.413537] (-) TimerEvent: {}
+[38.447114] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/generate_lib\n'}
+[38.472791] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt\n'}
+[38.513666] (-) TimerEvent: {}
+[38.533697] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos\n'}
+[38.587959] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/generate_lib/generic\n'}
+[38.613825] (-) TimerEvent: {}
+[38.619984] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/generate_lib/generic/build.sh\n'}
+[38.688347] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta\n'}
+[38.713988] (-) TimerEvent: {}
+[38.753922] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos\n'}
+[38.777354] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/generate_lib/generic/create.sh\n'}
+[38.814148] (-) TimerEvent: {}
+[38.846243] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake\n'}
+[38.914267] (-) TimerEvent: {}
+[38.919987] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/generate_lib/generic/flash.sh\n'}
+[38.989729] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/generate_lib/generic/package.xml\n'}
+[39.014388] (-) TimerEvent: {}
+[39.050583] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/host\n'}
+[39.076511] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/host/client_ros2_packages.txt\n'}
+[39.114551] (-) TimerEvent: {}
+[39.137323] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/host/dev_ros2_packages.txt\n'}
+[39.194540] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/host/dev_uros_packages.repos\n'}
+[39.214685] (-) TimerEvent: {}
+[39.248492] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/host/generic\n'}
+[39.279375] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/host/generic/build.sh\n'}
+[39.314846] (-) TimerEvent: {}
+[39.346083] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta\n'}
+[39.414975] (-) TimerEvent: {}
+[39.420373] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/host/generic/client_host_packages.repos\n'}
+[39.499439] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/host/generic/create.sh\n'}
+[39.515112] (-) TimerEvent: {}
+[39.578761] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/host/generic/flash.sh\n'}
+[39.615245] (-) TimerEvent: {}
+[39.651381] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/host/generic/package.xml\n'}
+[39.715381] (-) TimerEvent: {}
+[39.716368] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/mbed\n'}
+[39.744398] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/mbed/dev_ros2_packages.txt\n'}
+[39.805503] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/mbed/dev_uros_packages.repos\n'}
+[39.815492] (-) TimerEvent: {}
+[39.860661] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/mbed/generic\n'}
+[39.891878] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/mbed/generic/board.repos\n'}
+[39.915626] (-) TimerEvent: {}
+[39.965602] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/mbed/generic/build.sh\n'}
+[40.015760] (-) TimerEvent: {}
+[40.040052] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/mbed/generic/client_uros_packages.repos\n'}
+[40.115903] (-) TimerEvent: {}
+[40.119478] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/mbed/generic/create.sh\n'}
+[40.197377] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/mbed/generic/flash.sh\n'}
+[40.216031] (-) TimerEvent: {}
+[40.270167] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/mbed/generic/package.xml\n'}
+[40.316163] (-) TimerEvent: {}
+[40.340653] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/mbed/generic/supported_platforms\n'}
+[40.407672] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/mbed/list_apps.sh\n'}
+[40.416293] (-) TimerEvent: {}
+[40.463434] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/raspbian\n'}
+[40.489324] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt\n'}
+[40.516479] (-) TimerEvent: {}
+[40.549636] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos\n'}
+[40.603222] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/raspbian/generic\n'}
+[40.616564] (-) TimerEvent: {}
+[40.635216] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/raspbian/generic/build.sh\n'}
+[40.702311] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta\n'}
+[40.716674] (-) TimerEvent: {}
+[40.769198] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos\n'}
+[40.816806] (-) TimerEvent: {}
+[40.835144] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/raspbian/generic/configure.sh\n'}
+[40.899718] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/raspbian/generic/create.sh\n'}
+[40.916923] (-) TimerEvent: {}
+[40.968260] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/raspbian/generic/flash.sh\n'}
+[41.017049] (-) TimerEvent: {}
+[41.039517] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/raspbian/generic/supported_platforms\n'}
+[41.103554] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/renesas_ra\n'}
+[41.117183] (-) TimerEvent: {}
+[41.133485] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/renesas_ra/dev_ros2_packages.txt\n'}
+[41.200565] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/renesas_ra/dev_uros_packages.repos\n'}
+[41.217348] (-) TimerEvent: {}
+[41.263516] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/renesas_ra/list_apps.sh\n'}
+[41.317510] (-) TimerEvent: {}
+[41.319548] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/renesas_ra/ra6m5\n'}
+[41.352952] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/renesas_ra/ra6m5/board.repos\n'}
+[41.417621] (-) TimerEvent: {}
+[41.421795] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/renesas_ra/ra6m5/build.sh\n'}
+[41.490742] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/renesas_ra/ra6m5/client-colcon.meta\n'}
+[41.517750] (-) TimerEvent: {}
+[41.565211] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/renesas_ra/ra6m5/client_uros_packages.repos\n'}
+[41.617876] (-) TimerEvent: {}
+[41.632807] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/renesas_ra/ra6m5/configure.sh\n'}
+[41.704724] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/renesas_ra/ra6m5/create.sh\n'}
+[41.718040] (-) TimerEvent: {}
+[41.788564] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/renesas_ra/ra6m5/flash.sh\n'}
+[41.818178] (-) TimerEvent: {}
+[41.861855] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/utils.sh\n'}
+[41.910156] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/zephyr\n'}
+[41.918276] (-) TimerEvent: {}
+[41.938540] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt\n'}
+[42.001121] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos\n'}
+[42.018435] (-) TimerEvent: {}
+[42.059975] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/zephyr/generic\n'}
+[42.092477] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/zephyr/generic/board.repos\n'}
+[42.118565] (-) TimerEvent: {}
+[42.164224] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/zephyr/generic/build.sh\n'}
+[42.218697] (-) TimerEvent: {}
+[42.241415] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta\n'}
+[42.311812] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos\n'}
+[42.318807] (-) TimerEvent: {}
+[42.338258] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/zephyr/generic/configure.sh\n'}
+[42.415533] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/zephyr/generic/create.sh\n'}
+[42.418913] (-) TimerEvent: {}
+[42.494663] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/zephyr/generic/flash.sh\n'}
+[42.519062] (-) TimerEvent: {}
+[42.573179] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/zephyr/generic/package.xml\n'}
+[42.619185] (-) TimerEvent: {}
+[42.646902] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/zephyr/generic/supported_platforms\n'}
+[42.715519] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/./config/zephyr/list_apps.sh\n'}
+[42.719309] (-) TimerEvent: {}
+[42.780586] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh\n'}
+[42.819498] (-) TimerEvent: {}
+[42.834359] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh\n'}
+[42.886734] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh\n'}
+[42.919633] (-) TimerEvent: {}
+[42.940539] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh\n'}
+[42.990950] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh\n'}
+[43.019757] (-) TimerEvent: {}
+[43.043842] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh\n'}
+[43.094945] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh\n'}
+[43.119876] (-) TimerEvent: {}
+[43.147304] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py\n'}
+[43.201044] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh\n'}
+[43.219997] (-) TimerEvent: {}
+[43.254537] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup/lib/micro_ros_setup/component\n'}
+[43.301153] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[43.320153] (-) TimerEvent: {}
+[43.420919] (-) TimerEvent: {}
+[43.521401] (-) TimerEvent: {}
+[43.621929] (-) TimerEvent: {}
+[43.723630] (-) TimerEvent: {}
+[43.824089] (-) TimerEvent: {}
+[43.924538] (-) TimerEvent: {}
+[44.025001] (-) TimerEvent: {}
+[44.101563] (micro_ros_setup) JobEnded: {'identifier': 'micro_ros_setup', 'rc': 0}
+[44.110828] (-) EventReactorShutdown: {}
