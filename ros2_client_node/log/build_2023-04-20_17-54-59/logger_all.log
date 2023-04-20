@@ -1,0 +1,146 @@
+[0.851s] DEBUG:colcon:Command line arguments: ['/home/alu0101206011/.local/bin/colcon', 'build']
+[0.851s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f1a9c1406a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f1a9c2eb760>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f1a9c2eb760>>)
+[2.665s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.666s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.667s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.667s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.667s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.668s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.668s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/mnt/d/prueba/TFG-ROS2/ros2_client_node'
+[2.670s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.670s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.671s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.672s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.672s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.672s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.673s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.673s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.673s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.690s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.690s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.691s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.691s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.691s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.695s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.696s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.697s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.699s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.699s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.700s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.703s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.704s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.704s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.707s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.707s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.708s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.709s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.709s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.709s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.710s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.710s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.710s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.713s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.713s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.714s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.715s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.715s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ignore', 'ignore_ament_install']
+[2.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore'
+[2.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore_ament_install'
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_pkg']
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_pkg'
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_meta']
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_meta'
+[2.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ros']
+[2.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ros'
+[2.736s] DEBUG:colcon.colcon_core.package_identification:Package 'src/micro_ros_setup' with type 'ros.ament_cmake' and name 'micro_ros_setup'
+[2.736s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.737s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.737s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.737s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.738s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.820s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.820s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.897s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /mnt/d/prueba/TFG-ROS2/ros2_agent_node/install
+[2.900s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[2.902s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.995s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_args' from command line to 'None'
+[2.995s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target' from command line to 'None'
+[2.995s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.996s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_cache' from command line to 'False'
+[2.996s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_first' from command line to 'False'
+[2.996s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_force_configure' from command line to 'False'
+[2.997s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'ament_cmake_args' from command line to 'None'
+[2.997s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_cmake_args' from command line to 'None'
+[2.997s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.998s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_setup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_setup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup', 'merge_install': False, 'path': '/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/micro_ros_setup', 'symlink_install': False, 'test_result_base': None}
+[2.999s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.009s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.009s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/micro_ros_setup' with build type 'ament_cmake'
+[3.009s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/micro_ros_setup'
+[3.024s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.024s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.024s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /mnt/d/prueba/TFG-ROS2/ros2_client_node/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup
+[47.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /mnt/d/prueba/TFG-ROS2/ros2_client_node/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup
+[47.393s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_setup -- -j12 -l12
+[48.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_setup -- -j12 -l12
+[49.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_setup
+[60.469s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[60.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_setup
+[60.487s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup' for CMake module files
+[60.566s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup' for CMake config files
+[60.726s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[60.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[60.743s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[60.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[60.770s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup/lib'
+[60.774s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup/bin'
+[60.776s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[60.778s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup/lib/python3.10/site-packages'
+[60.780s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup/bin'
+[60.785s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[60.798s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[60.809s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[60.820s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[60.830s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[60.840s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[62.067s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[62.073s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup' for CMake module files
+[62.183s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup' for CMake config files
+[62.373s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[62.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[62.397s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[62.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[62.433s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup/lib'
+[62.438s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup/bin'
+[62.439s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[62.441s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup/lib/python3.10/site-packages'
+[62.442s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup/bin'
+[62.449s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[62.464s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[62.475s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[62.487s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[62.498s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[62.510s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[62.521s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[62.522s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[62.522s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[62.522s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[62.598s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[62.598s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[62.599s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[62.599s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[192.428s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally with the following error: Autolaunch error: X11 initialization failed.
+
+[192.429s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[192.434s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/local_setup.ps1'
+[192.441s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/_local_setup_util_ps1.py'
+[192.447s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/setup.ps1'
+[194.179s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/local_setup.sh'
+[194.184s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/_local_setup_util_sh.py'
+[194.191s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/setup.sh'
+[194.231s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/local_setup.bash'
+[194.236s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/setup.bash'
+[194.272s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/local_setup.zsh'
+[194.276s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/setup.zsh'
