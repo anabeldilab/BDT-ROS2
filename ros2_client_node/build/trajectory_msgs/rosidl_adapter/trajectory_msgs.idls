@@ -1,0 +1,4 @@
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/trajectory_msgs/rosidl_adapter/trajectory_msgs:msg/JointTrajectory.idl
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/trajectory_msgs/rosidl_adapter/trajectory_msgs:msg/JointTrajectoryPoint.idl
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/trajectory_msgs/rosidl_adapter/trajectory_msgs:msg/MultiDOFJointTrajectory.idl
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/trajectory_msgs/rosidl_adapter/trajectory_msgs:msg/MultiDOFJointTrajectoryPoint.idl

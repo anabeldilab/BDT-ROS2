@@ -1,0 +1,9 @@
+{
+  "package_name": "shape_msgs",
+  "non_idl_tuples": [
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/common_interfaces/shape_msgs:msg/Mesh.msg",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/common_interfaces/shape_msgs:msg/MeshTriangle.msg",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/common_interfaces/shape_msgs:msg/Plane.msg",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/common_interfaces/shape_msgs:msg/SolidPrimitive.msg"
+  ]
+}

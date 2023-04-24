@@ -1,0 +1,10 @@
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/parameter_server/src/parameter_server-build/CMakeFiles/uninstall.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/parameter_server/src/parameter_server-build/CMakeFiles/parameter_server_uninstall.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/parameter_server/src/parameter_server-build/CMakeFiles/parameter_server.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/parameter_server/src/parameter_server-build/CMakeFiles/test.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/parameter_server/src/parameter_server-build/CMakeFiles/edit_cache.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/parameter_server/src/parameter_server-build/CMakeFiles/rebuild_cache.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/parameter_server/src/parameter_server-build/CMakeFiles/list_install_components.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/parameter_server/src/parameter_server-build/CMakeFiles/install.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/parameter_server/src/parameter_server-build/CMakeFiles/install/local.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/parameter_server/src/parameter_server-build/CMakeFiles/install/strip.dir

@@ -1,0 +1,13 @@
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/ImageMarker.idl
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarker.idl
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarkerControl.idl
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarkerFeedback.idl
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarkerInit.idl
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarkerPose.idl
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarkerUpdate.idl
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/Marker.idl
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/MarkerArray.idl
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/MenuEntry.idl
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/MeshFile.idl
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/UVCoordinate.idl
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/visualization_msgs/rosidl_adapter/visualization_msgs:srv/GetInteractiveMarkers.idl

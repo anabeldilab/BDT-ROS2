@@ -1,0 +1,553 @@
+[1.741s] Invoking command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/nav_msgs': AMENT_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/common_interfaces/nav_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs
+[5.948s] -- The C compiler identification is GNU 11.3.0
+[8.470s] -- The CXX compiler identification is GNU 11.3.0
+[9.172s] -- Detecting C compiler ABI info
+[16.067s] -- Detecting C compiler ABI info - done
+[16.118s] -- Check for working C compiler: /usr/bin/cc - skipped
+[16.120s] -- Detecting C compile features
+[16.122s] -- Detecting C compile features - done
+[16.242s] -- Detecting CXX compiler ABI info
+[22.765s] -- Detecting CXX compiler ABI info - done
+[22.817s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[22.819s] -- Detecting CXX compile features
+[22.821s] -- Detecting CXX compile features - done
+[23.685s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[32.418s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[40.037s] -- Found builtin_interfaces: 1.2.1 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[45.443s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[46.406s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[47.147s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[47.973s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[49.808s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[51.597s] -- Found geometry_msgs: 4.2.3 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/share/geometry_msgs/cmake)
+[53.974s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[68.018s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[91.550s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[102.024s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[103.245s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[103.952s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[105.808s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[105.810s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[105.812s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[105.814s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[106.979s] -- Found PythonExtra: .so  
+[112.902s] -- Configuring done
+[125.494s] -- Generating done
+[126.261s] -- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/nav_msgs
+[126.278s] Invoked command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/nav_msgs' returned '0': AMENT_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/common_interfaces/nav_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs
+[126.306s] Invoking command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/nav_msgs': AMENT_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/nav_msgs -- -j12 -l12
+[135.849s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[139.186s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[140.047s] [  1%] Built target ament_cmake_python_copy_nav_msgs
+[154.793s] running egg_info
+[154.795s] creating nav_msgs.egg-info
+[154.799s] writing nav_msgs.egg-info/PKG-INFO
+[154.808s] writing dependency_links to nav_msgs.egg-info/dependency_links.txt
+[154.823s] writing top-level names to nav_msgs.egg-info/top_level.txt
+[154.833s] writing manifest file 'nav_msgs.egg-info/SOURCES.txt'
+[154.869s] reading manifest file 'nav_msgs.egg-info/SOURCES.txt'
+[154.924s] writing manifest file 'nav_msgs.egg-info/SOURCES.txt'
+[156.740s] [  1%] Built target ament_cmake_python_build_nav_msgs_egg
+[184.023s] [  1%] Built target nav_msgs__cpp
+[186.291s] [  2%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[186.526s] [  3%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[191.783s] [  4%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/grid_cells__functions.c.o[0m
+[195.249s] [  5%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/load_map__functions.c.o[0m
+[196.461s] [  6%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/get_plan__functions.c.o[0m
+[197.215s] [  7%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/get_map__functions.c.o[0m
+[198.230s] [  8%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/path__functions.c.o[0m
+[198.532s] [  9%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/set_map__functions.c.o[0m
+[204.610s] [  9%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/odometry__functions.c.o[0m
+[206.522s] [  9%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/grid_cells__type_support.cpp.o[0m
+[209.635s] [ 10%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/occupancy_grid__functions.c.o[0m
+[214.142s] [ 11%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/map_meta_data__functions.c.o[0m
+[214.262s] [ 12%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/srv/load_map__type_support.cpp.o[0m
+[217.942s] [ 13%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/msg/detail/dds_fastrtps/grid_cells__type_support.cpp.o[0m
+[218.760s] [ 13%] [32m[1mLinking C shared library libnav_msgs__rosidl_generator_c.so[0m
+[221.700s] [ 14%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/srv/get_map__type_support.cpp.o[0m
+[221.782s] [ 14%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/msg/detail/dds_fastrtps/map_meta_data__type_support.cpp.o[0m
+[221.949s] [ 14%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/srv/get_plan__type_support.cpp.o[0m
+[222.093s] [ 15%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/srv/set_map__type_support.cpp.o[0m
+[223.552s] [ 15%] Built target nav_msgs__rosidl_generator_c
+[228.809s] [ 16%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/msg/detail/dds_fastrtps/occupancy_grid__type_support.cpp.o[0m
+[228.988s] [ 17%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/path__type_support.cpp.o[0m
+[230.143s] [ 18%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/msg/detail/dds_fastrtps/odometry__type_support.cpp.o[0m
+[236.649s] [ 19%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/odometry__type_support.cpp.o[0m
+[239.986s] [ 20%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/srv/detail/dds_fastrtps/get_map__type_support.cpp.o[0m
+[246.488s] [ 21%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/occupancy_grid__type_support.cpp.o[0m
+[250.470s] [ 21%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/srv/detail/dds_fastrtps/load_map__type_support.cpp.o[0m
+[250.584s] [ 22%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/srv/detail/dds_fastrtps/get_plan__type_support.cpp.o[0m
+[256.034s] [ 23%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/map_meta_data__type_support.cpp.o[0m
+[259.463s] [ 24%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/srv/detail/dds_fastrtps/set_map__type_support.cpp.o[0m
+[264.015s] [ 25%] [32m[1mLinking CXX shared library libnav_msgs__rosidl_typesupport_cpp.so[0m
+[268.213s] [ 25%] Built target nav_msgs__rosidl_typesupport_cpp
+[268.638s] [ 26%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/msg/detail/dds_fastrtps/path__type_support.cpp.o[0m
+[280.844s] [ 27%] [32m[1mLinking CXX shared library libnav_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[286.997s] [ 27%] Built target nav_msgs__rosidl_typesupport_fastrtps_cpp
+[289.490s] [ 28%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[290.346s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[290.419s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[309.870s] [ 31%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/grid_cells__type_support.cpp.o[0m
+[313.721s] [ 32%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/srv/get_plan__type_support.cpp.o[0m
+[318.200s] [ 32%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/srv/load_map__type_support.cpp.o[0m
+[320.594s] [ 33%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/msg/detail/grid_cells__type_support.c.o[0m
+[321.209s] [ 34%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/nav_msgs/msg/detail/microxrcedds/grid_cells__type_support_c.c.o[0m
+[322.509s] [ 35%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/srv/set_map__type_support.cpp.o[0m
+[326.038s] [ 36%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/srv/get_map__type_support.cpp.o[0m
+[326.094s] [ 37%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/msg/detail/occupancy_grid__type_support.c.o[0m
+[327.291s] [ 38%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/nav_msgs/msg/detail/microxrcedds/map_meta_data__type_support_c.c.o[0m
+[329.509s] [ 39%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/path__type_support.cpp.o[0m
+[331.574s] [ 40%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/msg/detail/path__type_support.c.o[0m
+[333.608s] [ 41%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/odometry__type_support.cpp.o[0m
+[334.117s] [ 42%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/nav_msgs/msg/detail/microxrcedds/occupancy_grid__type_support_c.c.o[0m
+[337.114s] [ 43%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/srv/detail/get_plan__type_support.c.o[0m
+[337.509s] [ 44%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/occupancy_grid__type_support.cpp.o[0m
+[340.292s] [ 44%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/nav_msgs/msg/detail/microxrcedds/path__type_support_c.c.o[0m
+[340.487s] [ 45%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/srv/detail/get_map__type_support.c.o[0m
+[340.539s] [ 46%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/nav_msgs/msg/detail/microxrcedds/odometry__type_support_c.c.o[0m
+[341.707s] [ 47%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/srv/detail/set_map__type_support.c.o[0m
+[342.190s] [ 47%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/map_meta_data__type_support.cpp.o[0m
+[344.281s] [ 48%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/nav_msgs/srv/detail/microxrcedds/get_map__type_support_c.c.o[0m
+[344.401s] [ 49%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/srv/detail/load_map__type_support.c.o[0m
+[347.023s] [ 50%] [32m[1mLinking CXX shared library libnav_msgs__rosidl_typesupport_c.so[0m
+[350.460s] [ 50%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/msg/detail/odometry__type_support.c.o[0m
+[351.631s] [ 51%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/nav_msgs/srv/detail/microxrcedds/set_map__type_support_c.c.o[0m
+[352.813s] [ 51%] Built target nav_msgs__rosidl_typesupport_c
+[356.775s] [ 52%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/msg/detail/map_meta_data__type_support.c.o[0m
+[357.164s] [ 53%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/nav_msgs/srv/detail/microxrcedds/load_map__type_support_c.c.o[0m
+[361.413s] [ 53%] [32m[1mLinking C shared library libnav_msgs__rosidl_typesupport_introspection_c.so[0m
+[362.277s] [ 54%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/nav_msgs/srv/detail/microxrcedds/get_plan__type_support_c.c.o[0m
+[365.807s] [ 54%] Built target nav_msgs__rosidl_typesupport_introspection_c
+[368.273s] [ 55%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[368.820s] [ 56%] [32m[1mLinking C shared library libnav_msgs__rosidl_typesupport_microxrcedds_c.so[0m
+[375.071s] [ 56%] Built target nav_msgs__rosidl_typesupport_microxrcedds_c
+[392.614s] [ 57%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/msg/detail/grid_cells__type_support_c.cpp.o[0m
+[400.319s] [ 57%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/srv/detail/set_map__type_support_c.cpp.o[0m
+[400.606s] [ 58%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/srv/detail/load_map__type_support_c.cpp.o[0m
+[408.273s] [ 59%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/srv/detail/get_plan__type_support_c.cpp.o[0m
+[414.879s] [ 61%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/msg/detail/path__type_support_c.cpp.o[0m
+[414.883s] [ 61%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/srv/detail/get_map__type_support_c.cpp.o[0m
+[414.991s] [ 62%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/msg/detail/odometry__type_support_c.cpp.o[0m
+[422.459s] [ 62%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/msg/detail/occupancy_grid__type_support_c.cpp.o[0m
+[422.558s] [ 63%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/msg/detail/map_meta_data__type_support_c.cpp.o[0m
+[431.320s] [ 64%] [32m[1mLinking CXX shared library libnav_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[437.992s] [ 64%] Built target nav_msgs__rosidl_typesupport_fastrtps_c
+[440.732s] [ 65%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[463.837s] [ 66%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/msg/detail/grid_cells__type_support.cpp.o[0m
+[463.909s] [ 67%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/msg/detail/map_meta_data__type_support.cpp.o[0m
+[471.187s] [ 67%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/srv/detail/set_map__type_support.cpp.o[0m
+[479.588s] [ 68%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/srv/detail/load_map__type_support.cpp.o[0m
+[488.318s] [ 69%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/srv/detail/get_plan__type_support.cpp.o[0m
+[497.271s] [ 70%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/srv/detail/get_map__type_support.cpp.o[0m
+[497.507s] [ 71%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/msg/detail/path__type_support.cpp.o[0m
+[507.017s] [ 72%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/msg/detail/odometry__type_support.cpp.o[0m
+[516.609s] [ 72%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/msg/detail/occupancy_grid__type_support.cpp.o[0m
+[525.009s] [ 73%] [32m[1mLinking CXX shared library libnav_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[530.601s] [ 73%] Built target nav_msgs__rosidl_typesupport_introspection_cpp
+[533.313s] [ 74%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[563.610s] [ 75%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/nav_msgs/msg/detail/microxrcedds/grid_cells__type_support_cpp.cpp.o[0m
+[563.688s] [ 76%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/nav_msgs/msg/detail/microxrcedds/map_meta_data__type_support_cpp.cpp.o[0m
+[575.293s] [ 77%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/set_map__type_support_cpp.cpp.o[0m
+[589.958s] [ 78%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/load_map__type_support_cpp.cpp.o[0m
+[590.215s] [ 79%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/get_plan__type_support_cpp.cpp.o[0m
+[603.187s] [ 80%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/get_map__type_support_cpp.cpp.o[0m
+[619.447s] [ 81%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/nav_msgs/msg/detail/microxrcedds/path__type_support_cpp.cpp.o[0m
+[633.046s] [ 81%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/nav_msgs/msg/detail/microxrcedds/odometry__type_support_cpp.cpp.o[0m
+[644.544s] [ 82%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/nav_msgs/msg/detail/microxrcedds/occupancy_grid__type_support_cpp.cpp.o[0m
+[656.119s] [ 83%] [32m[1mLinking CXX shared library libnav_msgs__rosidl_typesupport_microxrcedds_cpp.so[0m
+[660.477s] [ 83%] Built target nav_msgs__rosidl_typesupport_microxrcedds_cpp
+[664.240s] [ 83%] Built target nav_msgs
+[667.513s] [ 84%] [34m[1mGenerating Python code for ROS interfaces[0m
+[684.262s] [ 84%] Built target nav_msgs__py
+[687.129s] [ 85%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/msg/_grid_cells_s.c.o[0m
+[687.250s] [ 86%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/msg/_map_meta_data_s.c.o[0m
+[692.444s] [ 87%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/srv/_set_map_s.c.o[0m
+[692.923s] [ 88%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/srv/_load_map_s.c.o[0m
+[698.139s] [ 89%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/srv/_get_plan_s.c.o[0m
+[698.329s] [ 89%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/srv/_get_map_s.c.o[0m
+[703.546s] [ 90%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/msg/_path_s.c.o[0m
+[703.639s] [ 91%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/msg/_odometry_s.c.o[0m
+[703.670s] [ 92%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/msg/_occupancy_grid_s.c.o[0m
+[709.227s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/nav_msgs/libnav_msgs__rosidl_generator_py.so[0m
+[713.718s] [ 93%] Built target nav_msgs__rosidl_generator_py
+[717.896s] [ 94%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[717.942s] [ 95%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[717.985s] [ 96%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[718.012s] [ 96%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_c__pyext.dir/rosidl_generator_py/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[724.667s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/nav_msgs/nav_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[724.686s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/nav_msgs/nav_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[724.962s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/nav_msgs/nav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[728.211s] [100%] [32m[1mLinking C shared library rosidl_generator_py/nav_msgs/nav_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so[0m
+[729.344s] [100%] Built target nav_msgs__rosidl_typesupport_c__pyext
+[730.051s] [100%] Built target nav_msgs__rosidl_typesupport_introspection_c__pyext
+[730.945s] [100%] Built target nav_msgs__rosidl_typesupport_fastrtps_c__pyext
+[733.388s] [100%] Built target nav_msgs__rosidl_typesupport_microxrcedds_c__pyext
+[734.977s] Invoked command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/nav_msgs' returned '0': AMENT_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/nav_msgs -- -j12 -l12
+[790.666s] Invoking command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/nav_msgs': AMENT_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/nav_msgs
+[791.492s] -- Install configuration: ""
+[791.527s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/ament_index/resource_index/rosidl_interfaces/nav_msgs
+[791.608s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs
+[791.630s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg
+[791.660s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail
+[791.706s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__functions.c
+[791.808s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__functions.h
+[791.926s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__struct.h
+[792.036s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__type_support.h
+[792.139s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__functions.c
+[792.239s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__functions.h
+[792.353s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__struct.h
+[792.457s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__type_support.h
+[792.564s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__functions.c
+[792.667s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__functions.h
+[792.774s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.h
+[792.883s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__type_support.h
+[792.982s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__functions.c
+[793.129s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__functions.h
+[793.357s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.h
+[793.580s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__type_support.h
+[793.769s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__functions.c
+[793.937s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__functions.h
+[794.179s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__struct.h
+[794.510s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__type_support.h
+[794.795s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/grid_cells.h
+[795.009s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/map_meta_data.h
+[795.203s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/occupancy_grid.h
+[795.430s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/odometry.h
+[795.696s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/path.h
+[796.017s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/rosidl_generator_c__visibility_control.h
+[796.244s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv
+[796.313s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail
+[796.414s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__functions.c
+[796.682s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__functions.h
+[796.975s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__struct.h
+[797.335s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__type_support.h
+[797.626s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__functions.c
+[797.856s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__functions.h
+[798.121s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__struct.h
+[798.459s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__type_support.h
+[798.767s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__functions.c
+[799.004s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__functions.h
+[799.237s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__struct.h
+[799.465s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__type_support.h
+[799.649s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__functions.c
+[799.778s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__functions.h
+[799.893s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__struct.h
+[799.999s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__type_support.h
+[800.099s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/get_map.h
+[800.180s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/get_plan.h
+[800.262s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/load_map.h
+[800.357s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/set_map.h
+[800.455s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/environment/library_path.sh
+[800.524s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/environment/library_path.dsv
+[800.606s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/lib/libnav_msgs__rosidl_generator_c.so
+[800.723s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/lib/libnav_msgs__rosidl_generator_c.so" to ""
+[800.734s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs
+[800.761s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg
+[800.794s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail
+[800.835s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_fastrtps_c.h
+[800.940s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_fastrtps_c.h
+[801.034s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_fastrtps_c.h
+[801.124s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__rosidl_typesupport_fastrtps_c.h
+[801.239s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__rosidl_typesupport_fastrtps_c.h
+[801.332s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[801.409s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv
+[801.435s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail
+[801.470s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__rosidl_typesupport_fastrtps_c.h
+[801.563s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__rosidl_typesupport_fastrtps_c.h
+[801.655s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__rosidl_typesupport_fastrtps_c.h
+[801.745s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__rosidl_typesupport_fastrtps_c.h
+[801.825s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_fastrtps_c.so
+[801.916s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[801.927s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs
+[801.949s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg
+[801.976s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail
+[802.013s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__builder.hpp
+[802.112s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__struct.hpp
+[802.208s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__traits.hpp
+[802.301s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__builder.hpp
+[802.394s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__struct.hpp
+[802.486s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__traits.hpp
+[802.576s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__builder.hpp
+[802.663s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.hpp
+[802.749s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__traits.hpp
+[802.904s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__builder.hpp
+[803.287s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp
+[803.539s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__traits.hpp
+[803.721s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__builder.hpp
+[803.899s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp
+[804.122s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__traits.hpp
+[804.496s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/grid_cells.hpp
+[804.815s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/map_meta_data.hpp
+[805.069s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/occupancy_grid.hpp
+[805.231s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/odometry.hpp
+[805.372s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/path.hpp
+[805.511s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv
+[805.554s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail
+[805.609s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__builder.hpp
+[805.759s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__struct.hpp
+[805.903s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__traits.hpp
+[806.065s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__builder.hpp
+[806.230s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__struct.hpp
+[806.401s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__traits.hpp
+[806.634s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__builder.hpp
+[806.925s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__struct.hpp
+[807.337s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__traits.hpp
+[807.761s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__builder.hpp
+[808.126s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__struct.hpp
+[808.399s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__traits.hpp
+[808.582s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/get_map.hpp
+[808.832s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/get_plan.hpp
+[809.239s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/load_map.hpp
+[809.556s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/set_map.hpp
+[809.847s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs
+[809.942s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg
+[810.061s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail
+[810.189s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/dds_fastrtps
+[810.359s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_fastrtps_cpp.hpp
+[810.564s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_fastrtps_cpp.hpp
+[810.738s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_fastrtps_cpp.hpp
+[810.904s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__rosidl_typesupport_fastrtps_cpp.hpp
+[811.081s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__rosidl_typesupport_fastrtps_cpp.hpp
+[811.252s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[811.400s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv
+[811.475s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail
+[811.545s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/dds_fastrtps
+[811.678s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__rosidl_typesupport_fastrtps_cpp.hpp
+[811.908s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__rosidl_typesupport_fastrtps_cpp.hpp
+[812.196s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__rosidl_typesupport_fastrtps_cpp.hpp
+[812.547s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__rosidl_typesupport_fastrtps_cpp.hpp
+[812.930s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_fastrtps_cpp.so
+[813.296s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[813.320s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs
+[813.368s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/msg
+[813.431s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/msg/detail
+[813.517s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_microxrcedds_c.h
+[813.754s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_microxrcedds_c.h
+[813.923s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/msg/detail/microxrcedds
+[814.001s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_microxrcedds_c.h
+[814.129s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/msg/detail/odometry__rosidl_typesupport_microxrcedds_c.h
+[814.249s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/msg/detail/path__rosidl_typesupport_microxrcedds_c.h
+[814.375s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[814.495s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/srv
+[814.540s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/srv/detail
+[814.615s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/srv/detail/get_map__rosidl_typesupport_microxrcedds_c.h
+[814.768s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/srv/detail/get_plan__rosidl_typesupport_microxrcedds_c.h
+[814.925s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/srv/detail/load_map__rosidl_typesupport_microxrcedds_c.h
+[815.080s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/srv/detail/microxrcedds
+[815.157s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/srv/detail/set_map__rosidl_typesupport_microxrcedds_c.h
+[815.287s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_microxrcedds_c.so
+[815.428s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_microxrcedds_c.so" to ""
+[815.443s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs
+[815.475s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg
+[815.510s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail
+[815.555s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_introspection_c.h
+[815.675s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__type_support.c
+[815.789s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_introspection_c.h
+[815.923s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__type_support.c
+[816.037s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_introspection_c.h
+[816.162s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__type_support.c
+[816.289s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__rosidl_typesupport_introspection_c.h
+[816.413s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__type_support.c
+[816.535s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__rosidl_typesupport_introspection_c.h
+[816.682s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__type_support.c
+[816.833s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[816.960s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv
+[817.007s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail
+[817.067s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__rosidl_typesupport_introspection_c.h
+[817.191s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__type_support.c
+[817.306s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__rosidl_typesupport_introspection_c.h
+[817.414s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__type_support.c
+[817.515s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__rosidl_typesupport_introspection_c.h
+[817.614s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__type_support.c
+[817.706s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__rosidl_typesupport_introspection_c.h
+[817.796s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__type_support.c
+[817.875s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_introspection_c.so
+[817.955s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_introspection_c.so" to ""
+[817.966s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_c.so
+[818.041s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_c.so" to ""
+[818.051s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs
+[818.068s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/msg
+[818.092s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/msg/detail
+[818.122s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_microxrcedds_cpp.hpp
+[818.203s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_microxrcedds_cpp.hpp
+[818.278s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/msg/detail/microxrcedds
+[818.314s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/msg/detail/microxrcedds/grid_cells__type_support_cpp.cpp
+[818.410s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/msg/detail/microxrcedds/map_meta_data__type_support_cpp.cpp
+[818.510s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/msg/detail/microxrcedds/occupancy_grid__type_support_cpp.cpp
+[818.612s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/msg/detail/microxrcedds/odometry__type_support_cpp.cpp
+[818.715s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/msg/detail/microxrcedds/path__type_support_cpp.cpp
+[818.812s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_microxrcedds_cpp.hpp
+[818.895s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/msg/detail/odometry__rosidl_typesupport_microxrcedds_cpp.hpp
+[818.977s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/msg/detail/path__rosidl_typesupport_microxrcedds_cpp.hpp
+[819.054s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[819.117s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/srv
+[819.138s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/srv/detail
+[819.168s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/srv/detail/get_map__rosidl_typesupport_microxrcedds_cpp.hpp
+[819.246s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/srv/detail/get_plan__rosidl_typesupport_microxrcedds_cpp.hpp
+[819.328s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/srv/detail/load_map__rosidl_typesupport_microxrcedds_cpp.hpp
+[819.407s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/srv/detail/microxrcedds
+[819.443s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/srv/detail/microxrcedds/get_map__type_support_cpp.cpp
+[819.544s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/srv/detail/microxrcedds/get_plan__type_support_cpp.cpp
+[819.657s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/srv/detail/microxrcedds/load_map__type_support_cpp.cpp
+[819.764s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/srv/detail/microxrcedds/set_map__type_support_cpp.cpp
+[819.861s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/srv/detail/set_map__rosidl_typesupport_microxrcedds_cpp.hpp
+[819.933s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[820.028s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_microxrcedds_cpp.so" to ""
+[820.038s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs
+[820.058s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg
+[820.083s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail
+[820.116s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_introspection_cpp.hpp
+[820.205s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__type_support.cpp
+[820.297s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_introspection_cpp.hpp
+[820.388s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__type_support.cpp
+[820.495s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_introspection_cpp.hpp
+[820.582s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__type_support.cpp
+[820.672s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__rosidl_typesupport_introspection_cpp.hpp
+[820.767s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__type_support.cpp
+[820.865s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__rosidl_typesupport_introspection_cpp.hpp
+[820.964s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__type_support.cpp
+[821.051s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv
+[821.077s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail
+[821.113s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__rosidl_typesupport_introspection_cpp.hpp
+[821.201s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__type_support.cpp
+[821.294s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__rosidl_typesupport_introspection_cpp.hpp
+[821.382s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__type_support.cpp
+[821.472s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__rosidl_typesupport_introspection_cpp.hpp
+[821.561s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__type_support.cpp
+[821.649s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__rosidl_typesupport_introspection_cpp.hpp
+[821.783s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__type_support.cpp
+[821.938s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so
+[822.117s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[822.138s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_cpp.so
+[822.283s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_cpp.so" to ""
+[822.311s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/environment/pythonpath.sh
+[822.418s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/environment/pythonpath.dsv
+[822.499s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs-4.2.3-py3.10.egg-info
+[822.546s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs-4.2.3-py3.10.egg-info/dependency_links.txt
+[822.645s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs-4.2.3-py3.10.egg-info/PKG-INFO
+[822.745s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs-4.2.3-py3.10.egg-info/SOURCES.txt
+[822.850s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs-4.2.3-py3.10.egg-info/top_level.txt
+[822.979s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs
+[823.046s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/libnav_msgs__rosidl_generator_py.so
+[823.220s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg
+[823.310s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/_grid_cells.py
+[823.487s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/_grid_cells_s.c
+[823.655s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/_map_meta_data.py
+[823.789s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/_map_meta_data_s.c
+[823.902s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/_occupancy_grid.py
+[824.016s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/_occupancy_grid_s.c
+[824.162s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/_odometry.py
+[824.341s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/_odometry_s.c
+[824.513s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/_path.py
+[824.677s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/_path_s.c
+[824.878s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/__init__.py
+[825.022s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[825.141s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[825.265s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[825.394s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so
+[825.514s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv
+[825.584s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv/_get_map.py
+[825.723s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv/_get_map_s.c
+[825.860s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv/_get_plan.py
+[826.001s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv/_get_plan_s.c
+[826.135s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv/_load_map.py
+[826.265s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv/_load_map_s.c
+[826.418s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv/_set_map.py
+[826.592s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv/_set_map_s.c
+[826.763s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv/__init__.py
+[826.920s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_c.c
+[827.056s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[827.198s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[827.325s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[827.479s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/__init__.py
+[831.365s] Listing '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs'...
+[831.373s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/__init__.py'...
+[831.376s] Listing '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg'...
+[831.380s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/__init__.py'...
+[831.382s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/_grid_cells.py'...
+[831.387s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/_map_meta_data.py'...
+[831.392s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/_occupancy_grid.py'...
+[831.394s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/_odometry.py'...
+[831.398s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/_path.py'...
+[831.403s] Listing '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv'...
+[831.406s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv/__init__.py'...
+[831.409s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv/_get_map.py'...
+[831.412s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv/_get_plan.py'...
+[831.415s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv/_load_map.py'...
+[831.418s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv/_set_map.py'...
+[831.558s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so
+[831.894s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so" to ""
+[832.056s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[832.380s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[832.523s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[832.802s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[832.918s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[833.151s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[833.182s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/lib/libnav_msgs__rosidl_generator_py.so
+[833.353s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/lib/libnav_msgs__rosidl_generator_py.so" to ""
+[833.407s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/msg/GridCells.idl
+[833.526s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/msg/MapMetaData.idl
+[833.635s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/msg/OccupancyGrid.idl
+[833.744s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/msg/Odometry.idl
+[833.847s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/msg/Path.idl
+[833.951s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/srv/GetMap.idl
+[834.038s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/srv/GetPlan.idl
+[834.119s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/srv/LoadMap.idl
+[834.202s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/srv/SetMap.idl
+[834.293s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/msg/GridCells.msg
+[834.387s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/msg/MapMetaData.msg
+[834.482s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/msg/OccupancyGrid.msg
+[834.577s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/msg/Odometry.msg
+[834.668s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/msg/Path.msg
+[834.759s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/srv/GetMap.srv
+[834.848s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/srv/GetMap_Request.msg
+[834.929s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/srv/GetMap_Response.msg
+[835.018s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/srv/GetPlan.srv
+[835.106s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/srv/GetPlan_Request.msg
+[835.180s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/srv/GetPlan_Response.msg
+[835.265s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/srv/LoadMap.srv
+[835.352s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/srv/LoadMap_Request.msg
+[835.426s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/srv/LoadMap_Response.msg
+[835.509s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/srv/SetMap.srv
+[835.595s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/srv/SetMap_Request.msg
+[835.715s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/srv/SetMap_Response.msg
+[835.818s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/ament_index/resource_index/package_run_dependencies/nav_msgs
+[835.941s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/ament_index/resource_index/parent_prefix_path/nav_msgs
+[836.032s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/environment/ament_prefix_path.sh
+[836.102s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/environment/ament_prefix_path.dsv
+[836.179s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/environment/path.sh
+[836.244s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/environment/path.dsv
+[836.315s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/local_setup.bash
+[836.376s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/local_setup.sh
+[836.436s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/local_setup.zsh
+[836.492s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/local_setup.dsv
+[836.554s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/package.dsv
+[836.638s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/ament_index/resource_index/packages/nav_msgs
+[836.747s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_generator_cExport.cmake
+[836.840s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_generator_cExport-noconfig.cmake
+[836.936s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[837.027s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[837.130s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_generator_cppExport.cmake
+[837.224s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[837.317s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[837.411s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_introspection_cExport.cmake
+[837.496s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[837.584s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_cExport.cmake
+[837.666s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[837.750s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[837.834s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[837.917s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_cppExport.cmake
+[838.000s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[838.083s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_generator_pyExport.cmake
+[838.161s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_generator_pyExport-noconfig.cmake
+[838.236s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/cmake/rosidl_cmake-extras.cmake
+[838.301s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[838.370s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[838.439s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[838.503s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[838.568s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[838.629s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[838.692s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/cmake/nav_msgsConfig.cmake
+[838.751s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/cmake/nav_msgsConfig-version.cmake
+[838.819s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/nav_msgs/share/nav_msgs/package.xml
+[838.887s] Invoked command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/nav_msgs' returned '0': AMENT_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/nav_msgs

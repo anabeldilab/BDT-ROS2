@@ -1,0 +1,9 @@
+{
+  "package_name": "action_msgs",
+  "non_idl_tuples": [
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/rcl_interfaces/action_msgs:msg/GoalInfo.msg",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/rcl_interfaces/action_msgs:msg/GoalStatus.msg",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/rcl_interfaces/action_msgs:msg/GoalStatusArray.msg",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/rcl_interfaces/action_msgs:srv/CancelGoal.srv"
+  ]
+}

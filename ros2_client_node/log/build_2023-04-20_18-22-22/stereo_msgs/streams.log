@@ -1,0 +1,255 @@
+[1.829s] Invoking command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/stereo_msgs': AMENT_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/common_interfaces/stereo_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs
+[5.836s] -- The C compiler identification is GNU 11.3.0
+[8.044s] -- The CXX compiler identification is GNU 11.3.0
+[8.563s] -- Detecting C compiler ABI info
+[14.675s] -- Detecting C compiler ABI info - done
+[14.711s] -- Check for working C compiler: /usr/bin/cc - skipped
+[14.713s] -- Detecting C compile features
+[14.715s] -- Detecting C compile features - done
+[14.791s] -- Detecting CXX compiler ABI info
+[20.708s] -- Detecting CXX compiler ABI info - done
+[20.743s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[20.744s] -- Detecting CXX compile features
+[20.745s] -- Detecting CXX compile features - done
+[21.420s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[29.912s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[39.148s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[39.722s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[41.094s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[47.167s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[50.191s] -- Found sensor_msgs: 4.2.3 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/cmake)
+[62.157s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[74.022s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[86.926s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[87.976s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[88.462s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[89.717s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[89.718s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[89.719s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[89.720s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[90.601s] -- Found PythonExtra: .so  
+[93.640s] -- Configuring done
+[100.627s] -- Generating done
+[100.970s] -- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/stereo_msgs
+[100.989s] Invoked command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/stereo_msgs' returned '0': AMENT_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/common_interfaces/stereo_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs
+[101.002s] Invoking command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/stereo_msgs': AMENT_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/stereo_msgs -- -j12 -l12
+[106.689s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[108.104s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[108.582s] [  5%] Built target ament_cmake_python_copy_stereo_msgs
+[115.992s] [  5%] Built target stereo_msgs__cpp
+[116.595s] [  7%] [32mBuilding C object CMakeFiles/stereo_msgs__rosidl_generator_c.dir/rosidl_generator_c/stereo_msgs/msg/detail/disparity_image__functions.c.o[0m
+[117.177s] running egg_info
+[117.182s] creating stereo_msgs.egg-info
+[117.188s] writing stereo_msgs.egg-info/PKG-INFO
+[117.200s] writing dependency_links to stereo_msgs.egg-info/dependency_links.txt
+[117.220s] writing top-level names to stereo_msgs.egg-info/top_level.txt
+[117.233s] writing manifest file 'stereo_msgs.egg-info/SOURCES.txt'
+[117.281s] reading manifest file 'stereo_msgs.egg-info/SOURCES.txt'
+[117.354s] writing manifest file 'stereo_msgs.egg-info/SOURCES.txt'
+[118.282s] [ 10%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[118.433s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[118.587s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[118.748s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[119.185s] [ 17%] Built target ament_cmake_python_build_stereo_msgs_egg
+[125.502s] [ 20%] [32m[1mLinking C shared library libstereo_msgs__rosidl_generator_c.so[0m
+[129.432s] [ 23%] [32mBuilding CXX object CMakeFiles/stereo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stereo_msgs/msg/disparity_image__type_support.cpp.o[0m
+[129.723s] [ 25%] [32mBuilding CXX object CMakeFiles/stereo_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/stereo_msgs/msg/detail/microxrcedds/disparity_image__type_support_cpp.cpp.o[0m
+[130.375s] [ 28%] [32mBuilding CXX object CMakeFiles/stereo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stereo_msgs/msg/detail/disparity_image__type_support.cpp.o[0m
+[130.815s] [ 30%] [32mBuilding CXX object CMakeFiles/stereo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stereo_msgs/msg/detail/dds_fastrtps/disparity_image__type_support.cpp.o[0m
+[130.884s] [ 30%] Built target stereo_msgs__rosidl_generator_c
+[133.865s] [ 33%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[134.461s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[134.765s] [ 38%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[134.917s] [ 41%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[142.500s] [ 43%] [32m[1mLinking CXX shared library libstereo_msgs__rosidl_typesupport_cpp.so[0m
+[143.329s] [ 46%] [32m[1mLinking CXX shared library libstereo_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[145.129s] [ 48%] [32m[1mLinking CXX shared library libstereo_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[146.986s] [ 51%] [32mBuilding CXX object CMakeFiles/stereo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/stereo_msgs/msg/disparity_image__type_support.cpp.o[0m
+[148.772s] [ 51%] Built target stereo_msgs__rosidl_typesupport_cpp
+[149.012s] [ 53%] [32mBuilding C object CMakeFiles/stereo_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/stereo_msgs/msg/detail/microxrcedds/disparity_image__type_support_c.c.o[0m
+[149.311s] [ 56%] [32mBuilding CXX object CMakeFiles/stereo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stereo_msgs/msg/detail/disparity_image__type_support_c.cpp.o[0m
+[149.399s] [ 56%] Built target stereo_msgs__rosidl_typesupport_introspection_cpp
+[149.926s] [ 58%] [32mBuilding C object CMakeFiles/stereo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stereo_msgs/msg/detail/disparity_image__type_support.c.o[0m
+[151.026s] [ 58%] Built target stereo_msgs__rosidl_typesupport_fastrtps_cpp
+[151.149s] [ 61%] [32m[1mLinking CXX shared library libstereo_msgs__rosidl_typesupport_microxrcedds_cpp.so[0m
+[153.684s] [ 64%] [32m[1mLinking CXX shared library libstereo_msgs__rosidl_typesupport_c.so[0m
+[156.173s] [ 66%] [32m[1mLinking C shared library libstereo_msgs__rosidl_typesupport_microxrcedds_c.so[0m
+[156.299s] [ 69%] [32m[1mLinking C shared library libstereo_msgs__rosidl_typesupport_introspection_c.so[0m
+[158.260s] [ 69%] Built target stereo_msgs__rosidl_typesupport_microxrcedds_cpp
+[158.366s] [ 69%] Built target stereo_msgs__rosidl_typesupport_c
+[160.987s] [ 69%] Built target stereo_msgs__rosidl_typesupport_introspection_c
+[162.317s] [ 69%] Built target stereo_msgs__rosidl_typesupport_microxrcedds_c
+[163.595s] [ 71%] [32m[1mLinking CXX shared library libstereo_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[168.572s] [ 71%] Built target stereo_msgs__rosidl_typesupport_fastrtps_c
+[173.953s] [ 71%] Built target stereo_msgs
+[179.520s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[193.447s] [ 74%] Built target stereo_msgs__py
+[198.383s] [ 76%] [32mBuilding C object CMakeFiles/stereo_msgs__rosidl_generator_py.dir/rosidl_generator_py/stereo_msgs/msg/_disparity_image_s.c.o[0m
+[206.601s] [ 79%] [32m[1mLinking C shared library rosidl_generator_py/stereo_msgs/libstereo_msgs__rosidl_generator_py.so[0m
+[212.012s] [ 79%] Built target stereo_msgs__rosidl_generator_py
+[216.817s] [ 82%] [32mBuilding C object CMakeFiles/stereo_msgs__rosidl_typesupport_microxrcedds_c__pyext.dir/rosidl_generator_py/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[227.832s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/stereo_msgs/stereo_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so[0m
+[233.906s] [ 84%] Built target stereo_msgs__rosidl_typesupport_microxrcedds_c__pyext
+[238.733s] [ 87%] [32mBuilding C object CMakeFiles/stereo_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[238.830s] [ 89%] [32mBuilding C object CMakeFiles/stereo_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[246.827s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/stereo_msgs/stereo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[246.872s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/stereo_msgs/stereo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[252.420s] [ 94%] Built target stereo_msgs__rosidl_typesupport_c__pyext
+[252.619s] [ 94%] Built target stereo_msgs__rosidl_typesupport_introspection_c__pyext
+[257.071s] [ 97%] [32mBuilding C object CMakeFiles/stereo_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[264.819s] [100%] [32m[1mLinking C shared library rosidl_generator_py/stereo_msgs/stereo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[270.386s] [100%] Built target stereo_msgs__rosidl_typesupport_fastrtps_c__pyext
+[272.655s] Invoked command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/stereo_msgs' returned '0': AMENT_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/stereo_msgs -- -j12 -l12
+[292.364s] Invoking command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/stereo_msgs': AMENT_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/stereo_msgs
+[292.904s] -- Install configuration: ""
+[292.956s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/ament_index/resource_index/rosidl_interfaces/stereo_msgs
+[293.072s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/stereo_msgs
+[293.107s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg
+[293.157s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail
+[293.233s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__functions.c
+[293.396s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__functions.h
+[293.541s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__struct.h
+[293.673s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__type_support.h
+[293.802s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/disparity_image.h
+[293.914s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/rosidl_generator_c__visibility_control.h
+[294.032s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/environment/library_path.sh
+[294.116s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/environment/library_path.dsv
+[294.209s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/lib/libstereo_msgs__rosidl_generator_c.so
+[294.357s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/lib/libstereo_msgs__rosidl_generator_c.so" to ""
+[294.370s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs
+[294.394s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/msg
+[294.431s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/msg/detail
+[294.481s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/msg/detail/disparity_image__rosidl_typesupport_microxrcedds_c.h
+[294.584s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/msg/detail/microxrcedds
+[294.634s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[294.722s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_microxrcedds_c.so
+[294.843s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_microxrcedds_c.so" to ""
+[294.855s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/stereo_msgs
+[294.880s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg
+[294.911s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail
+[294.952s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__rosidl_typesupport_fastrtps_c.h
+[295.059s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[295.145s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_fastrtps_c.so
+[295.256s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[295.267s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/stereo_msgs
+[295.289s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg
+[295.315s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail
+[295.351s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__rosidl_typesupport_introspection_c.h
+[295.447s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__type_support.c
+[295.545s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[295.625s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_introspection_c.so
+[295.725s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_introspection_c.so" to ""
+[295.739s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_c.so
+[295.836s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_c.so" to ""
+[295.848s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/stereo_msgs
+[295.873s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg
+[295.903s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail
+[295.945s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__builder.hpp
+[296.055s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__struct.hpp
+[296.164s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__traits.hpp
+[296.276s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/disparity_image.hpp
+[296.364s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs
+[296.388s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/msg
+[296.418s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/msg/detail
+[296.459s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/msg/detail/disparity_image__rosidl_typesupport_microxrcedds_cpp.hpp
+[296.558s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/msg/detail/microxrcedds
+[296.605s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/msg/detail/microxrcedds/disparity_image__type_support_cpp.cpp
+[296.718s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[296.798s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[296.917s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_microxrcedds_cpp.so" to ""
+[296.931s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/stereo_msgs
+[296.959s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg
+[296.991s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail
+[297.028s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/dds_fastrtps
+[297.089s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__rosidl_typesupport_fastrtps_cpp.hpp
+[297.199s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[297.280s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_fastrtps_cpp.so
+[297.397s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[297.409s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/stereo_msgs
+[297.435s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg
+[297.466s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail
+[297.508s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__rosidl_typesupport_introspection_cpp.hpp
+[297.622s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__type_support.cpp
+[297.721s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_introspection_cpp.so
+[297.821s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[297.835s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_cpp.so
+[297.938s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_cpp.so" to ""
+[297.959s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/environment/pythonpath.sh
+[298.035s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/environment/pythonpath.dsv
+[298.100s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs-4.2.3-py3.10.egg-info
+[298.143s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs-4.2.3-py3.10.egg-info/dependency_links.txt
+[298.247s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs-4.2.3-py3.10.egg-info/PKG-INFO
+[298.348s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs-4.2.3-py3.10.egg-info/SOURCES.txt
+[298.448s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs-4.2.3-py3.10.egg-info/top_level.txt
+[298.539s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs
+[298.580s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/libstereo_msgs__rosidl_generator_py.so
+[298.659s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/msg
+[298.707s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/msg/_disparity_image.py
+[298.818s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/msg/_disparity_image_s.c
+[298.923s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/msg/__init__.py
+[299.021s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[299.107s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[299.198s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[299.295s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so
+[299.395s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_c.c
+[299.490s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[299.580s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[299.658s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[299.745s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/__init__.py
+[301.652s] Listing '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs'...
+[301.653s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/__init__.py'...
+[301.655s] Listing '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/msg'...
+[301.656s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/msg/__init__.py'...
+[301.657s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/msg/_disparity_image.py'...
+[301.737s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so
+[301.900s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so" to ""
+[301.973s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[302.126s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[302.201s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[302.350s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[302.423s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[302.570s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[302.590s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/lib/libstereo_msgs__rosidl_generator_py.so
+[302.700s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/lib/libstereo_msgs__rosidl_generator_py.so" to ""
+[302.728s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/msg/DisparityImage.idl
+[302.806s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/msg/DisparityImage.msg
+[302.906s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/ament_index/resource_index/package_run_dependencies/stereo_msgs
+[303.025s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/ament_index/resource_index/parent_prefix_path/stereo_msgs
+[303.116s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/environment/ament_prefix_path.sh
+[303.182s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/environment/ament_prefix_path.dsv
+[303.254s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/environment/path.sh
+[303.329s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/environment/path.dsv
+[303.417s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/local_setup.bash
+[303.492s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/local_setup.sh
+[303.572s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/local_setup.zsh
+[303.643s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/local_setup.dsv
+[303.707s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/package.dsv
+[303.802s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/ament_index/resource_index/packages/stereo_msgs
+[303.921s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_generator_cExport.cmake
+[304.022s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_generator_cExport-noconfig.cmake
+[304.123s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[304.216s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[304.316s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_introspection_cExport.cmake
+[304.410s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[304.509s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_cExport.cmake
+[304.609s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[304.711s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_generator_cppExport.cmake
+[304.812s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[304.908s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[305.013s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[305.117s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[305.224s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_cppExport.cmake
+[305.331s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[305.433s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_generator_pyExport.cmake
+[305.509s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_generator_pyExport-noconfig.cmake
+[305.581s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/cmake/rosidl_cmake-extras.cmake
+[305.648s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[305.719s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[305.794s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[305.868s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[305.943s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[306.016s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[306.086s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgsConfig.cmake
+[306.155s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgsConfig-version.cmake
+[306.239s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/stereo_msgs/share/stereo_msgs/package.xml
+[306.326s] Invoked command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/stereo_msgs' returned '0': AMENT_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/stereo_msgs

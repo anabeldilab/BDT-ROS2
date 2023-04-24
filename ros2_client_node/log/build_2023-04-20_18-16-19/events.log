@@ -1,0 +1,666 @@
+[0.000000] (-) TimerEvent: {}
+[0.000573] (-) JobUnselected: {'identifier': 'action_msgs'}
+[0.001013] (-) JobUnselected: {'identifier': 'actionlib_msgs'}
+[0.001405] (-) JobUnselected: {'identifier': 'builtin_interfaces'}
+[0.001735] (-) JobUnselected: {'identifier': 'common_interfaces'}
+[0.002027] (-) JobUnselected: {'identifier': 'complex_msgs'}
+[0.002324] (-) JobUnselected: {'identifier': 'composition_interfaces'}
+[0.002527] (-) JobUnselected: {'identifier': 'diagnostic_msgs'}
+[0.002729] (-) JobUnselected: {'identifier': 'example_interfaces'}
+[0.002971] (-) JobUnselected: {'identifier': 'geometry_msgs'}
+[0.003152] (-) JobUnselected: {'identifier': 'lifecycle_msgs'}
+[0.003358] (-) JobUnselected: {'identifier': 'micro_ros_demos_rclc'}
+[0.005586] (-) JobUnselected: {'identifier': 'micro_ros_msgs'}
+[0.005802] (-) JobUnselected: {'identifier': 'micro_ros_setup'}
+[0.006031] (-) JobUnselected: {'identifier': 'micro_ros_utilities'}
+[0.006226] (-) JobUnselected: {'identifier': 'microxrcedds_client'}
+[0.006427] (-) JobUnselected: {'identifier': 'nav_msgs'}
+[0.006606] (-) JobUnselected: {'identifier': 'rcl_interfaces'}
+[0.006777] (-) JobUnselected: {'identifier': 'rclc'}
+[0.006971] (-) JobUnselected: {'identifier': 'rclc_parameter'}
+[0.007130] (-) JobUnselected: {'identifier': 'rmw_microxrcedds'}
+[0.007329] (-) JobUnselected: {'identifier': 'rosgraph_msgs'}
+[0.007487] (-) JobUnselected: {'identifier': 'rosidl_typesupport_microxrcedds_c_tests'}
+[0.007693] (-) JobUnselected: {'identifier': 'rosidl_typesupport_microxrcedds_cpp'}
+[0.007932] (-) JobUnselected: {'identifier': 'rosidl_typesupport_microxrcedds_cpp_tests'}
+[0.008094] (-) JobUnselected: {'identifier': 'rosidl_typesupport_microxrcedds_test_msg'}
+[0.008294] (-) JobUnselected: {'identifier': 'sensor_msgs'}
+[0.008442] (-) JobUnselected: {'identifier': 'sensor_msgs_py'}
+[0.008602] (-) JobUnselected: {'identifier': 'shape_msgs'}
+[0.008782] (-) JobUnselected: {'identifier': 'statistics_msgs'}
+[0.008988] (-) JobUnselected: {'identifier': 'std_msgs'}
+[0.009147] (-) JobUnselected: {'identifier': 'std_srvs'}
+[0.009303] (-) JobUnselected: {'identifier': 'stereo_msgs'}
+[0.010307] (-) JobUnselected: {'identifier': 'test_msgs'}
+[0.010718] (-) JobUnselected: {'identifier': 'trajectory_msgs'}
+[0.010956] (-) JobUnselected: {'identifier': 'unique_identifier_msgs'}
+[0.014574] (-) JobUnselected: {'identifier': 'visualization_msgs'}
+[0.014825] (microcdr) JobQueued: {'identifier': 'microcdr', 'dependencies': OrderedDict()}
+[0.015145] (rosidl_typesupport_microxrcedds_c) JobQueued: {'identifier': 'rosidl_typesupport_microxrcedds_c', 'dependencies': OrderedDict([('microcdr', '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr')])}
+[0.015376] (microcdr) JobStarted: {'identifier': 'microcdr'}
+[0.094373] (-) TimerEvent: {}
+[0.194885] (-) TimerEvent: {}
+[0.221170] (microcdr) JobProgress: {'identifier': 'microcdr', 'progress': 'cmake'}
+[0.227009] (microcdr) Command: {'cmd': ['/usr/bin/cmake', '/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/eProsima/Micro-CDR', '-DBUILD_TESTING=OFF', '-DBUILD_SHARED_LIBS=ON', '-DUCDR_ISOLATED_INSTALL=OFF', '-DBUILD_SHARED_LIBS=ON', '-DCMAKE_INSTALL_PREFIX=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr'], 'cwd': '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/microcdr', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alu0101206011'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent/lib:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('HOME', '/home/alu0101206011'), ('OLDPWD', '/mnt/d/prueba/TFG-ROS2'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('UROS_VERBOSE_BUILD', 'off'), ('UROS_FAST_BUILD', 'off'), ('COLCON_PREFIX_PATH', '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alu0101206011'), ('NAME', 'DESKTOP-JKMU7OT'), ('WSL_INTEROP', '/run/WSL/6031_interop'), ('_', '/home/alu0101206011/.local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/alu0101206011/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Anabel Díaz Labrador/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'd2148ba2-cf61-4772-bbd3-5ce1472132e8'), ('DISPLAY', '172.29.64.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('UROS_EXTRA_BUILD_ARGS', ''), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/microcdr'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup'), ('WSLENV', 'VSCODE_CLI_REMOTE_ENV/w:ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[0.295012] (-) TimerEvent: {}
+[0.395661] (-) TimerEvent: {}
+[0.439746] (microcdr) StdoutLine: {'line': b"-- Setting build type to 'Release' as none was specified.\n"}
+[0.495789] (-) TimerEvent: {}
+[0.596363] (-) TimerEvent: {}
+[0.696922] (-) TimerEvent: {}
+[0.797472] (-) TimerEvent: {}
+[0.897997] (-) TimerEvent: {}
+[0.998496] (-) TimerEvent: {}
+[1.099001] (-) TimerEvent: {}
+[1.199566] (-) TimerEvent: {}
+[1.300081] (-) TimerEvent: {}
+[1.301568] (microcdr) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[1.400239] (-) TimerEvent: {}
+[1.500784] (-) TimerEvent: {}
+[1.509187] (microcdr) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.600961] (-) TimerEvent: {}
+[1.701563] (-) TimerEvent: {}
+[1.802045] (-) TimerEvent: {}
+[1.902584] (-) TimerEvent: {}
+[2.003040] (-) TimerEvent: {}
+[2.103600] (-) TimerEvent: {}
+[2.204114] (-) TimerEvent: {}
+[2.304617] (-) TimerEvent: {}
+[2.405112] (-) TimerEvent: {}
+[2.505576] (-) TimerEvent: {}
+[2.606060] (-) TimerEvent: {}
+[2.706544] (-) TimerEvent: {}
+[2.807070] (-) TimerEvent: {}
+[2.907600] (-) TimerEvent: {}
+[3.008124] (-) TimerEvent: {}
+[3.051168] (microcdr) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.075044] (microcdr) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.075876] (microcdr) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.076758] (microcdr) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.108247] (-) TimerEvent: {}
+[3.208742] (-) TimerEvent: {}
+[3.309303] (-) TimerEvent: {}
+[3.409823] (-) TimerEvent: {}
+[3.510302] (-) TimerEvent: {}
+[3.555607] (microcdr) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[3.610417] (-) TimerEvent: {}
+[3.710937] (-) TimerEvent: {}
+[3.759803] (microcdr) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.811071] (-) TimerEvent: {}
+[3.911582] (-) TimerEvent: {}
+[4.012214] (-) TimerEvent: {}
+[4.112738] (-) TimerEvent: {}
+[4.213278] (-) TimerEvent: {}
+[4.313851] (-) TimerEvent: {}
+[4.414345] (-) TimerEvent: {}
+[4.515073] (-) TimerEvent: {}
+[4.615665] (-) TimerEvent: {}
+[4.716295] (-) TimerEvent: {}
+[4.816900] (-) TimerEvent: {}
+[4.917409] (-) TimerEvent: {}
+[5.017967] (-) TimerEvent: {}
+[5.118573] (-) TimerEvent: {}
+[5.219165] (-) TimerEvent: {}
+[5.319730] (-) TimerEvent: {}
+[5.420371] (-) TimerEvent: {}
+[5.467089] (microcdr) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.498076] (microcdr) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.499440] (microcdr) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.500396] (microcdr) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.520502] (-) TimerEvent: {}
+[5.607264] (microcdr) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.620644] (-) TimerEvent: {}
+[5.721247] (-) TimerEvent: {}
+[5.738145] (microcdr) StdoutLine: {'line': b'-- Generating done\n'}
+[5.769655] (microcdr) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[5.770731] (microcdr) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[5.771762] (microcdr) StderrLine: {'line': b'\n'}
+[5.772831] (microcdr) StderrLine: {'line': b'    BUILD_TESTING\n'}
+[5.773927] (microcdr) StderrLine: {'line': b'\n'}
+[5.774691] (microcdr) StderrLine: {'line': b'\x1b[0m\n'}
+[5.792184] (microcdr) StdoutLine: {'line': b'-- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/microcdr\n'}
+[5.796070] (microcdr) CommandEnded: {'returncode': 0}
+[5.800935] (microcdr) JobProgress: {'identifier': 'microcdr', 'progress': 'build'}
+[5.806123] (microcdr) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/microcdr', '--', '-j12', '-l12'], 'cwd': '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/microcdr', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alu0101206011'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent/lib:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('HOME', '/home/alu0101206011'), ('OLDPWD', '/mnt/d/prueba/TFG-ROS2'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('UROS_VERBOSE_BUILD', 'off'), ('UROS_FAST_BUILD', 'off'), ('COLCON_PREFIX_PATH', '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alu0101206011'), ('NAME', 'DESKTOP-JKMU7OT'), ('WSL_INTEROP', '/run/WSL/6031_interop'), ('_', '/home/alu0101206011/.local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/alu0101206011/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Anabel Díaz Labrador/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'd2148ba2-cf61-4772-bbd3-5ce1472132e8'), ('DISPLAY', '172.29.64.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('UROS_EXTRA_BUILD_ARGS', ''), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/microcdr'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup'), ('WSLENV', 'VSCODE_CLI_REMOTE_ENV/w:ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[5.821372] (-) TimerEvent: {}
+[5.922034] (-) TimerEvent: {}
+[6.022633] (-) TimerEvent: {}
+[6.123200] (-) TimerEvent: {}
+[6.223787] (-) TimerEvent: {}
+[6.324341] (-) TimerEvent: {}
+[6.424929] (-) TimerEvent: {}
+[6.525505] (-) TimerEvent: {}
+[6.626105] (-) TimerEvent: {}
+[6.726669] (-) TimerEvent: {}
+[6.827186] (-) TimerEvent: {}
+[6.927732] (-) TimerEvent: {}
+[7.028322] (-) TimerEvent: {}
+[7.128818] (-) TimerEvent: {}
+[7.229375] (-) TimerEvent: {}
+[7.271782] (microcdr) StdoutLine: {'line': b"[ 12%] \x1b[34m\x1b[1mCreating directories for 'ucdr'\x1b[0m\n"}
+[7.329543] (-) TimerEvent: {}
+[7.430129] (-) TimerEvent: {}
+[7.530794] (-) TimerEvent: {}
+[7.631570] (-) TimerEvent: {}
+[7.732223] (-) TimerEvent: {}
+[7.832774] (-) TimerEvent: {}
+[7.933350] (-) TimerEvent: {}
+[8.033892] (-) TimerEvent: {}
+[8.134368] (-) TimerEvent: {}
+[8.234876] (-) TimerEvent: {}
+[8.335440] (-) TimerEvent: {}
+[8.435956] (-) TimerEvent: {}
+[8.536471] (-) TimerEvent: {}
+[8.636977] (-) TimerEvent: {}
+[8.737541] (-) TimerEvent: {}
+[8.838087] (-) TimerEvent: {}
+[8.938559] (-) TimerEvent: {}
+[9.039162] (-) TimerEvent: {}
+[9.139832] (-) TimerEvent: {}
+[9.240420] (-) TimerEvent: {}
+[9.308498] (microcdr) StdoutLine: {'line': b"[ 25%] \x1b[34m\x1b[1mNo download step for 'ucdr'\x1b[0m\n"}
+[9.340547] (-) TimerEvent: {}
+[9.441087] (-) TimerEvent: {}
+[9.541638] (-) TimerEvent: {}
+[9.642208] (-) TimerEvent: {}
+[9.742751] (-) TimerEvent: {}
+[9.843352] (-) TimerEvent: {}
+[9.943891] (-) TimerEvent: {}
+[10.044494] (-) TimerEvent: {}
+[10.066655] (microcdr) StdoutLine: {'line': b"[ 37%] \x1b[34m\x1b[1mNo update step for 'ucdr'\x1b[0m\n"}
+[10.144621] (-) TimerEvent: {}
+[10.245297] (-) TimerEvent: {}
+[10.345825] (-) TimerEvent: {}
+[10.446386] (-) TimerEvent: {}
+[10.546970] (-) TimerEvent: {}
+[10.647633] (-) TimerEvent: {}
+[10.748176] (-) TimerEvent: {}
+[10.784268] (microcdr) StdoutLine: {'line': b"[ 50%] \x1b[34m\x1b[1mNo patch step for 'ucdr'\x1b[0m\n"}
+[10.848337] (-) TimerEvent: {}
+[10.948927] (-) TimerEvent: {}
+[11.049447] (-) TimerEvent: {}
+[11.150154] (-) TimerEvent: {}
+[11.250726] (-) TimerEvent: {}
+[11.351301] (-) TimerEvent: {}
+[11.451825] (-) TimerEvent: {}
+[11.510556] (microcdr) StdoutLine: {'line': b"[ 62%] \x1b[34m\x1b[1mPerforming configure step for 'ucdr'\x1b[0m\n"}
+[11.551944] (-) TimerEvent: {}
+[11.652460] (-) TimerEvent: {}
+[11.753035] (-) TimerEvent: {}
+[11.784684] (microcdr) StdoutLine: {'line': b'loading initial cache file /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/microcdr/ucdr-prefix/tmp/ucdr-cache-Release.cmake\n'}
+[11.853201] (-) TimerEvent: {}
+[11.953732] (-) TimerEvent: {}
+[12.021139] (microcdr) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.053879] (-) TimerEvent: {}
+[12.154536] (-) TimerEvent: {}
+[12.244103] (microcdr) StdoutLine: {'line': b'-- Generating done\n'}
+[12.254718] (-) TimerEvent: {}
+[12.302945] (microcdr) StdoutLine: {'line': b'-- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/microcdr\n'}
+[12.354848] (-) TimerEvent: {}
+[12.455453] (-) TimerEvent: {}
+[12.556093] (-) TimerEvent: {}
+[12.656681] (-) TimerEvent: {}
+[12.757231] (-) TimerEvent: {}
+[12.819741] (microcdr) StdoutLine: {'line': b"[ 75%] \x1b[34m\x1b[1mPerforming build step for 'ucdr'\x1b[0m\n"}
+[12.857392] (-) TimerEvent: {}
+[12.957983] (-) TimerEvent: {}
+[13.058583] (-) TimerEvent: {}
+[13.159169] (-) TimerEvent: {}
+[13.259738] (-) TimerEvent: {}
+[13.360260] (-) TimerEvent: {}
+[13.460798] (-) TimerEvent: {}
+[13.561288] (-) TimerEvent: {}
+[13.661880] (-) TimerEvent: {}
+[13.762437] (-) TimerEvent: {}
+[13.862996] (-) TimerEvent: {}
+[13.963517] (-) TimerEvent: {}
+[13.996305] (microcdr) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/microcdr.dir/src/c/common.c.o\x1b[0m\n'}
+[14.006663] (microcdr) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/string.c.o\x1b[0m\n'}
+[14.008416] (microcdr) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/basic.c.o\x1b[0m\n'}
+[14.043673] (microcdr) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/array.c.o\x1b[0m\n'}
+[14.059466] (microcdr) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/sequence.c.o\x1b[0m\n'}
+[14.063633] (-) TimerEvent: {}
+[14.164365] (-) TimerEvent: {}
+[14.265077] (-) TimerEvent: {}
+[14.366016] (-) TimerEvent: {}
+[14.466871] (-) TimerEvent: {}
+[14.567613] (-) TimerEvent: {}
+[14.668358] (-) TimerEvent: {}
+[14.769267] (-) TimerEvent: {}
+[14.870026] (-) TimerEvent: {}
+[14.970778] (-) TimerEvent: {}
+[15.071283] (-) TimerEvent: {}
+[15.171821] (-) TimerEvent: {}
+[15.272328] (-) TimerEvent: {}
+[15.283400] (microcdr) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library libmicrocdr.so\x1b[0m\n'}
+[15.372456] (-) TimerEvent: {}
+[15.472975] (-) TimerEvent: {}
+[15.573567] (-) TimerEvent: {}
+[15.674144] (-) TimerEvent: {}
+[15.774719] (-) TimerEvent: {}
+[15.875449] (-) TimerEvent: {}
+[15.975964] (-) TimerEvent: {}
+[16.076529] (-) TimerEvent: {}
+[16.177042] (-) TimerEvent: {}
+[16.277584] (-) TimerEvent: {}
+[16.378157] (-) TimerEvent: {}
+[16.478800] (-) TimerEvent: {}
+[16.579563] (-) TimerEvent: {}
+[16.595557] (microcdr) StdoutLine: {'line': b'[100%] Built target microcdr\n'}
+[16.679701] (-) TimerEvent: {}
+[16.780299] (-) TimerEvent: {}
+[16.880885] (-) TimerEvent: {}
+[16.981691] (-) TimerEvent: {}
+[17.082237] (-) TimerEvent: {}
+[17.182831] (-) TimerEvent: {}
+[17.283418] (-) TimerEvent: {}
+[17.383957] (-) TimerEvent: {}
+[17.413391] (microcdr) StdoutLine: {'line': b"\x1b[34m\x1b[1mNo install step for 'ucdr'\x1b[0m\n"}
+[17.484084] (-) TimerEvent: {}
+[17.584659] (-) TimerEvent: {}
+[17.685152] (-) TimerEvent: {}
+[17.785682] (-) TimerEvent: {}
+[17.886165] (-) TimerEvent: {}
+[17.986755] (-) TimerEvent: {}
+[18.085185] (microcdr) StdoutLine: {'line': b"\x1b[34m\x1b[1mCompleted 'ucdr'\x1b[0m\n"}
+[18.086877] (-) TimerEvent: {}
+[18.187479] (-) TimerEvent: {}
+[18.287974] (-) TimerEvent: {}
+[18.388564] (-) TimerEvent: {}
+[18.489051] (-) TimerEvent: {}
+[18.589599] (-) TimerEvent: {}
+[18.690112] (-) TimerEvent: {}
+[18.790634] (-) TimerEvent: {}
+[18.891143] (-) TimerEvent: {}
+[18.991633] (-) TimerEvent: {}
+[19.003179] (microcdr) StdoutLine: {'line': b'Built target ucdr\n'}
+[19.091774] (-) TimerEvent: {}
+[19.192361] (-) TimerEvent: {}
+[19.263851] (microcdr) CommandEnded: {'returncode': 0}
+[19.292511] (-) TimerEvent: {}
+[19.393125] (-) TimerEvent: {}
+[19.493661] (-) TimerEvent: {}
+[19.594204] (-) TimerEvent: {}
+[19.694837] (-) TimerEvent: {}
+[19.795399] (-) TimerEvent: {}
+[19.895929] (-) TimerEvent: {}
+[19.996480] (-) TimerEvent: {}
+[20.096965] (-) TimerEvent: {}
+[20.197554] (-) TimerEvent: {}
+[20.298054] (-) TimerEvent: {}
+[20.398535] (-) TimerEvent: {}
+[20.499048] (-) TimerEvent: {}
+[20.599584] (-) TimerEvent: {}
+[20.700161] (-) TimerEvent: {}
+[20.800701] (-) TimerEvent: {}
+[20.901228] (-) TimerEvent: {}
+[21.001707] (-) TimerEvent: {}
+[21.102222] (-) TimerEvent: {}
+[21.193334] (microcdr) JobProgress: {'identifier': 'microcdr', 'progress': 'install'}
+[21.202347] (-) TimerEvent: {}
+[21.302937] (-) TimerEvent: {}
+[21.403552] (-) TimerEvent: {}
+[21.462278] (microcdr) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/microcdr'], 'cwd': '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/microcdr', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alu0101206011'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent/lib:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('HOME', '/home/alu0101206011'), ('OLDPWD', '/mnt/d/prueba/TFG-ROS2'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('UROS_VERBOSE_BUILD', 'off'), ('UROS_FAST_BUILD', 'off'), ('COLCON_PREFIX_PATH', '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alu0101206011'), ('NAME', 'DESKTOP-JKMU7OT'), ('WSL_INTEROP', '/run/WSL/6031_interop'), ('_', '/home/alu0101206011/.local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/alu0101206011/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Anabel Díaz Labrador/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'd2148ba2-cf61-4772-bbd3-5ce1472132e8'), ('DISPLAY', '172.29.64.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('UROS_EXTRA_BUILD_ARGS', ''), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/microcdr'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup'), ('WSLENV', 'VSCODE_CLI_REMOTE_ENV/w:ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[21.503695] (-) TimerEvent: {}
+[21.604304] (-) TimerEvent: {}
+[21.680737] (microcdr) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[21.689136] (microcdr) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr/lib/libmicrocdr.so.2.0.1\n'}
+[21.704450] (-) TimerEvent: {}
+[21.721494] (microcdr) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr/lib/libmicrocdr.so.2.0\n'}
+[21.738599] (microcdr) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr/lib/libmicrocdr.so\n'}
+[21.754015] (microcdr) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr/include/ucdr\n'}
+[21.777267] (microcdr) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr/include/ucdr/microcdr.h\n'}
+[21.804607] (-) TimerEvent: {}
+[21.831410] (microcdr) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr/include/ucdr/visibility.h\n'}
+[21.881167] (microcdr) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr/include/ucdr/config.h\n'}
+[21.904815] (-) TimerEvent: {}
+[21.933837] (microcdr) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr/share/microcdr/cmake/microcdrTargets.cmake\n'}
+[21.993210] (microcdr) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr/share/microcdr/cmake/microcdrTargets-release.cmake\n'}
+[22.004947] (-) TimerEvent: {}
+[22.051602] (microcdr) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr/share/microcdr/cmake/microcdrConfig.cmake\n'}
+[22.099153] (microcdr) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr/share/microcdr/cmake/microcdrConfigVersion.cmake\n'}
+[22.105084] (-) TimerEvent: {}
+[22.139594] (microcdr) CommandEnded: {'returncode': 0}
+[22.205204] (-) TimerEvent: {}
+[22.305765] (-) TimerEvent: {}
+[22.358550] (microcdr) JobEnded: {'identifier': 'microcdr', 'rc': 0}
+[22.378115] (rosidl_typesupport_microxrcedds_c) JobStarted: {'identifier': 'rosidl_typesupport_microxrcedds_c'}
+[22.405920] (-) TimerEvent: {}
+[22.506554] (-) TimerEvent: {}
+[22.607095] (-) TimerEvent: {}
+[22.694093] (rosidl_typesupport_microxrcedds_c) JobProgress: {'identifier': 'rosidl_typesupport_microxrcedds_c', 'progress': 'cmake'}
+[22.702639] (rosidl_typesupport_microxrcedds_c) Command: {'cmd': ['/usr/bin/cmake', '/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/uros/rosidl_typesupport_microxrcedds/rosidl_typesupport_microxrcedds_c', '-DBUILD_TESTING=OFF', '-DBUILD_SHARED_LIBS=ON', '-DBUILD_SHARED_LIBS=ON', '-DCMAKE_INSTALL_PREFIX=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c'], 'cwd': '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/rosidl_typesupport_microxrcedds_c', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alu0101206011'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr/lib:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent/lib:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('HOME', '/home/alu0101206011'), ('OLDPWD', '/mnt/d/prueba/TFG-ROS2'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('UROS_VERBOSE_BUILD', 'off'), ('UROS_FAST_BUILD', 'off'), ('COLCON_PREFIX_PATH', '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alu0101206011'), ('NAME', 'DESKTOP-JKMU7OT'), ('WSL_INTEROP', '/run/WSL/6031_interop'), ('_', '/home/alu0101206011/.local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/alu0101206011/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Anabel Díaz Labrador/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'd2148ba2-cf61-4772-bbd3-5ce1472132e8'), ('DISPLAY', '172.29.64.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('UROS_EXTRA_BUILD_ARGS', ''), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/rosidl_typesupport_microxrcedds_c'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble'), ('WSLENV', 'VSCODE_CLI_REMOTE_ENV/w:ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[22.711162] (-) TimerEvent: {}
+[22.811702] (-) TimerEvent: {}
+[22.912380] (-) TimerEvent: {}
+[23.012936] (-) TimerEvent: {}
+[23.113440] (-) TimerEvent: {}
+[23.213957] (-) TimerEvent: {}
+[23.314538] (-) TimerEvent: {}
+[23.415078] (-) TimerEvent: {}
+[23.515636] (-) TimerEvent: {}
+[23.616236] (-) TimerEvent: {}
+[23.716872] (-) TimerEvent: {}
+[23.817520] (-) TimerEvent: {}
+[23.918137] (-) TimerEvent: {}
+[24.018728] (-) TimerEvent: {}
+[24.119249] (-) TimerEvent: {}
+[24.171797] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[24.219416] (-) TimerEvent: {}
+[24.319944] (-) TimerEvent: {}
+[24.409734] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[24.420133] (-) TimerEvent: {}
+[24.520665] (-) TimerEvent: {}
+[24.621321] (-) TimerEvent: {}
+[24.721900] (-) TimerEvent: {}
+[24.822541] (-) TimerEvent: {}
+[24.923186] (-) TimerEvent: {}
+[25.023755] (-) TimerEvent: {}
+[25.124336] (-) TimerEvent: {}
+[25.224934] (-) TimerEvent: {}
+[25.325559] (-) TimerEvent: {}
+[25.426116] (-) TimerEvent: {}
+[25.526715] (-) TimerEvent: {}
+[25.627204] (-) TimerEvent: {}
+[25.727895] (-) TimerEvent: {}
+[25.828453] (-) TimerEvent: {}
+[25.929203] (-) TimerEvent: {}
+[26.029823] (-) TimerEvent: {}
+[26.130425] (-) TimerEvent: {}
+[26.231053] (-) TimerEvent: {}
+[26.331648] (-) TimerEvent: {}
+[26.432185] (-) TimerEvent: {}
+[26.525180] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[26.532318] (-) TimerEvent: {}
+[26.552326] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[26.553431] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[26.554487] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[26.632452] (-) TimerEvent: {}
+[26.732962] (-) TimerEvent: {}
+[26.805179] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[26.833129] (-) TimerEvent: {}
+[26.933702] (-) TimerEvent: {}
+[27.034252] (-) TimerEvent: {}
+[27.134779] (-) TimerEvent: {}
+[27.235320] (-) TimerEvent: {}
+[27.335870] (-) TimerEvent: {}
+[27.436406] (-) TimerEvent: {}
+[27.536988] (-) TimerEvent: {}
+[27.637568] (-) TimerEvent: {}
+[27.738115] (-) TimerEvent: {}
+[27.838669] (-) TimerEvent: {}
+[27.939199] (-) TimerEvent: {}
+[28.039785] (-) TimerEvent: {}
+[28.140414] (-) TimerEvent: {}
+[28.240974] (-) TimerEvent: {}
+[28.341533] (-) TimerEvent: {}
+[28.442113] (-) TimerEvent: {}
+[28.542685] (-) TimerEvent: {}
+[28.643312] (-) TimerEvent: {}
+[28.743915] (-) TimerEvent: {}
+[28.844446] (-) TimerEvent: {}
+[28.945075] (-) TimerEvent: {}
+[29.045701] (-) TimerEvent: {}
+[29.146337] (-) TimerEvent: {}
+[29.237158] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[29.246497] (-) TimerEvent: {}
+[29.347100] (-) TimerEvent: {}
+[29.447779] (-) TimerEvent: {}
+[29.548326] (-) TimerEvent: {}
+[29.648906] (-) TimerEvent: {}
+[29.749401] (-) TimerEvent: {}
+[29.849867] (-) TimerEvent: {}
+[29.950498] (-) TimerEvent: {}
+[30.051062] (-) TimerEvent: {}
+[30.151612] (-) TimerEvent: {}
+[30.252134] (-) TimerEvent: {}
+[30.352707] (-) TimerEvent: {}
+[30.453291] (-) TimerEvent: {}
+[30.553852] (-) TimerEvent: {}
+[30.654406] (-) TimerEvent: {}
+[30.754991] (-) TimerEvent: {}
+[30.855525] (-) TimerEvent: {}
+[30.956101] (-) TimerEvent: {}
+[31.056606] (-) TimerEvent: {}
+[31.157235] (-) TimerEvent: {}
+[31.257743] (-) TimerEvent: {}
+[31.358330] (-) TimerEvent: {}
+[31.458838] (-) TimerEvent: {}
+[31.559370] (-) TimerEvent: {}
+[31.659878] (-) TimerEvent: {}
+[31.760508] (-) TimerEvent: {}
+[31.861042] (-) TimerEvent: {}
+[31.961734] (-) TimerEvent: {}
+[32.062339] (-) TimerEvent: {}
+[32.162889] (-) TimerEvent: {}
+[32.263362] (-) TimerEvent: {}
+[32.363882] (-) TimerEvent: {}
+[32.464391] (-) TimerEvent: {}
+[32.564919] (-) TimerEvent: {}
+[32.645068] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Found rosidl_runtime_c: 3.1.4 (/opt/ros/humble/share/rosidl_runtime_c/cmake)\n'}
+[32.665095] (-) TimerEvent: {}
+[32.765639] (-) TimerEvent: {}
+[32.866247] (-) TimerEvent: {}
+[32.966812] (-) TimerEvent: {}
+[33.067426] (-) TimerEvent: {}
+[33.168020] (-) TimerEvent: {}
+[33.268514] (-) TimerEvent: {}
+[33.369163] (-) TimerEvent: {}
+[33.469721] (-) TimerEvent: {}
+[33.570356] (-) TimerEvent: {}
+[33.670993] (-) TimerEvent: {}
+[33.771604] (-) TimerEvent: {}
+[33.872079] (-) TimerEvent: {}
+[33.972700] (-) TimerEvent: {}
+[34.073272] (-) TimerEvent: {}
+[34.173843] (-) TimerEvent: {}
+[34.274437] (-) TimerEvent: {}
+[34.375102] (-) TimerEvent: {}
+[34.475575] (-) TimerEvent: {}
+[34.576100] (-) TimerEvent: {}
+[34.676631] (-) TimerEvent: {}
+[34.777191] (-) TimerEvent: {}
+[34.831956] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Configuring done\n'}
+[34.877361] (-) TimerEvent: {}
+[34.977959] (-) TimerEvent: {}
+[35.078733] (-) TimerEvent: {}
+[35.179384] (-) TimerEvent: {}
+[35.279922] (-) TimerEvent: {}
+[35.380622] (-) TimerEvent: {}
+[35.406664] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Generating done\n'}
+[35.480762] (-) TimerEvent: {}
+[35.502699] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/rosidl_typesupport_microxrcedds_c\n'}
+[35.508932] (rosidl_typesupport_microxrcedds_c) CommandEnded: {'returncode': 0}
+[35.516233] (rosidl_typesupport_microxrcedds_c) JobProgress: {'identifier': 'rosidl_typesupport_microxrcedds_c', 'progress': 'build'}
+[35.521377] (rosidl_typesupport_microxrcedds_c) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/rosidl_typesupport_microxrcedds_c', '--', '-j12', '-l12'], 'cwd': '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/rosidl_typesupport_microxrcedds_c', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alu0101206011'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr/lib:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent/lib:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('HOME', '/home/alu0101206011'), ('OLDPWD', '/mnt/d/prueba/TFG-ROS2'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('UROS_VERBOSE_BUILD', 'off'), ('UROS_FAST_BUILD', 'off'), ('COLCON_PREFIX_PATH', '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alu0101206011'), ('NAME', 'DESKTOP-JKMU7OT'), ('WSL_INTEROP', '/run/WSL/6031_interop'), ('_', '/home/alu0101206011/.local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/alu0101206011/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Anabel Díaz Labrador/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'd2148ba2-cf61-4772-bbd3-5ce1472132e8'), ('DISPLAY', '172.29.64.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('UROS_EXTRA_BUILD_ARGS', ''), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/rosidl_typesupport_microxrcedds_c'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble'), ('WSLENV', 'VSCODE_CLI_REMOTE_ENV/w:ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[35.580916] (-) TimerEvent: {}
+[35.681527] (-) TimerEvent: {}
+[35.782089] (-) TimerEvent: {}
+[35.882611] (-) TimerEvent: {}
+[35.983261] (-) TimerEvent: {}
+[36.083821] (-) TimerEvent: {}
+[36.184437] (-) TimerEvent: {}
+[36.285044] (-) TimerEvent: {}
+[36.385622] (-) TimerEvent: {}
+[36.486250] (-) TimerEvent: {}
+[36.586885] (-) TimerEvent: {}
+[36.687493] (-) TimerEvent: {}
+[36.788056] (-) TimerEvent: {}
+[36.888637] (-) TimerEvent: {}
+[36.989174] (-) TimerEvent: {}
+[37.089777] (-) TimerEvent: {}
+[37.190430] (-) TimerEvent: {}
+[37.291024] (-) TimerEvent: {}
+[37.391664] (-) TimerEvent: {}
+[37.455671] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/rosidl_typesupport_microxrcedds_c.dir/src/identifier.c.o\x1b[0m\n'}
+[37.491788] (-) TimerEvent: {}
+[37.592379] (-) TimerEvent: {}
+[37.675494] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_copy_rosidl_typesupport_microxrcedds_c\n'}
+[37.692491] (-) TimerEvent: {}
+[37.793118] (-) TimerEvent: {}
+[37.893813] (-) TimerEvent: {}
+[37.994466] (-) TimerEvent: {}
+[38.030241] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library librosidl_typesupport_microxrcedds_c.so\x1b[0m\n'}
+[38.094601] (-) TimerEvent: {}
+[38.195185] (-) TimerEvent: {}
+[38.295820] (-) TimerEvent: {}
+[38.396402] (-) TimerEvent: {}
+[38.496983] (-) TimerEvent: {}
+[38.597562] (-) TimerEvent: {}
+[38.698161] (-) TimerEvent: {}
+[38.798757] (-) TimerEvent: {}
+[38.899348] (-) TimerEvent: {}
+[38.965010] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'[100%] Built target rosidl_typesupport_microxrcedds_c\n'}
+[38.999480] (-) TimerEvent: {}
+[39.081590] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'running egg_info\n'}
+[39.084080] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'creating rosidl_typesupport_microxrcedds_c.egg-info\n'}
+[39.086640] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'writing rosidl_typesupport_microxrcedds_c.egg-info/PKG-INFO\n'}
+[39.090741] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'writing dependency_links to rosidl_typesupport_microxrcedds_c.egg-info/dependency_links.txt\n'}
+[39.096532] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'writing top-level names to rosidl_typesupport_microxrcedds_c.egg-info/top_level.txt\n'}
+[39.099590] (-) TimerEvent: {}
+[39.100673] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b"writing manifest file 'rosidl_typesupport_microxrcedds_c.egg-info/SOURCES.txt'\n"}
+[39.117739] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b"reading manifest file 'rosidl_typesupport_microxrcedds_c.egg-info/SOURCES.txt'\n"}
+[39.134711] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b"writing manifest file 'rosidl_typesupport_microxrcedds_c.egg-info/SOURCES.txt'\n"}
+[39.199761] (-) TimerEvent: {}
+[39.300325] (-) TimerEvent: {}
+[39.400926] (-) TimerEvent: {}
+[39.501529] (-) TimerEvent: {}
+[39.570113] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_rosidl_typesupport_microxrcedds_c_egg\n'}
+[39.601700] (-) TimerEvent: {}
+[39.702318] (-) TimerEvent: {}
+[39.802935] (-) TimerEvent: {}
+[39.877016] (rosidl_typesupport_microxrcedds_c) CommandEnded: {'returncode': 0}
+[39.903085] (-) TimerEvent: {}
+[40.003669] (-) TimerEvent: {}
+[40.104228] (-) TimerEvent: {}
+[40.204706] (-) TimerEvent: {}
+[40.305234] (-) TimerEvent: {}
+[40.405719] (-) TimerEvent: {}
+[40.506291] (-) TimerEvent: {}
+[40.606894] (-) TimerEvent: {}
+[40.707425] (-) TimerEvent: {}
+[40.807926] (-) TimerEvent: {}
+[40.908413] (-) TimerEvent: {}
+[41.008983] (-) TimerEvent: {}
+[41.109552] (-) TimerEvent: {}
+[41.210083] (-) TimerEvent: {}
+[41.310540] (-) TimerEvent: {}
+[41.357152] (rosidl_typesupport_microxrcedds_c) JobProgress: {'identifier': 'rosidl_typesupport_microxrcedds_c', 'progress': 'install'}
+[41.362905] (rosidl_typesupport_microxrcedds_c) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/rosidl_typesupport_microxrcedds_c'], 'cwd': '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/rosidl_typesupport_microxrcedds_c', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alu0101206011'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr/lib:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent/lib:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('HOME', '/home/alu0101206011'), ('OLDPWD', '/mnt/d/prueba/TFG-ROS2'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('UROS_VERBOSE_BUILD', 'off'), ('UROS_FAST_BUILD', 'off'), ('COLCON_PREFIX_PATH', '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alu0101206011'), ('NAME', 'DESKTOP-JKMU7OT'), ('WSL_INTEROP', '/run/WSL/6031_interop'), ('_', '/home/alu0101206011/.local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/alu0101206011/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Anabel Díaz Labrador/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'd2148ba2-cf61-4772-bbd3-5ce1472132e8'), ('DISPLAY', '172.29.64.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('UROS_EXTRA_BUILD_ARGS', ''), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/rosidl_typesupport_microxrcedds_c'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble'), ('WSLENV', 'VSCODE_CLI_REMOTE_ENV/w:ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[41.410689] (-) TimerEvent: {}
+[41.511196] (-) TimerEvent: {}
+[41.611841] (-) TimerEvent: {}
+[41.616644] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[41.636804] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/pythonpath.sh\n'}
+[41.694565] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/pythonpath.dsv\n'}
+[41.712002] (-) TimerEvent: {}
+[41.744452] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages/rosidl_typesupport_microxrcedds_c-3.0.0-py3.10.egg-info\n'}
+[41.779760] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages/rosidl_typesupport_microxrcedds_c-3.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[41.812148] (-) TimerEvent: {}
+[41.866624] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages/rosidl_typesupport_microxrcedds_c-3.0.0-py3.10.egg-info/PKG-INFO\n'}
+[41.912292] (-) TimerEvent: {}
+[41.941641] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages/rosidl_typesupport_microxrcedds_c-3.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[42.012427] (-) TimerEvent: {}
+[42.012817] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages/rosidl_typesupport_microxrcedds_c-3.0.0-py3.10.egg-info/top_level.txt\n'}
+[42.080860] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages/rosidl_typesupport_microxrcedds_c\n'}
+[42.112559] (-) TimerEvent: {}
+[42.114904] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages/rosidl_typesupport_microxrcedds_c/__init__.py\n'}
+[42.212694] (-) TimerEvent: {}
+[42.313247] (-) TimerEvent: {}
+[42.413791] (-) TimerEvent: {}
+[42.514245] (-) TimerEvent: {}
+[42.525436] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b"Listing '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages/rosidl_typesupport_microxrcedds_c'...\n"}
+[42.526962] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b"Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages/rosidl_typesupport_microxrcedds_c/__init__.py'...\n"}
+[42.540099] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/library_path.sh\n'}
+[42.582028] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/library_path.dsv\n'}
+[42.614380] (-) TimerEvent: {}
+[42.642717] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/ament_index/resource_index/rosidl_typesupport_c/rosidl_typesupport_microxrcedds_c\n'}
+[42.714557] (-) TimerEvent: {}
+[42.725287] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/ament_index/resource_index/package_run_dependencies/rosidl_typesupport_microxrcedds_c\n'}
+[42.808743] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/ament_index/resource_index/parent_prefix_path/rosidl_typesupport_microxrcedds_c\n'}
+[42.814676] (-) TimerEvent: {}
+[42.873562] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/ament_prefix_path.sh\n'}
+[42.914812] (-) TimerEvent: {}
+[42.917276] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/ament_prefix_path.dsv\n'}
+[42.967280] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/path.sh\n'}
+[43.012940] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/path.dsv\n'}
+[43.014912] (-) TimerEvent: {}
+[43.066374] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/local_setup.bash\n'}
+[43.111532] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/local_setup.sh\n'}
+[43.115039] (-) TimerEvent: {}
+[43.159821] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/local_setup.zsh\n'}
+[43.207314] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/local_setup.dsv\n'}
+[43.215146] (-) TimerEvent: {}
+[43.258643] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/package.dsv\n'}
+[43.315280] (-) TimerEvent: {}
+[43.322436] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/ament_index/resource_index/packages/rosidl_typesupport_microxrcedds_c\n'}
+[43.400334] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_cExport.cmake\n'}
+[43.415395] (-) TimerEvent: {}
+[43.465266] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_cExport-noconfig.cmake\n'}
+[43.515526] (-) TimerEvent: {}
+[43.521972] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_c-extras.cmake\n'}
+[43.568440] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[43.615665] (-) TimerEvent: {}
+[43.616785] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[43.667286] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[43.714919] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[43.715879] (-) TimerEvent: {}
+[43.763887] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_cConfig.cmake\n'}
+[43.808092] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_cConfig-version.cmake\n'}
+[43.815996] (-) TimerEvent: {}
+[43.862059] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/package.xml\n'}
+[43.916132] (-) TimerEvent: {}
+[43.926712] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/lib/rosidl_typesupport_microxrcedds_c/rosidl_typesupport_microxrcedds_c\n'}
+[43.990512] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake\n'}
+[44.016308] (-) TimerEvent: {}
+[44.019280] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_c_generate_interfaces.cmake\n'}
+[44.096045] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource\n'}
+[44.116477] (-) TimerEvent: {}
+[44.130069] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/idl__rosidl_typesupport_microxrcedds_c.h.em\n'}
+[44.199420] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/idl__type_support_c.c.em\n'}
+[44.216624] (-) TimerEvent: {}
+[44.266263] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/msg__rosidl_typesupport_microxrcedds_c.h.em\n'}
+[44.316764] (-) TimerEvent: {}
+[44.331982] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/msg__type_support_c.c.em\n'}
+[44.395904] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/rosidl_typesupport_microxrcedds_c__visibility_control.h.in\n'}
+[44.416906] (-) TimerEvent: {}
+[44.459790] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/srv__rosidl_typesupport_microxrcedds_c.h.em\n'}
+[44.517023] (-) TimerEvent: {}
+[44.519639] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/srv__type_support_c.c.em\n'}
+[44.574050] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/include\n'}
+[44.591204] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/include/rosidl_typesupport_microxrcedds_c\n'}
+[44.617173] (-) TimerEvent: {}
+[44.620029] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/include/rosidl_typesupport_microxrcedds_c/identifier.h\n'}
+[44.679286] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/include/rosidl_typesupport_microxrcedds_c/message_type_support.h\n'}
+[44.717305] (-) TimerEvent: {}
+[44.736839] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/include/rosidl_typesupport_microxrcedds_c/service_type_support.h\n'}
+[44.793856] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/include/rosidl_typesupport_microxrcedds_c/visibility_control.h\n'}
+[44.817480] (-) TimerEvent: {}
+[44.845708] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/lib/librosidl_typesupport_microxrcedds_c.so\n'}
+[44.907178] (rosidl_typesupport_microxrcedds_c) StdoutLine: {'line': b'-- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/lib/librosidl_typesupport_microxrcedds_c.so" to ""\n'}
+[44.912393] (rosidl_typesupport_microxrcedds_c) CommandEnded: {'returncode': 0}
+[44.918822] (-) TimerEvent: {}
+[45.019532] (-) TimerEvent: {}
+[45.120061] (-) TimerEvent: {}
+[45.220598] (-) TimerEvent: {}
+[45.321141] (-) TimerEvent: {}
+[45.421775] (-) TimerEvent: {}
+[45.522352] (-) TimerEvent: {}
+[45.622860] (-) TimerEvent: {}
+[45.723375] (-) TimerEvent: {}
+[45.823970] (-) TimerEvent: {}
+[45.924497] (-) TimerEvent: {}
+[46.025035] (-) TimerEvent: {}
+[46.125518] (-) TimerEvent: {}
+[46.226164] (-) TimerEvent: {}
+[46.326884] (-) TimerEvent: {}
+[46.427547] (-) TimerEvent: {}
+[46.528178] (-) TimerEvent: {}
+[46.628742] (-) TimerEvent: {}
+[46.729330] (-) TimerEvent: {}
+[46.829876] (-) TimerEvent: {}
+[46.930483] (-) TimerEvent: {}
+[47.034400] (-) TimerEvent: {}
+[47.135050] (-) TimerEvent: {}
+[47.135633] (rosidl_typesupport_microxrcedds_c) JobEnded: {'identifier': 'rosidl_typesupport_microxrcedds_c', 'rc': 0}
+[47.144227] (-) EventReactorShutdown: {}

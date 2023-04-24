@@ -1,0 +1,1185 @@
+[1.648s] Invoking command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/sensor_msgs': AMENT_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/common_interfaces/sensor_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs
+[5.571s] -- The C compiler identification is GNU 11.3.0
+[8.303s] -- The CXX compiler identification is GNU 11.3.0
+[8.838s] -- Detecting C compiler ABI info
+[15.345s] -- Detecting C compiler ABI info - done
+[15.398s] -- Check for working C compiler: /usr/bin/cc - skipped
+[15.400s] -- Detecting C compile features
+[15.403s] -- Detecting C compile features - done
+[15.529s] -- Detecting CXX compiler ABI info
+[22.377s] -- Detecting CXX compiler ABI info - done
+[22.429s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[22.432s] -- Detecting CXX compile features
+[22.434s] -- Detecting CXX compile features - done
+[23.297s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[32.573s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[40.207s] -- Found builtin_interfaces: 1.2.1 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[45.094s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[45.950s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[47.289s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[48.452s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[50.311s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[51.673s] -- Found geometry_msgs: 4.2.3 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/share/geometry_msgs/cmake)
+[54.094s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[71.789s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[96.844s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[107.507s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[109.479s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[110.456s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[112.810s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[112.813s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[112.815s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[112.818s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[114.543s] -- Found PythonExtra: .so  
+[121.650s] -- Configuring done
+[146.275s] -- Generating done
+[148.508s] -- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/sensor_msgs
+[148.525s] Invoked command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/sensor_msgs' returned '0': AMENT_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/common_interfaces/sensor_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs
+[148.595s] Invoking command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/sensor_msgs': AMENT_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/sensor_msgs -- -j12 -l12
+[160.639s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[263.314s] [  0%] Built target sensor_msgs__cpp
+[267.784s] [  0%] Built target ament_cmake_python_copy_sensor_msgs
+[269.831s] [  0%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[323.008s] [  0%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/battery_state__type_support.cpp.o[0m
+[331.391s] [  0%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/image__type_support.cpp.o[0m
+[339.391s] [  1%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/imu__type_support.cpp.o[0m
+[340.563s] [  1%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/joint_state__type_support.cpp.o[0m
+[342.333s] [  1%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/illuminance__type_support.cpp.o[0m
+[343.665s] [  2%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/fluid_pressure__type_support.cpp.o[0m
+[344.722s] [  2%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/compressed_image__type_support.cpp.o[0m
+[345.367s] [  2%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/channel_float32__type_support.cpp.o[0m
+[353.830s] [  3%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/laser_scan__type_support.cpp.o[0m
+[361.441s] [  3%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/magnetic_field__type_support.cpp.o[0m
+[366.009s] [  3%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.cpp.o[0m
+[366.786s] [  3%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/laser_echo__type_support.cpp.o[0m
+[368.560s] [  3%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/joy_feedback_array__type_support.cpp.o[0m
+[369.149s] [  4%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/joy_feedback__type_support.cpp.o[0m
+[369.317s] [  4%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/joy__type_support.cpp.o[0m
+[369.713s] [  5%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/camera_info__type_support.cpp.o[0m
+[369.999s] [  6%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.cpp.o[0m
+[374.411s] [  6%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/nav_sat_fix__type_support.cpp.o[0m
+[375.353s] [  6%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/nav_sat_status__type_support.cpp.o[0m
+[380.517s] [  7%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/region_of_interest__type_support.cpp.o[0m
+[381.766s] [  7%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/range__type_support.cpp.o[0m
+[382.202s] [  7%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/point_field__type_support.cpp.o[0m
+[382.922s] [  7%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/relative_humidity__type_support.cpp.o[0m
+[383.796s] [  7%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/temperature__type_support.cpp.o[0m
+[385.270s] [  7%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/point_cloud2__type_support.cpp.o[0m
+[392.964s] [  7%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/srv/detail/set_camera_info__type_support.cpp.o[0m
+[400.354s] [  8%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/point_cloud__type_support.cpp.o[0m
+[400.792s] [  9%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/time_reference__type_support.cpp.o[0m
+[408.656s] [  9%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[413.902s] [  9%] Built target sensor_msgs__rosidl_typesupport_introspection_cpp
+[415.893s] [  9%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[416.264s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[422.120s] running egg_info
+[422.123s] creating sensor_msgs.egg-info
+[422.129s] writing sensor_msgs.egg-info/PKG-INFO
+[422.140s] writing dependency_links to sensor_msgs.egg-info/dependency_links.txt
+[422.157s] writing top-level names to sensor_msgs.egg-info/top_level.txt
+[422.169s] writing manifest file 'sensor_msgs.egg-info/SOURCES.txt'
+[422.216s] reading manifest file 'sensor_msgs.egg-info/SOURCES.txt'
+[422.278s] writing manifest file 'sensor_msgs.egg-info/SOURCES.txt'
+[423.830s] [  9%] Built target ament_cmake_python_build_sensor_msgs_egg
+[426.114s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[426.208s] [  9%] [34m[1mGenerating C code for ROS interfaces[0m
+[468.445s] [  9%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/battery_state__type_support.cpp.o[0m
+[474.567s] [  9%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/compressed_image__type_support.cpp.o[0m
+[477.112s] [  9%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/battery_state__type_support.cpp.o[0m
+[480.579s] [  9%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/joy__type_support.cpp.o[0m
+[481.022s] [  9%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/joint_state__type_support.cpp.o[0m
+[481.242s] [  9%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/joy_feedback__type_support.cpp.o[0m
+[482.852s] [ 10%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/imu__type_support.cpp.o[0m
+[483.547s] [ 10%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/image__type_support.cpp.o[0m
+[484.959s] [ 10%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/illuminance__type_support.cpp.o[0m
+[486.433s] [ 11%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/camera_info__type_support.cpp.o[0m
+[491.216s] [ 11%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/battery_state__type_support_cpp.cpp.o[0m
+[491.423s] [ 11%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/laser_scan__type_support.cpp.o[0m
+[494.481s] [ 11%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/channel_float32__type_support.cpp.o[0m
+[496.337s] [ 12%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/magnetic_field__type_support.cpp.o[0m
+[496.523s] [ 12%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/channel_float32__type_support_cpp.cpp.o[0m
+[499.050s] [ 12%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/laser_echo__type_support.cpp.o[0m
+[499.261s] [ 13%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/camera_info__type_support_cpp.cpp.o[0m
+[505.172s] [ 13%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/compressed_image__type_support.cpp.o[0m
+[506.497s] [ 13%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/multi_dof_joint_state__type_support.cpp.o[0m
+[512.212s] [ 13%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/compressed_image__type_support_cpp.cpp.o[0m
+[514.447s] [ 13%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/multi_echo_laser_scan__type_support.cpp.o[0m
+[514.590s] [ 13%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/image__type_support.cpp.o[0m
+[515.934s] [ 13%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/illuminance__type_support.cpp.o[0m
+[517.680s] [ 14%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/nav_sat_fix__type_support.cpp.o[0m
+[518.555s] [ 15%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/imu__type_support.cpp.o[0m
+[520.750s] [ 16%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/joy_feedback_array__type_support.cpp.o[0m
+[526.060s] [ 17%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/fluid_pressure__type_support.cpp.o[0m
+[526.292s] [ 17%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/point_cloud__type_support.cpp.o[0m
+[526.295s] [ 17%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/illuminance__type_support_cpp.cpp.o[0m
+[526.531s] [ 18%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/fluid_pressure__type_support_cpp.cpp.o[0m
+[527.230s] [ 18%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/joint_state__type_support.cpp.o[0m
+[529.073s] [ 19%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/point_cloud2__type_support.cpp.o[0m
+[529.938s] [ 19%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/nav_sat_status__type_support.cpp.o[0m
+[535.806s] [ 19%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/joy__type_support.cpp.o[0m
+[537.639s] [ 20%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/region_of_interest__type_support.cpp.o[0m
+[538.697s] [ 20%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/image__type_support_cpp.cpp.o[0m
+[541.146s] [ 20%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/temperature__type_support.cpp.o[0m
+[541.297s] [ 21%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/joy_feedback__type_support.cpp.o[0m
+[542.428s] [ 21%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/relative_humidity__type_support.cpp.o[0m
+[542.776s] [ 21%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/range__type_support.cpp.o[0m
+[544.102s] [ 21%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/point_field__type_support.cpp.o[0m
+[545.630s] [ 22%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/fluid_pressure__type_support.cpp.o[0m
+[550.131s] [ 22%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/laser_echo__type_support.cpp.o[0m
+[553.398s] [ 23%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/imu__type_support_cpp.cpp.o[0m
+[554.084s] [ 23%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/srv/set_camera_info__type_support.cpp.o[0m
+[556.305s] [ 23%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/multi_dof_joint_state__type_support.cpp.o[0m
+[556.787s] [ 23%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/joint_state__type_support_cpp.cpp.o[0m
+[558.899s] [ 23%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/magnetic_field__type_support.cpp.o[0m
+[561.353s] [ 23%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/multi_echo_laser_scan__type_support.cpp.o[0m
+[561.943s] [ 23%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/channel_float32__type_support.cpp.o[0m
+[562.097s] [ 24%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/time_reference__type_support.cpp.o[0m
+[563.067s] [ 25%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/laser_scan__type_support.cpp.o[0m
+[564.163s] [ 26%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/nav_sat_fix__type_support.cpp.o[0m
+[565.756s] [ 26%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/joy_feedback_array__type_support.cpp.o[0m
+[566.324s] [ 26%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/nav_sat_status__type_support.cpp.o[0m
+[569.841s] [ 27%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/camera_info__type_support.cpp.o[0m
+[569.889s] [ 27%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/joy__type_support_cpp.cpp.o[0m
+[574.633s] [ 27%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/relative_humidity__type_support.cpp.o[0m
+[578.823s] [ 27%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_cpp.so[0m
+[582.833s] [ 28%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/joy_feedback__type_support_cpp.cpp.o[0m
+[584.538s] [ 28%] Built target sensor_msgs__rosidl_typesupport_cpp
+[585.059s] [ 28%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/srv/detail/dds_fastrtps/set_camera_info__type_support.cpp.o[0m
+[587.035s] [ 28%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/laser_echo__type_support_cpp.cpp.o[0m
+[588.276s] [ 28%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/joy_feedback_array__type_support_cpp.cpp.o[0m
+[594.195s] [ 29%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/laser_scan__type_support_cpp.cpp.o[0m
+[595.789s] [ 29%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/magnetic_field__type_support_cpp.cpp.o[0m
+[595.970s] [ 30%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/time_reference__type_support.cpp.o[0m
+[596.305s] [ 30%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/temperature__type_support.cpp.o[0m
+[597.841s] [ 30%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/multi_dof_joint_state__type_support_cpp.cpp.o[0m
+[598.447s] [ 31%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/multi_echo_laser_scan__type_support_cpp.cpp.o[0m
+[606.606s] [ 32%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/region_of_interest__type_support.cpp.o[0m
+[607.457s] [ 33%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/point_cloud__type_support_cpp.cpp.o[0m
+[607.543s] [ 33%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/nav_sat_status__type_support_cpp.cpp.o[0m
+[608.845s] [ 33%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/point_cloud2__type_support_cpp.cpp.o[0m
+[609.280s] [ 34%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/battery_state__functions.c.o[0m
+[609.432s] [ 34%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/nav_sat_fix__type_support_cpp.cpp.o[0m
+[611.972s] [ 34%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/point_field__type_support_cpp.cpp.o[0m
+[612.209s] [ 34%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/camera_info__functions.c.o[0m
+[616.017s] [ 34%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/channel_float32__functions.c.o[0m
+[618.641s] [ 34%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/range__type_support.cpp.o[0m
+[621.408s] [ 34%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/illuminance__functions.c.o[0m
+[621.712s] [ 35%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/range__type_support_cpp.cpp.o[0m
+[622.059s] [ 35%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/region_of_interest__type_support_cpp.cpp.o[0m
+[622.482s] [ 36%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/image__functions.c.o[0m
+[624.515s] [ 36%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/fluid_pressure__functions.c.o[0m
+[625.990s] [ 36%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/relative_humidity__type_support_cpp.cpp.o[0m
+[626.918s] [ 37%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/temperature__type_support_cpp.cpp.o[0m
+[627.020s] [ 37%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/imu__functions.c.o[0m
+[628.244s] [ 38%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/compressed_image__functions.c.o[0m
+[628.308s] [ 38%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joint_state__functions.c.o[0m
+[629.294s] [ 39%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy__functions.c.o[0m
+[629.304s] [ 39%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/point_field__type_support.cpp.o[0m
+[629.672s] [ 40%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/point_cloud2__type_support.cpp.o[0m
+[630.852s] [ 40%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/time_reference__type_support_cpp.cpp.o[0m
+[634.326s] [ 40%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/laser_scan__functions.c.o[0m
+[636.741s] [ 40%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/magnetic_field__functions.c.o[0m
+[636.784s] [ 41%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/laser_echo__functions.c.o[0m
+[637.252s] [ 41%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/srv/detail/microxrcedds/set_camera_info__type_support_cpp.cpp.o[0m
+[637.710s] [ 41%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/nav_sat_fix__functions.c.o[0m
+[637.984s] [ 41%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/point_cloud__type_support.cpp.o[0m
+[638.746s] [ 42%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/nav_sat_status__functions.c.o[0m
+[639.469s] [ 42%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/multi_echo_laser_scan__functions.c.o[0m
+[640.180s] [ 42%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_cloud__functions.c.o[0m
+[640.948s] [ 43%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/multi_dof_joint_state__functions.c.o[0m
+[641.096s] [ 43%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy_feedback_array__functions.c.o[0m
+[642.749s] [ 43%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/range__functions.c.o[0m
+[642.787s] [ 43%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/region_of_interest__functions.c.o[0m
+[644.798s] [ 43%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/temperature__functions.c.o[0m
+[645.204s] [ 43%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/time_reference__functions.c.o[0m
+[646.390s] [ 44%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[646.395s] [ 44%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/srv/detail/set_camera_info__functions.c.o[0m
+[647.223s] [ 45%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/relative_humidity__functions.c.o[0m
+[649.163s] [ 46%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_field__functions.c.o[0m
+[649.526s] [ 46%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_cloud2__functions.c.o[0m
+[650.146s] [ 47%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_microxrcedds_cpp.so[0m
+[650.656s] [ 47%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy_feedback__functions.c.o[0m
+[653.130s] [ 47%] Built target sensor_msgs__rosidl_typesupport_fastrtps_cpp
+[654.200s] [ 47%] [32m[1mLinking C shared library libsensor_msgs__rosidl_generator_c.so[0m
+[656.127s] [ 47%] Built target sensor_msgs__rosidl_typesupport_microxrcedds_cpp
+[657.079s] [ 47%] Built target sensor_msgs__rosidl_generator_c
+[658.480s] [ 48%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[658.634s] [ 49%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[658.950s] [ 50%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[689.820s] [ 50%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/battery_state__type_support.c.o[0m
+[689.883s] [ 50%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/camera_info__type_support.c.o[0m
+[690.158s] [ 50%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/compressed_image__type_support.c.o[0m
+[691.433s] [ 50%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/image__type_support.c.o[0m
+[692.952s] [ 51%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/joint_state__type_support.c.o[0m
+[693.469s] [ 51%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/battery_state__type_support_c.cpp.o[0m
+[693.770s] [ 51%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/imu__type_support.c.o[0m
+[693.951s] [ 52%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/camera_info__type_support_c.cpp.o[0m
+[693.956s] [ 52%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/illuminance__type_support.c.o[0m
+[694.106s] [ 52%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/fluid_pressure__type_support.c.o[0m
+[695.321s] [ 53%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/channel_float32__type_support_c.cpp.o[0m
+[695.608s] [ 54%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/channel_float32__type_support.c.o[0m
+[696.982s] [ 54%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/battery_state__type_support_c.c.o[0m
+[697.967s] [ 55%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/illuminance__type_support_c.cpp.o[0m
+[698.555s] [ 55%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/camera_info__type_support_c.c.o[0m
+[698.729s] [ 55%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/joy__type_support.c.o[0m
+[701.296s] [ 55%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/image__type_support_c.cpp.o[0m
+[701.919s] [ 55%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/joy_feedback__type_support.c.o[0m
+[702.096s] [ 55%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/fluid_pressure__type_support_c.cpp.o[0m
+[702.216s] [ 56%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/channel_float32__type_support_c.c.o[0m
+[702.227s] [ 56%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/compressed_image__type_support_c.c.o[0m
+[702.293s] [ 56%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/compressed_image__type_support_c.cpp.o[0m
+[702.357s] [ 56%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/fluid_pressure__type_support_c.c.o[0m
+[702.909s] [ 56%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/imu__type_support_c.cpp.o[0m
+[703.868s] [ 57%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/joint_state__type_support_c.cpp.o[0m
+[705.637s] [ 57%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/joy__type_support_c.cpp.o[0m
+[705.807s] [ 58%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/illuminance__type_support_c.c.o[0m
+[706.090s] [ 59%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/joy_feedback_array__type_support.c.o[0m
+[709.954s] [ 60%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/nav_sat_fix__type_support.c.o[0m
+[710.990s] [ 60%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/nav_sat_status__type_support.c.o[0m
+[711.303s] [ 60%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/image__type_support_c.c.o[0m
+[711.431s] [ 60%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/joy_feedback__type_support_c.cpp.o[0m
+[711.617s] [ 61%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/joy_feedback_array__type_support_c.cpp.o[0m
+[712.212s] [ 61%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.c.o[0m
+[712.289s] [ 61%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.c.o[0m
+[713.196s] [ 61%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/imu__type_support_c.c.o[0m
+[713.484s] [ 62%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/magnetic_field__type_support.c.o[0m
+[713.549s] [ 62%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/laser_scan__type_support.c.o[0m
+[713.676s] [ 62%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/laser_echo__type_support.c.o[0m
+[715.238s] [ 63%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/joint_state__type_support_c.c.o[0m
+[715.423s] [ 63%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/joy__type_support_c.c.o[0m
+[717.454s] [ 63%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/joy_feedback__type_support_c.c.o[0m
+[717.531s] [ 63%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/laser_echo__type_support_c.cpp.o[0m
+[717.855s] [ 63%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/laser_scan__type_support_c.cpp.o[0m
+[718.569s] [ 64%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/multi_dof_joint_state__type_support_c.cpp.o[0m
+[718.637s] [ 64%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/magnetic_field__type_support_c.cpp.o[0m
+[718.685s] [ 64%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/point_cloud__type_support.c.o[0m
+[718.730s] [ 64%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support_c.cpp.o[0m
+[720.470s] [ 64%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/nav_sat_fix__type_support_c.cpp.o[0m
+[721.868s] [ 65%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/nav_sat_status__type_support_c.cpp.o[0m
+[723.701s] [ 66%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/joy_feedback_array__type_support_c.c.o[0m
+[724.666s] [ 66%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/point_cloud2__type_support.c.o[0m
+[726.400s] [ 66%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/laser_echo__type_support_c.c.o[0m
+[726.873s] [ 66%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/point_cloud2__type_support_c.cpp.o[0m
+[726.888s] [ 66%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/laser_scan__type_support_c.c.o[0m
+[727.362s] [ 66%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/region_of_interest__type_support.c.o[0m
+[727.864s] [ 66%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/point_cloud__type_support_c.cpp.o[0m
+[728.358s] [ 66%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/range__type_support.c.o[0m
+[728.683s] [ 67%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/magnetic_field__type_support_c.c.o[0m
+[728.937s] [ 68%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/point_field__type_support.c.o[0m
+[729.598s] [ 69%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/point_field__type_support_c.cpp.o[0m
+[730.041s] [ 69%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/multi_dof_joint_state__type_support_c.c.o[0m
+[733.082s] [ 69%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/time_reference__type_support.c.o[0m
+[735.594s] [ 69%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/point_cloud__type_support_c.c.o[0m
+[735.947s] [ 70%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/point_cloud2__type_support_c.c.o[0m
+[736.035s] [ 70%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/region_of_interest__type_support_c.cpp.o[0m
+[736.077s] [ 70%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/range__type_support_c.cpp.o[0m
+[736.107s] [ 70%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/nav_sat_status__type_support_c.c.o[0m
+[736.633s] [ 70%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/multi_echo_laser_scan__type_support_c.c.o[0m
+[736.671s] [ 71%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/nav_sat_fix__type_support_c.c.o[0m
+[738.328s] [ 71%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/temperature__type_support.c.o[0m
+[738.351s] [ 71%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/point_field__type_support_c.c.o[0m
+[738.504s] [ 72%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/srv/detail/set_camera_info__type_support.c.o[0m
+[738.690s] [ 73%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/relative_humidity__type_support.c.o[0m
+[741.220s] [ 73%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/range__type_support_c.c.o[0m
+[741.398s] [ 74%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/region_of_interest__type_support_c.c.o[0m
+[741.595s] [ 75%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/relative_humidity__type_support_c.cpp.o[0m
+[741.653s] [ 75%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/relative_humidity__type_support_c.c.o[0m
+[741.764s] [ 75%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/temperature__type_support_c.cpp.o[0m
+[742.660s] [ 75%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/temperature__type_support_c.c.o[0m
+[742.988s] [ 75%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/time_reference__type_support_c.cpp.o[0m
+[743.254s] [ 75%] [32m[1mLinking C shared library libsensor_msgs__rosidl_typesupport_introspection_c.so[0m
+[743.739s] [ 76%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/srv/detail/microxrcedds/set_camera_info__type_support_c.c.o[0m
+[744.119s] [ 77%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/srv/detail/set_camera_info__type_support_c.cpp.o[0m
+[744.857s] [ 77%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/time_reference__type_support_c.c.o[0m
+[748.904s] [ 77%] Built target sensor_msgs__rosidl_typesupport_introspection_c
+[749.801s] [ 77%] [32m[1mLinking C shared library libsensor_msgs__rosidl_typesupport_microxrcedds_c.so[0m
+[750.446s] [ 78%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[751.169s] [ 78%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[754.069s] [ 78%] Built target sensor_msgs__rosidl_typesupport_microxrcedds_c
+[754.734s] [ 78%] Built target sensor_msgs__rosidl_typesupport_fastrtps_c
+[762.391s] [ 78%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/camera_info__type_support.cpp.o[0m
+[762.458s] [ 78%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/battery_state__type_support.cpp.o[0m
+[762.481s] [ 79%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/channel_float32__type_support.cpp.o[0m
+[762.526s] [ 79%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/compressed_image__type_support.cpp.o[0m
+[762.538s] [ 79%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/fluid_pressure__type_support.cpp.o[0m
+[762.569s] [ 80%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/image__type_support.cpp.o[0m
+[762.576s] [ 80%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/illuminance__type_support.cpp.o[0m
+[762.677s] [ 80%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/imu__type_support.cpp.o[0m
+[762.772s] [ 80%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/joint_state__type_support.cpp.o[0m
+[763.501s] [ 80%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/joy_feedback_array__type_support.cpp.o[0m
+[763.584s] [ 80%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/joy_feedback__type_support.cpp.o[0m
+[763.713s] [ 81%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/joy__type_support.cpp.o[0m
+[765.456s] [ 82%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/laser_echo__type_support.cpp.o[0m
+[765.472s] [ 82%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/magnetic_field__type_support.cpp.o[0m
+[765.631s] [ 82%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/laser_scan__type_support.cpp.o[0m
+[765.703s] [ 83%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/multi_dof_joint_state__type_support.cpp.o[0m
+[765.818s] [ 83%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/multi_echo_laser_scan__type_support.cpp.o[0m
+[765.848s] [ 83%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/nav_sat_fix__type_support.cpp.o[0m
+[765.889s] [ 84%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/nav_sat_status__type_support.cpp.o[0m
+[766.123s] [ 84%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/point_cloud__type_support.cpp.o[0m
+[766.601s] [ 84%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/point_cloud2__type_support.cpp.o[0m
+[766.828s] [ 85%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/point_field__type_support.cpp.o[0m
+[767.139s] [ 85%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/range__type_support.cpp.o[0m
+[768.072s] [ 85%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/region_of_interest__type_support.cpp.o[0m
+[768.817s] [ 86%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/relative_humidity__type_support.cpp.o[0m
+[768.948s] [ 86%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/temperature__type_support.cpp.o[0m
+[768.966s] [ 86%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/time_reference__type_support.cpp.o[0m
+[769.066s] [ 87%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/srv/set_camera_info__type_support.cpp.o[0m
+[771.694s] [ 87%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_c.so[0m
+[774.524s] [ 87%] Built target sensor_msgs__rosidl_typesupport_c
+[776.862s] [ 87%] Built target sensor_msgs
+[779.195s] [ 87%] [34m[1mGenerating Python code for ROS interfaces[0m
+[801.755s] [ 87%] Built target sensor_msgs__py
+[804.477s] [ 87%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_battery_state_s.c.o[0m
+[804.522s] [ 88%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_camera_info_s.c.o[0m
+[804.535s] [ 88%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_compressed_image_s.c.o[0m
+[804.537s] [ 88%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_channel_float32_s.c.o[0m
+[804.583s] [ 88%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_fluid_pressure_s.c.o[0m
+[804.609s] [ 89%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_illuminance_s.c.o[0m
+[804.623s] [ 89%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_image_s.c.o[0m
+[804.725s] [ 89%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_imu_s.c.o[0m
+[804.744s] [ 89%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_joy_s.c.o[0m
+[804.788s] [ 90%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_joint_state_s.c.o[0m
+[804.810s] [ 90%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_joy_feedback_s.c.o[0m
+[804.907s] [ 91%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_joy_feedback_array_s.c.o[0m
+[809.058s] [ 91%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_laser_echo_s.c.o[0m
+[809.194s] [ 91%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_laser_scan_s.c.o[0m
+[809.241s] [ 92%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_magnetic_field_s.c.o[0m
+[809.321s] [ 92%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_multi_dof_joint_state_s.c.o[0m
+[809.364s] [ 92%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_multi_echo_laser_scan_s.c.o[0m
+[809.670s] [ 93%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_nav_sat_fix_s.c.o[0m
+[809.729s] [ 93%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_nav_sat_status_s.c.o[0m
+[809.816s] [ 93%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_point_cloud_s.c.o[0m
+[809.932s] [ 94%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_point_cloud2_s.c.o[0m
+[809.984s] [ 94%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_point_field_s.c.o[0m
+[809.987s] [ 94%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_range_s.c.o[0m
+[810.521s] [ 95%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_region_of_interest_s.c.o[0m
+[814.863s] [ 95%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_relative_humidity_s.c.o[0m
+[814.925s] [ 95%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_temperature_s.c.o[0m
+[814.984s] [ 96%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_time_reference_s.c.o[0m
+[815.085s] [ 96%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/srv/_set_camera_info_s.c.o[0m
+[818.941s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/sensor_msgs/libsensor_msgs__rosidl_generator_py.so[0m
+[822.182s] [ 96%] Built target sensor_msgs__rosidl_generator_py
+[824.573s] [ 96%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[824.610s] [ 96%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[824.635s] [ 96%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[824.773s] [ 96%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c__pyext.dir/rosidl_generator_py/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[829.272s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/sensor_msgs/sensor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[829.448s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/sensor_msgs/sensor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[830.070s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/sensor_msgs/sensor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[833.418s] [ 99%] Built target sensor_msgs__rosidl_typesupport_c__pyext
+[833.812s] [100%] [32m[1mLinking C shared library rosidl_generator_py/sensor_msgs/sensor_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so[0m
+[833.964s] [100%] Built target sensor_msgs__rosidl_typesupport_fastrtps_c__pyext
+[834.500s] [100%] Built target sensor_msgs__rosidl_typesupport_introspection_c__pyext
+[837.300s] [100%] Built target sensor_msgs__rosidl_typesupport_microxrcedds_c__pyext
+[838.424s] Invoked command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/sensor_msgs' returned '0': AMENT_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/sensor_msgs -- -j12 -l12
+[935.742s] Invoking command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/sensor_msgs': AMENT_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/sensor_msgs
+[936.314s] -- Install configuration: ""
+[936.342s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/ament_index/resource_index/rosidl_interfaces/sensor_msgs
+[936.405s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[936.424s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg
+[936.450s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/battery_state.h
+[936.524s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/camera_info.h
+[936.593s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/channel_float32.h
+[936.665s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/compressed_image.h
+[936.729s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail
+[936.764s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__functions.c
+[936.844s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__functions.h
+[936.923s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__struct.h
+[936.998s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__type_support.h
+[937.072s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__functions.c
+[937.145s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__functions.h
+[937.214s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__struct.h
+[937.288s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__type_support.h
+[937.361s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__functions.c
+[937.442s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__functions.h
+[937.523s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__struct.h
+[937.602s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__type_support.h
+[937.678s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__functions.c
+[937.754s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__functions.h
+[937.831s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.h
+[937.906s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.h
+[937.979s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__functions.c
+[938.050s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__functions.h
+[938.128s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__struct.h
+[938.199s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__type_support.h
+[938.269s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__functions.c
+[938.341s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__functions.h
+[938.410s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__struct.h
+[938.480s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__type_support.h
+[938.554s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__functions.c
+[938.629s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__functions.h
+[938.709s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.h
+[938.794s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.h
+[938.882s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__functions.c
+[938.960s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__functions.h
+[939.036s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.h
+[939.112s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__type_support.h
+[939.192s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__functions.c
+[939.270s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__functions.h
+[939.344s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.h
+[939.414s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.h
+[939.488s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__functions.c
+[939.559s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__functions.h
+[939.633s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__struct.h
+[939.714s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__type_support.h
+[939.797s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__functions.c
+[939.877s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__functions.h
+[939.957s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__struct.h
+[940.038s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__type_support.h
+[940.109s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__functions.c
+[940.184s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__functions.h
+[940.264s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__struct.h
+[940.344s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__type_support.h
+[940.419s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__functions.c
+[940.495s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__functions.h
+[940.570s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__struct.h
+[940.642s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__type_support.h
+[940.717s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__functions.c
+[940.788s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__functions.h
+[940.863s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__struct.h
+[940.946s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__type_support.h
+[941.030s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__functions.c
+[941.117s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__functions.h
+[941.197s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__struct.h
+[941.278s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__type_support.h
+[941.354s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__functions.c
+[941.430s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__functions.h
+[941.507s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__struct.h
+[941.575s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.h
+[941.649s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__functions.c
+[941.722s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__functions.h
+[941.794s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__struct.h
+[941.867s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.h
+[941.948s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__functions.c
+[942.032s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__functions.h
+[942.112s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__struct.h
+[942.191s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__type_support.h
+[942.271s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__functions.c
+[942.348s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__functions.h
+[942.426s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__struct.h
+[942.500s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__type_support.h
+[942.576s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__functions.c
+[942.651s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__functions.h
+[942.728s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.h
+[942.801s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__type_support.h
+[942.873s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__functions.c
+[942.951s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__functions.h
+[943.026s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__struct.h
+[943.098s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__type_support.h
+[943.178s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__functions.c
+[943.261s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__functions.h
+[943.342s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__struct.h
+[943.423s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__type_support.h
+[943.499s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__functions.c
+[943.572s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__functions.h
+[943.645s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__struct.h
+[943.718s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__type_support.h
+[943.796s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__functions.c
+[943.866s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__functions.h
+[943.937s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__struct.h
+[944.011s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__type_support.h
+[944.072s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__functions.c
+[944.129s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__functions.h
+[944.193s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__struct.h
+[944.261s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__type_support.h
+[944.327s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__functions.c
+[944.390s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__functions.h
+[944.457s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__struct.h
+[944.514s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__type_support.h
+[944.577s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__functions.c
+[944.637s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__functions.h
+[944.695s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__struct.h
+[944.758s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__type_support.h
+[944.814s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/fluid_pressure.h
+[944.866s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/illuminance.h
+[944.918s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/image.h
+[944.969s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/imu.h
+[945.017s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joint_state.h
+[945.068s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy.h
+[945.113s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy_feedback.h
+[945.162s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy_feedback_array.h
+[945.212s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/laser_echo.h
+[945.266s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/laser_scan.h
+[945.316s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/magnetic_field.h
+[945.365s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/multi_dof_joint_state.h
+[945.417s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/multi_echo_laser_scan.h
+[945.472s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/nav_sat_fix.h
+[945.525s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/nav_sat_status.h
+[945.578s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_cloud.h
+[945.633s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_cloud2.h
+[945.682s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_field.h
+[945.734s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/range.h
+[945.782s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/region_of_interest.h
+[945.830s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/relative_humidity.h
+[945.877s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_c__visibility_control.h
+[945.926s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/temperature.h
+[945.974s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/time_reference.h
+[946.020s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv
+[946.039s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail
+[946.063s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__functions.c
+[946.121s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__functions.h
+[946.191s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__struct.h
+[946.263s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__type_support.h
+[946.333s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/set_camera_info.h
+[946.395s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/environment/library_path.sh
+[946.442s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/environment/library_path.dsv
+[946.495s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/lib/libsensor_msgs__rosidl_generator_c.so
+[946.583s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/lib/libsensor_msgs__rosidl_generator_c.so" to ""
+[946.591s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[946.610s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg
+[946.631s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail
+[946.658s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_fastrtps_c.h
+[946.732s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_fastrtps_c.h
+[946.803s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_fastrtps_c.h
+[946.875s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_fastrtps_c.h
+[946.954s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_fastrtps_c.h
+[947.030s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_fastrtps_c.h
+[947.102s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__rosidl_typesupport_fastrtps_c.h
+[947.179s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_c.h
+[947.254s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_fastrtps_c.h
+[947.326s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_fastrtps_c.h
+[947.401s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_fastrtps_c.h
+[947.476s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__rosidl_typesupport_fastrtps_c.h
+[947.550s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_fastrtps_c.h
+[947.626s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_fastrtps_c.h
+[947.703s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_fastrtps_c.h
+[947.784s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_fastrtps_c.h
+[947.861s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_fastrtps_c.h
+[947.937s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_fastrtps_c.h
+[948.012s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_fastrtps_c.h
+[948.087s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_fastrtps_c.h
+[948.160s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_fastrtps_c.h
+[948.238s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__rosidl_typesupport_fastrtps_c.h
+[948.332s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__rosidl_typesupport_fastrtps_c.h
+[948.417s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_fastrtps_c.h
+[948.492s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_fastrtps_c.h
+[948.569s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__rosidl_typesupport_fastrtps_c.h
+[948.651s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_fastrtps_c.h
+[948.734s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[948.804s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv
+[948.826s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail
+[948.855s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_fastrtps_c.h
+[948.926s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
+[949.007s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[949.016s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[949.035s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg
+[949.059s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/battery_state.hpp
+[949.123s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/camera_info.hpp
+[949.188s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/channel_float32.hpp
+[949.252s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/compressed_image.hpp
+[949.312s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail
+[949.343s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__builder.hpp
+[949.420s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__struct.hpp
+[949.495s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__traits.hpp
+[949.568s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__builder.hpp
+[949.644s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__struct.hpp
+[949.716s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__traits.hpp
+[949.788s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__builder.hpp
+[949.864s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__struct.hpp
+[949.949s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__traits.hpp
+[950.037s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__builder.hpp
+[950.116s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp
+[950.191s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp
+[950.268s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__builder.hpp
+[950.341s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__struct.hpp
+[950.416s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__traits.hpp
+[950.491s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__builder.hpp
+[950.565s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__struct.hpp
+[950.641s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__traits.hpp
+[950.710s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__builder.hpp
+[950.778s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp
+[950.858s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__traits.hpp
+[950.945s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__builder.hpp
+[951.032s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp
+[951.115s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__traits.hpp
+[951.195s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp
+[951.277s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp
+[951.351s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__traits.hpp
+[951.423s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__builder.hpp
+[951.494s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__struct.hpp
+[951.568s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__traits.hpp
+[951.642s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__builder.hpp
+[951.717s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__struct.hpp
+[951.791s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__traits.hpp
+[951.865s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__builder.hpp
+[951.935s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__struct.hpp
+[952.004s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__traits.hpp
+[952.077s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__builder.hpp
+[952.154s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__struct.hpp
+[952.231s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__traits.hpp
+[952.314s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__builder.hpp
+[952.404s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__struct.hpp
+[952.481s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__traits.hpp
+[952.559s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__builder.hpp
+[952.636s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__struct.hpp
+[952.713s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__traits.hpp
+[952.789s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__builder.hpp
+[952.865s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__struct.hpp
+[952.943s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__traits.hpp
+[953.017s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__builder.hpp
+[953.091s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__struct.hpp
+[953.171s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__traits.hpp
+[953.254s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__builder.hpp
+[953.333s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__struct.hpp
+[953.415s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__traits.hpp
+[953.492s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__builder.hpp
+[953.590s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__struct.hpp
+[953.666s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__traits.hpp
+[953.747s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__builder.hpp
+[953.826s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp
+[953.901s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__traits.hpp
+[953.973s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__builder.hpp
+[954.047s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__struct.hpp
+[954.116s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__traits.hpp
+[954.188s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__builder.hpp
+[954.261s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__struct.hpp
+[954.335s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__traits.hpp
+[954.416s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__builder.hpp
+[954.496s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__struct.hpp
+[954.577s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__traits.hpp
+[954.653s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__builder.hpp
+[954.726s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__struct.hpp
+[954.798s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__traits.hpp
+[954.870s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__builder.hpp
+[954.944s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__struct.hpp
+[955.017s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__traits.hpp
+[955.089s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__builder.hpp
+[955.158s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__struct.hpp
+[955.229s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__traits.hpp
+[955.305s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__builder.hpp
+[955.384s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__struct.hpp
+[955.464s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__traits.hpp
+[955.541s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/fluid_pressure.hpp
+[955.603s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/illuminance.hpp
+[955.667s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/image.hpp
+[955.726s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/imu.hpp
+[955.791s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp
+[955.848s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy.hpp
+[955.907s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy_feedback.hpp
+[955.968s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy_feedback_array.hpp
+[956.027s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/laser_echo.hpp
+[956.088s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/laser_scan.hpp
+[956.151s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/magnetic_field.hpp
+[956.210s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/multi_dof_joint_state.hpp
+[956.275s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/multi_echo_laser_scan.hpp
+[956.332s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/nav_sat_fix.hpp
+[956.397s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/nav_sat_status.hpp
+[956.461s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_cloud.hpp
+[956.520s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp
+[956.582s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_field.hpp
+[956.650s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/range.hpp
+[956.716s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/region_of_interest.hpp
+[956.788s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/relative_humidity.hpp
+[956.858s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/temperature.hpp
+[956.923s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/time_reference.hpp
+[956.981s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv
+[957.002s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail
+[957.028s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__builder.hpp
+[957.102s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__struct.hpp
+[957.176s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__traits.hpp
+[957.251s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/set_camera_info.hpp
+[957.307s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[957.323s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg
+[957.343s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail
+[957.370s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_fastrtps_cpp.hpp
+[957.441s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_fastrtps_cpp.hpp
+[957.509s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_fastrtps_cpp.hpp
+[957.591s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_fastrtps_cpp.hpp
+[957.667s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/dds_fastrtps
+[957.704s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_fastrtps_cpp.hpp
+[957.789s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_fastrtps_cpp.hpp
+[957.863s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__rosidl_typesupport_fastrtps_cpp.hpp
+[957.938s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_cpp.hpp
+[958.014s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_fastrtps_cpp.hpp
+[958.086s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_fastrtps_cpp.hpp
+[958.156s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[958.227s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__rosidl_typesupport_fastrtps_cpp.hpp
+[958.300s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_fastrtps_cpp.hpp
+[958.371s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[958.445s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_fastrtps_cpp.hpp
+[958.521s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_fastrtps_cpp.hpp
+[958.597s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[958.670s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_fastrtps_cpp.hpp
+[958.738s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_fastrtps_cpp.hpp
+[958.807s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_fastrtps_cpp.hpp
+[958.886s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_fastrtps_cpp.hpp
+[958.974s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__rosidl_typesupport_fastrtps_cpp.hpp
+[959.058s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__rosidl_typesupport_fastrtps_cpp.hpp
+[959.130s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_fastrtps_cpp.hpp
+[959.209s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_fastrtps_cpp.hpp
+[959.282s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__rosidl_typesupport_fastrtps_cpp.hpp
+[959.353s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_fastrtps_cpp.hpp
+[959.427s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[959.488s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv
+[959.508s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail
+[959.530s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/dds_fastrtps
+[959.567s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_fastrtps_cpp.hpp
+[959.633s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
+[959.726s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[959.733s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs
+[959.747s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg
+[959.768s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail
+[959.798s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_microxrcedds_c.h
+[959.873s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_microxrcedds_c.h
+[959.946s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_microxrcedds_c.h
+[960.022s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_microxrcedds_c.h
+[960.092s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_microxrcedds_c.h
+[960.161s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_microxrcedds_c.h
+[960.226s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/image__rosidl_typesupport_microxrcedds_c.h
+[960.297s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/imu__rosidl_typesupport_microxrcedds_c.h
+[960.365s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_microxrcedds_c.h
+[960.436s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_microxrcedds_c.h
+[960.502s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_microxrcedds_c.h
+[960.572s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/joy__rosidl_typesupport_microxrcedds_c.h
+[960.639s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_microxrcedds_c.h
+[960.703s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_microxrcedds_c.h
+[960.768s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_microxrcedds_c.h
+[960.826s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds
+[960.857s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_microxrcedds_c.h
+[960.922s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_microxrcedds_c.h
+[960.985s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_microxrcedds_c.h
+[961.049s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_microxrcedds_c.h
+[961.117s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_microxrcedds_c.h
+[961.190s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_microxrcedds_c.h
+[961.266s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/point_field__rosidl_typesupport_microxrcedds_c.h
+[961.337s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/range__rosidl_typesupport_microxrcedds_c.h
+[961.407s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_microxrcedds_c.h
+[961.476s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_microxrcedds_c.h
+[961.541s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/temperature__rosidl_typesupport_microxrcedds_c.h
+[961.609s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_microxrcedds_c.h
+[961.670s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[961.719s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/srv
+[961.737s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/srv/detail
+[961.762s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/srv/detail/microxrcedds
+[961.794s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_microxrcedds_c.h
+[961.850s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_microxrcedds_c.so
+[961.923s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_microxrcedds_c.so" to ""
+[961.931s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[961.948s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg
+[961.968s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail
+[961.995s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_introspection_c.h
+[962.072s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__type_support.c
+[962.158s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_introspection_c.h
+[962.242s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__type_support.c
+[962.325s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_introspection_c.h
+[962.400s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__type_support.c
+[962.473s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_introspection_c.h
+[962.544s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.c
+[962.618s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_introspection_c.h
+[962.692s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__type_support.c
+[962.765s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_introspection_c.h
+[962.836s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__type_support.c
+[962.909s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__rosidl_typesupport_introspection_c.h
+[962.982s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.c
+[963.055s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__rosidl_typesupport_introspection_c.h
+[963.123s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__type_support.c
+[963.194s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_introspection_c.h
+[963.288s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.c
+[963.382s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_introspection_c.h
+[963.464s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__type_support.c
+[963.545s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_introspection_c.h
+[963.618s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__type_support.c
+[963.696s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__rosidl_typesupport_introspection_c.h
+[963.771s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__type_support.c
+[963.842s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_introspection_c.h
+[963.912s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__type_support.c
+[963.983s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_introspection_c.h
+[964.051s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__type_support.c
+[964.122s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_introspection_c.h
+[964.192s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__type_support.c
+[964.268s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_introspection_c.h
+[964.346s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.c
+[964.434s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_introspection_c.h
+[964.514s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.c
+[964.593s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_introspection_c.h
+[964.669s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__type_support.c
+[964.746s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_introspection_c.h
+[964.817s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__type_support.c
+[964.890s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_introspection_c.h
+[964.963s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__type_support.c
+[965.038s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_introspection_c.h
+[965.107s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__type_support.c
+[965.178s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__rosidl_typesupport_introspection_c.h
+[965.248s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__type_support.c
+[965.320s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__rosidl_typesupport_introspection_c.h
+[965.392s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__type_support.c
+[965.464s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_introspection_c.h
+[965.532s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__type_support.c
+[965.607s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_introspection_c.h
+[965.687s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__type_support.c
+[965.771s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__rosidl_typesupport_introspection_c.h
+[965.845s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__type_support.c
+[965.919s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_introspection_c.h
+[965.991s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__type_support.c
+[966.060s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[966.115s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv
+[966.134s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail
+[966.161s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_introspection_c.h
+[966.229s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__type_support.c
+[966.302s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
+[966.378s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so" to ""
+[966.389s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_c.so
+[966.457s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_c.so" to ""
+[966.464s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs
+[966.478s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg
+[966.497s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail
+[966.523s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_microxrcedds_cpp.hpp
+[966.596s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_microxrcedds_cpp.hpp
+[966.670s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_microxrcedds_cpp.hpp
+[966.742s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_microxrcedds_cpp.hpp
+[966.811s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_microxrcedds_cpp.hpp
+[966.877s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_microxrcedds_cpp.hpp
+[966.942s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/image__rosidl_typesupport_microxrcedds_cpp.hpp
+[967.009s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/imu__rosidl_typesupport_microxrcedds_cpp.hpp
+[967.075s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_microxrcedds_cpp.hpp
+[967.140s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_microxrcedds_cpp.hpp
+[967.207s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_microxrcedds_cpp.hpp
+[967.272s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/joy__rosidl_typesupport_microxrcedds_cpp.hpp
+[967.334s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_microxrcedds_cpp.hpp
+[967.401s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_microxrcedds_cpp.hpp
+[967.468s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_microxrcedds_cpp.hpp
+[967.525s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds
+[967.554s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/battery_state__type_support_cpp.cpp
+[967.628s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/camera_info__type_support_cpp.cpp
+[967.708s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/channel_float32__type_support_cpp.cpp
+[967.786s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/compressed_image__type_support_cpp.cpp
+[967.866s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/fluid_pressure__type_support_cpp.cpp
+[967.951s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/illuminance__type_support_cpp.cpp
+[968.040s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/image__type_support_cpp.cpp
+[968.127s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/imu__type_support_cpp.cpp
+[968.206s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/joint_state__type_support_cpp.cpp
+[968.287s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/joy_feedback_array__type_support_cpp.cpp
+[968.364s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/joy_feedback__type_support_cpp.cpp
+[968.446s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/joy__type_support_cpp.cpp
+[968.525s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/laser_echo__type_support_cpp.cpp
+[968.603s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/laser_scan__type_support_cpp.cpp
+[968.683s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/magnetic_field__type_support_cpp.cpp
+[968.760s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/multi_dof_joint_state__type_support_cpp.cpp
+[968.846s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/multi_echo_laser_scan__type_support_cpp.cpp
+[968.936s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/nav_sat_fix__type_support_cpp.cpp
+[969.026s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/nav_sat_status__type_support_cpp.cpp
+[969.105s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/point_cloud2__type_support_cpp.cpp
+[969.184s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/point_cloud__type_support_cpp.cpp
+[969.262s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/point_field__type_support_cpp.cpp
+[969.342s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/range__type_support_cpp.cpp
+[969.420s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/region_of_interest__type_support_cpp.cpp
+[969.500s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/relative_humidity__type_support_cpp.cpp
+[969.576s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/temperature__type_support_cpp.cpp
+[969.654s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/time_reference__type_support_cpp.cpp
+[969.729s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_microxrcedds_cpp.hpp
+[969.793s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_microxrcedds_cpp.hpp
+[969.856s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_microxrcedds_cpp.hpp
+[969.924s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_microxrcedds_cpp.hpp
+[969.990s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_microxrcedds_cpp.hpp
+[970.056s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_microxrcedds_cpp.hpp
+[970.131s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/point_field__rosidl_typesupport_microxrcedds_cpp.hpp
+[970.206s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/range__rosidl_typesupport_microxrcedds_cpp.hpp
+[970.279s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_microxrcedds_cpp.hpp
+[970.352s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_microxrcedds_cpp.hpp
+[970.419s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/temperature__rosidl_typesupport_microxrcedds_cpp.hpp
+[970.484s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_microxrcedds_cpp.hpp
+[970.545s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[970.597s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/srv
+[970.615s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/srv/detail
+[970.637s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/srv/detail/microxrcedds
+[970.667s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/srv/detail/microxrcedds/set_camera_info__type_support_cpp.cpp
+[970.747s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_microxrcedds_cpp.hpp
+[970.808s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[970.902s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_microxrcedds_cpp.so" to ""
+[970.910s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[970.926s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg
+[970.945s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail
+[970.972s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_introspection_cpp.hpp
+[971.051s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__type_support.cpp
+[971.139s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_introspection_cpp.hpp
+[971.223s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__type_support.cpp
+[971.302s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_introspection_cpp.hpp
+[971.378s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__type_support.cpp
+[971.449s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_introspection_cpp.hpp
+[971.522s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.cpp
+[971.594s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_introspection_cpp.hpp
+[971.663s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__type_support.cpp
+[971.735s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_introspection_cpp.hpp
+[971.813s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__type_support.cpp
+[971.887s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__rosidl_typesupport_introspection_cpp.hpp
+[971.961s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.cpp
+[972.039s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__rosidl_typesupport_introspection_cpp.hpp
+[972.114s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__type_support.cpp
+[972.191s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_introspection_cpp.hpp
+[972.266s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.cpp
+[972.354s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_introspection_cpp.hpp
+[972.441s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__type_support.cpp
+[972.525s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_introspection_cpp.hpp
+[972.607s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__type_support.cpp
+[972.683s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__rosidl_typesupport_introspection_cpp.hpp
+[972.762s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__type_support.cpp
+[972.840s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_introspection_cpp.hpp
+[972.914s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__type_support.cpp
+[972.985s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_introspection_cpp.hpp
+[973.055s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__type_support.cpp
+[973.130s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_introspection_cpp.hpp
+[973.207s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__type_support.cpp
+[973.285s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_introspection_cpp.hpp
+[973.366s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.cpp
+[973.446s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_introspection_cpp.hpp
+[973.527s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.cpp
+[973.608s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_introspection_cpp.hpp
+[973.686s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__type_support.cpp
+[973.757s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_introspection_cpp.hpp
+[973.831s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__type_support.cpp
+[973.907s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_introspection_cpp.hpp
+[973.982s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__type_support.cpp
+[974.058s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_introspection_cpp.hpp
+[974.135s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__type_support.cpp
+[974.204s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__rosidl_typesupport_introspection_cpp.hpp
+[974.271s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__type_support.cpp
+[974.342s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__rosidl_typesupport_introspection_cpp.hpp
+[974.413s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__type_support.cpp
+[974.487s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_introspection_cpp.hpp
+[974.559s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__type_support.cpp
+[974.644s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_introspection_cpp.hpp
+[974.726s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__type_support.cpp
+[974.804s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__rosidl_typesupport_introspection_cpp.hpp
+[974.881s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__type_support.cpp
+[974.959s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_introspection_cpp.hpp
+[975.032s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__type_support.cpp
+[975.098s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv
+[975.118s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail
+[975.143s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_introspection_cpp.hpp
+[975.215s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__type_support.cpp
+[975.281s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
+[975.381s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[975.390s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_cpp.so
+[975.461s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_cpp.so" to ""
+[975.474s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/environment/pythonpath.sh
+[975.527s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/environment/pythonpath.dsv
+[975.578s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs-4.2.3-py3.10.egg-info
+[975.611s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs-4.2.3-py3.10.egg-info/dependency_links.txt
+[975.689s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs-4.2.3-py3.10.egg-info/PKG-INFO
+[975.761s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs-4.2.3-py3.10.egg-info/SOURCES.txt
+[975.829s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs-4.2.3-py3.10.egg-info/top_level.txt
+[975.894s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs
+[975.924s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/libsensor_msgs__rosidl_generator_py.so
+[976.000s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg
+[976.034s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_battery_state.py
+[976.107s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_battery_state_s.c
+[976.182s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_camera_info.py
+[976.257s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_camera_info_s.c
+[976.334s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_channel_float32.py
+[976.409s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_channel_float32_s.c
+[976.486s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_compressed_image.py
+[976.559s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_compressed_image_s.c
+[976.637s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_fluid_pressure.py
+[976.712s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_fluid_pressure_s.c
+[976.792s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_illuminance.py
+[976.880s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_illuminance_s.c
+[976.974s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_image.py
+[977.066s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_image_s.c
+[977.154s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_imu.py
+[977.239s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_imu_s.c
+[977.330s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joint_state.py
+[977.412s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joint_state_s.c
+[977.494s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy.py
+[977.580s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy_feedback.py
+[977.662s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy_feedback_array.py
+[977.750s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy_feedback_array_s.c
+[977.844s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy_feedback_s.c
+[977.939s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy_s.c
+[978.028s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_laser_echo.py
+[978.113s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_laser_echo_s.c
+[978.230s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_laser_scan.py
+[978.330s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_laser_scan_s.c
+[978.427s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_magnetic_field.py
+[978.508s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_magnetic_field_s.c
+[978.595s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_multi_dof_joint_state.py
+[978.687s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_multi_dof_joint_state_s.c
+[978.774s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_multi_echo_laser_scan.py
+[978.865s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_multi_echo_laser_scan_s.c
+[978.955s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_nav_sat_fix.py
+[979.041s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_nav_sat_fix_s.c
+[979.136s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_nav_sat_status.py
+[979.233s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_nav_sat_status_s.c
+[979.321s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_cloud.py
+[979.406s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_cloud2.py
+[979.493s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_cloud2_s.c
+[979.582s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_cloud_s.c
+[979.667s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_field.py
+[979.752s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_field_s.c
+[979.842s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_range.py
+[979.928s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_range_s.c
+[980.016s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_region_of_interest.py
+[980.112s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_region_of_interest_s.c
+[980.220s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_relative_humidity.py
+[980.323s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_relative_humidity_s.c
+[980.432s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_temperature.py
+[980.527s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_temperature_s.c
+[980.629s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_time_reference.py
+[980.722s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_time_reference_s.c
+[980.806s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/__init__.py
+[980.885s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[980.965s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[981.045s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[981.121s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so
+[981.196s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/srv
+[981.234s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/srv/_set_camera_info.py
+[981.324s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/srv/_set_camera_info_s.c
+[981.420s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/srv/__init__.py
+[981.512s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_c.c
+[981.600s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[981.684s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[981.769s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[981.856s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/__init__.py
+[985.257s] Listing '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs'...
+[985.258s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/__init__.py'...
+[985.259s] Listing '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg'...
+[985.260s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/__init__.py'...
+[985.261s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_battery_state.py'...
+[985.262s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_camera_info.py'...
+[985.263s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_channel_float32.py'...
+[985.264s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_compressed_image.py'...
+[985.265s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_fluid_pressure.py'...
+[985.266s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_illuminance.py'...
+[985.267s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_image.py'...
+[985.268s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_imu.py'...
+[985.270s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joint_state.py'...
+[985.271s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy.py'...
+[985.272s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy_feedback.py'...
+[985.272s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy_feedback_array.py'...
+[985.273s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_laser_echo.py'...
+[985.275s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_laser_scan.py'...
+[985.276s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_magnetic_field.py'...
+[985.276s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_multi_dof_joint_state.py'...
+[985.277s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_multi_echo_laser_scan.py'...
+[985.278s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_nav_sat_fix.py'...
+[985.279s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_nav_sat_status.py'...
+[985.280s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_cloud.py'...
+[985.281s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_cloud2.py'...
+[985.282s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_field.py'...
+[985.282s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_range.py'...
+[985.283s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_region_of_interest.py'...
+[985.284s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_relative_humidity.py'...
+[985.285s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_temperature.py'...
+[985.286s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_time_reference.py'...
+[985.287s] Listing '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/srv'...
+[985.288s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/srv/__init__.py'...
+[985.289s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/srv/_set_camera_info.py'...
+[985.322s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so
+[985.441s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so" to ""
+[985.493s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[985.613s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[985.666s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[985.799s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[985.857s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[985.991s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[986.011s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/lib/libsensor_msgs__rosidl_generator_py.so
+[986.115s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/lib/libsensor_msgs__rosidl_generator_py.so" to ""
+[986.143s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/BatteryState.idl
+[986.212s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/CameraInfo.idl
+[986.278s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/ChannelFloat32.idl
+[986.347s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/CompressedImage.idl
+[986.415s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/FluidPressure.idl
+[986.481s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/Illuminance.idl
+[986.549s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/Image.idl
+[986.617s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/Imu.idl
+[986.683s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/JointState.idl
+[986.753s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/Joy.idl
+[986.820s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedback.idl
+[986.892s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedbackArray.idl
+[986.969s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/LaserEcho.idl
+[987.041s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/LaserScan.idl
+[987.113s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/MagneticField.idl
+[987.183s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/MultiDOFJointState.idl
+[987.256s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/MultiEchoLaserScan.idl
+[987.322s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/NavSatFix.idl
+[987.389s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/NavSatStatus.idl
+[987.452s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/PointCloud.idl
+[987.513s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/PointCloud2.idl
+[987.573s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/PointField.idl
+[987.631s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/Range.idl
+[987.687s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/RegionOfInterest.idl
+[987.744s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/RelativeHumidity.idl
+[987.800s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/Temperature.idl
+[987.858s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/TimeReference.idl
+[987.922s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/srv/SetCameraInfo.idl
+[987.982s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/BatteryState.msg
+[988.052s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/CameraInfo.msg
+[988.118s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/ChannelFloat32.msg
+[988.183s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/CompressedImage.msg
+[988.257s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/FluidPressure.msg
+[988.330s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/Illuminance.msg
+[988.405s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/Image.msg
+[988.481s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/Imu.msg
+[988.552s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/JointState.msg
+[988.648s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/Joy.msg
+[988.717s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedback.msg
+[988.778s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedbackArray.msg
+[988.846s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/LaserEcho.msg
+[988.912s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/LaserScan.msg
+[988.981s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/MagneticField.msg
+[989.051s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/MultiDOFJointState.msg
+[989.117s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/MultiEchoLaserScan.msg
+[989.192s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/NavSatFix.msg
+[989.268s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/NavSatStatus.msg
+[989.341s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/PointCloud.msg
+[989.412s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/PointCloud2.msg
+[989.485s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/PointField.msg
+[989.558s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/Range.msg
+[989.630s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/RegionOfInterest.msg
+[989.708s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/RelativeHumidity.msg
+[989.777s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/Temperature.msg
+[989.842s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/msg/TimeReference.msg
+[989.913s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/srv/SetCameraInfo.srv
+[989.975s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/srv/SetCameraInfo_Request.msg
+[990.031s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/srv/SetCameraInfo_Response.msg
+[990.082s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs
+[990.102s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[990.131s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/distortion_models.hpp
+[990.194s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/fill_image.hpp
+[990.266s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/image_encodings.hpp
+[990.330s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/impl
+[990.364s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/impl/point_cloud2_iterator.hpp
+[990.452s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/point_cloud2_iterator.hpp
+[990.532s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp
+[990.612s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/include/sensor_msgs/sensor_msgs/point_field_conversion.hpp
+[990.696s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/ament_index/resource_index/package_run_dependencies/sensor_msgs
+[990.781s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/ament_index/resource_index/parent_prefix_path/sensor_msgs
+[990.843s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/environment/ament_prefix_path.sh
+[990.885s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/environment/ament_prefix_path.dsv
+[990.932s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/environment/path.sh
+[990.973s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/environment/path.dsv
+[991.021s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/local_setup.bash
+[991.065s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/local_setup.sh
+[991.108s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/local_setup.zsh
+[991.150s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/local_setup.dsv
+[991.193s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/package.dsv
+[991.272s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/ament_index/resource_index/packages/sensor_msgs
+[991.360s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_cExport.cmake
+[991.436s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_cExport-noconfig.cmake
+[991.510s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[991.586s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[991.661s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_cppExport.cmake
+[991.734s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[991.804s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[991.873s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cExport.cmake
+[991.939s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[992.008s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cExport.cmake
+[992.075s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[992.145s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[992.211s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[992.275s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cppExport.cmake
+[992.340s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[992.409s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_pyExport.cmake
+[992.481s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_pyExport-noconfig.cmake
+[992.553s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgsExport.cmake
+[992.614s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/cmake/rosidl_cmake-extras.cmake
+[992.668s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[992.722s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[992.781s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[992.841s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[992.897s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[992.950s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[993.003s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgsConfig.cmake
+[993.053s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgsConfig-version.cmake
+[993.105s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/share/sensor_msgs/package.xml
+[993.160s] Invoked command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/sensor_msgs' returned '0': AMENT_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/sensor_msgs

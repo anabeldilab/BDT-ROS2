@@ -1,0 +1,13 @@
+{
+  "package_name": "lifecycle_msgs",
+  "non_idl_tuples": [
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/rcl_interfaces/lifecycle_msgs:msg/State.msg",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/rcl_interfaces/lifecycle_msgs:msg/Transition.msg",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/rcl_interfaces/lifecycle_msgs:msg/TransitionDescription.msg",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/rcl_interfaces/lifecycle_msgs:msg/TransitionEvent.msg",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/rcl_interfaces/lifecycle_msgs:srv/ChangeState.srv",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/rcl_interfaces/lifecycle_msgs:srv/GetAvailableStates.srv",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/rcl_interfaces/lifecycle_msgs:srv/GetAvailableTransitions.srv",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/rcl_interfaces/lifecycle_msgs:srv/GetState.srv"
+  ]
+}

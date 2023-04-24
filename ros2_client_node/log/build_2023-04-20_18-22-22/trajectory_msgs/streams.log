@@ -1,0 +1,357 @@
+[1.842s] Invoking command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/trajectory_msgs': AMENT_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/common_interfaces/trajectory_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs
+[6.328s] -- The C compiler identification is GNU 11.3.0
+[8.805s] -- The CXX compiler identification is GNU 11.3.0
+[9.356s] -- Detecting C compiler ABI info
+[16.002s] -- Detecting C compiler ABI info - done
+[16.056s] -- Check for working C compiler: /usr/bin/cc - skipped
+[16.058s] -- Detecting C compile features
+[16.061s] -- Detecting C compile features - done
+[16.182s] -- Detecting CXX compiler ABI info
+[23.030s] -- Detecting CXX compiler ABI info - done
+[23.081s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[23.083s] -- Detecting CXX compile features
+[23.085s] -- Detecting CXX compile features - done
+[23.561s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[32.266s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[40.218s] -- Found builtin_interfaces: 1.2.1 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[45.174s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[46.109s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[46.842s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[48.067s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[51.013s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[52.963s] -- Found geometry_msgs: 4.2.3 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/share/geometry_msgs/cmake)
+[55.669s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[68.239s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[91.563s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[101.643s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[102.938s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[103.705s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[105.684s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[105.687s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[105.689s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[105.691s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[107.300s] -- Found PythonExtra: .so  
+[112.670s] -- Configuring done
+[123.663s] -- Generating done
+[124.290s] -- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/trajectory_msgs
+[124.307s] Invoked command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/trajectory_msgs' returned '0': AMENT_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/common_interfaces/trajectory_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs
+[124.329s] Invoking command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/trajectory_msgs': AMENT_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/trajectory_msgs -- -j12 -l12
+[133.626s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[136.827s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[137.872s] [  2%] Built target ament_cmake_python_copy_trajectory_msgs
+[153.034s] running egg_info
+[153.039s] creating trajectory_msgs.egg-info
+[153.045s] writing trajectory_msgs.egg-info/PKG-INFO
+[153.059s] writing dependency_links to trajectory_msgs.egg-info/dependency_links.txt
+[153.081s] writing top-level names to trajectory_msgs.egg-info/top_level.txt
+[153.095s] writing manifest file 'trajectory_msgs.egg-info/SOURCES.txt'
+[153.154s] reading manifest file 'trajectory_msgs.egg-info/SOURCES.txt'
+[153.234s] writing manifest file 'trajectory_msgs.egg-info/SOURCES.txt'
+[154.580s] [  4%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/joint_trajectory__functions.c.o[0m
+[154.734s] [  4%] Built target ament_cmake_python_build_trajectory_msgs_egg
+[160.792s] [  7%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__functions.c.o[0m
+[160.795s] [  7%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__functions.c.o[0m
+[164.669s] [  7%] Built target trajectory_msgs__cpp
+[166.180s] [  8%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/joint_trajectory_point__functions.c.o[0m
+[173.294s] [ 10%] [32m[1mLinking C shared library libtrajectory_msgs__rosidl_generator_c.so[0m
+[177.575s] [ 10%] Built target trajectory_msgs__rosidl_generator_c
+[179.791s] [ 11%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[192.781s] [ 13%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/detail/joint_trajectory__type_support.cpp.o[0m
+[202.555s] [ 14%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.cpp.o[0m
+[210.662s] [ 15%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.cpp.o[0m
+[219.466s] [ 17%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.cpp.o[0m
+[227.185s] [ 18%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[231.259s] [ 18%] Built target trajectory_msgs__rosidl_typesupport_introspection_cpp
+[233.704s] [ 20%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[233.828s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[246.304s] [ 23%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/joint_trajectory__type_support.cpp.o[0m
+[250.478s] [ 24%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp.o[0m
+[250.498s] [ 26%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp.o[0m
+[251.274s] [ 27%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_msgs/msg/detail/joint_trajectory__type_support.c.o[0m
+[251.460s] [ 28%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.c.o[0m
+[254.968s] [ 30%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp.o[0m
+[257.288s] [ 31%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.c.o[0m
+[258.521s] [ 33%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_c.so[0m
+[262.674s] [ 33%] Built target trajectory_msgs__rosidl_typesupport_c
+[262.760s] [ 34%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.c.o[0m
+[267.178s] [ 36%] [32m[1mLinking C shared library libtrajectory_msgs__rosidl_typesupport_introspection_c.so[0m
+[271.070s] [ 36%] Built target trajectory_msgs__rosidl_typesupport_introspection_c
+[272.769s] [ 37%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[273.230s] [ 39%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[284.894s] [ 40%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory__type_support_c.c.o[0m
+[284.918s] [ 42%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory_point__type_support_c.c.o[0m
+[285.301s] [ 43%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory__type_support_c.c.o[0m
+[286.814s] [ 44%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_msgs/msg/detail/joint_trajectory__type_support_c.cpp.o[0m
+[287.103s] [ 46%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support_c.cpp.o[0m
+[287.237s] [ 47%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_msgs/msg/detail/joint_trajectory_point__type_support_c.cpp.o[0m
+[293.994s] [ 49%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory_point__type_support_c.c.o[0m
+[297.005s] [ 50%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support_c.cpp.o[0m
+[301.312s] [ 52%] [32m[1mLinking C shared library libtrajectory_msgs__rosidl_typesupport_microxrcedds_c.so[0m
+[305.746s] [ 52%] Built target trajectory_msgs__rosidl_typesupport_microxrcedds_c
+[305.843s] [ 53%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[309.621s] [ 53%] Built target trajectory_msgs__rosidl_typesupport_fastrtps_c
+[311.631s] [ 55%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[328.784s] [ 56%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory__type_support_cpp.cpp.o[0m
+[340.379s] [ 57%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory__type_support_cpp.cpp.o[0m
+[340.529s] [ 59%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory_point__type_support_cpp.cpp.o[0m
+[353.307s] [ 60%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory_point__type_support_cpp.cpp.o[0m
+[364.427s] [ 62%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_microxrcedds_cpp.so[0m
+[370.202s] [ 62%] Built target trajectory_msgs__rosidl_typesupport_microxrcedds_cpp
+[372.235s] [ 63%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[372.255s] [ 65%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[383.132s] [ 66%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/joint_trajectory__type_support.cpp.o[0m
+[383.198s] [ 68%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp.o[0m
+[386.164s] [ 69%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_msgs/msg/detail/dds_fastrtps/joint_trajectory__type_support.cpp.o[0m
+[389.599s] [ 71%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp.o[0m
+[394.503s] [ 73%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_msgs/msg/detail/dds_fastrtps/multi_dof_joint_trajectory_point__type_support.cpp.o[0m
+[394.506s] [ 73%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_msgs/msg/detail/dds_fastrtps/multi_dof_joint_trajectory__type_support.cpp.o[0m
+[396.334s] [ 75%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp.o[0m
+[403.491s] [ 76%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_msgs/msg/detail/dds_fastrtps/joint_trajectory_point__type_support.cpp.o[0m
+[405.105s] [ 78%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_cpp.so[0m
+[409.059s] [ 78%] Built target trajectory_msgs__rosidl_typesupport_cpp
+[411.662s] [ 79%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[416.868s] [ 79%] Built target trajectory_msgs__rosidl_typesupport_fastrtps_cpp
+[421.585s] [ 79%] Built target trajectory_msgs
+[426.052s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[451.840s] [ 81%] Built target trajectory_msgs__py
+[455.675s] [ 82%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_py.dir/rosidl_generator_py/trajectory_msgs/msg/_joint_trajectory_s.c.o[0m
+[463.072s] [ 84%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_py.dir/rosidl_generator_py/trajectory_msgs/msg/_multi_dof_joint_trajectory_s.c.o[0m
+[463.101s] [ 85%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_py.dir/rosidl_generator_py/trajectory_msgs/msg/_multi_dof_joint_trajectory_point_s.c.o[0m
+[468.325s] [ 86%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_py.dir/rosidl_generator_py/trajectory_msgs/msg/_joint_trajectory_point_s.c.o[0m
+[473.070s] [ 88%] [32m[1mLinking C shared library rosidl_generator_py/trajectory_msgs/libtrajectory_msgs__rosidl_generator_py.so[0m
+[477.083s] [ 88%] Built target trajectory_msgs__rosidl_generator_py
+[479.948s] [ 89%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_c__pyext.dir/rosidl_generator_py/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[489.166s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so[0m
+[493.787s] [ 91%] Built target trajectory_msgs__rosidl_typesupport_microxrcedds_c__pyext
+[498.347s] [ 92%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[498.575s] [ 94%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[505.565s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[505.719s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[510.995s] [ 97%] Built target trajectory_msgs__rosidl_typesupport_introspection_c__pyext
+[511.193s] [ 97%] Built target trajectory_msgs__rosidl_typesupport_c__pyext
+[515.083s] [ 98%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[522.500s] [100%] [32m[1mLinking C shared library rosidl_generator_py/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[527.830s] [100%] Built target trajectory_msgs__rosidl_typesupport_fastrtps_c__pyext
+[529.671s] Invoked command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/trajectory_msgs' returned '0': AMENT_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/trajectory_msgs -- -j12 -l12
+[572.107s] Invoking command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/trajectory_msgs': AMENT_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/trajectory_msgs
+[573.070s] -- Install configuration: ""
+[573.160s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/ament_index/resource_index/rosidl_interfaces/trajectory_msgs
+[573.350s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[573.408s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[573.482s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[573.590s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__functions.c
+[573.833s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__functions.h
+[574.082s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__struct.h
+[574.336s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.h
+[574.581s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__functions.c
+[574.814s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__functions.h
+[575.062s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__struct.h
+[575.315s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.h
+[575.577s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__functions.c
+[575.819s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__functions.h
+[576.060s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__struct.h
+[576.305s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.h
+[576.535s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__functions.c
+[576.793s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__functions.h
+[577.049s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__struct.h
+[577.286s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.h
+[577.525s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory.h
+[577.738s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory_point.h
+[577.939s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory.h
+[578.134s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory_point.h
+[578.326s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_generator_c__visibility_control.h
+[578.528s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/environment/library_path.sh
+[578.665s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/environment/library_path.dsv
+[578.828s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_generator_c.so
+[579.057s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_generator_c.so" to ""
+[579.085s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[579.142s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[579.216s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[579.313s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_fastrtps_c.h
+[579.557s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_fastrtps_c.h
+[579.818s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_fastrtps_c.h
+[580.077s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_fastrtps_c.h
+[580.312s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[580.494s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so
+[580.718s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[580.741s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[580.800s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[580.866s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[580.955s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__builder.hpp
+[581.191s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__struct.hpp
+[581.423s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__traits.hpp
+[581.676s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__builder.hpp
+[581.937s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__struct.hpp
+[582.202s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__traits.hpp
+[582.470s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__builder.hpp
+[582.718s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__struct.hpp
+[582.950s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__traits.hpp
+[583.166s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__builder.hpp
+[583.373s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__struct.hpp
+[583.566s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__traits.hpp
+[583.775s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory.hpp
+[583.970s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory_point.hpp
+[584.147s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory.hpp
+[584.331s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory_point.hpp
+[584.520s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[584.580s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[584.656s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[584.739s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/dds_fastrtps
+[584.860s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_fastrtps_cpp.hpp
+[585.097s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[585.338s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_fastrtps_cpp.hpp
+[585.583s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[585.829s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[586.029s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_cpp.so
+[586.393s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[586.419s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs
+[586.472s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/msg
+[586.548s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/msg/detail
+[586.652s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_microxrcedds_c.h
+[586.909s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_microxrcedds_c.h
+[587.141s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/msg/detail/microxrcedds
+[587.266s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_microxrcedds_c.h
+[587.510s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_microxrcedds_c.h
+[587.739s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[587.952s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_microxrcedds_c.so
+[588.217s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_microxrcedds_c.so" to ""
+[588.250s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[588.319s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[588.393s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[588.498s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_introspection_c.h
+[588.775s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.c
+[589.054s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_introspection_c.h
+[589.331s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.c
+[589.617s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_introspection_c.h
+[589.920s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.c
+[590.200s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_introspection_c.h
+[590.492s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.c
+[590.762s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[590.976s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_introspection_c.so
+[591.222s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_introspection_c.so" to ""
+[591.263s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_c.so
+[591.495s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_c.so" to ""
+[591.524s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs
+[591.584s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/msg
+[591.661s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/msg/detail
+[591.765s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_microxrcedds_cpp.hpp
+[592.006s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_microxrcedds_cpp.hpp
+[592.217s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/msg/detail/microxrcedds
+[592.315s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory_point__type_support_cpp.cpp
+[592.565s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory__type_support_cpp.cpp
+[592.837s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory_point__type_support_cpp.cpp
+[593.123s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory__type_support_cpp.cpp
+[593.506s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_microxrcedds_cpp.hpp
+[593.803s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_microxrcedds_cpp.hpp
+[594.092s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[594.329s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[594.691s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_microxrcedds_cpp.so" to ""
+[594.724s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[594.794s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[594.886s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[595.013s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_introspection_cpp.hpp
+[595.366s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.cpp
+[595.716s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[596.063s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.cpp
+[596.369s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_introspection_cpp.hpp
+[596.691s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.cpp
+[597.013s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[597.361s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.cpp
+[597.671s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so
+[598.042s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[598.086s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_cpp.so
+[598.364s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_cpp.so" to ""
+[598.412s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/environment/pythonpath.sh
+[598.628s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/environment/pythonpath.dsv
+[598.847s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs-4.2.3-py3.10.egg-info
+[598.972s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs-4.2.3-py3.10.egg-info/dependency_links.txt
+[599.254s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs-4.2.3-py3.10.egg-info/PKG-INFO
+[599.559s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs-4.2.3-py3.10.egg-info/SOURCES.txt
+[599.877s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs-4.2.3-py3.10.egg-info/top_level.txt
+[600.145s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs
+[600.277s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/libtrajectory_msgs__rosidl_generator_py.so
+[600.552s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg
+[600.699s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_joint_trajectory.py
+[601.016s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_joint_trajectory_point.py
+[601.361s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_joint_trajectory_point_s.c
+[601.689s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_joint_trajectory_s.c
+[602.005s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory.py
+[602.381s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_point.py
+[602.753s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_point_s.c
+[603.113s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_s.c
+[603.427s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/__init__.py
+[603.733s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[603.992s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[604.291s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[604.579s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so
+[604.864s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_c.c
+[605.163s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[605.472s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[605.767s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[606.115s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/__init__.py
+[612.013s] Listing '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs'...
+[612.017s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/__init__.py'...
+[612.021s] Listing '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg'...
+[612.024s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/__init__.py'...
+[612.028s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_joint_trajectory.py'...
+[612.032s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_joint_trajectory_point.py'...
+[612.035s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory.py'...
+[612.039s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_point.py'...
+[612.238s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so
+[612.747s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so" to ""
+[612.981s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[613.694s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[614.013s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[614.468s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[614.715s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[615.281s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[615.347s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_generator_py.so
+[615.714s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_generator_py.so" to ""
+[615.828s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectory.idl
+[616.123s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectoryPoint.idl
+[616.404s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectory.idl
+[616.683s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.idl
+[616.963s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectory.msg
+[617.282s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectoryPoint.msg
+[617.612s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectory.msg
+[617.885s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg
+[618.192s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/ament_index/resource_index/package_run_dependencies/trajectory_msgs
+[618.568s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/ament_index/resource_index/parent_prefix_path/trajectory_msgs
+[618.852s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/environment/ament_prefix_path.sh
+[619.049s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/environment/ament_prefix_path.dsv
+[619.266s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/environment/path.sh
+[619.451s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/environment/path.dsv
+[619.664s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/local_setup.bash
+[619.845s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/local_setup.sh
+[620.025s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/local_setup.zsh
+[620.184s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/local_setup.dsv
+[620.348s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/package.dsv
+[620.585s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/ament_index/resource_index/packages/trajectory_msgs
+[620.909s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_cExport.cmake
+[621.177s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_cExport-noconfig.cmake
+[621.465s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[621.739s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[622.010s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_cppExport.cmake
+[622.304s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[622.573s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[622.818s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cExport.cmake
+[623.074s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[623.328s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cExport.cmake
+[623.565s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[623.834s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[624.078s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[624.370s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cppExport.cmake
+[624.667s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[624.953s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_pyExport.cmake
+[625.241s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_pyExport-noconfig.cmake
+[625.523s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/cmake/rosidl_cmake-extras.cmake
+[625.758s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[626.010s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[626.247s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[626.471s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[626.726s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[626.995s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[627.252s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgsConfig.cmake
+[627.486s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgsConfig-version.cmake
+[627.782s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/trajectory_msgs/share/trajectory_msgs/package.xml
+[628.030s] Invoked command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/trajectory_msgs' returned '0': AMENT_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/trajectory_msgs

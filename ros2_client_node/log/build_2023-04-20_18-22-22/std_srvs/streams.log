@@ -1,0 +1,332 @@
+[0.477s] Invoking command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/std_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/common_interfaces/std_srvs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs
+[2.373s] -- The C compiler identification is GNU 11.3.0
+[3.544s] -- The CXX compiler identification is GNU 11.3.0
+[3.900s] -- Detecting C compiler ABI info
+[6.977s] -- Detecting C compiler ABI info - done
+[7.046s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.048s] -- Detecting C compile features
+[7.051s] -- Detecting C compile features - done
+[7.220s] -- Detecting CXX compiler ABI info
+[11.371s] -- Detecting CXX compiler ABI info - done
+[11.442s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[11.445s] -- Detecting CXX compile features
+[11.448s] -- Detecting CXX compile features - done
+[12.154s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[18.021s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[25.360s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[26.040s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[27.371s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[32.345s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[44.954s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[56.276s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[63.841s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[64.623s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[65.084s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[66.098s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[66.100s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[66.103s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[66.105s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[66.631s] -- Found PythonExtra: .so  
+[70.259s] -- Configuring done
+[76.979s] -- Generating done
+[77.558s] -- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/std_srvs
+[77.568s] Invoked command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/std_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/common_interfaces/std_srvs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs
+[77.587s] Invoking command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/std_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/std_srvs -- -j12 -l12
+[81.751s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[82.756s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[84.092s] [  3%] Built target ament_cmake_python_copy_std_srvs
+[91.349s] [  3%] Built target std_srvs__cpp
+[91.859s] running egg_info
+[91.867s] creating std_srvs.egg-info
+[91.883s] writing std_srvs.egg-info/PKG-INFO
+[91.914s] writing dependency_links to std_srvs.egg-info/dependency_links.txt
+[91.964s] writing top-level names to std_srvs.egg-info/top_level.txt
+[91.998s] writing manifest file 'std_srvs.egg-info/SOURCES.txt'
+[92.121s] reading manifest file 'std_srvs.egg-info/SOURCES.txt'
+[92.314s] writing manifest file 'std_srvs.egg-info/SOURCES.txt'
+[92.429s] [  5%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_generator_c.dir/rosidl_generator_c/std_srvs/srv/detail/empty__functions.c.o[0m
+[92.577s] [  6%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_generator_c.dir/rosidl_generator_c/std_srvs/srv/detail/set_bool__functions.c.o[0m
+[92.661s] [  8%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_generator_c.dir/rosidl_generator_c/std_srvs/srv/detail/trigger__functions.c.o[0m
+[93.176s] [ 11%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[93.196s] [ 11%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[93.395s] [ 15%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[93.408s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[93.767s] [ 15%] Built target ament_cmake_python_build_std_srvs_egg
+[95.850s] [ 16%] [32m[1mLinking C shared library libstd_srvs__rosidl_generator_c.so[0m
+[100.365s] [ 16%] Built target std_srvs__rosidl_generator_c
+[102.565s] [ 18%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_srvs/srv/empty__type_support.cpp.o[0m
+[105.550s] [ 20%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/std_srvs/srv/detail/empty__type_support.cpp.o[0m
+[105.959s] [ 22%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_srvs/srv/trigger__type_support.cpp.o[0m
+[106.081s] [ 23%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/std_srvs/srv/detail/dds_fastrtps/empty__type_support.cpp.o[0m
+[107.853s] [ 25%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/empty__type_support_cpp.cpp.o[0m
+[109.057s] [ 27%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_srvs/srv/set_bool__type_support.cpp.o[0m
+[109.825s] [ 28%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/std_srvs/srv/detail/trigger__type_support.cpp.o[0m
+[110.910s] [ 30%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/std_srvs/srv/detail/dds_fastrtps/trigger__type_support.cpp.o[0m
+[112.681s] [ 32%] [32m[1mLinking CXX shared library libstd_srvs__rosidl_typesupport_cpp.so[0m
+[114.426s] [ 33%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/std_srvs/srv/detail/set_bool__type_support.cpp.o[0m
+[116.525s] [ 35%] Built target std_srvs__rosidl_typesupport_cpp
+[116.529s] [ 35%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/trigger__type_support_cpp.cpp.o[0m
+[116.722s] [ 37%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/std_srvs/srv/detail/dds_fastrtps/set_bool__type_support.cpp.o[0m
+[118.406s] [ 38%] [32m[1mLinking CXX shared library libstd_srvs__rosidl_typesupport_introspection_cpp.so[0m
+[120.507s] [ 40%] [32m[1mLinking CXX shared library libstd_srvs__rosidl_typesupport_fastrtps_cpp.so[0m
+[121.006s] [ 40%] Built target std_srvs__rosidl_typesupport_introspection_cpp
+[122.792s] [ 40%] Built target std_srvs__rosidl_typesupport_fastrtps_cpp
+[123.115s] [ 42%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/set_bool__type_support_cpp.cpp.o[0m
+[127.674s] [ 44%] [32m[1mLinking CXX shared library libstd_srvs__rosidl_typesupport_microxrcedds_cpp.so[0m
+[129.219s] [ 44%] Built target std_srvs__rosidl_typesupport_microxrcedds_cpp
+[129.963s] [ 45%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[133.668s] [ 47%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_srvs/srv/empty__type_support.cpp.o[0m
+[134.886s] [ 49%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_srvs/srv/trigger__type_support.cpp.o[0m
+[136.269s] [ 50%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_srvs/srv/set_bool__type_support.cpp.o[0m
+[137.791s] [ 52%] [32m[1mLinking CXX shared library libstd_srvs__rosidl_typesupport_c.so[0m
+[139.848s] [ 52%] Built target std_srvs__rosidl_typesupport_c
+[140.734s] [ 54%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[140.879s] [ 55%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[140.921s] [ 57%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[148.777s] [ 59%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/std_srvs/srv/detail/empty__type_support.c.o[0m
+[148.957s] [ 61%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/std_srvs/srv/detail/empty__type_support_c.cpp.o[0m
+[150.812s] [ 62%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/std_srvs/srv/detail/trigger__type_support.c.o[0m
+[151.248s] [ 64%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/std_srvs/srv/detail/microxrcedds/empty__type_support_c.c.o[0m
+[152.691s] [ 66%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/std_srvs/srv/detail/trigger__type_support_c.cpp.o[0m
+[153.253s] [ 67%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/std_srvs/srv/detail/set_bool__type_support.c.o[0m
+[154.529s] [ 69%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/std_srvs/srv/detail/microxrcedds/trigger__type_support_c.c.o[0m
+[155.115s] [ 71%] [32m[1mLinking C shared library libstd_srvs__rosidl_typesupport_introspection_c.so[0m
+[156.106s] [ 72%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/std_srvs/srv/detail/set_bool__type_support_c.cpp.o[0m
+[157.180s] [ 72%] Built target std_srvs__rosidl_typesupport_introspection_c
+[157.343s] [ 74%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/std_srvs/srv/detail/microxrcedds/set_bool__type_support_c.c.o[0m
+[159.038s] [ 76%] [32m[1mLinking CXX shared library libstd_srvs__rosidl_typesupport_fastrtps_c.so[0m
+[159.886s] [ 77%] [32m[1mLinking C shared library libstd_srvs__rosidl_typesupport_microxrcedds_c.so[0m
+[161.044s] [ 77%] Built target std_srvs__rosidl_typesupport_fastrtps_c
+[161.825s] [ 77%] Built target std_srvs__rosidl_typesupport_microxrcedds_c
+[163.264s] [ 77%] Built target std_srvs
+[164.722s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[172.477s] [ 79%] Built target std_srvs__py
+[173.987s] [ 81%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_generator_py.dir/rosidl_generator_py/std_srvs/srv/_empty_s.c.o[0m
+[175.690s] [ 83%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_generator_py.dir/rosidl_generator_py/std_srvs/srv/_trigger_s.c.o[0m
+[175.723s] [ 84%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_generator_py.dir/rosidl_generator_py/std_srvs/srv/_set_bool_s.c.o[0m
+[177.530s] [ 86%] [32m[1mLinking C shared library rosidl_generator_py/std_srvs/libstd_srvs__rosidl_generator_py.so[0m
+[179.521s] [ 86%] Built target std_srvs__rosidl_generator_py
+[181.238s] [ 88%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/std_srvs/_std_srvs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[181.287s] [ 89%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_typesupport_microxrcedds_c__pyext.dir/rosidl_generator_py/std_srvs/_std_srvs_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[181.340s] [ 91%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/std_srvs/_std_srvs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[181.386s] [ 93%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/std_srvs/_std_srvs_s.ep.rosidl_typesupport_c.c.o[0m
+[183.779s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/std_srvs/std_srvs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[183.811s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/std_srvs/std_srvs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[184.019s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/std_srvs/std_srvs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[185.658s] [ 98%] Built target std_srvs__rosidl_typesupport_c__pyext
+[185.702s] [100%] [32m[1mLinking C shared library rosidl_generator_py/std_srvs/std_srvs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so[0m
+[185.732s] [100%] Built target std_srvs__rosidl_typesupport_introspection_c__pyext
+[185.787s] [100%] Built target std_srvs__rosidl_typesupport_fastrtps_c__pyext
+[187.581s] [100%] Built target std_srvs__rosidl_typesupport_microxrcedds_c__pyext
+[188.759s] Invoked command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/std_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/std_srvs -- -j12 -l12
+[214.474s] Invoking command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/std_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/std_srvs
+[215.124s] -- Install configuration: ""
+[215.201s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/ament_index/resource_index/rosidl_interfaces/std_srvs
+[215.370s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs
+[215.418s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/msg
+[215.497s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/msg/rosidl_generator_c__visibility_control.h
+[215.661s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv
+[215.731s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[215.837s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__functions.c
+[216.083s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__functions.h
+[216.333s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__struct.h
+[216.573s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__type_support.h
+[216.815s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__functions.c
+[217.056s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__functions.h
+[217.300s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__struct.h
+[217.545s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__type_support.h
+[217.772s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__functions.c
+[217.990s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__functions.h
+[218.231s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__struct.h
+[218.461s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__type_support.h
+[218.690s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/empty.h
+[218.883s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/set_bool.h
+[219.089s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/trigger.h
+[219.306s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/environment/library_path.sh
+[219.444s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/environment/library_path.dsv
+[219.589s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/lib/libstd_srvs__rosidl_generator_c.so
+[219.829s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/lib/libstd_srvs__rosidl_generator_c.so" to ""
+[219.855s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs
+[219.909s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/msg
+[219.984s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[220.167s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/srv
+[220.242s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/srv/detail
+[220.385s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/srv/detail/empty__rosidl_typesupport_microxrcedds_c.h
+[220.668s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/srv/detail/microxrcedds
+[220.820s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/srv/detail/set_bool__rosidl_typesupport_microxrcedds_c.h
+[221.174s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/srv/detail/trigger__rosidl_typesupport_microxrcedds_c.h
+[221.433s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_microxrcedds_c.so
+[221.818s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_microxrcedds_c.so" to ""
+[221.849s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs
+[221.934s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/msg
+[222.039s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[222.270s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv
+[222.379s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[222.522s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__rosidl_typesupport_fastrtps_c.h
+[222.863s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__rosidl_typesupport_fastrtps_c.h
+[223.200s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__rosidl_typesupport_fastrtps_c.h
+[223.516s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_fastrtps_c.so
+[223.772s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_fastrtps_c.so" to ""
+[223.799s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs
+[223.880s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/msg
+[223.987s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[224.321s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv
+[224.437s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[224.583s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__rosidl_typesupport_introspection_c.h
+[224.937s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__type_support.c
+[225.262s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__rosidl_typesupport_introspection_c.h
+[225.644s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__type_support.c
+[226.043s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__rosidl_typesupport_introspection_c.h
+[226.417s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__type_support.c
+[226.758s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_introspection_c.so
+[227.103s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_introspection_c.so" to ""
+[227.152s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_c.so
+[227.569s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_c.so" to ""
+[227.613s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs
+[227.714s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv
+[227.842s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[228.005s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__builder.hpp
+[228.523s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__struct.hpp
+[228.965s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__traits.hpp
+[229.494s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__builder.hpp
+[230.071s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__struct.hpp
+[230.539s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__traits.hpp
+[231.016s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__builder.hpp
+[231.436s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__struct.hpp
+[231.911s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__traits.hpp
+[232.266s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/empty.hpp
+[232.479s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/set_bool.hpp
+[232.680s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/trigger.hpp
+[232.835s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs
+[232.873s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/msg
+[232.936s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[233.089s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/srv
+[233.154s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/srv/detail
+[233.245s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/srv/detail/empty__rosidl_typesupport_microxrcedds_cpp.hpp
+[233.442s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/srv/detail/microxrcedds
+[233.538s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/srv/detail/microxrcedds/empty__type_support_cpp.cpp
+[233.804s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/srv/detail/microxrcedds/set_bool__type_support_cpp.cpp
+[234.081s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/srv/detail/microxrcedds/trigger__type_support_cpp.cpp
+[234.348s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/srv/detail/set_bool__rosidl_typesupport_microxrcedds_cpp.hpp
+[234.570s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/srv/detail/trigger__rosidl_typesupport_microxrcedds_cpp.hpp
+[234.772s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_microxrcedds_cpp.so
+[234.987s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_microxrcedds_cpp.so" to ""
+[235.011s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs
+[235.068s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/msg
+[235.143s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[235.338s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv
+[235.411s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[235.496s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail/dds_fastrtps
+[235.634s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__rosidl_typesupport_fastrtps_cpp.hpp
+[235.884s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__rosidl_typesupport_fastrtps_cpp.hpp
+[236.123s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__rosidl_typesupport_fastrtps_cpp.hpp
+[236.355s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_fastrtps_cpp.so
+[236.604s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[236.632s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs
+[236.689s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv
+[236.752s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[236.845s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__rosidl_typesupport_introspection_cpp.hpp
+[237.083s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__type_support.cpp
+[237.422s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__rosidl_typesupport_introspection_cpp.hpp
+[237.713s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__type_support.cpp
+[238.008s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__rosidl_typesupport_introspection_cpp.hpp
+[238.288s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__type_support.cpp
+[238.522s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_introspection_cpp.so
+[238.763s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_introspection_cpp.so" to ""
+[238.791s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_cpp.so
+[239.023s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_cpp.so" to ""
+[239.073s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/environment/pythonpath.sh
+[239.246s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/environment/pythonpath.dsv
+[239.387s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs-4.2.3-py3.10.egg-info
+[239.480s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs-4.2.3-py3.10.egg-info/dependency_links.txt
+[239.711s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs-4.2.3-py3.10.egg-info/PKG-INFO
+[239.927s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs-4.2.3-py3.10.egg-info/SOURCES.txt
+[240.138s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs-4.2.3-py3.10.egg-info/top_level.txt
+[240.344s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs
+[240.442s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/libstd_srvs__rosidl_generator_py.so
+[240.661s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv
+[240.780s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/_empty.py
+[241.023s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/_empty_s.c
+[241.273s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/_set_bool.py
+[241.547s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/_set_bool_s.c
+[241.789s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/_trigger.py
+[242.024s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/_trigger_s.c
+[242.275s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/__init__.py
+[242.522s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[242.733s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[242.932s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[243.114s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so
+[243.277s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/_std_srvs_s.ep.rosidl_typesupport_c.c
+[243.435s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/_std_srvs_s.ep.rosidl_typesupport_fastrtps_c.c
+[243.604s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/_std_srvs_s.ep.rosidl_typesupport_introspection_c.c
+[243.842s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/_std_srvs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[244.033s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/__init__.py
+[246.198s] Listing '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs'...
+[246.200s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/__init__.py'...
+[246.202s] Listing '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv'...
+[246.203s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/__init__.py'...
+[246.205s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/_empty.py'...
+[246.207s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/_set_bool.py'...
+[246.209s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/_trigger.py'...
+[246.310s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so
+[246.532s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so" to ""
+[246.636s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[246.859s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[246.963s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[247.184s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[247.278s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[247.487s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[247.517s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/lib/libstd_srvs__rosidl_generator_py.so
+[247.676s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/lib/libstd_srvs__rosidl_generator_py.so" to ""
+[247.718s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/srv/Empty.idl
+[247.830s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/srv/SetBool.idl
+[247.939s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/srv/Trigger.idl
+[248.054s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/srv/Empty.srv
+[248.165s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/srv/Empty_Request.msg
+[248.260s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/srv/Empty_Response.msg
+[248.365s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/srv/SetBool.srv
+[248.506s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/srv/SetBool_Request.msg
+[248.621s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/srv/SetBool_Response.msg
+[248.758s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/srv/Trigger.srv
+[248.889s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/srv/Trigger_Request.msg
+[248.996s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/srv/Trigger_Response.msg
+[249.138s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/ament_index/resource_index/package_run_dependencies/std_srvs
+[249.302s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/ament_index/resource_index/parent_prefix_path/std_srvs
+[249.417s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/environment/ament_prefix_path.sh
+[249.504s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/environment/ament_prefix_path.dsv
+[249.598s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/environment/path.sh
+[249.687s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/environment/path.dsv
+[249.798s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/local_setup.bash
+[249.893s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/local_setup.sh
+[249.987s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/local_setup.zsh
+[250.078s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/local_setup.dsv
+[250.163s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/package.dsv
+[250.285s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/ament_index/resource_index/packages/std_srvs
+[250.455s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_generator_cExport.cmake
+[250.588s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_generator_cExport-noconfig.cmake
+[250.747s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_typesupport_fastrtps_cExport.cmake
+[250.897s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[251.051s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_introspection_cExport.cmake
+[251.193s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[251.332s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cExport.cmake
+[251.466s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cExport-noconfig.cmake
+[251.601s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_generator_cppExport.cmake
+[251.745s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_typesupport_fastrtps_cppExport.cmake
+[251.888s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[252.016s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_introspection_cppExport.cmake
+[252.142s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[252.279s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cppExport.cmake
+[252.408s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cppExport-noconfig.cmake
+[252.526s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_generator_pyExport.cmake
+[252.642s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_generator_pyExport-noconfig.cmake
+[252.740s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/cmake/rosidl_cmake-extras.cmake
+[252.823s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_include_directories-extras.cmake
+[252.906s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_libraries-extras.cmake
+[252.997s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_targets-extras.cmake
+[253.081s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[253.165s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_dependencies-extras.cmake
+[253.258s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[253.352s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/cmake/std_srvsConfig.cmake
+[253.441s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/cmake/std_srvsConfig-version.cmake
+[253.553s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_srvs/share/std_srvs/package.xml
+[253.653s] Invoked command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/std_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/std_srvs

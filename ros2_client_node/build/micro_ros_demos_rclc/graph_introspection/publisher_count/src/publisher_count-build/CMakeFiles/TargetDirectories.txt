@@ -1,0 +1,10 @@
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/graph_introspection/publisher_count/src/publisher_count-build/CMakeFiles/uninstall.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/graph_introspection/publisher_count/src/publisher_count-build/CMakeFiles/publisher_count_uninstall.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/graph_introspection/publisher_count/src/publisher_count-build/CMakeFiles/publisher_count.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/graph_introspection/publisher_count/src/publisher_count-build/CMakeFiles/test.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/graph_introspection/publisher_count/src/publisher_count-build/CMakeFiles/edit_cache.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/graph_introspection/publisher_count/src/publisher_count-build/CMakeFiles/rebuild_cache.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/graph_introspection/publisher_count/src/publisher_count-build/CMakeFiles/list_install_components.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/graph_introspection/publisher_count/src/publisher_count-build/CMakeFiles/install.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/graph_introspection/publisher_count/src/publisher_count-build/CMakeFiles/install/local.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/graph_introspection/publisher_count/src/publisher_count-build/CMakeFiles/install/strip.dir

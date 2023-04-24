@@ -1,0 +1,10 @@
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/rclc/CMakeFiles/uninstall.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/rclc/CMakeFiles/rclc_uninstall.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/rclc/CMakeFiles/rclc.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/rclc/CMakeFiles/test.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/rclc/CMakeFiles/edit_cache.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/rclc/CMakeFiles/rebuild_cache.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/rclc/CMakeFiles/list_install_components.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/rclc/CMakeFiles/install.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/rclc/CMakeFiles/install/local.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/rclc/CMakeFiles/install/strip.dir

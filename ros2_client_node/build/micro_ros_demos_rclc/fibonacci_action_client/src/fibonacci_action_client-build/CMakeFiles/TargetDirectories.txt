@@ -1,0 +1,10 @@
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/fibonacci_action_client/src/fibonacci_action_client-build/CMakeFiles/uninstall.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/fibonacci_action_client/src/fibonacci_action_client-build/CMakeFiles/fibonacci_action_client_uninstall.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/fibonacci_action_client/src/fibonacci_action_client-build/CMakeFiles/fibonacci_action_client.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/fibonacci_action_client/src/fibonacci_action_client-build/CMakeFiles/test.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/fibonacci_action_client/src/fibonacci_action_client-build/CMakeFiles/edit_cache.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/fibonacci_action_client/src/fibonacci_action_client-build/CMakeFiles/rebuild_cache.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/fibonacci_action_client/src/fibonacci_action_client-build/CMakeFiles/list_install_components.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/fibonacci_action_client/src/fibonacci_action_client-build/CMakeFiles/install.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/fibonacci_action_client/src/fibonacci_action_client-build/CMakeFiles/install/local.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/fibonacci_action_client/src/fibonacci_action_client-build/CMakeFiles/install/strip.dir

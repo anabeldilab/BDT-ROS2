@@ -1,0 +1,87 @@
+[0.332s] Invoking command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/rosidl_typesupport_microxrcedds_c': CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /mnt/d/prueba/TFG-ROS2/ros2_client_node/src/uros/rosidl_typesupport_microxrcedds/rosidl_typesupport_microxrcedds_c -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c
+[1.794s] -- The C compiler identification is GNU 11.3.0
+[2.032s] -- Detecting C compiler ABI info
+[4.148s] -- Detecting C compiler ABI info - done
+[4.175s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.176s] -- Detecting C compile features
+[4.177s] -- Detecting C compile features - done
+[4.428s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.860s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[10.268s] -- Found rosidl_runtime_c: 3.1.4 (/opt/ros/humble/share/rosidl_runtime_c/cmake)
+[12.455s] -- Configuring done
+[13.029s] -- Generating done
+[13.125s] -- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/rosidl_typesupport_microxrcedds_c
+[13.132s] Invoked command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/rosidl_typesupport_microxrcedds_c' returned '0': CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /mnt/d/prueba/TFG-ROS2/ros2_client_node/src/uros/rosidl_typesupport_microxrcedds/rosidl_typesupport_microxrcedds_c -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c
+[13.145s] Invoking command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/rosidl_typesupport_microxrcedds_c': CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/rosidl_typesupport_microxrcedds_c -- -j12 -l12
+[15.079s] [ 50%] [32mBuilding C object CMakeFiles/rosidl_typesupport_microxrcedds_c.dir/src/identifier.c.o[0m
+[15.298s] [ 50%] Built target ament_cmake_python_copy_rosidl_typesupport_microxrcedds_c
+[15.653s] [100%] [32m[1mLinking C shared library librosidl_typesupport_microxrcedds_c.so[0m
+[16.587s] [100%] Built target rosidl_typesupport_microxrcedds_c
+[16.705s] running egg_info
+[16.707s] creating rosidl_typesupport_microxrcedds_c.egg-info
+[16.709s] writing rosidl_typesupport_microxrcedds_c.egg-info/PKG-INFO
+[16.713s] writing dependency_links to rosidl_typesupport_microxrcedds_c.egg-info/dependency_links.txt
+[16.719s] writing top-level names to rosidl_typesupport_microxrcedds_c.egg-info/top_level.txt
+[16.723s] writing manifest file 'rosidl_typesupport_microxrcedds_c.egg-info/SOURCES.txt'
+[16.740s] reading manifest file 'rosidl_typesupport_microxrcedds_c.egg-info/SOURCES.txt'
+[16.757s] writing manifest file 'rosidl_typesupport_microxrcedds_c.egg-info/SOURCES.txt'
+[17.193s] [100%] Built target ament_cmake_python_build_rosidl_typesupport_microxrcedds_c_egg
+[17.499s] Invoked command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/rosidl_typesupport_microxrcedds_c' returned '0': CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/rosidl_typesupport_microxrcedds_c -- -j12 -l12
+[18.986s] Invoking command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/rosidl_typesupport_microxrcedds_c': CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/rosidl_typesupport_microxrcedds_c
+[19.239s] -- Install configuration: ""
+[19.259s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/pythonpath.sh
+[19.317s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/pythonpath.dsv
+[19.367s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages/rosidl_typesupport_microxrcedds_c-3.0.0-py3.10.egg-info
+[19.402s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages/rosidl_typesupport_microxrcedds_c-3.0.0-py3.10.egg-info/dependency_links.txt
+[19.489s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages/rosidl_typesupport_microxrcedds_c-3.0.0-py3.10.egg-info/PKG-INFO
+[19.564s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages/rosidl_typesupport_microxrcedds_c-3.0.0-py3.10.egg-info/SOURCES.txt
+[19.635s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages/rosidl_typesupport_microxrcedds_c-3.0.0-py3.10.egg-info/top_level.txt
+[19.703s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages/rosidl_typesupport_microxrcedds_c
+[19.737s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages/rosidl_typesupport_microxrcedds_c/__init__.py
+[20.148s] Listing '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages/rosidl_typesupport_microxrcedds_c'...
+[20.150s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages/rosidl_typesupport_microxrcedds_c/__init__.py'...
+[20.162s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/library_path.sh
+[20.204s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/library_path.dsv
+[20.265s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/ament_index/resource_index/rosidl_typesupport_c/rosidl_typesupport_microxrcedds_c
+[20.348s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/ament_index/resource_index/package_run_dependencies/rosidl_typesupport_microxrcedds_c
+[20.431s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/ament_index/resource_index/parent_prefix_path/rosidl_typesupport_microxrcedds_c
+[20.496s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/ament_prefix_path.sh
+[20.540s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/ament_prefix_path.dsv
+[20.590s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/path.sh
+[20.635s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/path.dsv
+[20.689s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/local_setup.bash
+[20.734s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/local_setup.sh
+[20.783s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/local_setup.zsh
+[20.830s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/local_setup.dsv
+[20.881s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/package.dsv
+[20.945s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/ament_index/resource_index/packages/rosidl_typesupport_microxrcedds_c
+[21.023s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_cExport.cmake
+[21.088s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_cExport-noconfig.cmake
+[21.145s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_c-extras.cmake
+[21.191s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/ament_cmake_export_dependencies-extras.cmake
+[21.239s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/ament_cmake_export_include_directories-extras.cmake
+[21.290s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/ament_cmake_export_libraries-extras.cmake
+[21.337s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/ament_cmake_export_targets-extras.cmake
+[21.386s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_cConfig.cmake
+[21.431s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_cConfig-version.cmake
+[21.485s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/package.xml
+[21.549s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/lib/rosidl_typesupport_microxrcedds_c/rosidl_typesupport_microxrcedds_c
+[21.613s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake
+[21.642s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_c_generate_interfaces.cmake
+[21.719s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource
+[21.753s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/idl__rosidl_typesupport_microxrcedds_c.h.em
+[21.822s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/idl__type_support_c.c.em
+[21.889s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/msg__rosidl_typesupport_microxrcedds_c.h.em
+[21.955s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/msg__type_support_c.c.em
+[22.018s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/rosidl_typesupport_microxrcedds_c__visibility_control.h.in
+[22.082s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/srv__rosidl_typesupport_microxrcedds_c.h.em
+[22.142s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/srv__type_support_c.c.em
+[22.197s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/include
+[22.214s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/include/rosidl_typesupport_microxrcedds_c
+[22.242s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/include/rosidl_typesupport_microxrcedds_c/identifier.h
+[22.302s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/include/rosidl_typesupport_microxrcedds_c/message_type_support.h
+[22.359s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/include/rosidl_typesupport_microxrcedds_c/service_type_support.h
+[22.416s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/include/rosidl_typesupport_microxrcedds_c/visibility_control.h
+[22.468s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/lib/librosidl_typesupport_microxrcedds_c.so
+[22.529s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/lib/librosidl_typesupport_microxrcedds_c.so" to ""
+[22.540s] Invoked command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/rosidl_typesupport_microxrcedds_c' returned '0': CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/rosidl_typesupport_microxrcedds_c

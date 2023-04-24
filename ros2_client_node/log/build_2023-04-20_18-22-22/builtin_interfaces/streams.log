@@ -1,0 +1,287 @@
+[0.927s] Invoking command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/builtin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/rcl_interfaces/builtin_interfaces -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces
+[2.759s] -- The C compiler identification is GNU 11.3.0
+[3.853s] -- The CXX compiler identification is GNU 11.3.0
+[4.301s] -- Detecting C compiler ABI info
+[7.294s] -- Detecting C compiler ABI info - done
+[7.346s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.348s] -- Detecting C compile features
+[7.351s] -- Detecting C compile features - done
+[7.491s] -- Detecting CXX compiler ABI info
+[11.909s] -- Detecting CXX compiler ABI info - done
+[11.978s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[11.981s] -- Detecting CXX compile features
+[11.984s] -- Detecting CXX compile features - done
+[12.516s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[18.869s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[26.137s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[26.857s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[28.007s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[33.254s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[44.657s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[56.263s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[63.780s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[64.390s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[64.881s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[65.896s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[65.898s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[65.901s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[65.903s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[66.417s] -- Found PythonExtra: .so  
+[69.908s] -- Configuring done
+[76.081s] -- Generating done
+[76.748s] -- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/builtin_interfaces
+[76.759s] Invoked command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/builtin_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/rcl_interfaces/builtin_interfaces -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces
+[76.780s] Invoking command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/builtin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/builtin_interfaces -- -j12 -l12
+[80.493s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[81.669s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[82.554s] [  4%] Built target ament_cmake_python_copy_builtin_interfaces
+[87.763s] [  4%] Built target builtin_interfaces__cpp
+[88.241s] [  6%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_generator_c.dir/rosidl_generator_c/builtin_interfaces/msg/detail/duration__functions.c.o[0m
+[88.279s] [  8%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_generator_c.dir/rosidl_generator_c/builtin_interfaces/msg/detail/time__functions.c.o[0m
+[89.354s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[89.446s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[89.579s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[89.975s] running egg_info
+[89.981s] creating builtin_interfaces.egg-info
+[89.988s] writing builtin_interfaces.egg-info/PKG-INFO
+[90.013s] writing dependency_links to builtin_interfaces.egg-info/dependency_links.txt
+[90.047s] writing top-level names to builtin_interfaces.egg-info/top_level.txt
+[90.075s] writing manifest file 'builtin_interfaces.egg-info/SOURCES.txt'
+[90.165s] reading manifest file 'builtin_interfaces.egg-info/SOURCES.txt'
+[90.237s] [ 16%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[90.322s] writing manifest file 'builtin_interfaces.egg-info/SOURCES.txt'
+[91.054s] [ 18%] [32m[1mLinking C shared library libbuiltin_interfaces__rosidl_generator_c.so[0m
+[91.714s] [ 18%] Built target ament_cmake_python_build_builtin_interfaces_egg
+[95.320s] [ 18%] Built target builtin_interfaces__rosidl_generator_c
+[98.417s] [ 22%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/builtin_interfaces/msg/duration__type_support.cpp.o[0m
+[98.425s] [ 22%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/builtin_interfaces/msg/detail/duration__type_support.cpp.o[0m
+[98.501s] [ 24%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/builtin_interfaces/msg/detail/dds_fastrtps/duration__type_support.cpp.o[0m
+[102.205s] [ 26%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/builtin_interfaces/msg/time__type_support.cpp.o[0m
+[102.714s] [ 28%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/builtin_interfaces/msg/detail/microxrcedds/duration__type_support_cpp.cpp.o[0m
+[103.478s] [ 30%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/builtin_interfaces/msg/detail/time__type_support.cpp.o[0m
+[103.765s] [ 32%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/builtin_interfaces/msg/detail/dds_fastrtps/time__type_support.cpp.o[0m
+[105.472s] [ 34%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_cpp.so[0m
+[107.757s] [ 36%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[108.166s] [ 38%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[108.826s] [ 38%] Built target builtin_interfaces__rosidl_typesupport_cpp
+[110.774s] [ 38%] Built target builtin_interfaces__rosidl_typesupport_introspection_cpp
+[110.855s] [ 40%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/builtin_interfaces/msg/detail/microxrcedds/time__type_support_cpp.cpp.o[0m
+[111.513s] [ 40%] Built target builtin_interfaces__rosidl_typesupport_fastrtps_cpp
+[118.794s] [ 42%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_microxrcedds_cpp.so[0m
+[121.308s] [ 42%] Built target builtin_interfaces__rosidl_typesupport_microxrcedds_cpp
+[122.325s] [ 44%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[126.314s] [ 46%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/builtin_interfaces/msg/duration__type_support.cpp.o[0m
+[127.363s] [ 48%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/builtin_interfaces/msg/time__type_support.cpp.o[0m
+[128.443s] [ 51%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_c.so[0m
+[129.927s] [ 51%] Built target builtin_interfaces__rosidl_typesupport_c
+[130.662s] [ 53%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[134.916s] [ 55%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/builtin_interfaces/msg/detail/duration__type_support.c.o[0m
+[136.419s] [ 57%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/builtin_interfaces/msg/detail/time__type_support.c.o[0m
+[138.114s] [ 59%] [32m[1mLinking C shared library libbuiltin_interfaces__rosidl_typesupport_introspection_c.so[0m
+[139.937s] [ 59%] Built target builtin_interfaces__rosidl_typesupport_introspection_c
+[140.739s] [ 61%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[140.904s] [ 63%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[146.923s] [ 65%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/builtin_interfaces/msg/detail/duration__type_support_c.cpp.o[0m
+[147.766s] [ 67%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/builtin_interfaces/msg/detail/microxrcedds/duration__type_support_c.c.o[0m
+[150.299s] [ 69%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/builtin_interfaces/msg/detail/time__type_support_c.cpp.o[0m
+[150.658s] [ 71%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/builtin_interfaces/msg/detail/microxrcedds/time__type_support_c.c.o[0m
+[153.687s] [ 73%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[153.868s] [ 75%] [32m[1mLinking C shared library libbuiltin_interfaces__rosidl_typesupport_microxrcedds_c.so[0m
+[155.977s] [ 75%] Built target builtin_interfaces__rosidl_typesupport_fastrtps_c
+[156.186s] [ 75%] Built target builtin_interfaces__rosidl_typesupport_microxrcedds_c
+[158.145s] [ 75%] Built target builtin_interfaces
+[160.096s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[166.797s] [ 77%] Built target builtin_interfaces__py
+[168.695s] [ 79%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_generator_py.dir/rosidl_generator_py/builtin_interfaces/msg/_duration_s.c.o[0m
+[168.742s] [ 81%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_generator_py.dir/rosidl_generator_py/builtin_interfaces/msg/_time_s.c.o[0m
+[171.497s] [ 83%] [32m[1mLinking C shared library rosidl_generator_py/builtin_interfaces/libbuiltin_interfaces__rosidl_generator_py.so[0m
+[173.364s] [ 83%] Built target builtin_interfaces__rosidl_generator_py
+[174.918s] [ 85%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_microxrcedds_c__pyext.dir/rosidl_generator_py/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[178.052s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so[0m
+[179.997s] [ 87%] Built target builtin_interfaces__rosidl_typesupport_microxrcedds_c__pyext
+[181.751s] [ 91%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[181.756s] [ 91%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[181.849s] [ 93%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[184.261s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[184.289s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[184.516s] [100%] [32m[1mLinking C shared library rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[186.130s] [100%] Built target builtin_interfaces__rosidl_typesupport_c__pyext
+[186.199s] [100%] Built target builtin_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[186.347s] [100%] Built target builtin_interfaces__rosidl_typesupport_introspection_c__pyext
+[187.142s] Invoked command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/builtin_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/builtin_interfaces -- -j12 -l12
+[206.110s] Invoking command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/builtin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/builtin_interfaces
+[206.559s] -- Install configuration: ""
+[206.649s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/ament_index/resource_index/rosidl_interfaces/builtin_interfaces
+[206.869s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[206.942s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[207.036s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[207.168s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__functions.c
+[207.440s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__functions.h
+[207.694s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.h
+[207.967s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.h
+[208.233s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__functions.c
+[208.502s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__functions.h
+[208.759s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h
+[209.022s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.h
+[209.296s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/duration.h
+[209.533s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_c__visibility_control.h
+[209.738s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/time.h
+[209.924s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/environment/library_path.sh
+[210.092s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/environment/library_path.dsv
+[210.280s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_c.so
+[210.543s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_c.so" to ""
+[210.566s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces
+[210.614s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/msg
+[210.681s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/msg/detail
+[210.783s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__rosidl_typesupport_microxrcedds_c.h
+[210.985s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/msg/detail/microxrcedds
+[211.091s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__rosidl_typesupport_microxrcedds_c.h
+[211.293s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[211.454s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_microxrcedds_c.so
+[211.751s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_microxrcedds_c.so" to ""
+[211.778s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[211.834s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[211.897s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[211.981s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__rosidl_typesupport_fastrtps_c.h
+[212.196s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__rosidl_typesupport_fastrtps_c.h
+[212.387s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[212.576s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
+[212.809s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[212.830s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[212.877s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[212.939s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[213.023s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__rosidl_typesupport_introspection_c.h
+[213.230s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.c
+[213.443s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__rosidl_typesupport_introspection_c.h
+[213.631s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.c
+[213.810s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[213.961s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
+[214.171s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[214.195s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
+[214.382s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_c.so" to ""
+[214.401s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[214.447s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[214.510s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[214.588s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp
+[214.826s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp
+[215.078s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp
+[215.313s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp
+[215.515s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp
+[215.721s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp
+[215.929s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp
+[216.113s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/time.hpp
+[216.276s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces
+[216.321s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/msg
+[216.377s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/msg/detail
+[216.457s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__rosidl_typesupport_microxrcedds_cpp.hpp
+[216.669s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/msg/detail/microxrcedds
+[216.769s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/msg/detail/microxrcedds/duration__type_support_cpp.cpp
+[217.036s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/msg/detail/microxrcedds/time__type_support_cpp.cpp
+[217.276s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__rosidl_typesupport_microxrcedds_cpp.hpp
+[217.491s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[217.656s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_microxrcedds_cpp.so
+[217.889s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_microxrcedds_cpp.so" to ""
+[217.916s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[217.972s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[218.035s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[218.115s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/dds_fastrtps
+[218.234s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__rosidl_typesupport_fastrtps_cpp.hpp
+[218.454s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__rosidl_typesupport_fastrtps_cpp.hpp
+[218.674s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[218.864s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[219.079s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[219.106s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[219.157s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[219.222s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[219.304s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__rosidl_typesupport_introspection_cpp.hpp
+[219.537s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.cpp
+[219.780s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__rosidl_typesupport_introspection_cpp.hpp
+[220.032s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.cpp
+[220.227s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
+[220.473s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[220.508s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+[220.756s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so" to ""
+[220.801s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/environment/pythonpath.sh
+[221.045s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/environment/pythonpath.dsv
+[221.247s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces-1.2.1-py3.10.egg-info
+[221.387s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces-1.2.1-py3.10.egg-info/dependency_links.txt
+[221.752s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces-1.2.1-py3.10.egg-info/PKG-INFO
+[222.048s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces-1.2.1-py3.10.egg-info/SOURCES.txt
+[222.455s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces-1.2.1-py3.10.egg-info/top_level.txt
+[222.731s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces
+[222.848s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[223.185s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[223.477s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[223.792s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so
+[224.107s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/libbuiltin_interfaces__rosidl_generator_py.so
+[224.345s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg
+[224.507s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg/_duration.py
+[224.939s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg/_duration_s.c
+[225.344s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg/_time.py
+[225.682s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg/_time_s.c
+[226.048s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg/__init__.py
+[226.423s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_c.c
+[226.779s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[227.106s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[227.461s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_microxrcedds_c.c
+[227.816s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/__init__.py
+[232.441s] Listing '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces'...
+[232.446s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/__init__.py'...
+[232.450s] Listing '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg'...
+[232.454s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg/__init__.py'...
+[232.458s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg/_duration.py'...
+[232.461s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg/_time.py'...
+[232.716s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so
+[233.133s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so" to ""
+[233.302s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[233.631s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[233.811s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[234.171s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[234.352s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[234.753s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[234.805s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_py.so
+[235.068s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_py.so" to ""
+[235.135s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl
+[235.333s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl
+[235.533s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.msg
+[235.755s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/msg/Time.msg
+[236.020s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/ament_index/resource_index/package_run_dependencies/builtin_interfaces
+[236.321s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/ament_index/resource_index/parent_prefix_path/builtin_interfaces
+[236.520s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/environment/ament_prefix_path.sh
+[236.665s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/environment/ament_prefix_path.dsv
+[236.815s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/environment/path.sh
+[236.978s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/environment/path.dsv
+[237.157s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/local_setup.bash
+[237.302s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/local_setup.sh
+[237.436s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/local_setup.zsh
+[237.569s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/local_setup.dsv
+[237.747s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/package.dsv
+[238.025s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/ament_index/resource_index/packages/builtin_interfaces
+[238.329s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_cExport.cmake
+[238.598s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_cExport-noconfig.cmake
+[238.860s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[239.096s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[239.343s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[239.589s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[239.836s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cExport.cmake
+[240.049s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[240.270s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_cppExport.cmake
+[240.491s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[240.694s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[240.923s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[241.158s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[241.384s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cppExport.cmake
+[241.603s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[241.829s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_pyExport.cmake
+[242.070s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[242.268s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/cmake/rosidl_cmake-extras.cmake
+[242.420s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[242.575s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[242.736s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[242.901s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[243.059s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[243.223s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[243.379s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake
+[243.518s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfacesConfig-version.cmake
+[243.665s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/package.xml
+[243.802s] Invoked command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/builtin_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/builtin_interfaces

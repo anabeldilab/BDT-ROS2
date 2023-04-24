@@ -1,0 +1,18 @@
+{
+  "package_name": "visualization_msgs",
+  "non_idl_tuples": [
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/common_interfaces/visualization_msgs:msg/ImageMarker.msg",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/common_interfaces/visualization_msgs:msg/InteractiveMarker.msg",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/common_interfaces/visualization_msgs:msg/InteractiveMarkerControl.msg",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/common_interfaces/visualization_msgs:msg/InteractiveMarkerFeedback.msg",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/common_interfaces/visualization_msgs:msg/InteractiveMarkerInit.msg",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/common_interfaces/visualization_msgs:msg/InteractiveMarkerPose.msg",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/common_interfaces/visualization_msgs:msg/InteractiveMarkerUpdate.msg",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/common_interfaces/visualization_msgs:msg/Marker.msg",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/common_interfaces/visualization_msgs:msg/MarkerArray.msg",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/common_interfaces/visualization_msgs:msg/MenuEntry.msg",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/common_interfaces/visualization_msgs:msg/MeshFile.msg",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/common_interfaces/visualization_msgs:msg/UVCoordinate.msg",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/common_interfaces/visualization_msgs:srv/GetInteractiveMarkers.srv"
+  ]
+}

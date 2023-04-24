@@ -1,0 +1,140 @@
+[0.927s] Invoking command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/microxrcedds_client': CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/lib:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent/lib:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /mnt/d/prueba/TFG-ROS2/ros2_client_node/src/eProsima/Micro-XRCE-DDS-Client -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DUCLIENT_ISOLATED_INSTALL=OFF -DUCLIENT_SUPERBUILD=OFF -DBUILD_SHARED_LIBS=ON -DUCLIENT_PROFILE_MULTITHREAD=ON -DCMAKE_INSTALL_PREFIX=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client
+[4.372s] -- The C compiler identification is GNU 11.3.0
+[5.051s] -- Detecting C compiler ABI info
+[10.192s] -- Detecting C compiler ABI info - done
+[10.275s] -- Check for working C compiler: /usr/bin/cc - skipped
+[10.278s] -- Detecting C compile features
+[10.281s] -- Detecting C compile features - done
+[10.441s] -- Setting build type to 'Release' as none was specified.
+[10.919s] -- Looking for pthread.h
+[17.098s] -- Looking for pthread.h - found
+[17.128s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[23.728s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[23.743s] -- Found Threads: TRUE  
+[24.203s] -- Configuring done
+[25.787s] -- Generating done
+[25.866s] [33mCMake Warning:
+[25.868s]   Manually-specified variables were not used by the project:
+[25.871s] 
+[25.875s]     BUILD_TESTING
+[25.877s] 
+[25.881s] [0m
+[25.912s] -- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/microxrcedds_client
+[25.914s] Invoked command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/microxrcedds_client' returned '0': CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/lib:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent/lib:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /mnt/d/prueba/TFG-ROS2/ros2_client_node/src/eProsima/Micro-XRCE-DDS-Client -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DUCLIENT_ISOLATED_INSTALL=OFF -DUCLIENT_SUPERBUILD=OFF -DBUILD_SHARED_LIBS=ON -DUCLIENT_PROFILE_MULTITHREAD=ON -DCMAKE_INSTALL_PREFIX=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client
+[25.938s] Invoking command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/microxrcedds_client': CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/lib:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent/lib:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/microxrcedds_client -- -j12 -l12
+[31.009s] [  2%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_best_effort_stream.c.o[0m
+[31.068s] [  5%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_reliable_stream.c.o[0m
+[31.154s] [ 11%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_best_effort_stream.c.o[0m
+[31.167s] [ 11%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_reliable_stream.c.o[0m
+[31.232s] [ 14%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_storage.c.o[0m
+[31.279s] [ 17%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_id.c.o[0m
+[31.385s] [ 20%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/seq_num.c.o[0m
+[31.429s] [ 22%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/session.c.o[0m
+[31.500s] [ 25%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/submessage.c.o[0m
+[31.535s] [ 28%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/session_info.c.o[0m
+[31.620s] [ 31%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/object_id.c.o[0m
+[31.678s] [ 34%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_types.c.o[0m
+[33.833s] [ 37%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_header.c.o[0m
+[33.904s] [ 40%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_subheader.c.o[0m
+[33.974s] [ 42%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/util/time.c.o[0m
+[34.053s] [ 45%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/util/ping.c.o[0m
+[34.071s] [ 48%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/common_create_entities.c.o[0m
+[34.166s] [ 51%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_ref.c.o[0m
+[34.195s] [ 57%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_xml.c.o[0m
+[34.205s] [ 57%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_bin.c.o[0m
+[34.256s] [ 60%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/read_access.c.o[0m
+[34.310s] [ 62%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/write_access.c.o[0m
+[35.865s] [ 65%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/multithread/multithread.c.o[0m
+[36.278s] [ 71%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/udp/udp_transport.c.o[0m
+[36.285s] [ 71%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/stream_framing/stream_framing_protocol.c.o[0m
+[36.321s] [ 74%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/udp/udp_transport_posix.c.o[0m
+[36.476s] [ 77%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/tcp/tcp_transport.c.o[0m
+[37.325s] [ 82%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/serial/serial_transport.c.o[0m
+[37.344s] [ 82%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/tcp/tcp_transport_posix.c.o[0m
+[37.440s] [ 85%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/serial/serial_transport_posix.c.o[0m
+[37.474s] [ 88%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/ip_posix.c.o[0m
+[37.531s] [ 91%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/discovery/discovery.c.o[0m
+[37.878s] [ 94%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/discovery/transport/udp_transport_datagram_posix.c.o[0m
+[38.145s] [ 97%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/custom/custom_transport.c.o[0m
+[41.348s] [100%] [32m[1mLinking C shared library libmicroxrcedds_client.so[0m
+[48.097s] [100%] Built target microxrcedds_client
+[49.000s] Invoked command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/microxrcedds_client' returned '0': CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/lib:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent/lib:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/microxrcedds_client -- -j12 -l12
+[74.674s] Invoking command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/microxrcedds_client': CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/lib:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent/lib:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/microxrcedds_client
+[75.870s] -- Install configuration: "Release"
+[75.943s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/lib/libmicroxrcedds_client.so.2.4.0
+[76.301s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/lib/libmicroxrcedds_client.so.2.4
+[76.855s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/lib/libmicroxrcedds_client.so.2.4.0" to ""
+[76.978s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/lib/libmicroxrcedds_client.so
+[77.162s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client
+[77.444s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/client.h
+[78.130s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/core
+[78.384s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/core/communication
+[78.818s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/core/communication/communication.h
+[79.640s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/core/session
+[80.059s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/core/session/common_create_entities.h
+[80.878s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/core/session/create_entities_bin.h
+[81.956s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/core/session/create_entities_ref.h
+[82.898s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/core/session/create_entities_xml.h
+[83.855s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/core/session/object_id.h
+[84.652s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/core/session/read_access.h
+[85.342s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/core/session/session.h
+[86.169s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/core/session/session_info.h
+[86.998s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/core/session/stream
+[87.419s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/core/session/stream/input_best_effort_stream.h
+[88.263s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/core/session/stream/input_reliable_stream.h
+[89.057s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/core/session/stream/output_best_effort_stream.h
+[89.888s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/core/session/stream/output_reliable_stream.h
+[90.565s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/core/session/stream/reliable_stream.h
+[91.224s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/core/session/stream/seq_num.h
+[91.925s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/core/session/stream/stream_id.h
+[92.505s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/core/session/stream/stream_storage.h
+[93.111s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/core/session/time_sync.h
+[93.682s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/core/session/write_access.h
+[94.227s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/core/type
+[94.478s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/core/type/xrce_types.h
+[94.979s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/defines.h
+[95.321s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/profile
+[95.472s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/profile/discovery
+[95.700s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/profile/discovery/discovery.h
+[96.205s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/profile/multithread
+[96.490s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/profile/multithread/multithread.h
+[97.021s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/profile/transport
+[97.233s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/profile/transport/can
+[97.486s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/profile/transport/can/can_transport.h
+[97.998s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/profile/transport/can/can_transport_posix.h
+[98.560s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/profile/transport/custom
+[98.805s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/profile/transport/custom/custom_transport.h
+[99.366s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/profile/transport/ip
+[99.635s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/profile/transport/ip/ip.h
+[100.159s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp
+[100.483s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport.h
+[101.033s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport_freertos_plus_tcp.h
+[101.600s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix.h
+[102.186s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix_nopoll.h
+[102.785s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport_rtems_bsd_net.h
+[103.393s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport_windows.h
+[104.108s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp
+[104.384s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport.h
+[104.947s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport_freertos_plus_tcp.h
+[105.474s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport_posix.h
+[105.939s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport_posix_nopoll.h
+[106.369s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport_rtems_bsd_net.h
+[106.802s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport_windows.h
+[107.245s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/profile/transport/serial
+[107.445s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/profile/transport/serial/serial_transport.h
+[107.751s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/profile/transport/serial/serial_transport_platform.h
+[108.063s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/profile/transport/serial/serial_transport_posix.h
+[108.397s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/profile/transport/serial/serial_transport_rtems_bsd_net.h
+[108.705s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/profile/transport/stream_framing
+[108.865s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/profile/transport/stream_framing/stream_framing_protocol.h
+[109.211s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/transport.h
+[109.483s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/util
+[109.659s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/util/ping.h
+[109.987s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/util/time.h
+[110.267s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/visibility.h
+[110.489s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/include/uxr/client/config.h
+[110.701s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/share/microxrcedds_client/cmake/microxrcedds_clientTargets.cmake
+[110.889s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/share/microxrcedds_client/cmake/microxrcedds_clientTargets-release.cmake
+[111.047s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/share/microxrcedds_client/cmake/microxrcedds_clientConfig.cmake
+[111.195s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/share/microxrcedds_client/cmake/microxrcedds_clientConfigVersion.cmake
+[111.330s] Invoked command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/microxrcedds_client' returned '0': CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/lib:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent/lib:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/microxrcedds_client

@@ -1,0 +1,41 @@
+[13.688s] Invoking command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/common_interfaces/sensor_msgs_py': AMENT_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/sensor_msgs_py/prefix_override:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs_py/lib/python3.10/site-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/sensor_msgs_py build --build-base /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/sensor_msgs_py/build install --record /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/sensor_msgs_py/install.log --single-version-externally-managed
+[17.802s] running egg_info
+[17.806s] creating ../../../../build/sensor_msgs_py/sensor_msgs_py.egg-info
+[17.809s] writing ../../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/PKG-INFO
+[17.819s] writing dependency_links to ../../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/dependency_links.txt
+[17.828s] writing requirements to ../../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/requires.txt
+[17.831s] writing top-level names to ../../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/top_level.txt
+[17.838s] writing manifest file '../../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/SOURCES.txt'
+[17.883s] reading manifest file '../../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/SOURCES.txt'
+[17.916s] adding license file 'LICENSE'
+[17.954s] writing manifest file '../../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/SOURCES.txt'
+[17.955s] running build
+[17.957s] running build_py
+[17.958s] creating /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/sensor_msgs_py/build
+[17.959s] creating /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/sensor_msgs_py/build/lib
+[17.961s] creating /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[17.969s] copying sensor_msgs_py/numpy_compat.py -> /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[17.994s] copying sensor_msgs_py/point_cloud2.py -> /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[18.018s] copying sensor_msgs_py/__init__.py -> /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[18.033s] running install
+[18.035s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[18.037s]   warnings.warn(
+[18.038s] running install_lib
+[18.061s] creating /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs_py/lib/python3.10/site-packages/sensor_msgs_py
+[18.081s] copying /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/sensor_msgs_py/build/lib/sensor_msgs_py/numpy_compat.py -> /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs_py/lib/python3.10/site-packages/sensor_msgs_py
+[18.121s] copying /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/sensor_msgs_py/build/lib/sensor_msgs_py/point_cloud2.py -> /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs_py/lib/python3.10/site-packages/sensor_msgs_py
+[18.161s] copying /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/sensor_msgs_py/build/lib/sensor_msgs_py/__init__.py -> /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs_py/lib/python3.10/site-packages/sensor_msgs_py
+[18.222s] byte-compiling /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs_py/lib/python3.10/site-packages/sensor_msgs_py/numpy_compat.py to numpy_compat.cpython-310.pyc
+[18.267s] byte-compiling /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs_py/lib/python3.10/site-packages/sensor_msgs_py/point_cloud2.py to point_cloud2.cpython-310.pyc
+[18.315s] byte-compiling /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs_py/lib/python3.10/site-packages/sensor_msgs_py/__init__.py to __init__.cpython-310.pyc
+[18.356s] running install_data
+[18.364s] creating /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs_py/share/ament_index
+[18.366s] creating /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs_py/share/ament_index/resource_index
+[18.370s] creating /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs_py/share/ament_index/resource_index/packages
+[18.383s] copying resource/sensor_msgs_py -> /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs_py/share/ament_index/resource_index/packages
+[18.411s] copying package.xml -> /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs_py/share/sensor_msgs_py
+[18.435s] running install_egg_info
+[18.481s] Copying ../../../../build/sensor_msgs_py/sensor_msgs_py.egg-info to /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs_py/lib/python3.10/site-packages/sensor_msgs_py-4.2.3-py3.10.egg-info
+[18.738s] running install_scripts
+[19.099s] writing list of installed files to '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/sensor_msgs_py/install.log'
+[19.143s] Invoked command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/common_interfaces/sensor_msgs_py' returned '0': AMENT_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/sensor_msgs_py/prefix_override:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs_py/lib/python3.10/site-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/sensor_msgs_py build --build-base /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/sensor_msgs_py/build install --record /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/sensor_msgs_py/install.log --single-version-externally-managed

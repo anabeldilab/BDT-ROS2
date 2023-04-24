@@ -1,0 +1,8 @@
+{
+  "package_name": "std_srvs",
+  "non_idl_tuples": [
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/common_interfaces/std_srvs:srv/Empty.srv",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/common_interfaces/std_srvs:srv/SetBool.srv",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/common_interfaces/std_srvs:srv/Trigger.srv"
+  ]
+}

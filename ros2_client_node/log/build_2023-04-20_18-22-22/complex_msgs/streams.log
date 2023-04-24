@@ -1,0 +1,290 @@
+[1.049s] Invoking command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/complex_msgs': AMENT_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /mnt/d/prueba/TFG-ROS2/ros2_client_node/src/uros/micro-ROS-demos/messages/complex_msg -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs
+[4.515s] -- The C compiler identification is GNU 11.3.0
+[6.728s] -- The CXX compiler identification is GNU 11.3.0
+[7.473s] -- Detecting C compiler ABI info
+[12.583s] -- Detecting C compiler ABI info - done
+[12.657s] -- Check for working C compiler: /usr/bin/cc - skipped
+[12.660s] -- Detecting C compile features
+[12.663s] -- Detecting C compile features - done
+[12.848s] -- Detecting CXX compiler ABI info
+[17.921s] -- Detecting CXX compiler ABI info - done
+[17.988s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[17.991s] -- Detecting CXX compile features
+[17.995s] -- Detecting CXX compile features - done
+[18.786s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[26.283s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[33.004s] -- Found builtin_interfaces: 1.2.1 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[37.181s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[38.320s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[39.480s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[40.485s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[43.098s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[45.020s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[55.021s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[70.637s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[77.316s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[78.486s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[79.579s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[81.874s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[81.877s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[81.881s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[81.884s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[83.424s] -- Found PythonExtra: .so  
+[91.617s] -- Configuring done
+[101.958s] -- Generating done
+[102.850s] -- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/complex_msgs
+[102.865s] Invoked command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/complex_msgs' returned '0': AMENT_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /mnt/d/prueba/TFG-ROS2/ros2_client_node/src/uros/micro-ROS-demos/messages/complex_msg -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs
+[102.892s] Invoking command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/complex_msgs': AMENT_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/complex_msgs -- -j12 -l12
+[111.363s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[113.282s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[126.974s] [  4%] Built target complex_msgs__cpp
+[129.104s] [  6%] [32mBuilding C object CMakeFiles/complex_msgs__rosidl_generator_c.dir/rosidl_generator_c/complex_msgs/msg/detail/multi_string_test__functions.c.o[0m
+[132.605s] [  8%] [32mBuilding C object CMakeFiles/complex_msgs__rosidl_generator_c.dir/rosidl_generator_c/complex_msgs/msg/detail/nested_msg_test__functions.c.o[0m
+[136.931s] [ 10%] [32m[1mLinking C shared library libcomplex_msgs__rosidl_generator_c.so[0m
+[141.581s] [ 10%] Built target complex_msgs__rosidl_generator_c
+[143.930s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[155.157s] [ 14%] [32mBuilding CXX object CMakeFiles/complex_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/complex_msgs/msg/detail/dds_fastrtps/multi_string_test__type_support.cpp.o[0m
+[162.706s] [ 16%] [32mBuilding CXX object CMakeFiles/complex_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/complex_msgs/msg/detail/dds_fastrtps/nested_msg_test__type_support.cpp.o[0m
+[168.657s] [ 18%] [32m[1mLinking CXX shared library libcomplex_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[171.462s] [ 18%] Built target complex_msgs__rosidl_typesupport_fastrtps_cpp
+[172.656s] [ 20%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[181.230s] [ 22%] [32mBuilding C object CMakeFiles/complex_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/complex_msgs/msg/detail/microxrcedds/multi_string_test__type_support_c.c.o[0m
+[185.257s] [ 24%] [32mBuilding C object CMakeFiles/complex_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/complex_msgs/msg/detail/microxrcedds/nested_msg_test__type_support_c.c.o[0m
+[189.181s] [ 26%] [32m[1mLinking C shared library libcomplex_msgs__rosidl_typesupport_microxrcedds_c.so[0m
+[191.929s] [ 26%] Built target complex_msgs__rosidl_typesupport_microxrcedds_c
+[193.135s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[193.153s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[201.483s] [ 32%] [32mBuilding CXX object CMakeFiles/complex_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/complex_msgs/msg/multi_string_test__type_support.cpp.o[0m
+[203.507s] [ 34%] [32mBuilding CXX object CMakeFiles/complex_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/complex_msgs/msg/detail/multi_string_test__type_support_c.cpp.o[0m
+[204.131s] [ 36%] [32mBuilding CXX object CMakeFiles/complex_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/complex_msgs/msg/nested_msg_test__type_support.cpp.o[0m
+[206.981s] [ 38%] [32m[1mLinking CXX shared library libcomplex_msgs__rosidl_typesupport_c.so[0m
+[210.416s] [ 40%] [32mBuilding CXX object CMakeFiles/complex_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/complex_msgs/msg/detail/nested_msg_test__type_support_c.cpp.o[0m
+[210.629s] [ 40%] Built target complex_msgs__rosidl_typesupport_c
+[215.220s] [ 42%] [32m[1mLinking CXX shared library libcomplex_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[219.160s] [ 42%] Built target complex_msgs__rosidl_typesupport_fastrtps_c
+[221.028s] [ 44%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[221.201s] [ 46%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[227.520s] [ 48%] [32mBuilding CXX object CMakeFiles/complex_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/complex_msgs/msg/multi_string_test__type_support.cpp.o[0m
+[229.176s] [ 51%] [32mBuilding C object CMakeFiles/complex_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/complex_msgs/msg/detail/multi_string_test__type_support.c.o[0m
+[232.015s] [ 53%] [32mBuilding C object CMakeFiles/complex_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/complex_msgs/msg/detail/nested_msg_test__type_support.c.o[0m
+[232.025s] [ 55%] [32mBuilding CXX object CMakeFiles/complex_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/complex_msgs/msg/nested_msg_test__type_support.cpp.o[0m
+[234.286s] [ 57%] [32m[1mLinking C shared library libcomplex_msgs__rosidl_typesupport_introspection_c.so[0m
+[236.131s] [ 59%] [32m[1mLinking CXX shared library libcomplex_msgs__rosidl_typesupport_cpp.so[0m
+[236.698s] [ 59%] Built target complex_msgs__rosidl_typesupport_introspection_c
+[238.935s] [ 59%] Built target complex_msgs__rosidl_typesupport_cpp
+[240.209s] [ 61%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[247.337s] [ 63%] [32mBuilding CXX object CMakeFiles/complex_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/complex_msgs/msg/detail/multi_string_test__type_support.cpp.o[0m
+[247.376s] [ 65%] [32mBuilding CXX object CMakeFiles/complex_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/complex_msgs/msg/detail/nested_msg_test__type_support.cpp.o[0m
+[251.815s] [ 67%] [32m[1mLinking CXX shared library libcomplex_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[254.601s] [ 67%] Built target complex_msgs__rosidl_typesupport_introspection_cpp
+[256.033s] [ 69%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[258.435s] [ 69%] Built target ament_cmake_python_copy_complex_msgs
+[265.911s] [ 71%] [32mBuilding CXX object CMakeFiles/complex_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/complex_msgs/msg/detail/microxrcedds/multi_string_test__type_support_cpp.cpp.o[0m
+[265.956s] running egg_info
+[265.959s] creating complex_msgs.egg-info
+[265.964s] writing complex_msgs.egg-info/PKG-INFO
+[265.977s] writing dependency_links to complex_msgs.egg-info/dependency_links.txt
+[265.995s] writing top-level names to complex_msgs.egg-info/top_level.txt
+[266.008s] writing manifest file 'complex_msgs.egg-info/SOURCES.txt'
+[266.056s] reading manifest file 'complex_msgs.egg-info/SOURCES.txt'
+[266.125s] writing manifest file 'complex_msgs.egg-info/SOURCES.txt'
+[267.244s] [ 71%] Built target ament_cmake_python_build_complex_msgs_egg
+[274.731s] [ 73%] [32mBuilding CXX object CMakeFiles/complex_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/complex_msgs/msg/detail/microxrcedds/nested_msg_test__type_support_cpp.cpp.o[0m
+[283.852s] [ 75%] [32m[1mLinking CXX shared library libcomplex_msgs__rosidl_typesupport_microxrcedds_cpp.so[0m
+[287.068s] [ 75%] Built target complex_msgs__rosidl_typesupport_microxrcedds_cpp
+[289.738s] [ 75%] Built target complex_msgs
+[292.226s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[301.400s] [ 77%] Built target complex_msgs__py
+[303.946s] [ 79%] [32mBuilding C object CMakeFiles/complex_msgs__rosidl_generator_py.dir/rosidl_generator_py/complex_msgs/msg/_multi_string_test_s.c.o[0m
+[308.708s] [ 81%] [32mBuilding C object CMakeFiles/complex_msgs__rosidl_generator_py.dir/rosidl_generator_py/complex_msgs/msg/_nested_msg_test_s.c.o[0m
+[312.704s] [ 83%] [32m[1mLinking C shared library rosidl_generator_py/complex_msgs/libcomplex_msgs__rosidl_generator_py.so[0m
+[315.753s] [ 83%] Built target complex_msgs__rosidl_generator_py
+[318.262s] [ 85%] [32mBuilding C object CMakeFiles/complex_msgs__rosidl_typesupport_microxrcedds_c__pyext.dir/rosidl_generator_py/complex_msgs/_complex_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[324.099s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/complex_msgs/complex_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so[0m
+[327.671s] [ 87%] Built target complex_msgs__rosidl_typesupport_microxrcedds_c__pyext
+[330.228s] [ 89%] [32mBuilding C object CMakeFiles/complex_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/complex_msgs/_complex_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[333.989s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/complex_msgs/complex_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[338.055s] [ 91%] Built target complex_msgs__rosidl_typesupport_c__pyext
+[340.812s] [ 93%] [32mBuilding C object CMakeFiles/complex_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/complex_msgs/_complex_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[344.974s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/complex_msgs/complex_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[348.384s] [ 95%] Built target complex_msgs__rosidl_typesupport_introspection_c__pyext
+[350.783s] [ 97%] [32mBuilding C object CMakeFiles/complex_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/complex_msgs/_complex_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[355.396s] [100%] [32m[1mLinking C shared library rosidl_generator_py/complex_msgs/complex_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[360.663s] [100%] Built target complex_msgs__rosidl_typesupport_fastrtps_c__pyext
+[362.466s] Invoked command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/complex_msgs' returned '0': AMENT_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/complex_msgs -- -j12 -l12
+[386.199s] Invoking command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/complex_msgs': AMENT_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/complex_msgs
+[386.928s] -- Install configuration: ""
+[387.010s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/ament_index/resource_index/rosidl_interfaces/complex_msgs
+[387.208s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs
+[387.265s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg
+[387.341s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail
+[387.452s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__functions.c
+[387.688s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__functions.h
+[387.958s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__struct.h
+[388.215s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__type_support.h
+[388.483s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__functions.c
+[388.784s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__functions.h
+[389.125s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__struct.h
+[389.428s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__type_support.h
+[389.734s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/multi_string_test.h
+[389.999s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/nested_msg_test.h
+[390.332s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/rosidl_generator_c__visibility_control.h
+[390.645s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/environment/library_path.sh
+[390.852s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/environment/library_path.dsv
+[391.047s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/lib/libcomplex_msgs__rosidl_generator_c.so
+[391.355s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/lib/libcomplex_msgs__rosidl_generator_c.so" to ""
+[391.387s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs
+[391.467s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg
+[391.567s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail
+[391.690s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__rosidl_typesupport_fastrtps_c.h
+[392.050s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__rosidl_typesupport_fastrtps_c.h
+[392.415s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[392.715s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_fastrtps_c.so
+[393.052s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[393.089s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs
+[393.167s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg
+[393.268s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail
+[393.406s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__builder.hpp
+[393.809s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__struct.hpp
+[394.226s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__traits.hpp
+[394.605s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__builder.hpp
+[394.936s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__struct.hpp
+[395.301s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__traits.hpp
+[395.630s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/multi_string_test.hpp
+[395.917s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/nested_msg_test.hpp
+[396.203s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs
+[396.298s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg
+[396.423s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail
+[396.559s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/dds_fastrtps
+[396.759s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__rosidl_typesupport_fastrtps_cpp.hpp
+[397.143s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__rosidl_typesupport_fastrtps_cpp.hpp
+[397.515s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[397.827s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_fastrtps_cpp.so
+[398.100s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[398.125s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs
+[398.179s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/msg
+[398.269s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/msg/detail
+[398.382s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/msg/detail/microxrcedds
+[398.525s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/msg/detail/multi_string_test__rosidl_typesupport_microxrcedds_c.h
+[398.839s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/msg/detail/nested_msg_test__rosidl_typesupport_microxrcedds_c.h
+[399.186s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[399.443s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_microxrcedds_c.so
+[399.819s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_microxrcedds_c.so" to ""
+[399.862s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs
+[399.952s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg
+[400.066s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail
+[400.210s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__rosidl_typesupport_introspection_c.h
+[400.580s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__type_support.c
+[400.905s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__rosidl_typesupport_introspection_c.h
+[401.222s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__type_support.c
+[401.545s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[401.790s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_introspection_c.so
+[402.066s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_introspection_c.so" to ""
+[402.099s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_c.so
+[402.372s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_c.so" to ""
+[402.402s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs
+[402.474s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/msg
+[402.576s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/msg/detail
+[402.671s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/msg/detail/microxrcedds
+[402.801s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/msg/detail/microxrcedds/multi_string_test__type_support_cpp.cpp
+[403.123s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/msg/detail/microxrcedds/nested_msg_test__type_support_cpp.cpp
+[403.415s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/msg/detail/multi_string_test__rosidl_typesupport_microxrcedds_cpp.hpp
+[403.689s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/msg/detail/nested_msg_test__rosidl_typesupport_microxrcedds_cpp.hpp
+[403.948s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[404.142s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[404.388s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_microxrcedds_cpp.so" to ""
+[404.418s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs
+[404.486s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg
+[404.567s] -- Up-to-date: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail
+[404.678s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__rosidl_typesupport_introspection_cpp.hpp
+[404.983s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__type_support.cpp
+[405.300s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__rosidl_typesupport_introspection_cpp.hpp
+[405.574s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__type_support.cpp
+[405.802s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_introspection_cpp.so
+[406.038s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[406.075s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_cpp.so
+[406.344s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_cpp.so" to ""
+[406.393s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/environment/pythonpath.sh
+[406.585s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/environment/pythonpath.dsv
+[406.744s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs-3.0.0-py3.10.egg-info
+[406.856s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs-3.0.0-py3.10.egg-info/dependency_links.txt
+[407.111s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs-3.0.0-py3.10.egg-info/PKG-INFO
+[407.356s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs-3.0.0-py3.10.egg-info/SOURCES.txt
+[407.626s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs-3.0.0-py3.10.egg-info/top_level.txt
+[407.847s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs
+[407.949s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[408.188s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[408.422s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[408.690s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so
+[408.991s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/libcomplex_msgs__rosidl_generator_py.so
+[409.221s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/msg
+[409.349s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/msg/_multi_string_test.py
+[409.626s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/msg/_multi_string_test_s.c
+[409.918s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/msg/_nested_msg_test.py
+[410.232s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/msg/_nested_msg_test_s.c
+[410.541s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/msg/__init__.py
+[410.832s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/_complex_msgs_s.ep.rosidl_typesupport_c.c
+[411.119s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/_complex_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[411.371s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/_complex_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[411.633s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/_complex_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[411.901s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/__init__.py
+[415.585s] Listing '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs'...
+[415.588s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/__init__.py'...
+[415.591s] Listing '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/msg'...
+[415.594s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/msg/__init__.py'...
+[415.598s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/msg/_multi_string_test.py'...
+[415.601s] Compiling '/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/msg/_nested_msg_test.py'...
+[415.804s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so
+[416.333s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so" to ""
+[416.548s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[416.996s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[417.231s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[417.702s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[417.911s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[418.367s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[418.434s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/lib/libcomplex_msgs__rosidl_generator_py.so
+[418.835s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/lib/libcomplex_msgs__rosidl_generator_py.so" to ""
+[418.947s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/msg/MultiStringTest.idl
+[419.234s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/msg/NestedMsgTest.idl
+[419.600s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/msg/MultiStringTest.msg
+[419.942s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/msg/NestedMsgTest.msg
+[420.395s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/ament_index/resource_index/package_run_dependencies/complex_msgs
+[420.968s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/ament_index/resource_index/parent_prefix_path/complex_msgs
+[421.322s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/environment/ament_prefix_path.sh
+[421.565s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/environment/ament_prefix_path.dsv
+[421.823s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/environment/path.sh
+[422.100s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/environment/path.dsv
+[422.381s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/local_setup.bash
+[422.635s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/local_setup.sh
+[422.862s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/local_setup.zsh
+[423.091s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/local_setup.dsv
+[423.320s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/package.dsv
+[423.662s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/ament_index/resource_index/packages/complex_msgs
+[424.068s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/cmake/export_complex_msgs__rosidl_generator_cExport.cmake
+[424.418s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/cmake/export_complex_msgs__rosidl_generator_cExport-noconfig.cmake
+[424.815s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/cmake/export_complex_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[425.177s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/cmake/export_complex_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[425.524s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/cmake/export_complex_msgs__rosidl_generator_cppExport.cmake
+[425.891s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/cmake/export_complex_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[426.268s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/cmake/export_complex_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[426.584s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/cmake/complex_msgs__rosidl_typesupport_introspection_cExport.cmake
+[426.895s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/cmake/complex_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[427.230s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/cmake/complex_msgs__rosidl_typesupport_cExport.cmake
+[427.546s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/cmake/complex_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[427.851s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/cmake/complex_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[428.197s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/cmake/complex_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[428.596s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/cmake/complex_msgs__rosidl_typesupport_cppExport.cmake
+[428.914s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/cmake/complex_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[429.247s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/cmake/export_complex_msgs__rosidl_generator_pyExport.cmake
+[429.606s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/cmake/export_complex_msgs__rosidl_generator_pyExport-noconfig.cmake
+[429.877s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/cmake/rosidl_cmake-extras.cmake
+[430.086s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[430.290s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[430.480s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[430.688s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[430.918s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[431.125s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[431.345s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/cmake/complex_msgsConfig.cmake
+[431.532s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/cmake/complex_msgsConfig-version.cmake
+[431.755s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/package.xml
+[431.962s] Invoked command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/complex_msgs' returned '0': AMENT_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/complex_msgs

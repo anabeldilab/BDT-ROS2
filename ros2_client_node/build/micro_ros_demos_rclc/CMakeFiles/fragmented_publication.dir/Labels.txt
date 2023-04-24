@@ -1,0 +1,13 @@
+# Target labels
+ fragmented_publication
+# Source files and their labels
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/CMakeFiles/fragmented_publication
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/CMakeFiles/fragmented_publication.rule
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/CMakeFiles/fragmented_publication-complete.rule
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/fragmented_publication/src/fragmented_publication-stamp/fragmented_publication-build.rule
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/fragmented_publication/src/fragmented_publication-stamp/fragmented_publication-configure.rule
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/fragmented_publication/src/fragmented_publication-stamp/fragmented_publication-download.rule
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/fragmented_publication/src/fragmented_publication-stamp/fragmented_publication-install.rule
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/fragmented_publication/src/fragmented_publication-stamp/fragmented_publication-mkdir.rule
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/fragmented_publication/src/fragmented_publication-stamp/fragmented_publication-patch.rule
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/fragmented_publication/src/fragmented_publication-stamp/fragmented_publication-update.rule

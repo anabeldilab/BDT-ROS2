@@ -1,0 +1,22 @@
+{
+  "package_name": "rcl_interfaces",
+  "non_idl_tuples": [
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/rcl_interfaces/rcl_interfaces:msg/FloatingPointRange.msg",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/rcl_interfaces/rcl_interfaces:msg/IntegerRange.msg",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/rcl_interfaces/rcl_interfaces:msg/ListParametersResult.msg",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/rcl_interfaces/rcl_interfaces:msg/Log.msg",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/rcl_interfaces/rcl_interfaces:msg/ParameterDescriptor.msg",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/rcl_interfaces/rcl_interfaces:msg/ParameterEventDescriptors.msg",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/rcl_interfaces/rcl_interfaces:msg/ParameterEvent.msg",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/rcl_interfaces/rcl_interfaces:msg/Parameter.msg",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/rcl_interfaces/rcl_interfaces:msg/ParameterType.msg",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/rcl_interfaces/rcl_interfaces:msg/ParameterValue.msg",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/rcl_interfaces/rcl_interfaces:msg/SetParametersResult.msg",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/rcl_interfaces/rcl_interfaces:srv/DescribeParameters.srv",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/rcl_interfaces/rcl_interfaces:srv/GetParameters.srv",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/rcl_interfaces/rcl_interfaces:srv/GetParameterTypes.srv",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/rcl_interfaces/rcl_interfaces:srv/ListParameters.srv",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/rcl_interfaces/rcl_interfaces:srv/SetParametersAtomically.srv",
+    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/rcl_interfaces/rcl_interfaces:srv/SetParameters.srv"
+  ]
+}

@@ -1,0 +1,13 @@
+# Target labels
+ epoch_synchronization
+# Source files and their labels
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/CMakeFiles/epoch_synchronization
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/CMakeFiles/epoch_synchronization.rule
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/CMakeFiles/epoch_synchronization-complete.rule
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/epoch_synchronization/src/epoch_synchronization-stamp/epoch_synchronization-build.rule
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/epoch_synchronization/src/epoch_synchronization-stamp/epoch_synchronization-configure.rule
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/epoch_synchronization/src/epoch_synchronization-stamp/epoch_synchronization-download.rule
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/epoch_synchronization/src/epoch_synchronization-stamp/epoch_synchronization-install.rule
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/epoch_synchronization/src/epoch_synchronization-stamp/epoch_synchronization-mkdir.rule
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/epoch_synchronization/src/epoch_synchronization-stamp/epoch_synchronization-patch.rule
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/epoch_synchronization/src/epoch_synchronization-stamp/epoch_synchronization-update.rule

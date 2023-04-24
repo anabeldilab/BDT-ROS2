@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/CMakeFiles/int32_multinode"
+		},
+		{
+			"file" : "/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/CMakeFiles/int32_multinode.rule"
+		},
+		{
+			"file" : "/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/CMakeFiles/int32_multinode-complete.rule"
+		},
+		{
+			"file" : "/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/int32_multinode/src/int32_multinode-stamp/int32_multinode-build.rule"
+		},
+		{
+			"file" : "/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/int32_multinode/src/int32_multinode-stamp/int32_multinode-configure.rule"
+		},
+		{
+			"file" : "/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/int32_multinode/src/int32_multinode-stamp/int32_multinode-download.rule"
+		},
+		{
+			"file" : "/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/int32_multinode/src/int32_multinode-stamp/int32_multinode-install.rule"
+		},
+		{
+			"file" : "/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/int32_multinode/src/int32_multinode-stamp/int32_multinode-mkdir.rule"
+		},
+		{
+			"file" : "/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/int32_multinode/src/int32_multinode-stamp/int32_multinode-patch.rule"
+		},
+		{
+			"file" : "/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/int32_multinode/src/int32_multinode-stamp/int32_multinode-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"int32_multinode"
+		],
+		"name" : "int32_multinode"
+	}
+}

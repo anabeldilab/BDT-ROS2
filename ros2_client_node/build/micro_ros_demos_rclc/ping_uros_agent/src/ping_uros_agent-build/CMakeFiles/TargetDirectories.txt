@@ -1,0 +1,10 @@
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/ping_uros_agent/src/ping_uros_agent-build/CMakeFiles/uninstall.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/ping_uros_agent/src/ping_uros_agent-build/CMakeFiles/ping_uros_agent_uninstall.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/ping_uros_agent/src/ping_uros_agent-build/CMakeFiles/ping_uros_agent.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/ping_uros_agent/src/ping_uros_agent-build/CMakeFiles/test.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/ping_uros_agent/src/ping_uros_agent-build/CMakeFiles/edit_cache.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/ping_uros_agent/src/ping_uros_agent-build/CMakeFiles/rebuild_cache.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/ping_uros_agent/src/ping_uros_agent-build/CMakeFiles/list_install_components.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/ping_uros_agent/src/ping_uros_agent-build/CMakeFiles/install.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/ping_uros_agent/src/ping_uros_agent-build/CMakeFiles/install/local.dir
+/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/ping_uros_agent/src/ping_uros_agent-build/CMakeFiles/install/strip.dir

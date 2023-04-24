@@ -1,0 +1,1413 @@
+[9.179s] Invoking command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc': AMENT_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/visualization_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc_parameter:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rmw_microxrcedds:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/example_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rcl_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/action_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/unique_identifier_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_utilities:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/visualization_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc_parameter:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rmw_microxrcedds:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/example_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rcl_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/action_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/unique_identifier_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_utilities:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/visualization_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc_parameter/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rmw_microxrcedds/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/example_interfaces/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rcl_interfaces/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/action_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/unique_identifier_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_utilities/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent/lib:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/visualization_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/example_interfaces/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rcl_interfaces/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/action_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /mnt/d/prueba/TFG-ROS2/ros2_client_node/src/uros/micro-ROS-demos/rclc -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc
+[17.041s] -- The C compiler identification is GNU 11.3.0
+[20.951s] -- The CXX compiler identification is GNU 11.3.0
+[21.697s] -- Detecting C compiler ABI info
+[33.028s] -- Detecting C compiler ABI info - done
+[33.058s] -- Check for working C compiler: /usr/bin/cc - skipped
+[33.060s] -- Detecting C compile features
+[33.061s] -- Detecting C compile features - done
+[33.124s] -- Detecting CXX compiler ABI info
+[44.370s] -- Detecting CXX compiler ABI info - done
+[44.400s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[44.402s] -- Detecting CXX compile features
+[44.403s] -- Detecting CXX compile features - done
+[45.482s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[62.845s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[82.956s] -- Configuring done
+[85.854s] -- Generating done
+[86.240s] -- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc
+[86.257s] Invoked command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc' returned '0': AMENT_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/visualization_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc_parameter:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rmw_microxrcedds:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/example_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rcl_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/action_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/unique_identifier_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_utilities:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/visualization_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc_parameter:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rmw_microxrcedds:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/example_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rcl_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/action_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/unique_identifier_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_utilities:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/visualization_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc_parameter/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rmw_microxrcedds/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/example_interfaces/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rcl_interfaces/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/action_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/unique_identifier_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_utilities/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent/lib:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/visualization_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/example_interfaces/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rcl_interfaces/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/action_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /mnt/d/prueba/TFG-ROS2/ros2_client_node/src/uros/micro-ROS-demos/rclc -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc
+[86.271s] Invoking command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc': AMENT_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/visualization_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc_parameter:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rmw_microxrcedds:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/example_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rcl_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/action_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/unique_identifier_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_utilities:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/visualization_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc_parameter:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rmw_microxrcedds:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/example_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rcl_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/action_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/unique_identifier_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_utilities:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/visualization_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc_parameter/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rmw_microxrcedds/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/example_interfaces/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rcl_interfaces/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/action_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/unique_identifier_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_utilities/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent/lib:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/visualization_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/example_interfaces/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rcl_interfaces/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/action_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc -- -j12 -l12
+[103.658s] [  0%] [34m[1mCreating directories for 'publisher_count'[0m
+[103.817s] [  1%] [34m[1mCreating directories for 'fibonacci_action_client'[0m
+[104.150s] [  2%] [34m[1mCreating directories for 'configured_subscriber'[0m
+[104.173s] [  3%] [34m[1mCreating directories for 'fibonacci_action_server'[0m
+[104.210s] [  4%] [34m[1mCreating directories for 'subscription_count'[0m
+[104.316s] [  4%] [34m[1mCreating directories for 'addtwoints_client'[0m
+[104.382s] [  5%] [34m[1mCreating directories for 'int32_subscriber'[0m
+[104.539s] [  5%] [34m[1mCreating directories for 'int32_multinode'[0m
+[104.569s] [  6%] [34m[1mCreating directories for 'configured_publisher'[0m
+[104.710s] [  6%] [34m[1mCreating directories for 'int32_publisher'[0m
+[105.087s] [  6%] [34m[1mCreating directories for 'addtwoints_server'[0m
+[105.417s] [  7%] [34m[1mCreating directories for 'graph_visualizer'[0m
+[137.289s] [  7%] [34m[1mNo download step for 'publisher_count'[0m
+[137.335s] [  7%] [34m[1mNo download step for 'fibonacci_action_client'[0m
+[137.866s] [  8%] [34m[1mNo download step for 'configured_subscriber'[0m
+[138.339s] [  9%] [34m[1mNo download step for 'subscription_count'[0m
+[139.617s] [ 10%] [34m[1mNo download step for 'fibonacci_action_server'[0m
+[139.661s] [ 10%] [34m[1mNo download step for 'addtwoints_client'[0m
+[140.316s] [ 11%] [34m[1mNo download step for 'int32_multinode'[0m
+[140.512s] [ 13%] [34m[1mNo download step for 'int32_subscriber'[0m
+[140.515s] [ 13%] [34m[1mNo download step for 'configured_publisher'[0m
+[140.563s] [ 13%] [34m[1mNo download step for 'int32_publisher'[0m
+[140.661s] [ 13%] [34m[1mNo download step for 'addtwoints_server'[0m
+[141.342s] [ 14%] [34m[1mNo download step for 'graph_visualizer'[0m
+[150.118s] [ 15%] [34m[1mNo update step for 'fibonacci_action_client'[0m
+[150.164s] [ 15%] [34m[1mNo update step for 'publisher_count'[0m
+[150.194s] [ 15%] [34m[1mNo update step for 'configured_subscriber'[0m
+[151.021s] [ 16%] [34m[1mNo update step for 'subscription_count'[0m
+[151.429s] [ 17%] [34m[1mNo update step for 'fibonacci_action_server'[0m
+[151.431s] [ 17%] [34m[1mNo update step for 'addtwoints_client'[0m
+[152.042s] [ 17%] [34m[1mNo update step for 'int32_multinode'[0m
+[152.335s] [ 17%] [34m[1mNo update step for 'int32_subscriber'[0m
+[152.520s] [ 18%] [34m[1mNo update step for 'addtwoints_server'[0m
+[152.754s] [ 19%] [34m[1mNo update step for 'configured_publisher'[0m
+[153.349s] [ 19%] [34m[1mNo update step for 'int32_publisher'[0m
+[154.627s] [ 20%] [34m[1mNo update step for 'graph_visualizer'[0m
+[161.771s] [ 20%] [34m[1mNo patch step for 'fibonacci_action_client'[0m
+[162.091s] [ 21%] [34m[1mNo patch step for 'publisher_count'[0m
+[162.335s] [ 21%] [34m[1mNo patch step for 'subscription_count'[0m
+[162.857s] [ 21%] [34m[1mNo patch step for 'configured_subscriber'[0m
+[163.699s] [ 22%] [34m[1mNo patch step for 'fibonacci_action_server'[0m
+[163.704s] [ 22%] [34m[1mNo patch step for 'addtwoints_client'[0m
+[164.044s] [ 23%] [34m[1mNo patch step for 'int32_multinode'[0m
+[164.344s] [ 23%] [34m[1mNo patch step for 'int32_subscriber'[0m
+[165.127s] [ 23%] [34m[1mNo patch step for 'addtwoints_server'[0m
+[165.286s] [ 23%] [34m[1mNo patch step for 'configured_publisher'[0m
+[165.867s] [ 24%] [34m[1mNo patch step for 'int32_publisher'[0m
+[166.595s] [ 24%] [34m[1mNo patch step for 'graph_visualizer'[0m
+[174.656s] [ 25%] [34m[1mPerforming configure step for 'fibonacci_action_client'[0m
+[175.290s] [ 26%] [34m[1mPerforming configure step for 'subscription_count'[0m
+[175.295s] [ 26%] [34m[1mPerforming configure step for 'publisher_count'[0m
+[175.480s] [ 26%] [34m[1mPerforming configure step for 'configured_subscriber'[0m
+[175.971s] [ 26%] [34m[1mPerforming configure step for 'fibonacci_action_server'[0m
+[176.612s] [ 27%] [34m[1mPerforming configure step for 'addtwoints_client'[0m
+[176.736s] [ 27%] [34m[1mPerforming configure step for 'int32_multinode'[0m
+[177.664s] [ 27%] [34m[1mPerforming configure step for 'int32_subscriber'[0m
+[178.114s] [ 28%] [34m[1mPerforming configure step for 'addtwoints_server'[0m
+[178.217s] [ 28%] [34m[1mPerforming configure step for 'configured_publisher'[0m
+[178.643s] [ 29%] [34m[1mPerforming configure step for 'int32_publisher'[0m
+[179.083s] [ 29%] [34m[1mPerforming configure step for 'graph_visualizer'[0m
+[179.506s] loading initial cache file /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/fibonacci_action_client/tmp/fibonacci_action_client-cache-.cmake
+[180.008s] loading initial cache file /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/graph_introspection/subscription_count/tmp/subscription_count-cache-.cmake
+[180.429s] loading initial cache file /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/graph_introspection/publisher_count/tmp/publisher_count-cache-.cmake
+[180.783s] loading initial cache file /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/configuration_example/configured_subscriber/tmp/configured_subscriber-cache-.cmake
+[181.540s] loading initial cache file /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/fibonacci_action_server/tmp/fibonacci_action_server-cache-.cmake
+[181.797s] loading initial cache file /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/addtwoints_client/tmp/addtwoints_client-cache-.cmake
+[182.193s] loading initial cache file /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/int32_multinode/tmp/int32_multinode-cache-.cmake
+[183.708s] loading initial cache file /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/int32_subscriber/tmp/int32_subscriber-cache-.cmake
+[183.989s] loading initial cache file /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/addtwoints_server/tmp/addtwoints_server-cache-.cmake
+[184.626s] loading initial cache file /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/configuration_example/configured_publisher/tmp/configured_publisher-cache-.cmake
+[185.397s] loading initial cache file /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/int32_publisher/tmp/int32_publisher-cache-.cmake
+[186.017s] loading initial cache file /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/graph_introspection/graph_visualizer/tmp/graph_visualizer-cache-.cmake
+[197.577s] -- The C compiler identification is GNU 11.3.0
+[197.844s] -- The C compiler identification is GNU 11.3.0
+[198.139s] -- The C compiler identification is GNU 11.3.0
+[198.937s] -- The C compiler identification is GNU 11.3.0
+[199.490s] -- The C compiler identification is GNU 11.3.0
+[199.589s] -- The C compiler identification is GNU 11.3.0
+[199.744s] -- Detecting C compiler ABI info
+[200.470s] -- Detecting C compiler ABI info
+[200.508s] -- The C compiler identification is GNU 11.3.0
+[200.556s] -- Detecting C compiler ABI info
+[201.777s] -- Detecting C compiler ABI info
+[202.121s] -- Detecting C compiler ABI info
+[202.203s] -- Detecting C compiler ABI info
+[202.922s] -- Detecting C compiler ABI info
+[203.314s] -- The C compiler identification is GNU 11.3.0
+[203.777s] -- The C compiler identification is GNU 11.3.0
+[203.967s] -- The C compiler identification is GNU 11.3.0
+[204.532s] -- The C compiler identification is GNU 11.3.0
+[204.744s] -- The C compiler identification is GNU 11.3.0
+[205.686s] -- Detecting C compiler ABI info
+[206.146s] -- Detecting C compiler ABI info
+[206.254s] -- Detecting C compiler ABI info
+[207.049s] -- Detecting C compiler ABI info
+[207.091s] -- Detecting C compiler ABI info
+[231.675s] -- Detecting C compiler ABI info - done
+[231.784s] -- Check for working C compiler: /usr/bin/cc - skipped
+[231.787s] -- Detecting C compile features
+[231.791s] -- Detecting C compile features - done
+[231.831s] -- Detecting C compiler ABI info - done
+[231.931s] -- Check for working C compiler: /usr/bin/cc - skipped
+[231.935s] -- Detecting C compile features
+[231.939s] -- Detecting C compile features - done
+[232.025s] -- Detecting C compiler ABI info - done
+[232.131s] -- Check for working C compiler: /usr/bin/cc - skipped
+[232.135s] -- Detecting C compile features
+[232.139s] -- Detecting C compile features - done
+[233.409s] -- Detecting C compiler ABI info - done
+[233.516s] -- Check for working C compiler: /usr/bin/cc - skipped
+[233.520s] -- Detecting C compile features
+[233.524s] -- Detecting C compile features - done
+[233.947s] -- Detecting C compiler ABI info - done
+[234.051s] -- Check for working C compiler: /usr/bin/cc - skipped
+[234.056s] -- Detecting C compile features
+[234.062s] -- Detecting C compile features - done
+[235.443s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[235.494s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[235.757s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[235.994s] -- Detecting C compiler ABI info - done
+[236.103s] -- Check for working C compiler: /usr/bin/cc - skipped
+[236.106s] -- Detecting C compile features
+[236.110s] -- Detecting C compile features - done
+[236.408s] -- Detecting C compiler ABI info - done
+[236.523s] -- Check for working C compiler: /usr/bin/cc - skipped
+[236.529s] -- Detecting C compile features
+[236.533s] -- Detecting C compile features - done
+[237.238s] -- Detecting C compiler ABI info - done
+[237.286s] -- Detecting C compiler ABI info - done
+[237.355s] -- Check for working C compiler: /usr/bin/cc - skipped
+[237.359s] -- Detecting C compile features
+[237.364s] -- Detecting C compile features - done
+[237.405s] -- Check for working C compiler: /usr/bin/cc - skipped
+[237.409s] -- Detecting C compile features
+[237.416s] -- Detecting C compile features - done
+[237.537s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[237.750s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[238.748s] -- Detecting C compiler ABI info - done
+[238.844s] -- Check for working C compiler: /usr/bin/cc - skipped
+[238.849s] -- Detecting C compile features
+[238.853s] -- Detecting C compile features - done
+[239.535s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[239.540s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[239.544s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[239.684s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[240.407s] -- Detecting C compiler ABI info - done
+[240.505s] -- Check for working C compiler: /usr/bin/cc - skipped
+[240.509s] -- Detecting C compile features
+[240.513s] -- Detecting C compile features - done
+[240.592s] -- Detecting C compiler ABI info - done
+[240.748s] -- Check for working C compiler: /usr/bin/cc - skipped
+[240.754s] -- Detecting C compile features
+[240.759s] -- Detecting C compile features - done
+[241.560s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[243.526s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[243.529s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[280.954s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[281.153s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[281.333s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[281.907s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[283.374s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[283.403s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[283.826s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[283.925s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[285.445s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[285.992s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[286.459s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[287.272s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[322.806s] -- Found rcl: 5.3.2 (/opt/ros/humble/share/rcl/cmake)
+[326.027s] -- Found rcl: 5.3.2 (/opt/ros/humble/share/rcl/cmake)
+[326.031s] -- Found rcl: 5.3.2 (/opt/ros/humble/share/rcl/cmake)
+[327.200s] -- Found rcl: 5.3.2 (/opt/ros/humble/share/rcl/cmake)
+[327.352s] -- Found rcl: 5.3.2 (/opt/ros/humble/share/rcl/cmake)
+[328.087s] -- Found rcl: 5.3.2 (/opt/ros/humble/share/rcl/cmake)
+[330.734s] -- Found rcl: 5.3.2 (/opt/ros/humble/share/rcl/cmake)
+[332.154s] -- Found rcl: 5.3.2 (/opt/ros/humble/share/rcl/cmake)
+[333.631s] -- Found rcl: 5.3.2 (/opt/ros/humble/share/rcl/cmake)
+[333.690s] -- Found rcl: 5.3.2 (/opt/ros/humble/share/rcl/cmake)
+[338.445s] -- Found rcl: 5.3.2 (/opt/ros/humble/share/rcl/cmake)
+[340.295s] -- Found rcl: 5.3.2 (/opt/ros/humble/share/rcl/cmake)
+[347.942s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[348.154s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[348.158s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[348.591s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[349.951s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[352.008s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[352.203s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[352.210s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[352.825s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[352.838s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[352.850s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[354.494s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[354.498s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[355.548s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[357.179s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[357.303s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[357.333s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[357.848s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[357.955s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[357.960s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[359.599s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[359.602s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[359.657s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[361.474s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[361.831s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[361.875s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[361.878s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[362.092s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[363.333s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[363.548s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[363.743s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[363.869s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[363.872s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[363.876s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[365.549s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[365.591s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[366.256s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[366.392s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[366.400s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[367.978s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[368.043s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[370.020s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[370.620s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[370.836s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[371.523s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[371.717s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[372.493s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[372.496s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[372.500s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[373.510s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[374.880s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[375.259s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[375.264s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[376.791s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[378.856s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[378.859s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[379.509s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[381.400s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[386.789s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[388.751s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[389.145s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[389.150s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[391.156s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[391.159s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[391.387s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[391.390s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[391.838s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[391.841s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[393.505s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[393.508s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[393.757s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[393.889s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[394.909s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[396.965s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[396.968s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[396.972s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[398.799s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[398.802s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[402.255s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[404.363s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[407.804s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[407.809s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[409.711s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[409.715s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[438.575s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[439.474s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[441.463s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[442.766s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[443.270s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[444.912s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[446.013s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[446.395s] -- Found FastRTPS: /opt/ros/humble/include  
+[446.752s] -- Found FastRTPS: /opt/ros/humble/include  
+[447.233s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[448.886s] -- Found FastRTPS: /opt/ros/humble/include  
+[449.454s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[450.465s] -- Found FastRTPS: /opt/ros/humble/include  
+[450.674s] -- Found FastRTPS: /opt/ros/humble/include  
+[453.544s] -- Found FastRTPS: /opt/ros/humble/include  
+[454.244s] -- Found FastRTPS: /opt/ros/humble/include  
+[456.290s] -- Found FastRTPS: /opt/ros/humble/include  
+[458.934s] -- Found FastRTPS: /opt/ros/humble/include  
+[460.696s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[460.747s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[460.818s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[461.360s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[462.116s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[462.221s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[465.193s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[465.548s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[466.351s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[466.538s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[467.814s] -- Found FastRTPS: /opt/ros/humble/include  
+[468.088s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[469.275s] -- Found FastRTPS: /opt/ros/humble/include  
+[469.858s] -- Found FastRTPS: /opt/ros/humble/include  
+[469.988s] -- Looking for pthread.h
+[470.050s] -- Looking for pthread.h
+[471.142s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[472.012s] -- Looking for pthread.h
+[474.031s] -- Looking for pthread.h
+[474.035s] -- Looking for pthread.h
+[475.466s] -- Looking for pthread.h
+[477.272s] -- Looking for pthread.h
+[478.887s] -- Looking for pthread.h
+[479.775s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[479.895s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[480.214s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[481.975s] -- Looking for pthread.h
+[491.414s] -- Looking for pthread.h
+[492.896s] -- Looking for pthread.h
+[493.503s] -- Looking for pthread.h
+[502.110s] -- Looking for pthread.h - found
+[502.155s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[502.352s] -- Looking for pthread.h - found
+[502.401s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[503.997s] -- Looking for pthread.h - found
+[504.040s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[504.341s] -- Looking for pthread.h - found
+[504.393s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[504.891s] -- Looking for pthread.h - found
+[504.935s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[508.425s] -- Looking for pthread.h - found
+[508.467s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[509.669s] -- Looking for pthread.h - found
+[509.714s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[510.864s] -- Looking for pthread.h - found
+[510.901s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[511.638s] -- Looking for pthread.h - found
+[511.671s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[521.701s] -- Looking for pthread.h - found
+[521.745s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[521.753s] -- Looking for pthread.h - found
+[521.796s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[521.901s] -- Looking for pthread.h - found
+[521.949s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[530.782s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[530.800s] -- Found Threads: TRUE  
+[531.683s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[531.705s] -- Found Threads: TRUE  
+[532.103s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[532.124s] -- Found Threads: TRUE  
+[532.819s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[532.839s] -- Found Threads: TRUE  
+[533.569s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[533.591s] -- Found Threads: TRUE  
+[535.300s] -- Found rclc: 4.0.2 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc/share/rclc/cmake)
+[536.077s] -- Found rclc: 4.0.2 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc/share/rclc/cmake)
+[536.209s] -- Found rclc: 4.0.2 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc/share/rclc/cmake)
+[536.989s] -- Found rclc: 4.0.2 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc/share/rclc/cmake)
+[538.034s] -- Found rclc: 4.0.2 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc/share/rclc/cmake)
+[538.156s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[538.175s] -- Found Threads: TRUE  
+[538.966s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[538.986s] -- Found Threads: TRUE  
+[541.593s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[541.613s] -- Found Threads: TRUE  
+[542.497s] -- Found rclc: 4.0.2 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc/share/rclc/cmake)
+[542.987s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[543.007s] -- Found Threads: TRUE  
+[543.104s] -- Found rclc: 4.0.2 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc/share/rclc/cmake)
+[545.866s] -- Found rclc: 4.0.2 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc/share/rclc/cmake)
+[545.954s] -- Found rclc: 4.0.2 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc/share/rclc/cmake)
+[546.404s] -- Found rmw_microxrcedds: 3.0.0 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[547.029s] -- Found std_msgs: 4.2.3 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/share/std_msgs/cmake)
+[548.506s] -- Found std_msgs: 4.2.3 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/share/std_msgs/cmake)
+[548.963s] -- Configuring done
+[549.192s] -- Found example_interfaces: 0.9.3 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/example_interfaces/share/example_interfaces/cmake)
+[549.424s] -- Found rmw_microxrcedds: 3.0.0 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[550.398s] -- Configuring done
+[551.614s] -- Configuring done
+[551.629s] -- Found std_msgs: 4.2.3 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/share/std_msgs/cmake)
+[551.848s] -- Configuring done
+[552.717s] -- Found example_interfaces: 0.9.3 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/example_interfaces/share/example_interfaces/cmake)
+[552.721s] -- Found example_interfaces: 0.9.3 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/example_interfaces/share/example_interfaces/cmake)
+[552.724s] -- Found example_interfaces: 0.9.3 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/example_interfaces/share/example_interfaces/cmake)
+[552.801s] -- Found std_msgs: 4.2.3 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/share/std_msgs/cmake)
+[552.940s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[552.962s] -- Found Threads: TRUE  
+[553.275s] -- Generating done
+[553.457s] -- Configuring done
+[553.463s] -- Configuring done
+[553.467s] -- Configuring done
+[553.615s] -- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/graph_introspection/publisher_count/src/publisher_count-build
+[554.127s] -- Found rmw_microxrcedds: 3.0.0 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[554.202s] -- Generating done
+[554.496s] -- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/int32_multinode/src/int32_multinode-build
+[554.500s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[554.520s] -- Found Threads: TRUE  
+[555.012s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[555.033s] -- Found Threads: TRUE  
+[555.600s] -- Generating done
+[555.891s] -- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/addtwoints_server/src/addtwoints_server-build
+[556.194s] -- Generating done
+[556.275s] -- Generating done
+[556.322s] -- Generating done
+[556.550s] -- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/fibonacci_action_client/src/fibonacci_action_client-build
+[556.591s] -- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/addtwoints_client/src/addtwoints_client-build
+[556.626s] -- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/fibonacci_action_server/src/fibonacci_action_server-build
+[557.080s] -- Configuring done
+[557.115s] -- Generating done
+[557.393s] -- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/int32_subscriber/src/int32_subscriber-build
+[557.638s] -- Found rmw_microxrcedds: 3.0.0 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[557.760s] -- Found rclc: 4.0.2 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc/share/rclc/cmake)
+[557.875s] -- Configuring done
+[558.848s] -- Found rclc: 4.0.2 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc/share/rclc/cmake)
+[559.508s] -- Found rclc: 4.0.2 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc/share/rclc/cmake)
+[562.603s] -- Generating done
+[562.939s] -- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/configuration_example/configured_subscriber/src/configured_subscriber-build
+[563.455s] -- Generating done
+[563.782s] -- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/configuration_example/configured_publisher/src/configured_publisher-build
+[565.363s] [ 29%] [34m[1mPerforming build step for 'publisher_count'[0m
+[565.516s] [ 30%] [34m[1mPerforming build step for 'int32_multinode'[0m
+[567.930s] [ 30%] [34m[1mPerforming build step for 'addtwoints_server'[0m
+[568.118s] [ 30%] [34m[1mPerforming build step for 'fibonacci_action_client'[0m
+[568.382s] [ 30%] [34m[1mPerforming build step for 'addtwoints_client'[0m
+[568.788s] [ 31%] [34m[1mPerforming build step for 'fibonacci_action_server'[0m
+[569.062s] -- Found std_msgs: 4.2.3 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/share/std_msgs/cmake)
+[569.355s] [ 32%] [34m[1mPerforming build step for 'int32_subscriber'[0m
+[569.646s] -- Found std_msgs: 4.2.3 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/share/std_msgs/cmake)
+[570.842s] -- Found rmw_microxrcedds: 3.0.0 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[570.845s] -- Found rmw_microxrcedds: 3.0.0 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[571.694s] -- Found rmw_microxrcedds: 3.0.0 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[571.947s] -- Configuring done
+[571.951s] -- Configuring done
+[573.766s] [ 33%] [34m[1mPerforming build step for 'configured_subscriber'[0m
+[573.892s] -- Configuring done
+[574.910s] -- Generating done
+[575.199s] -- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/graph_introspection/subscription_count/src/subscription_count-build
+[575.520s] [ 34%] [34m[1mPerforming build step for 'configured_publisher'[0m
+[575.737s] -- Generating done
+[576.004s] -- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/int32_publisher/src/int32_publisher-build
+[578.310s] -- Generating done
+[578.532s] -- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/graph_introspection/graph_visualizer/src/graph_visualizer-build
+[584.492s] [ 34%] [34m[1mPerforming build step for 'subscription_count'[0m
+[585.794s] [ 34%] [34m[1mPerforming build step for 'int32_publisher'[0m
+[589.472s] [ 35%] [34m[1mPerforming build step for 'graph_visualizer'[0m
+[592.593s] [ 50%] [32mBuilding C object CMakeFiles/publisher_count.dir/main.c.o[0m
+[593.495s] [ 50%] [32mBuilding C object CMakeFiles/fibonacci_action_client.dir/main.c.o[0m
+[593.497s] [ 50%] [32mBuilding C object CMakeFiles/int32_multinode.dir/main.c.o[0m
+[593.653s] [ 50%] [32mBuilding C object CMakeFiles/addtwoints_server.dir/main.c.o[0m
+[593.656s] [ 50%] [32mBuilding C object CMakeFiles/fibonacci_action_server.dir/main.c.o[0m
+[594.259s] [ 50%] [32mBuilding C object CMakeFiles/addtwoints_client.dir/main.c.o[0m
+[597.378s] [ 50%] [32mBuilding C object CMakeFiles/int32_subscriber.dir/main.c.o[0m
+[601.569s] [ 50%] [32mBuilding C object CMakeFiles/configured_subscriber.dir/main.c.o[0m
+[604.288s] [ 50%] [32mBuilding C object CMakeFiles/configured_publisher.dir/main.c.o[0m
+[610.572s] [100%] [32m[1mLinking C executable fibonacci_action_server[0m
+[611.486s] [100%] [32m[1mLinking C executable addtwoints_server[0m
+[611.548s] [100%] [32m[1mLinking C executable fibonacci_action_client[0m
+[611.901s] [100%] [32m[1mLinking C executable addtwoints_client[0m
+[612.263s] [ 50%] [32mBuilding C object CMakeFiles/subscription_count.dir/main.c.o[0m
+[613.667s] [ 50%] [32mBuilding C object CMakeFiles/int32_publisher.dir/main.c.o[0m
+[614.996s] [100%] [32m[1mLinking C executable int32_multinode[0m
+[615.112s] [100%] [32m[1mLinking C executable publisher_count[0m
+[619.539s] [ 50%] [32mBuilding C object CMakeFiles/graph_visualizer.dir/main.c.o[0m
+[625.516s] [100%] [32m[1mLinking C executable int32_subscriber[0m
+[628.490s] [100%] [32m[1mLinking C executable configured_subscriber[0m
+[629.544s] [100%] Built target addtwoints_server
+[630.298s] [100%] Built target fibonacci_action_client
+[630.571s] [100%] Built target fibonacci_action_server
+[631.673s] [100%] Built target addtwoints_client
+[632.528s] [100%] [32m[1mLinking C executable configured_publisher[0m
+[632.782s] [100%] Built target int32_multinode
+[633.236s] [100%] Built target publisher_count
+[638.167s] [100%] [32m[1mLinking C executable subscription_count[0m
+[638.171s] [ 36%] [34m[1mPerforming install step for 'addtwoints_server'[0m
+[638.174s] [100%] [32m[1mLinking C executable graph_visualizer[0m
+[638.592s] [100%] [32m[1mLinking C executable int32_publisher[0m
+[638.683s] [ 36%] [34m[1mPerforming install step for 'fibonacci_action_client'[0m
+[639.556s] [ 36%] [34m[1mPerforming install step for 'fibonacci_action_server'[0m
+[639.647s] [ 37%] [34m[1mPerforming install step for 'addtwoints_client'[0m
+[640.694s] [ 37%] [34m[1mPerforming install step for 'int32_multinode'[0m
+[640.697s] [100%] Built target int32_subscriber
+[640.777s] [ 38%] [34m[1mPerforming install step for 'publisher_count'[0m
+[642.670s] [100%] Built target configured_subscriber
+[646.973s] [100%] Built target configured_publisher
+[649.588s] [ 38%] [34m[1mPerforming install step for 'int32_subscriber'[0m
+[652.025s] [ 38%] [34m[1mPerforming install step for 'configured_subscriber'[0m
+[653.157s] [100%] Built target graph_visualizer
+[653.960s] [100%] Built target int32_publisher
+[654.021s] [100%] Built target subscription_count
+[656.543s] [ 38%] [34m[1mPerforming install step for 'configured_publisher'[0m
+[656.842s] [35m[1mConsolidate compiler generated dependencies of target addtwoints_server[0m
+[657.410s] [35m[1mConsolidate compiler generated dependencies of target fibonacci_action_server[0m
+[657.524s] [35m[1mConsolidate compiler generated dependencies of target fibonacci_action_client[0m
+[658.064s] [35m[1mConsolidate compiler generated dependencies of target addtwoints_client[0m
+[659.545s] [35m[1mConsolidate compiler generated dependencies of target publisher_count[0m
+[659.612s] [35m[1mConsolidate compiler generated dependencies of target int32_multinode[0m
+[662.637s] [ 38%] [34m[1mPerforming install step for 'graph_visualizer'[0m
+[663.040s] [ 38%] [34m[1mPerforming install step for 'subscription_count'[0m
+[663.604s] [ 39%] [34m[1mPerforming install step for 'int32_publisher'[0m
+[664.131s] [100%] Built target addtwoints_server
+[665.148s] [100%] Built target fibonacci_action_server
+[665.691s] [100%] Built target fibonacci_action_client
+[665.931s] [100%] Built target addtwoints_client
+[666.690s] [100%] Built target publisher_count
+[667.342s] [100%] Built target int32_multinode
+[669.041s] [35m[1mConsolidate compiler generated dependencies of target int32_subscriber[0m
+[671.922s] [35m[1mConsolidate compiler generated dependencies of target configured_subscriber[0m
+[673.359s] [36mInstall the project...[0m
+[675.013s] [36mInstall the project...[0m
+[676.537s] [100%] Built target int32_subscriber
+[676.625s] [36mInstall the project...[0m
+[676.713s] [36mInstall the project...[0m
+[677.042s] [35m[1mConsolidate compiler generated dependencies of target configured_publisher[0m
+[677.413s] -- Install configuration: ""
+[677.453s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/addtwoints_server/addtwoints_server
+[677.528s] [36mInstall the project...[0m
+[677.792s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/addtwoints_server/addtwoints_server" to ""
+[677.895s] [36mInstall the project...[0m
+[678.899s] -- Install configuration: ""
+[678.927s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/fibonacci_action_server/fibonacci_action_server
+[678.975s] [100%] Built target configured_subscriber
+[679.238s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/fibonacci_action_server/fibonacci_action_server" to ""
+[680.005s] [35m[1mConsolidate compiler generated dependencies of target graph_visualizer[0m
+[680.691s] -- Install configuration: ""
+[680.724s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/fibonacci_action_client/fibonacci_action_client
+[680.740s] -- Install configuration: ""
+[680.765s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/addtwoints_client/addtwoints_client
+[680.773s] [35m[1mConsolidate compiler generated dependencies of target subscription_count[0m
+[681.051s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/fibonacci_action_client/fibonacci_action_client" to ""
+[681.074s] -- Install configuration: ""
+[681.088s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/addtwoints_client/addtwoints_client" to ""
+[681.102s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/publisher_count/publisher_count
+[681.445s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/publisher_count/publisher_count" to ""
+[681.833s] -- Install configuration: ""
+[681.873s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/int32_multinode/int32_multinode
+[682.291s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/int32_multinode/int32_multinode" to ""
+[682.635s] [35m[1mConsolidate compiler generated dependencies of target int32_publisher[0m
+[684.302s] [100%] Built target configured_publisher
+[686.848s] [36mInstall the project...[0m
+[687.564s] [100%] Built target graph_visualizer
+[688.649s] [ 40%] [34m[1mCompleted 'addtwoints_server'[0m
+[689.256s] [100%] Built target subscription_count
+[689.746s] [36mInstall the project...[0m
+[690.103s] [ 40%] [34m[1mCompleted 'fibonacci_action_server'[0m
+[690.320s] [100%] Built target int32_publisher
+[690.996s] [ 41%] [34m[1mCompleted 'fibonacci_action_client'[0m
+[691.041s] -- Install configuration: ""
+[691.081s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/int32_subscriber/int32_subscriber
+[691.345s] [ 41%] [34m[1mCompleted 'addtwoints_client'[0m
+[691.409s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/int32_subscriber/int32_subscriber" to ""
+[692.089s] [ 42%] [34m[1mCompleted 'publisher_count'[0m
+[692.157s] [ 42%] [34m[1mCompleted 'int32_multinode'[0m
+[693.896s] -- Install configuration: ""
+[693.929s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/configured_subscriber/configured_subscriber
+[694.170s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/configured_subscriber/configured_subscriber" to ""
+[695.183s] [36mInstall the project...[0m
+[697.325s] [36mInstall the project...[0m
+[698.758s] -- Install configuration: ""
+[698.793s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/configured_publisher/configured_publisher
+[699.093s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/configured_publisher/configured_publisher" to ""
+[700.171s] [36mInstall the project...[0m
+[700.864s] [36mInstall the project...[0m
+[701.194s] -- Install configuration: ""
+[701.231s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/graph_visualizer/graph_visualizer
+[701.526s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/graph_visualizer/graph_visualizer" to ""
+[701.753s] [ 42%] [34m[1mCompleted 'int32_subscriber'[0m
+[704.275s] -- Install configuration: ""
+[704.315s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/subscription_count/subscription_count
+[704.617s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/subscription_count/subscription_count" to ""
+[704.824s] [ 42%] [34m[1mCompleted 'configured_subscriber'[0m
+[704.880s] -- Install configuration: ""
+[704.963s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/int32_publisher/int32_publisher
+[705.317s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/int32_publisher/int32_publisher" to ""
+[705.411s] [ 42%] Built target addtwoints_server
+[706.698s] [ 42%] Built target fibonacci_action_client
+[707.306s] [ 42%] Built target fibonacci_action_server
+[707.574s] [ 42%] Built target addtwoints_client
+[707.991s] [ 42%] Built target publisher_count
+[708.343s] [ 42%] Built target int32_multinode
+[708.596s] [ 42%] [34m[1mCompleted 'configured_publisher'[0m
+[710.367s] [ 42%] [34m[1mCompleted 'graph_visualizer'[0m
+[711.862s] [ 43%] [34m[1mCompleted 'subscription_count'[0m
+[712.472s] [ 44%] [34m[1mCompleted 'int32_publisher'[0m
+[714.238s] [ 44%] Built target int32_subscriber
+[715.955s] [ 44%] Built target configured_subscriber
+[718.499s] [ 44%] Built target configured_publisher
+[719.739s] [ 44%] Built target graph_visualizer
+[720.435s] [ 44%] Built target subscription_count
+[721.093s] [ 44%] Built target int32_publisher
+[727.833s] [ 44%] [34m[1mCreating directories for 'string_publisher'[0m
+[729.687s] [ 44%] [34m[1mCreating directories for 'string_subscriber'[0m
+[729.893s] [ 45%] [34m[1mCreating directories for 'autodiscover_agent'[0m
+[732.448s] [ 46%] [34m[1mCreating directories for 'static_type_handling'[0m
+[734.864s] [ 47%] [34m[1mCreating directories for 'timer'[0m
+[736.277s] [ 47%] [34m[1mCreating directories for 'complex_msg_subscriber'[0m
+[736.536s] [ 47%] [34m[1mCreating directories for 'complex_msg_publisher'[0m
+[736.908s] [ 47%] [34m[1mCreating directories for 'fragmented_subscription'[0m
+[737.796s] [ 47%] [34m[1mCreating directories for 'fragmented_publication'[0m
+[737.966s] [ 47%] [34m[1mCreating directories for 'ping_uros_agent'[0m
+[738.886s] [ 48%] [34m[1mCreating directories for 'ping_pong'[0m
+[739.503s] [ 49%] [34m[1mCreating directories for 'int32_publisher_subscriber'[0m
+[764.017s] [ 50%] [34m[1mNo download step for 'string_publisher'[0m
+[764.194s] [ 50%] [34m[1mNo download step for 'string_subscriber'[0m
+[765.351s] [ 51%] [34m[1mNo download step for 'autodiscover_agent'[0m
+[768.399s] [ 52%] [34m[1mNo download step for 'static_type_handling'[0m
+[770.667s] [ 53%] [34m[1mNo download step for 'timer'[0m
+[771.494s] [ 53%] [34m[1mNo download step for 'complex_msg_subscriber'[0m
+[772.028s] [ 53%] [34m[1mNo download step for 'complex_msg_publisher'[0m
+[772.551s] [ 53%] [34m[1mNo download step for 'fragmented_subscription'[0m
+[772.962s] [ 53%] [34m[1mNo download step for 'ping_uros_agent'[0m
+[772.966s] [ 53%] [34m[1mNo download step for 'fragmented_publication'[0m
+[774.363s] [ 54%] [34m[1mNo download step for 'ping_pong'[0m
+[774.704s] [ 55%] [34m[1mNo download step for 'int32_publisher_subscriber'[0m
+[775.924s] [ 55%] [34m[1mNo update step for 'string_publisher'[0m
+[776.139s] [ 55%] [34m[1mNo update step for 'string_subscriber'[0m
+[776.494s] [ 56%] [34m[1mNo update step for 'autodiscover_agent'[0m
+[780.157s] [ 57%] [34m[1mNo update step for 'static_type_handling'[0m
+[782.771s] [ 58%] [34m[1mNo update step for 'timer'[0m
+[783.592s] [ 58%] [34m[1mNo update step for 'complex_msg_subscriber'[0m
+[783.622s] [ 58%] [34m[1mNo update step for 'complex_msg_publisher'[0m
+[784.596s] [ 59%] [34m[1mNo update step for 'fragmented_subscription'[0m
+[784.727s] [ 59%] [34m[1mNo update step for 'fragmented_publication'[0m
+[784.730s] [ 59%] [34m[1mNo update step for 'ping_uros_agent'[0m
+[786.534s] [ 60%] [34m[1mNo update step for 'ping_pong'[0m
+[786.724s] [ 61%] [34m[1mNo update step for 'int32_publisher_subscriber'[0m
+[786.826s] [ 62%] [34m[1mNo patch step for 'string_publisher'[0m
+[786.920s] [ 63%] [34m[1mNo patch step for 'string_subscriber'[0m
+[788.048s] [ 63%] [34m[1mNo patch step for 'autodiscover_agent'[0m
+[792.318s] [ 63%] [34m[1mNo patch step for 'static_type_handling'[0m
+[795.161s] [ 63%] [34m[1mNo patch step for 'timer'[0m
+[795.420s] [ 64%] [34m[1mNo patch step for 'complex_msg_subscriber'[0m
+[795.658s] [ 65%] [34m[1mNo patch step for 'complex_msg_publisher'[0m
+[796.792s] [ 65%] [34m[1mNo patch step for 'fragmented_subscription'[0m
+[796.967s] [ 66%] [34m[1mNo patch step for 'ping_uros_agent'[0m
+[797.751s] [ 67%] [34m[1mNo patch step for 'fragmented_publication'[0m
+[798.973s] [ 67%] [34m[1mNo patch step for 'ping_pong'[0m
+[799.137s] [ 67%] [34m[1mPerforming configure step for 'string_publisher'[0m
+[799.899s] [ 67%] [34m[1mNo patch step for 'int32_publisher_subscriber'[0m
+[800.020s] [ 68%] [34m[1mPerforming configure step for 'string_subscriber'[0m
+[800.231s] [ 68%] [34m[1mPerforming configure step for 'autodiscover_agent'[0m
+[804.240s] loading initial cache file /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/string_publisher/tmp/string_publisher-cache-.cmake
+[805.107s] [ 68%] [34m[1mPerforming configure step for 'static_type_handling'[0m
+[805.288s] loading initial cache file /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/string_subscriber/tmp/string_subscriber-cache-.cmake
+[806.046s] loading initial cache file /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/autodiscover_agent/tmp/autodiscover_agent-cache-.cmake
+[807.846s] [ 69%] [34m[1mPerforming configure step for 'timer'[0m
+[807.851s] [ 69%] [34m[1mPerforming configure step for 'complex_msg_subscriber'[0m
+[808.448s] [ 69%] [34m[1mPerforming configure step for 'complex_msg_publisher'[0m
+[810.052s] [ 70%] [34m[1mPerforming configure step for 'fragmented_subscription'[0m
+[810.092s] loading initial cache file /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/static_type_handling/tmp/static_type_handling-cache-.cmake
+[810.312s] [ 70%] [34m[1mPerforming configure step for 'ping_uros_agent'[0m
+[810.763s] [ 71%] [34m[1mPerforming configure step for 'fragmented_publication'[0m
+[812.315s] [ 71%] [34m[1mPerforming configure step for 'ping_pong'[0m
+[812.945s] loading initial cache file /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/timer/tmp/timer-cache-.cmake
+[813.183s] loading initial cache file /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/complex_msg_subscriber/tmp/complex_msg_subscriber-cache-.cmake
+[813.770s] loading initial cache file /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/complex_msg_publisher/tmp/complex_msg_publisher-cache-.cmake
+[813.821s] [ 71%] [34m[1mPerforming configure step for 'int32_publisher_subscriber'[0m
+[816.732s] loading initial cache file /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/fragmented_subscription/tmp/fragmented_subscription-cache-.cmake
+[817.069s] loading initial cache file /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/ping_uros_agent/tmp/ping_uros_agent-cache-.cmake
+[818.011s] loading initial cache file /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/fragmented_publication/tmp/fragmented_publication-cache-.cmake
+[818.730s] -- The C compiler identification is GNU 11.3.0
+[819.582s] loading initial cache file /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/ping_pong/tmp/ping_pong-cache-.cmake
+[820.068s] -- The C compiler identification is GNU 11.3.0
+[820.940s] -- The C compiler identification is GNU 11.3.0
+[821.152s] -- Detecting C compiler ABI info
+[821.300s] loading initial cache file /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/int32_publisher_subscriber/tmp/int32_publisher_subscriber-cache-.cmake
+[821.570s] -- Detecting C compiler ABI info
+[823.046s] -- Detecting C compiler ABI info
+[826.021s] -- The C compiler identification is GNU 11.3.0
+[827.805s] -- Detecting C compiler ABI info
+[828.736s] -- The C compiler identification is GNU 11.3.0
+[828.845s] -- The C compiler identification is GNU 11.3.0
+[830.952s] -- Detecting C compiler ABI info
+[831.064s] -- Detecting C compiler ABI info
+[831.506s] -- The C compiler identification is GNU 11.3.0
+[833.030s] -- The C compiler identification is GNU 11.3.0
+[833.227s] -- Detecting C compiler ABI info
+[833.857s] -- The C compiler identification is GNU 11.3.0
+[834.511s] -- The C compiler identification is GNU 11.3.0
+[835.225s] -- The C compiler identification is GNU 11.3.0
+[835.344s] -- Detecting C compiler ABI info
+[835.972s] -- Detecting C compiler ABI info
+[837.141s] -- Detecting C compiler ABI info
+[837.844s] -- Detecting C compiler ABI info
+[838.126s] -- The C compiler identification is GNU 11.3.0
+[840.130s] -- Detecting C compiler ABI info
+[851.480s] -- Detecting C compiler ABI info - done
+[851.563s] -- Check for working C compiler: /usr/bin/cc - skipped
+[851.566s] -- Detecting C compile features
+[851.569s] -- Detecting C compile features - done
+[851.987s] -- Detecting C compiler ABI info - done
+[852.078s] -- Check for working C compiler: /usr/bin/cc - skipped
+[852.080s] -- Detecting C compile features
+[852.084s] -- Detecting C compile features - done
+[853.271s] -- Detecting C compiler ABI info - done
+[853.368s] -- Check for working C compiler: /usr/bin/cc - skipped
+[853.371s] -- Detecting C compile features
+[853.376s] -- Detecting C compile features - done
+[854.874s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[855.318s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[856.447s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[859.043s] -- Detecting C compiler ABI info - done
+[859.130s] -- Check for working C compiler: /usr/bin/cc - skipped
+[859.133s] -- Detecting C compile features
+[859.136s] -- Detecting C compile features - done
+[860.721s] -- Detecting C compiler ABI info - done
+[860.816s] -- Check for working C compiler: /usr/bin/cc - skipped
+[860.820s] -- Detecting C compile features
+[860.825s] -- Detecting C compile features - done
+[861.246s] -- Detecting C compiler ABI info - done
+[861.337s] -- Check for working C compiler: /usr/bin/cc - skipped
+[861.341s] -- Detecting C compile features
+[861.344s] -- Detecting C compile features - done
+[862.525s] -- Detecting C compiler ABI info - done
+[862.614s] -- Check for working C compiler: /usr/bin/cc - skipped
+[862.617s] -- Detecting C compile features
+[862.621s] -- Detecting C compile features - done
+[862.659s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[863.128s] -- Detecting C compiler ABI info - done
+[863.232s] -- Check for working C compiler: /usr/bin/cc - skipped
+[863.236s] -- Detecting C compile features
+[863.239s] -- Detecting C compile features - done
+[864.328s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[865.015s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[865.251s] -- Detecting C compiler ABI info - done
+[865.344s] -- Check for working C compiler: /usr/bin/cc - skipped
+[865.348s] -- Detecting C compile features
+[865.351s] -- Detecting C compile features - done
+[865.924s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[866.477s] -- Detecting C compiler ABI info - done
+[866.577s] -- Check for working C compiler: /usr/bin/cc - skipped
+[866.581s] -- Detecting C compile features
+[866.585s] -- Detecting C compile features - done
+[867.068s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[867.823s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[868.503s] -- Detecting C compiler ABI info - done
+[868.594s] -- Check for working C compiler: /usr/bin/cc - skipped
+[868.597s] -- Detecting C compile features
+[868.600s] -- Detecting C compile features - done
+[869.591s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[871.394s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[871.432s] -- Detecting C compiler ABI info - done
+[871.537s] -- Check for working C compiler: /usr/bin/cc - skipped
+[871.541s] -- Detecting C compile features
+[871.546s] -- Detecting C compile features - done
+[874.726s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[899.760s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[901.469s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[901.861s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[904.431s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[905.174s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[905.313s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[906.421s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[907.213s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[907.597s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[907.894s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[912.008s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[916.204s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[935.484s] -- Found rcl: 5.3.2 (/opt/ros/humble/share/rcl/cmake)
+[936.029s] -- Found rcl: 5.3.2 (/opt/ros/humble/share/rcl/cmake)
+[936.489s] -- Found rcl: 5.3.2 (/opt/ros/humble/share/rcl/cmake)
+[942.469s] -- Found rcl: 5.3.2 (/opt/ros/humble/share/rcl/cmake)
+[944.830s] -- Found rcl: 5.3.2 (/opt/ros/humble/share/rcl/cmake)
+[944.833s] -- Found rcl: 5.3.2 (/opt/ros/humble/share/rcl/cmake)
+[945.552s] -- Found rcl: 5.3.2 (/opt/ros/humble/share/rcl/cmake)
+[945.555s] -- Found rcl: 5.3.2 (/opt/ros/humble/share/rcl/cmake)
+[946.448s] -- Found rcl: 5.3.2 (/opt/ros/humble/share/rcl/cmake)
+[948.311s] -- Found rcl: 5.3.2 (/opt/ros/humble/share/rcl/cmake)
+[954.615s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[954.620s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[956.080s] -- Found rcl: 5.3.2 (/opt/ros/humble/share/rcl/cmake)
+[957.043s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[958.237s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[958.885s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[960.692s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[960.696s] -- Found rcl: 5.3.2 (/opt/ros/humble/share/rcl/cmake)
+[961.750s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[963.201s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[963.515s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[964.291s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[964.295s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[964.980s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[964.982s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[965.352s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[967.190s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[967.193s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[967.277s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[967.951s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[968.061s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[968.886s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[968.890s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[968.952s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[969.095s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[969.823s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[970.950s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[971.571s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[971.575s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[972.575s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[972.578s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[973.019s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[974.436s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[975.077s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[975.235s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[976.671s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[976.839s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[976.871s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[976.903s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[976.906s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[976.922s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[977.050s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[978.870s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[979.198s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[980.715s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[980.718s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[980.768s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[980.771s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[984.263s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[984.266s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[984.885s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[984.888s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[984.893s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[986.193s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[988.224s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[988.443s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[988.794s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[988.799s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[989.561s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[993.692s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[993.875s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[994.943s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[995.693s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[997.495s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[998.660s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1000.676s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1002.465s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1002.469s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1002.472s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1002.791s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1004.483s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1004.486s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1004.710s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1004.924s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1005.633s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1005.637s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1006.504s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1007.553s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1007.556s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1008.616s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1011.852s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1014.042s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1023.244s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1025.809s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1027.539s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1031.285s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1049.606s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1049.714s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1053.725s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1055.599s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1056.584s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1056.980s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1057.320s] -- Found FastRTPS: /opt/ros/humble/include  
+[1057.408s] -- Found FastRTPS: /opt/ros/humble/include  
+[1060.668s] -- Found FastRTPS: /opt/ros/humble/include  
+[1060.849s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1061.167s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1063.379s] -- Found FastRTPS: /opt/ros/humble/include  
+[1063.470s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1063.648s] -- Found FastRTPS: /opt/ros/humble/include  
+[1063.848s] -- Found FastRTPS: /opt/ros/humble/include  
+[1067.930s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1067.943s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1068.113s] -- Found FastRTPS: /opt/ros/humble/include  
+[1068.290s] -- Found FastRTPS: /opt/ros/humble/include  
+[1068.915s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1069.194s] -- Found FastRTPS: /opt/ros/humble/include  
+[1071.932s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1071.935s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1073.674s] -- Found FastRTPS: /opt/ros/humble/include  
+[1076.347s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1077.641s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1078.555s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1079.020s] -- Looking for pthread.h
+[1081.411s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1081.908s] -- Looking for pthread.h
+[1081.911s] -- Looking for pthread.h
+[1082.233s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1082.651s] -- Looking for pthread.h
+[1083.718s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1084.454s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1085.692s] -- Looking for pthread.h
+[1087.913s] -- Looking for pthread.h
+[1089.335s] -- Looking for pthread.h
+[1089.339s] -- Looking for pthread.h
+[1090.333s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1090.571s] -- Found FastRTPS: /opt/ros/humble/include  
+[1092.552s] -- Looking for pthread.h
+[1096.370s] -- Looking for pthread.h
+[1097.622s] -- Found FastRTPS: /opt/ros/humble/include  
+[1104.760s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1110.616s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1111.127s] -- Looking for pthread.h - found
+[1111.171s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1113.846s] -- Looking for pthread.h - found
+[1113.885s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1114.786s] -- Looking for pthread.h
+[1114.929s] -- Looking for pthread.h - found
+[1114.932s] -- Looking for pthread.h - found
+[1114.977s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1114.981s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1117.693s] -- Looking for pthread.h - found
+[1117.733s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1118.948s] -- Looking for pthread.h - found
+[1118.992s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1120.267s] -- Looking for pthread.h - found
+[1120.308s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1120.462s] -- Looking for pthread.h - found
+[1120.505s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1121.167s] -- Looking for pthread.h
+[1123.771s] -- Looking for pthread.h - found
+[1123.813s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1127.873s] -- Looking for pthread.h - found
+[1127.913s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1138.696s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1138.715s] -- Found Threads: TRUE  
+[1141.934s] -- Looking for pthread.h - found
+[1141.940s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1141.958s] -- Found Threads: TRUE  
+[1141.972s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1142.390s] -- Found rclc: 4.0.2 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc/share/rclc/cmake)
+[1142.672s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1142.691s] -- Found Threads: TRUE  
+[1143.479s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1143.500s] -- Found Threads: TRUE  
+[1145.697s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1145.715s] -- Found Threads: TRUE  
+[1145.974s] -- Found rclc: 4.0.2 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc/share/rclc/cmake)
+[1146.030s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1146.053s] -- Found Threads: TRUE  
+[1146.715s] -- Found rclc: 4.0.2 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc/share/rclc/cmake)
+[1147.624s] -- Found rclc: 4.0.2 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc/share/rclc/cmake)
+[1148.049s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1148.069s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1148.073s] -- Found Threads: TRUE  
+[1148.090s] -- Found Threads: TRUE  
+[1148.392s] -- Found rclc: 4.0.2 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc/share/rclc/cmake)
+[1148.395s] -- Found rclc: 4.0.2 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc/share/rclc/cmake)
+[1148.997s] -- Looking for pthread.h - found
+[1149.040s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1150.729s] -- Found rclc: 4.0.2 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc/share/rclc/cmake)
+[1151.103s] -- Found rclc: 4.0.2 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc/share/rclc/cmake)
+[1152.225s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1152.244s] -- Found Threads: TRUE  
+[1154.301s] -- Found std_msgs: 4.2.3 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/share/std_msgs/cmake)
+[1154.336s] -- Found visualization_msgs: 4.2.3 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/visualization_msgs/share/visualization_msgs/cmake)
+[1154.461s] -- Found std_msgs: 4.2.3 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/share/std_msgs/cmake)
+[1155.233s] -- Found complex_msgs: 3.0.0 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/cmake)
+[1155.404s] -- Found std_msgs: 4.2.3 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/share/std_msgs/cmake)
+[1155.879s] -- Found rmw_microxrcedds: 3.0.0 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[1155.883s] -- Found rmw_microxrcedds: 3.0.0 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[1156.782s] -- Found rclc: 4.0.2 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc/share/rclc/cmake)
+[1157.008s] -- Configuring done
+[1157.011s] -- Configuring done
+[1157.600s] -- Found std_msgs: 4.2.3 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/share/std_msgs/cmake)
+[1158.258s] -- Found rmw_microxrcedds: 3.0.0 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[1158.282s] -- Found std_msgs: 4.2.3 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/share/std_msgs/cmake)
+[1158.403s] -- Found complex_msgs: 3.0.0 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/share/complex_msgs/cmake)
+[1159.325s] -- Found rmw_microxrcedds: 3.0.0 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[1159.353s] -- Found rmw_microxrcedds: 3.0.0 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[1159.808s] -- Configuring done
+[1159.834s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1159.880s] -- Found Threads: TRUE  
+[1160.459s] -- Found rmw_microxrcedds: 3.0.0 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[1160.482s] -- Generating done
+[1160.486s] -- Generating done
+[1160.688s] -- Configuring done
+[1160.783s] -- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/string_publisher/src/string_publisher-build
+[1160.786s] -- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/string_subscriber/src/string_subscriber-build
+[1161.351s] -- Found rmw_microxrcedds: 3.0.0 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[1161.888s] -- Configuring done
+[1163.023s] -- Configuring done
+[1163.839s] -- Configuring done
+[1164.221s] -- Found rclc: 4.0.2 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc/share/rclc/cmake)
+[1165.773s] -- Generating done
+[1165.867s] -- Generating done
+[1165.966s] -- Found rmw_microxrcedds: 3.0.0 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[1166.083s] -- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/autodiscover_agent/src/autodiscover_agent-build
+[1166.169s] -- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/complex_msg_subscriber/src/complex_msg_subscriber-build
+[1166.891s] -- Generating done
+[1167.176s] -- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/timer/src/timer-build
+[1167.870s] -- Generating done
+[1168.151s] -- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/fragmented_publication/src/fragmented_publication-build
+[1168.704s] -- Generating done
+[1168.967s] -- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/complex_msg_publisher/src/complex_msg_publisher-build
+[1168.999s] -- Found std_msgs: 4.2.3 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/share/std_msgs/cmake)
+[1170.445s] -- Found micro_ros_utilities: 3.0.0 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_utilities/share/micro_ros_utilities/cmake)
+[1170.756s] -- Configuring done
+[1171.252s] -- Found rmw_microxrcedds: 3.0.0 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[1172.400s] [ 72%] [34m[1mPerforming build step for 'string_publisher'[0m
+[1173.367s] [ 72%] [34m[1mPerforming build step for 'string_subscriber'[0m
+[1173.460s] -- Configuring done
+[1174.308s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1174.326s] -- Found Threads: TRUE  
+[1175.928s] -- Found rmw_microxrcedds: 3.0.0 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[1176.077s] [ 73%] [34m[1mPerforming build step for 'autodiscover_agent'[0m
+[1177.594s] [ 73%] [34m[1mPerforming build step for 'complex_msg_subscriber'[0m
+[1178.075s] -- Generating done
+[1178.297s] -- Found rclc: 4.0.2 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc/share/rclc/cmake)
+[1178.340s] -- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/fragmented_subscription/src/fragmented_subscription-build
+[1178.349s] [ 74%] [34m[1mPerforming build step for 'timer'[0m
+[1178.522s] -- Generating done
+[1178.776s] -- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/static_type_handling/src/static_type_handling-build
+[1179.489s] -- Found std_msgs: 4.2.3 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/share/std_msgs/cmake)
+[1179.832s] [ 74%] [34m[1mPerforming build step for 'fragmented_publication'[0m
+[1181.121s] [ 75%] [34m[1mPerforming build step for 'complex_msg_publisher'[0m
+[1181.318s] -- Configuring done
+[1181.652s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1181.673s] -- Found Threads: TRUE  
+[1184.732s] -- Found rclc: 4.0.2 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc/share/rclc/cmake)
+[1185.650s] -- Generating done
+[1185.985s] -- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/ping_uros_agent/src/ping_uros_agent-build
+[1189.020s] [ 76%] [34m[1mPerforming build step for 'static_type_handling'[0m
+[1189.587s] -- Found std_msgs: 4.2.3 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/share/std_msgs/cmake)
+[1189.721s] [ 76%] [34m[1mPerforming build step for 'fragmented_subscription'[0m
+[1192.075s] -- Found rmw_microxrcedds: 3.0.0 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[1194.031s] -- Configuring done
+[1196.581s] [ 77%] [34m[1mPerforming build step for 'ping_uros_agent'[0m
+[1196.647s] -- Found std_msgs: 4.2.3 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/share/std_msgs/cmake)
+[1198.511s] -- Generating done
+[1198.804s] -- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/ping_pong/src/ping_pong-build
+[1199.108s] -- Found rmw_microxrcedds: 3.0.0 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[1200.417s] [ 50%] [32mBuilding C object CMakeFiles/string_publisher.dir/main.c.o[0m
+[1201.059s] -- Configuring done
+[1201.768s] [ 50%] [32mBuilding C object CMakeFiles/string_subscriber.dir/main.c.o[0m
+[1203.082s] [ 50%] [32mBuilding C object CMakeFiles/autodiscover_agent.dir/main.c.o[0m
+[1203.841s] [ 50%] [32mBuilding C object CMakeFiles/complex_msg_subscriber.dir/main.c.o[0m
+[1205.356s] [ 50%] [32mBuilding C object CMakeFiles/timer.dir/main.c.o[0m
+[1205.614s] -- Generating done
+[1205.895s] -- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/int32_publisher_subscriber/src/int32_publisher_subscriber-build
+[1207.714s] [ 50%] [32mBuilding C object CMakeFiles/fragmented_publication.dir/main.c.o[0m
+[1209.406s] [ 78%] [34m[1mPerforming build step for 'ping_pong'[0m
+[1209.448s] [ 50%] [32mBuilding C object CMakeFiles/complex_msg_publisher.dir/main.c.o[0m
+[1217.418s] [ 50%] [32mBuilding C object CMakeFiles/fragmented_subscription.dir/main.c.o[0m
+[1217.538s] [ 78%] [34m[1mPerforming build step for 'int32_publisher_subscriber'[0m
+[1217.698s] [ 50%] [32mBuilding C object CMakeFiles/static_type_handling.dir/main.c.o[0m
+[1225.133s] [100%] [32m[1mLinking C executable string_publisher[0m
+[1225.476s] [100%] [32m[1mLinking C executable string_subscriber[0m
+[1226.173s] [100%] [32m[1mLinking C executable timer[0m
+[1226.792s] [100%] [32m[1mLinking C executable autodiscover_agent[0m
+[1226.795s] [100%] [32m[1mLinking C executable complex_msg_subscriber[0m
+[1226.878s] [ 50%] [32mBuilding C object CMakeFiles/ping_uros_agent.dir/main.c.o[0m
+[1232.601s] [100%] [32m[1mLinking C executable fragmented_publication[0m
+[1235.622s] [100%] [32m[1mLinking C executable complex_msg_publisher[0m
+[1238.375s] [ 50%] [32mBuilding C object CMakeFiles/ping_pong.dir/main.c.o[0m
+[1241.653s] [100%] Built target string_publisher
+[1242.378s] [100%] Built target string_subscriber
+[1242.673s] [100%] Built target timer
+[1243.006s] [100%] Built target complex_msg_subscriber
+[1243.058s] [100%] Built target autodiscover_agent
+[1244.764s] [100%] [32m[1mLinking C executable fragmented_subscription[0m
+[1246.202s] [ 50%] [32mBuilding C object CMakeFiles/int32_publisher_subscriber.dir/main.c.o[0m
+[1249.127s] [100%] Built target fragmented_publication
+[1249.814s] [ 78%] [34m[1mPerforming install step for 'string_publisher'[0m
+[1250.967s] [100%] Built target complex_msg_publisher
+[1251.830s] [ 79%] [34m[1mPerforming install step for 'string_subscriber'[0m
+[1252.061s] [ 80%] [34m[1mPerforming install step for 'complex_msg_subscriber'[0m
+[1252.114s] [ 80%] [34m[1mPerforming install step for 'timer'[0m
+[1252.976s] [ 80%] [34m[1mPerforming install step for 'autodiscover_agent'[0m
+[1253.867s] [100%] [32m[1mLinking C executable ping_uros_agent[0m
+[1254.306s] [100%] [32m[1mLinking C executable static_type_handling[0m
+[1258.151s] [ 81%] [34m[1mPerforming install step for 'fragmented_publication'[0m
+[1260.313s] [ 82%] [34m[1mPerforming install step for 'complex_msg_publisher'[0m
+[1261.389s] [100%] Built target fragmented_subscription
+[1266.270s] [100%] [32m[1mLinking C executable ping_pong[0m
+[1268.657s] [35m[1mConsolidate compiler generated dependencies of target string_publisher[0m
+[1268.669s] [35m[1mConsolidate compiler generated dependencies of target complex_msg_subscriber[0m
+[1268.890s] [35m[1mConsolidate compiler generated dependencies of target string_subscriber[0m
+[1269.067s] [ 83%] [34m[1mPerforming install step for 'fragmented_subscription'[0m
+[1269.729s] [100%] Built target ping_uros_agent
+[1270.325s] [35m[1mConsolidate compiler generated dependencies of target timer[0m
+[1270.864s] [35m[1mConsolidate compiler generated dependencies of target autodiscover_agent[0m
+[1272.069s] [100%] Built target static_type_handling
+[1272.538s] [100%] [32m[1mLinking C executable int32_publisher_subscriber[0m
+[1275.512s] [100%] Built target string_publisher
+[1276.999s] [100%] Built target complex_msg_subscriber
+[1277.109s] [100%] Built target string_subscriber
+[1278.304s] [100%] Built target timer
+[1278.460s] [35m[1mConsolidate compiler generated dependencies of target fragmented_publication[0m
+[1278.564s] [100%] Built target autodiscover_agent
+[1278.573s] [35m[1mConsolidate compiler generated dependencies of target complex_msg_publisher[0m
+[1279.114s] [ 84%] [34m[1mPerforming install step for 'ping_uros_agent'[0m
+[1281.004s] [ 84%] [34m[1mPerforming install step for 'static_type_handling'[0m
+[1282.377s] [100%] Built target ping_pong
+[1284.444s] [36mInstall the project...[0m
+[1284.941s] [100%] Built target complex_msg_publisher
+[1284.946s] [100%] Built target fragmented_publication
+[1286.479s] [36mInstall the project...[0m
+[1286.481s] [36mInstall the project...[0m
+[1287.721s] [35m[1mConsolidate compiler generated dependencies of target fragmented_subscription[0m
+[1288.084s] [36mInstall the project...[0m
+[1288.088s] [36mInstall the project...[0m
+[1288.226s] [100%] Built target int32_publisher_subscriber
+[1288.258s] -- Install configuration: ""
+[1288.295s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/string_publisher/string_publisher
+[1288.624s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/string_publisher/string_publisher" to ""
+[1289.711s] -- Install configuration: ""
+[1289.759s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/complex_msg_subscriber/complex_msg_subscriber
+[1290.149s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/complex_msg_subscriber/complex_msg_subscriber" to ""
+[1290.411s] -- Install configuration: ""
+[1290.447s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/string_subscriber/string_subscriber
+[1290.764s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/string_subscriber/string_subscriber" to ""
+[1291.406s] [ 84%] [34m[1mPerforming install step for 'ping_pong'[0m
+[1291.714s] -- Install configuration: ""
+[1291.758s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/timer/timer
+[1292.141s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/timer/timer" to ""
+[1292.738s] -- Install configuration: ""
+[1292.774s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/autodiscover_agent/autodiscover_agent
+[1293.126s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/autodiscover_agent/autodiscover_agent" to ""
+[1295.036s] [100%] Built target fragmented_subscription
+[1295.615s] [36mInstall the project...[0m
+[1295.787s] [36mInstall the project...[0m
+[1296.977s] [ 84%] [34m[1mPerforming install step for 'int32_publisher_subscriber'[0m
+[1298.014s] [35m[1mConsolidate compiler generated dependencies of target ping_uros_agent[0m
+[1299.970s] -- Install configuration: ""
+[1300.011s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/complex_msg_publisher/complex_msg_publisher
+[1300.142s] -- Install configuration: ""
+[1300.163s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/fragmented_publication/fragmented_publication
+[1300.195s] [ 84%] [34m[1mCompleted 'string_publisher'[0m
+[1300.333s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/complex_msg_publisher/complex_msg_publisher" to ""
+[1300.405s] [35m[1mConsolidate compiler generated dependencies of target static_type_handling[0m
+[1300.458s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/fragmented_publication/fragmented_publication" to ""
+[1301.062s] [ 85%] [34m[1mCompleted 'complex_msg_subscriber'[0m
+[1301.893s] [ 86%] [34m[1mCompleted 'string_subscriber'[0m
+[1302.710s] [ 86%] [34m[1mCompleted 'timer'[0m
+[1303.184s] [ 86%] [34m[1mCompleted 'autodiscover_agent'[0m
+[1304.694s] [100%] Built target ping_uros_agent
+[1305.880s] [36mInstall the project...[0m
+[1307.850s] [100%] Built target static_type_handling
+[1309.677s] -- Install configuration: ""
+[1309.708s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/fragmented_subscription/fragmented_subscription
+[1309.970s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/fragmented_subscription/fragmented_subscription" to ""
+[1310.334s] [35m[1mConsolidate compiler generated dependencies of target ping_pong[0m
+[1310.603s] [ 86%] [34m[1mCompleted 'complex_msg_publisher'[0m
+[1310.795s] [ 86%] [34m[1mCompleted 'fragmented_publication'[0m
+[1314.084s] [36mInstall the project...[0m
+[1314.971s] [35m[1mConsolidate compiler generated dependencies of target int32_publisher_subscriber[0m
+[1316.150s] [ 86%] Built target string_publisher
+[1317.373s] [36mInstall the project...[0m
+[1317.895s] [ 86%] Built target complex_msg_subscriber
+[1318.524s] -- Install configuration: ""
+[1318.555s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/ping_uros_agent/ping_uros_agent
+[1318.648s] [100%] Built target ping_pong
+[1318.844s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/ping_uros_agent/ping_uros_agent" to ""
+[1318.997s] [ 86%] Built target string_subscriber
+[1319.271s] [ 86%] Built target autodiscover_agent
+[1319.694s] [ 86%] Built target timer
+[1320.289s] [ 87%] [34m[1mCompleted 'fragmented_subscription'[0m
+[1320.825s] -- Install configuration: ""
+[1320.852s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/static_type_handling/static_type_handling
+[1321.067s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/static_type_handling/static_type_handling" to ""
+[1322.235s] [100%] Built target int32_publisher_subscriber
+[1324.094s] [ 87%] Built target complex_msg_publisher
+[1324.681s] [ 87%] Built target fragmented_publication
+[1326.573s] [36mInstall the project...[0m
+[1326.851s] [ 87%] [34m[1mCompleted 'ping_uros_agent'[0m
+[1327.625s] [ 87%] [34m[1mCompleted 'static_type_handling'[0m
+[1328.656s] [36mInstall the project...[0m
+[1328.728s] -- Install configuration: ""
+[1328.749s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/ping_pong/ping_pong
+[1328.952s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/ping_pong/ping_pong" to ""
+[1331.331s] -- Install configuration: ""
+[1331.347s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/int32_publisher_subscriber/int32_publisher_subscriber
+[1331.488s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/int32_publisher_subscriber/int32_publisher_subscriber" to ""
+[1331.715s] [ 87%] Built target fragmented_subscription
+[1335.480s] [ 87%] [34m[1mCompleted 'ping_pong'[0m
+[1337.178s] [ 87%] Built target ping_uros_agent
+[1338.167s] [ 88%] [34m[1mCompleted 'int32_publisher_subscriber'[0m
+[1338.649s] [ 88%] Built target static_type_handling
+[1340.046s] [ 88%] [34m[1mCreating directories for 'multithread_publisher_subscriber'[0m
+[1344.880s] [ 89%] [34m[1mCreating directories for 'parameter_server'[0m
+[1345.259s] [ 89%] [34m[1mCreating directories for 'epoch_synchronization'[0m
+[1346.542s] [ 89%] Built target ping_pong
+[1347.622s] [ 89%] Built target int32_publisher_subscriber
+[1356.852s] [ 89%] [34m[1mNo download step for 'multithread_publisher_subscriber'[0m
+[1360.029s] [ 89%] [34m[1mNo download step for 'parameter_server'[0m
+[1361.488s] [ 89%] [34m[1mNo download step for 'epoch_synchronization'[0m
+[1363.080s] [ 89%] [34m[1mNo update step for 'multithread_publisher_subscriber'[0m
+[1365.548s] [ 90%] [34m[1mNo update step for 'parameter_server'[0m
+[1367.599s] [ 90%] [34m[1mNo update step for 'epoch_synchronization'[0m
+[1369.306s] [ 91%] [34m[1mNo patch step for 'multithread_publisher_subscriber'[0m
+[1371.720s] [ 91%] [34m[1mNo patch step for 'parameter_server'[0m
+[1373.392s] [ 92%] [34m[1mNo patch step for 'epoch_synchronization'[0m
+[1375.265s] [ 93%] [34m[1mPerforming configure step for 'multithread_publisher_subscriber'[0m
+[1377.615s] loading initial cache file /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/multithread_publisher_subscriber/tmp/multithread_publisher_subscriber-cache-.cmake
+[1377.852s] [ 94%] [34m[1mPerforming configure step for 'parameter_server'[0m
+[1379.523s] [ 95%] [34m[1mPerforming configure step for 'epoch_synchronization'[0m
+[1380.660s] loading initial cache file /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/parameter_server/tmp/parameter_server-cache-.cmake
+[1382.676s] loading initial cache file /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/epoch_synchronization/tmp/epoch_synchronization-cache-.cmake
+[1385.323s] -- The C compiler identification is GNU 11.3.0
+[1386.282s] -- Detecting C compiler ABI info
+[1389.046s] -- The C compiler identification is GNU 11.3.0
+[1390.039s] -- Detecting C compiler ABI info
+[1390.940s] -- The C compiler identification is GNU 11.3.0
+[1391.623s] -- Detecting C compiler ABI info
+[1400.761s] -- Detecting C compiler ABI info - done
+[1400.798s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1400.800s] -- Detecting C compile features
+[1400.801s] -- Detecting C compile features - done
+[1402.115s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1404.145s] -- Detecting C compiler ABI info - done
+[1404.178s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1404.180s] -- Detecting C compile features
+[1404.181s] -- Detecting C compile features - done
+[1405.396s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1405.481s] -- Detecting C compiler ABI info - done
+[1405.519s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1405.521s] -- Detecting C compile features
+[1405.522s] -- Detecting C compile features - done
+[1406.721s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1421.625s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1425.191s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1425.965s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1441.772s] -- Found rcl: 5.3.2 (/opt/ros/humble/share/rcl/cmake)
+[1444.086s] -- Found rcl: 5.3.2 (/opt/ros/humble/share/rcl/cmake)
+[1444.087s] -- Found rcl: 5.3.2 (/opt/ros/humble/share/rcl/cmake)
+[1449.572s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1449.573s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1449.574s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1450.605s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1450.605s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1450.606s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1451.675s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1451.676s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1451.677s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1452.810s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1452.811s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1452.812s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1455.216s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1455.217s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1455.219s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1460.201s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1460.202s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1460.787s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1460.788s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1461.369s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1462.118s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1481.293s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1481.568s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1483.730s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1484.642s] -- Found FastRTPS: /opt/ros/humble/include  
+[1484.914s] -- Found FastRTPS: /opt/ros/humble/include  
+[1487.080s] -- Found FastRTPS: /opt/ros/humble/include  
+[1489.936s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1490.353s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1492.427s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1494.759s] -- Looking for pthread.h
+[1495.357s] -- Looking for pthread.h
+[1497.566s] -- Looking for pthread.h
+[1506.341s] -- Looking for pthread.h - found
+[1506.355s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1507.039s] -- Looking for pthread.h - found
+[1507.052s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1510.705s] -- Looking for pthread.h - found
+[1510.723s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1520.411s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1520.418s] -- Found Threads: TRUE  
+[1521.235s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1521.242s] -- Found Threads: TRUE  
+[1521.974s] -- Found rclc: 4.0.2 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc/share/rclc/cmake)
+[1522.846s] -- Found rclc: 4.0.2 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc/share/rclc/cmake)
+[1525.089s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1525.096s] -- Found Threads: TRUE  
+[1526.632s] -- Found rclc: 4.0.2 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc/share/rclc/cmake)
+[1526.890s] -- Found std_msgs: 4.2.3 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/share/std_msgs/cmake)
+[1527.849s] -- Found std_msgs: 4.2.3 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/share/std_msgs/cmake)
+[1527.873s] -- Found rmw_microxrcedds: 3.0.0 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[1528.663s] -- Found rclc_parameter: 4.0.2 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc_parameter/share/rclc_parameter/cmake)
+[1528.679s] -- Configuring done
+[1529.099s] -- Found rmw_microxrcedds: 3.0.0 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[1529.984s] -- Configuring done
+[1530.481s] -- Generating done
+[1530.608s] -- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/epoch_synchronization/src/epoch_synchronization-build
+[1531.505s] -- Found std_msgs: 4.2.3 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/share/std_msgs/cmake)
+[1531.832s] -- Generating done
+[1531.956s] -- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/parameter_server/src/parameter_server-build
+[1532.528s] -- Found rmw_microxrcedds: 3.0.0 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[1534.411s] -- Found micro_ros_utilities: 3.0.0 (/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_utilities/share/micro_ros_utilities/cmake)
+[1534.500s] -- Configuring done
+[1536.253s] [ 95%] [34m[1mPerforming build step for 'epoch_synchronization'[0m
+[1536.493s] -- Generating done
+[1536.602s] -- Build files have been written to: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/multithread_publisher_subscriber/src/multithread_publisher_subscriber-build
+[1537.572s] [ 95%] [34m[1mPerforming build step for 'parameter_server'[0m
+[1541.989s] [ 95%] [34m[1mPerforming build step for 'multithread_publisher_subscriber'[0m
+[1547.337s] [ 50%] [32mBuilding C object CMakeFiles/epoch_synchronization.dir/main.c.o[0m
+[1549.831s] [ 50%] [32mBuilding C object CMakeFiles/parameter_server.dir/main.c.o[0m
+[1554.018s] [ 50%] [32mBuilding C object CMakeFiles/multithread_publisher_subscriber.dir/main.c.o[0m
+[1559.578s] [100%] [32m[1mLinking C executable epoch_synchronization[0m
+[1565.737s] [100%] [32m[1mLinking C executable parameter_server[0m
+[1566.740s] [100%] [32m[1mLinking C executable multithread_publisher_subscriber[0m
+[1567.556s] [100%] Built target epoch_synchronization
+[1571.811s] [ 96%] [34m[1mPerforming install step for 'epoch_synchronization'[0m
+[1573.269s] [100%] Built target parameter_server
+[1574.125s] [100%] Built target multithread_publisher_subscriber
+[1577.593s] [ 96%] [34m[1mPerforming install step for 'parameter_server'[0m
+[1578.615s] [ 97%] [34m[1mPerforming install step for 'multithread_publisher_subscriber'[0m
+[1581.002s] [35m[1mConsolidate compiler generated dependencies of target epoch_synchronization[0m
+[1584.791s] [100%] Built target epoch_synchronization
+[1587.223s] [35m[1mConsolidate compiler generated dependencies of target parameter_server[0m
+[1588.551s] [35m[1mConsolidate compiler generated dependencies of target multithread_publisher_subscriber[0m
+[1590.121s] [36mInstall the project...[0m
+[1591.204s] [100%] Built target parameter_server
+[1592.037s] -- Install configuration: ""
+[1592.052s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/epoch_synchronization/epoch_synchronization
+[1592.155s] [100%] Built target multithread_publisher_subscriber
+[1592.192s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/epoch_synchronization/epoch_synchronization" to ""
+[1596.393s] [36mInstall the project...[0m
+[1596.783s] [ 98%] [34m[1mCompleted 'epoch_synchronization'[0m
+[1596.804s] [36mInstall the project...[0m
+[1598.207s] -- Install configuration: ""
+[1598.219s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/parameter_server/parameter_server
+[1598.334s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/parameter_server/parameter_server" to ""
+[1598.465s] -- Install configuration: ""
+[1598.479s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/multithread_publisher_subscriber/multithread_publisher_subscriber
+[1598.594s] -- Set runtime path of "/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/multithread_publisher_subscriber/multithread_publisher_subscriber" to ""
+[1603.565s] [ 99%] [34m[1mCompleted 'parameter_server'[0m
+[1603.788s] [100%] [34m[1mCompleted 'multithread_publisher_subscriber'[0m
+[1605.121s] [100%] Built target epoch_synchronization
+[1611.420s] [100%] Built target parameter_server
+[1611.575s] [100%] Built target multithread_publisher_subscriber
+[1613.296s] Invoked command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc' returned '0': AMENT_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/visualization_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc_parameter:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rmw_microxrcedds:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/example_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rcl_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/action_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/unique_identifier_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_utilities:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/visualization_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc_parameter:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rmw_microxrcedds:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/example_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rcl_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/action_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/unique_identifier_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_utilities:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/visualization_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc_parameter/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rmw_microxrcedds/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/example_interfaces/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rcl_interfaces/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/action_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/unique_identifier_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_utilities/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent/lib:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/visualization_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/example_interfaces/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rcl_interfaces/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/action_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc -- -j12 -l12
+[1619.182s] Invoking command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc': AMENT_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/visualization_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc_parameter:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rmw_microxrcedds:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/example_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rcl_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/action_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/unique_identifier_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_utilities:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/visualization_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc_parameter:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rmw_microxrcedds:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/example_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rcl_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/action_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/unique_identifier_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_utilities:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/visualization_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc_parameter/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rmw_microxrcedds/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/example_interfaces/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rcl_interfaces/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/action_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/unique_identifier_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_utilities/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent/lib:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/visualization_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/example_interfaces/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rcl_interfaces/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/action_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc
+[1620.659s] -- Install configuration: ""
+[1620.662s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc
+[1620.679s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_client
+[1620.703s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_client/addtwoints_client
+[1620.757s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_server
+[1620.779s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_server/addtwoints_server
+[1620.834s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/autodiscover_agent
+[1620.858s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/autodiscover_agent/autodiscover_agent
+[1620.914s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_publisher
+[1620.938s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_publisher/complex_msg_publisher
+[1620.994s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_subscriber
+[1621.017s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_subscriber/complex_msg_subscriber
+[1621.071s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_publisher
+[1621.096s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_publisher/configured_publisher
+[1621.156s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_subscriber
+[1621.181s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_subscriber/configured_subscriber
+[1621.236s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/epoch_synchronization
+[1621.260s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/epoch_synchronization/epoch_synchronization
+[1621.314s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_client
+[1621.335s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_client/fibonacci_action_client
+[1621.388s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_server
+[1621.409s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_server/fibonacci_action_server
+[1621.460s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_publication
+[1621.482s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_publication/fragmented_publication
+[1621.535s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_subscription
+[1621.556s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_subscription/fragmented_subscription
+[1621.606s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/graph_visualizer
+[1621.628s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/graph_visualizer/graph_visualizer
+[1621.680s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_multinode
+[1621.702s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_multinode/int32_multinode
+[1621.758s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher
+[1621.781s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher/int32_publisher
+[1621.836s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher_subscriber
+[1621.857s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher_subscriber/int32_publisher_subscriber
+[1621.908s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_subscriber
+[1621.930s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_subscriber/int32_subscriber
+[1621.982s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/multithread_publisher_subscriber
+[1622.003s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/multithread_publisher_subscriber/multithread_publisher_subscriber
+[1622.053s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/parameter_server
+[1622.076s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/parameter_server/parameter_server
+[1622.126s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_pong
+[1622.148s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_pong/ping_pong
+[1622.199s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_uros_agent
+[1622.221s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_uros_agent/ping_uros_agent
+[1622.273s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/publisher_count
+[1622.296s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/publisher_count/publisher_count
+[1622.347s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/static_type_handling
+[1622.368s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/static_type_handling/static_type_handling
+[1622.421s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_publisher
+[1622.444s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_publisher/string_publisher
+[1622.501s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_subscriber
+[1622.526s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_subscriber/string_subscriber
+[1622.584s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/subscription_count
+[1622.607s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/subscription_count/subscription_count
+[1622.662s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/timer
+[1622.686s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/timer/timer
+[1622.763s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/share/ament_index/resource_index/package_run_dependencies/micro_ros_demos_rclc
+[1622.853s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/share/ament_index/resource_index/parent_prefix_path/micro_ros_demos_rclc
+[1622.931s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/ament_prefix_path.sh
+[1622.979s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/ament_prefix_path.dsv
+[1623.028s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/path.sh
+[1623.074s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/path.dsv
+[1623.126s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.bash
+[1623.177s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.sh
+[1623.226s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.zsh
+[1623.278s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.dsv
+[1623.328s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/package.dsv
+[1623.406s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/share/ament_index/resource_index/packages/micro_ros_demos_rclc
+[1623.489s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/cmake/micro_ros_demos_rclcConfig.cmake
+[1623.551s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/cmake/micro_ros_demos_rclcConfig-version.cmake
+[1623.617s] -- Installing: /mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/package.xml
+[1623.674s] Invoked command in '/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc' returned '0': AMENT_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/visualization_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc_parameter:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rmw_microxrcedds:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/example_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rcl_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/action_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/unique_identifier_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_utilities:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/visualization_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc_parameter:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rmw_microxrcedds:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/example_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rcl_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/action_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/unique_identifier_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_utilities:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/visualization_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc_parameter/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rmw_microxrcedds/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rclc/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_cpp/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/example_interfaces/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rosidl_typesupport_microxrcedds_c/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rcl_interfaces/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microxrcedds_client/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/action_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/unique_identifier_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/microcdr/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_utilities/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_msgs/lib:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/lib:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_agent/lib:/mnt/d/prueba/TFG-ROS2/ros2_agent_node/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/visualization_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/sensor_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/geometry_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/example_interfaces/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/std_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/rcl_interfaces/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/complex_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/action_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/mnt/d/prueba/TFG-ROS2/ros2_client_node/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc
