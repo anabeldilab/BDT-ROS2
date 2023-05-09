@@ -1,0 +1,10 @@
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rclc/CMakeFiles/uninstall.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rclc/CMakeFiles/rclc_uninstall.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rclc/CMakeFiles/rclc.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rclc/CMakeFiles/test.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rclc/CMakeFiles/edit_cache.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rclc/CMakeFiles/rebuild_cache.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rclc/CMakeFiles/list_install_components.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rclc/CMakeFiles/install.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rclc/CMakeFiles/install/local.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rclc/CMakeFiles/install/strip.dir

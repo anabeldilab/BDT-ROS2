@@ -1,0 +1,7 @@
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr/CMakeFiles/microcdr.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr/CMakeFiles/edit_cache.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr/CMakeFiles/rebuild_cache.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr/CMakeFiles/list_install_components.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr/CMakeFiles/install.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr/CMakeFiles/install/local.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr/CMakeFiles/install/strip.dir

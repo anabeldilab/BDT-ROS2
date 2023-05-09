@@ -1,0 +1,4 @@
+Invoking command in '/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr': /usr/bin/cmake --build /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr -- -j12 -l12
+Invoked command in '/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr' returned '0': /usr/bin/cmake --build /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr -- -j12 -l12
+Invoking command in '/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr': /usr/bin/cmake --install /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr
+Invoked command in '/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr' returned '0': /usr/bin/cmake --install /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr

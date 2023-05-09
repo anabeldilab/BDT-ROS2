@@ -1,0 +1,38 @@
+[1.475s] Invoking command in '/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/ament/ament_lint/ament_lint': PYTHONPATH=/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_lint/prefix_override:/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_lint build --build-base /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_lint/build install --record /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_lint/install.log --single-version-externally-managed
+[1.791s] running egg_info
+[1.793s] creating ../../../build/ament_lint/ament_lint.egg-info
+[1.794s] writing ../../../build/ament_lint/ament_lint.egg-info/PKG-INFO
+[1.794s] writing dependency_links to ../../../build/ament_lint/ament_lint.egg-info/dependency_links.txt
+[1.794s] writing entry points to ../../../build/ament_lint/ament_lint.egg-info/entry_points.txt
+[1.794s] writing requirements to ../../../build/ament_lint/ament_lint.egg-info/requires.txt
+[1.795s] writing top-level names to ../../../build/ament_lint/ament_lint.egg-info/top_level.txt
+[1.795s] writing manifest file '../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[1.796s] reading manifest file '../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[1.797s] writing manifest file '../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[1.797s] running build
+[1.798s] running build_py
+[1.798s] creating /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_lint/build
+[1.799s] creating /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_lint/build/lib
+[1.799s] creating /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_lint/build/lib/ament_lint
+[1.800s] copying ament_lint/pytest_marker.py -> /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_lint/build/lib/ament_lint
+[1.800s] copying ament_lint/__init__.py -> /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_lint/build/lib/ament_lint
+[1.801s] running install
+[1.801s] running install_lib
+[1.801s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.801s]   warnings.warn(
+[1.804s] creating /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages/ament_lint
+[1.804s] copying /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_lint/build/lib/ament_lint/pytest_marker.py -> /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages/ament_lint
+[1.804s] copying /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_lint/build/lib/ament_lint/__init__.py -> /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages/ament_lint
+[1.805s] byte-compiling /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages/ament_lint/pytest_marker.py to pytest_marker.cpython-310.pyc
+[1.805s] byte-compiling /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages/ament_lint/__init__.py to __init__.cpython-310.pyc
+[1.805s] running install_data
+[1.805s] copying package.xml -> /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_lint/share/ament_lint
+[1.806s] creating /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_lint/share/ament_index
+[1.806s] creating /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_lint/share/ament_index/resource_index
+[1.806s] creating /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_lint/share/ament_index/resource_index/packages
+[1.807s] copying resource/ament_lint -> /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_lint/share/ament_index/resource_index/packages
+[1.807s] running install_egg_info
+[1.807s] Copying ../../../build/ament_lint/ament_lint.egg-info to /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages/ament_lint-0.12.6-py3.10.egg-info
+[1.809s] running install_scripts
+[1.874s] writing list of installed files to '/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_lint/install.log'
+[1.945s] Invoked command in '/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/ament/ament_lint/ament_lint' returned '0': PYTHONPATH=/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_lint/prefix_override:/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_lint build --build-base /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_lint/build install --record /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_lint/install.log --single-version-externally-managed

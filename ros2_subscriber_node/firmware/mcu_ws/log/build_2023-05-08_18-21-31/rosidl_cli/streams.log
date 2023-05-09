@@ -1,0 +1,23 @@
+[2.824s] Invoking command in '/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/ros2/rosidl/rosidl_cli': PYTHONPATH=/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rosidl_cli/prefix_override:/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rosidl_cli build --build-base /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rosidl_cli/build install --record /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rosidl_cli/install.log --single-version-externally-managed
+[3.322s] running egg_info
+[3.323s] writing ../../../build/rosidl_cli/rosidl_cli.egg-info/PKG-INFO
+[3.325s] writing dependency_links to ../../../build/rosidl_cli/rosidl_cli.egg-info/dependency_links.txt
+[3.326s] writing entry points to ../../../build/rosidl_cli/rosidl_cli.egg-info/entry_points.txt
+[3.327s] writing requirements to ../../../build/rosidl_cli/rosidl_cli.egg-info/requires.txt
+[3.327s] writing top-level names to ../../../build/rosidl_cli/rosidl_cli.egg-info/top_level.txt
+[3.329s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.330s]   warnings.warn(
+[3.336s] reading manifest file '../../../build/rosidl_cli/rosidl_cli.egg-info/SOURCES.txt'
+[3.337s] writing manifest file '../../../build/rosidl_cli/rosidl_cli.egg-info/SOURCES.txt'
+[3.337s] running build
+[3.338s] running build_py
+[3.338s] running install
+[3.338s] running install_lib
+[3.340s] running install_data
+[3.340s] running install_egg_info
+[3.341s] removing '/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli-3.1.4-py3.10.egg-info' (and everything under it)
+[3.342s] Copying ../../../build/rosidl_cli/rosidl_cli.egg-info to /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli-3.1.4-py3.10.egg-info
+[3.343s] running install_scripts
+[3.387s] Installing rosidl script to /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/bin
+[3.388s] writing list of installed files to '/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rosidl_cli/install.log'
+[3.588s] Invoked command in '/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/ros2/rosidl/rosidl_cli' returned '0': PYTHONPATH=/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rosidl_cli/prefix_override:/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rosidl_cli build --build-base /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rosidl_cli/build install --record /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rosidl_cli/install.log --single-version-externally-managed

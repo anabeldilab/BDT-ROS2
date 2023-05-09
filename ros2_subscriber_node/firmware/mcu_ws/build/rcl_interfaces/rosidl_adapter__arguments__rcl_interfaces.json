@@ -1,0 +1,22 @@
+{
+  "package_name": "rcl_interfaces",
+  "non_idl_tuples": [
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/ros2/rcl_interfaces/rcl_interfaces:msg/FloatingPointRange.msg",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/ros2/rcl_interfaces/rcl_interfaces:msg/IntegerRange.msg",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/ros2/rcl_interfaces/rcl_interfaces:msg/ListParametersResult.msg",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/ros2/rcl_interfaces/rcl_interfaces:msg/Log.msg",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/ros2/rcl_interfaces/rcl_interfaces:msg/ParameterDescriptor.msg",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/ros2/rcl_interfaces/rcl_interfaces:msg/ParameterEventDescriptors.msg",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/ros2/rcl_interfaces/rcl_interfaces:msg/ParameterEvent.msg",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/ros2/rcl_interfaces/rcl_interfaces:msg/Parameter.msg",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/ros2/rcl_interfaces/rcl_interfaces:msg/ParameterType.msg",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/ros2/rcl_interfaces/rcl_interfaces:msg/ParameterValue.msg",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/ros2/rcl_interfaces/rcl_interfaces:msg/SetParametersResult.msg",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/ros2/rcl_interfaces/rcl_interfaces:srv/DescribeParameters.srv",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/ros2/rcl_interfaces/rcl_interfaces:srv/GetParameters.srv",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/ros2/rcl_interfaces/rcl_interfaces:srv/GetParameterTypes.srv",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/ros2/rcl_interfaces/rcl_interfaces:srv/ListParameters.srv",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/ros2/rcl_interfaces/rcl_interfaces:srv/SetParametersAtomically.srv",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/ros2/rcl_interfaces/rcl_interfaces:srv/SetParameters.srv"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "package_name": "shape_msgs",
+  "non_idl_tuples": [
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/ros2/common_interfaces/shape_msgs:msg/Mesh.msg",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/ros2/common_interfaces/shape_msgs:msg/MeshTriangle.msg",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/ros2/common_interfaces/shape_msgs:msg/Plane.msg",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/ros2/common_interfaces/shape_msgs:msg/SolidPrimitive.msg"
+  ]
+}

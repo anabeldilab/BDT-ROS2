@@ -1,0 +1,38 @@
+[1.342s] Invoking command in '/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs_py': AMENT_PREFIX_PATH=/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/lib:${LD_LIBRARY_PATH} PATH=/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/sensor_msgs_py/prefix_override:/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/lib/python3.10/site-packages:/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/sensor_msgs_py build --build-base /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/sensor_msgs_py/build install --record /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/sensor_msgs_py/install.log --single-version-externally-managed
+[1.752s] running egg_info
+[1.753s] creating ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info
+[1.754s] writing ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/PKG-INFO
+[1.754s] writing dependency_links to ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/dependency_links.txt
+[1.755s] writing requirements to ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/requires.txt
+[1.755s] writing top-level names to ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/top_level.txt
+[1.756s] writing manifest file '../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/SOURCES.txt'
+[1.762s] reading manifest file '../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/SOURCES.txt'
+[1.763s] adding license file 'LICENSE'
+[1.765s] writing manifest file '../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/SOURCES.txt'
+[1.765s] running build
+[1.765s] running build_py
+[1.765s] creating /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/sensor_msgs_py/build
+[1.765s] creating /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/sensor_msgs_py/build/lib
+[1.766s] creating /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[1.766s] copying sensor_msgs_py/point_cloud2.py -> /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[1.766s] copying sensor_msgs_py/numpy_compat.py -> /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[1.767s] copying sensor_msgs_py/__init__.py -> /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[1.767s] running install
+[1.767s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.767s]   warnings.warn(
+[1.768s] running install_lib
+[1.769s] creating /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/lib/python3.10/site-packages/sensor_msgs_py
+[1.769s] copying /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py/point_cloud2.py -> /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/lib/python3.10/site-packages/sensor_msgs_py
+[1.770s] copying /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py/numpy_compat.py -> /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/lib/python3.10/site-packages/sensor_msgs_py
+[1.770s] copying /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py/__init__.py -> /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/lib/python3.10/site-packages/sensor_msgs_py
+[1.772s] byte-compiling /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/lib/python3.10/site-packages/sensor_msgs_py/point_cloud2.py to point_cloud2.cpython-310.pyc
+[1.776s] byte-compiling /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/lib/python3.10/site-packages/sensor_msgs_py/numpy_compat.py to numpy_compat.cpython-310.pyc
+[1.778s] byte-compiling /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/lib/python3.10/site-packages/sensor_msgs_py/__init__.py to __init__.cpython-310.pyc
+[1.778s] running install_data
+[1.779s] copying resource/sensor_msgs_py -> /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/share/ament_index/resource_index/packages
+[1.779s] copying package.xml -> /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/share/sensor_msgs_py
+[1.780s] running install_egg_info
+[1.782s] Copying ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info to /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/lib/python3.10/site-packages/sensor_msgs_py-4.2.3-py3.10.egg-info
+[1.783s] running install_scripts
+[1.820s] writing list of installed files to '/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/sensor_msgs_py/install.log'
+[1.883s] Invoked command in '/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs_py' returned '0': AMENT_PREFIX_PATH=/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/lib:${LD_LIBRARY_PATH} PATH=/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/sensor_msgs_py/prefix_override:/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/lib/python3.10/site-packages:/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/sensor_msgs_py build --build-base /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/sensor_msgs_py/build install --record /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/sensor_msgs_py/install.log --single-version-externally-managed

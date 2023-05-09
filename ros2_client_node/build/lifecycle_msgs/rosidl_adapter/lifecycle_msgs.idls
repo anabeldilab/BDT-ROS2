@@ -1,8 +1,0 @@
-/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/State.idl
-/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/Transition.idl
-/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/TransitionDescription.idl
-/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/TransitionEvent.idl
-/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/ChangeState.idl
-/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/GetAvailableStates.idl
-/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/GetAvailableTransitions.idl
-/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/GetState.idl

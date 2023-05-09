@@ -1,7 +1,0 @@
-{
-  "package_name": "builtin_interfaces",
-  "non_idl_tuples": [
-    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/rcl_interfaces/builtin_interfaces:msg/Duration.msg",
-    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/rcl_interfaces/builtin_interfaces:msg/Time.msg"
-  ]
-}

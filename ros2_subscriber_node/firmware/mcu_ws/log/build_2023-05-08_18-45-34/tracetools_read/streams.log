@@ -1,0 +1,21 @@
+[2.700s] Invoking command in '/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/uros/tracetools/tracetools_read': PYTHONPATH=/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/tracetools_read/prefix_override:/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/tracetools_read build --build-base /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/tracetools_read/build install --record /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/tracetools_read/install.log --single-version-externally-managed
+[3.145s] running egg_info
+[3.147s] writing ../../../build/tracetools_read/tracetools_read.egg-info/PKG-INFO
+[3.147s] writing dependency_links to ../../../build/tracetools_read/tracetools_read.egg-info/dependency_links.txt
+[3.148s] writing requirements to ../../../build/tracetools_read/tracetools_read.egg-info/requires.txt
+[3.149s] writing top-level names to ../../../build/tracetools_read/tracetools_read.egg-info/top_level.txt
+[3.151s] reading manifest file '../../../build/tracetools_read/tracetools_read.egg-info/SOURCES.txt'
+[3.155s] writing manifest file '../../../build/tracetools_read/tracetools_read.egg-info/SOURCES.txt'
+[3.155s] running build
+[3.156s] running build_py
+[3.156s] running install
+[3.156s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.157s]   warnings.warn(
+[3.157s] running install_lib
+[3.158s] running install_data
+[3.160s] running install_egg_info
+[3.160s] removing '/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_read-4.1.1-py3.10.egg-info' (and everything under it)
+[3.161s] Copying ../../../build/tracetools_read/tracetools_read.egg-info to /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_read-4.1.1-py3.10.egg-info
+[3.163s] running install_scripts
+[3.223s] writing list of installed files to '/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/tracetools_read/install.log'
+[3.348s] Invoked command in '/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/uros/tracetools/tracetools_read' returned '0': PYTHONPATH=/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/tracetools_read/prefix_override:/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/tracetools_read build --build-base /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/tracetools_read/build install --record /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/tracetools_read/install.log --single-version-externally-managed

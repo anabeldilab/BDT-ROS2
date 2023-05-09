@@ -1,0 +1,9 @@
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/GridCells.idl
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/MapMetaData.idl
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/OccupancyGrid.idl
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/Odometry.idl
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/Path.idl
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/nav_msgs/rosidl_adapter/nav_msgs:srv/GetMap.idl
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/nav_msgs/rosidl_adapter/nav_msgs:srv/GetPlan.idl
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/nav_msgs/rosidl_adapter/nav_msgs:srv/LoadMap.idl
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/nav_msgs/rosidl_adapter/nav_msgs:srv/SetMap.idl

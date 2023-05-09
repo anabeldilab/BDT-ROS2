@@ -1,9 +1,0 @@
-/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/nav_msgs/rosidl_adapter/nav_msgs:msg/GridCells.idl
-/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/nav_msgs/rosidl_adapter/nav_msgs:msg/MapMetaData.idl
-/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/nav_msgs/rosidl_adapter/nav_msgs:msg/OccupancyGrid.idl
-/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/nav_msgs/rosidl_adapter/nav_msgs:msg/Odometry.idl
-/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/nav_msgs/rosidl_adapter/nav_msgs:msg/Path.idl
-/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/nav_msgs/rosidl_adapter/nav_msgs:srv/GetMap.idl
-/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/nav_msgs/rosidl_adapter/nav_msgs:srv/GetPlan.idl
-/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/nav_msgs/rosidl_adapter/nav_msgs:srv/LoadMap.idl
-/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/nav_msgs/rosidl_adapter/nav_msgs:srv/SetMap.idl

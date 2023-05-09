@@ -1,0 +1,46 @@
+[1.882s] Invoking command in '/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/ament/ament_lint/ament_mypy': AMENT_PREFIX_PATH=/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_flake8:/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_lint PATH=/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_mypy/prefix_override:/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_mypy/lib/python3.10/site-packages:/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_mypy build --build-base /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_mypy/build install --record /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_mypy/install.log --single-version-externally-managed
+[2.259s] running egg_info
+[2.260s] creating ../../../build/ament_mypy/ament_mypy.egg-info
+[2.261s] writing ../../../build/ament_mypy/ament_mypy.egg-info/PKG-INFO
+[2.262s] writing dependency_links to ../../../build/ament_mypy/ament_mypy.egg-info/dependency_links.txt
+[2.262s] writing entry points to ../../../build/ament_mypy/ament_mypy.egg-info/entry_points.txt
+[2.263s] writing requirements to ../../../build/ament_mypy/ament_mypy.egg-info/requires.txt
+[2.264s] writing top-level names to ../../../build/ament_mypy/ament_mypy.egg-info/top_level.txt
+[2.264s] writing manifest file '../../../build/ament_mypy/ament_mypy.egg-info/SOURCES.txt'
+[2.267s] reading manifest file '../../../build/ament_mypy/ament_mypy.egg-info/SOURCES.txt'
+[2.269s] writing manifest file '../../../build/ament_mypy/ament_mypy.egg-info/SOURCES.txt'
+[2.269s] running build
+[2.270s] running build_py
+[2.270s] creating /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_mypy/build
+[2.271s] creating /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_mypy/build/lib
+[2.271s] creating /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy
+[2.271s] copying ament_mypy/pytest_marker.py -> /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy
+[2.272s] copying ament_mypy/main.py -> /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy
+[2.272s] copying ament_mypy/__init__.py -> /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy
+[2.272s] creating /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/configuration
+[2.273s] copying ament_mypy/configuration/ament_mypy.ini -> /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/configuration
+[2.273s] running install
+[2.273s] running install_lib
+[2.274s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.274s]   warnings.warn(
+[2.275s] creating /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_mypy/lib/python3.10/site-packages/ament_mypy
+[2.275s] copying /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/pytest_marker.py -> /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_mypy/lib/python3.10/site-packages/ament_mypy
+[2.275s] copying /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/main.py -> /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_mypy/lib/python3.10/site-packages/ament_mypy
+[2.275s] creating /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_mypy/lib/python3.10/site-packages/ament_mypy/configuration
+[2.276s] copying /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/configuration/ament_mypy.ini -> /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_mypy/lib/python3.10/site-packages/ament_mypy/configuration
+[2.276s] copying /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/__init__.py -> /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_mypy/lib/python3.10/site-packages/ament_mypy
+[2.277s] byte-compiling /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_mypy/lib/python3.10/site-packages/ament_mypy/pytest_marker.py to pytest_marker.cpython-310.pyc
+[2.278s] byte-compiling /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_mypy/lib/python3.10/site-packages/ament_mypy/main.py to main.cpython-310.pyc
+[2.282s] byte-compiling /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_mypy/lib/python3.10/site-packages/ament_mypy/__init__.py to __init__.cpython-310.pyc
+[2.283s] running install_data
+[2.284s] copying package.xml -> /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_mypy/share/ament_mypy
+[2.285s] creating /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_mypy/share/ament_index
+[2.285s] creating /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_mypy/share/ament_index/resource_index
+[2.285s] creating /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_mypy/share/ament_index/resource_index/packages
+[2.286s] copying resource/ament_mypy -> /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_mypy/share/ament_index/resource_index/packages
+[2.286s] running install_egg_info
+[2.288s] Copying ../../../build/ament_mypy/ament_mypy.egg-info to /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_mypy/lib/python3.10/site-packages/ament_mypy-0.12.6-py3.10.egg-info
+[2.290s] running install_scripts
+[2.347s] Installing ament_mypy script to /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_mypy/bin
+[2.348s] writing list of installed files to '/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_mypy/install.log'
+[2.449s] Invoked command in '/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/ament/ament_lint/ament_mypy' returned '0': AMENT_PREFIX_PATH=/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_flake8:/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_lint PATH=/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_mypy/prefix_override:/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_mypy/lib/python3.10/site-packages:/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_mypy build --build-base /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_mypy/build install --record /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_mypy/install.log --single-version-externally-managed

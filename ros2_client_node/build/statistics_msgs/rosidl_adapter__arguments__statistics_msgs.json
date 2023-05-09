@@ -1,8 +1,0 @@
-{
-  "package_name": "statistics_msgs",
-  "non_idl_tuples": [
-    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/rcl_interfaces/statistics_msgs:msg/MetricsMessage.msg",
-    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/rcl_interfaces/statistics_msgs:msg/StatisticDataPoint.msg",
-    "/mnt/d/prueba/TFG-ROS2/ros2_client_node/src/ros2/rcl_interfaces/statistics_msgs:msg/StatisticDataType.msg"
-  ]
-}

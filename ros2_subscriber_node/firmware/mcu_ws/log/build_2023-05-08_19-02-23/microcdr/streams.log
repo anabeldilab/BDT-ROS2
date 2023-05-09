@@ -1,0 +1,41 @@
+[0.470s] Invoking command in '/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr': /usr/bin/cmake --build /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr -- -j12 -l12
+[1.466s] gmake[4]: Entering directory '/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr'
+[1.466s] /usr/bin/cmake -S/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/eProsima/Micro-CDR -B/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr --check-build-system CMakeFiles/Makefile.cmake 0
+[1.466s] Re-run cmake file: Makefile older than: /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/freertos_apps/microros_esp32_extensions/esp32_toolchain.cmake
+[1.466s] -- Configuring done
+[1.467s] -- Generating done
+[1.467s] -- Build files have been written to: /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr
+[1.467s] /usr/bin/cmake -E cmake_progress_start /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr/CMakeFiles /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr//CMakeFiles/progress.marks
+[1.467s] /usr/bin/gmake  -f CMakeFiles/Makefile2 all
+[1.467s] gmake[5]: Entering directory '/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr'
+[1.468s] /usr/bin/gmake  -f CMakeFiles/microcdr.dir/build.make CMakeFiles/microcdr.dir/depend
+[1.468s] gmake[6]: Entering directory '/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr'
+[1.468s] cd /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/eProsima/Micro-CDR /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/eProsima/Micro-CDR /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr/CMakeFiles/microcdr.dir/DependInfo.cmake --color=
+[1.468s] Dependencies file "CMakeFiles/microcdr.dir/src/c/common.c.obj.d" is newer than depends file "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr/CMakeFiles/microcdr.dir/compiler_depend.internal".
+[1.468s] Dependencies file "CMakeFiles/microcdr.dir/src/c/types/array.c.obj.d" is newer than depends file "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr/CMakeFiles/microcdr.dir/compiler_depend.internal".
+[1.468s] Dependencies file "CMakeFiles/microcdr.dir/src/c/types/basic.c.obj.d" is newer than depends file "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr/CMakeFiles/microcdr.dir/compiler_depend.internal".
+[1.469s] Dependencies file "CMakeFiles/microcdr.dir/src/c/types/sequence.c.obj.d" is newer than depends file "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr/CMakeFiles/microcdr.dir/compiler_depend.internal".
+[1.469s] Dependencies file "CMakeFiles/microcdr.dir/src/c/types/string.c.obj.d" is newer than depends file "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr/CMakeFiles/microcdr.dir/compiler_depend.internal".
+[1.469s] [35m[1mConsolidate compiler generated dependencies of target microcdr[0m
+[1.469s] gmake[6]: Leaving directory '/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr'
+[1.469s] /usr/bin/gmake  -f CMakeFiles/microcdr.dir/build.make CMakeFiles/microcdr.dir/build
+[1.469s] gmake[6]: Entering directory '/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr'
+[1.470s] gmake[6]: Nothing to be done for 'CMakeFiles/microcdr.dir/build'.
+[1.470s] gmake[6]: Leaving directory '/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr'
+[1.470s] [100%] Built target microcdr
+[1.470s] gmake[5]: Leaving directory '/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr'
+[1.471s] /usr/bin/cmake -E cmake_progress_start /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr/CMakeFiles 0
+[1.471s] gmake[4]: Leaving directory '/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr'
+[1.590s] Invoked command in '/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr' returned '0': /usr/bin/cmake --build /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr -- -j12 -l12
+[2.461s] Invoking command in '/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr': /usr/bin/cmake --install /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr
+[2.498s] -- Install configuration: "Debug"
+[2.499s] -- Up-to-date: /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/lib/libmicrocdr.a
+[2.499s] -- Up-to-date: /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/include/ucdr
+[2.499s] -- Up-to-date: /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/include/ucdr/microcdr.h
+[2.500s] -- Up-to-date: /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/include/ucdr/visibility.h
+[2.500s] -- Up-to-date: /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/include/ucdr/config.h
+[2.500s] -- Up-to-date: /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/share/microcdr/cmake/microcdrTargets.cmake
+[2.501s] -- Up-to-date: /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/share/microcdr/cmake/microcdrTargets-debug.cmake
+[2.501s] -- Up-to-date: /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/share/microcdr/cmake/microcdrConfig.cmake
+[2.501s] -- Up-to-date: /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/share/microcdr/cmake/microcdrConfigVersion.cmake
+[2.789s] Invoked command in '/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr' returned '0': /usr/bin/cmake --install /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/microcdr

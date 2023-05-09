@@ -1,0 +1,12 @@
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rcutils/CMakeFiles/uninstall.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rcutils/CMakeFiles/rcutils_uninstall.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rcutils/CMakeFiles/ament_cmake_python_copy_rcutils.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rcutils/CMakeFiles/ament_cmake_python_build_rcutils_egg.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rcutils/CMakeFiles/rcutils.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rcutils/CMakeFiles/test.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rcutils/CMakeFiles/edit_cache.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rcutils/CMakeFiles/rebuild_cache.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rcutils/CMakeFiles/list_install_components.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rcutils/CMakeFiles/install.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rcutils/CMakeFiles/install/local.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rcutils/CMakeFiles/install/strip.dir

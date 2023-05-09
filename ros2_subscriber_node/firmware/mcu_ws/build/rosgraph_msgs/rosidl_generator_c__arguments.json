@@ -1,0 +1,30 @@
+{
+  "package_name": "rosgraph_msgs",
+  "output_dir": "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rosgraph_msgs/rosidl_generator_c/rosgraph_msgs",
+  "template_dir": "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rosgraph_msgs/rosidl_adapter/rosgraph_msgs:msg/Clock.idl"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../../../lib/python3.10/site-packages/rosidl_generator_c/__init__.py",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rosgraph_msgs/rosidl_adapter/rosgraph_msgs/msg/Clock.idl",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/share/builtin_interfaces/msg/Duration.idl",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/share/builtin_interfaces/msg/Time.idl"
+  ]
+}

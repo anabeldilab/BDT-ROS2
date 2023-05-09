@@ -1,0 +1,8 @@
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rosidl_default_runtime/CMakeFiles/uninstall.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rosidl_default_runtime/CMakeFiles/rosidl_default_runtime_uninstall.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rosidl_default_runtime/CMakeFiles/test.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rosidl_default_runtime/CMakeFiles/edit_cache.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rosidl_default_runtime/CMakeFiles/rebuild_cache.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rosidl_default_runtime/CMakeFiles/list_install_components.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rosidl_default_runtime/CMakeFiles/install.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rosidl_default_runtime/CMakeFiles/install/local.dir

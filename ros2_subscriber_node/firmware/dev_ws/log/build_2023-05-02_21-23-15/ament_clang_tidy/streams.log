@@ -1,0 +1,39 @@
+[3.075s] Invoking command in '/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/ament/ament_lint/ament_clang_tidy': AMENT_PREFIX_PATH=/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_copyright:/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_pep257:/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_flake8:/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_lint PATH=/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_copyright/bin:/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_pep257/bin:/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_clang_tidy/prefix_override:/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_clang_tidy/lib/python3.10/site-packages:/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages:/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages:/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_clang_tidy build --build-base /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_clang_tidy/build install --record /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_clang_tidy/install.log --single-version-externally-managed
+[3.565s] running egg_info
+[3.567s] creating ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info
+[3.567s] writing ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/PKG-INFO
+[3.568s] writing dependency_links to ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/dependency_links.txt
+[3.569s] writing entry points to ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/entry_points.txt
+[3.569s] writing requirements to ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/requires.txt
+[3.569s] writing top-level names to ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/top_level.txt
+[3.570s] writing manifest file '../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/SOURCES.txt'
+[3.574s] reading manifest file '../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/SOURCES.txt'
+[3.579s] writing manifest file '../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/SOURCES.txt'
+[3.579s] running build
+[3.579s] running build_py
+[3.585s] creating /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_clang_tidy/build
+[3.585s] creating /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_clang_tidy/build/lib
+[3.586s] creating /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_clang_tidy/build/lib/ament_clang_tidy
+[3.586s] copying ament_clang_tidy/main.py -> /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_clang_tidy/build/lib/ament_clang_tidy
+[3.587s] copying ament_clang_tidy/__init__.py -> /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_clang_tidy/build/lib/ament_clang_tidy
+[3.587s] running install
+[3.587s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.587s]   warnings.warn(
+[3.595s] running install_lib
+[3.601s] creating /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_clang_tidy/lib/python3.10/site-packages/ament_clang_tidy
+[3.602s] copying /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_clang_tidy/build/lib/ament_clang_tidy/main.py -> /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_clang_tidy/lib/python3.10/site-packages/ament_clang_tidy
+[3.603s] copying /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_clang_tidy/build/lib/ament_clang_tidy/__init__.py -> /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_clang_tidy/lib/python3.10/site-packages/ament_clang_tidy
+[3.603s] byte-compiling /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_clang_tidy/lib/python3.10/site-packages/ament_clang_tidy/main.py to main.cpython-310.pyc
+[3.621s] byte-compiling /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_clang_tidy/lib/python3.10/site-packages/ament_clang_tidy/__init__.py to __init__.cpython-310.pyc
+[3.622s] running install_data
+[3.622s] copying package.xml -> /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_clang_tidy/share/ament_clang_tidy
+[3.629s] creating /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_clang_tidy/share/ament_index
+[3.630s] creating /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_clang_tidy/share/ament_index/resource_index
+[3.636s] creating /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_clang_tidy/share/ament_index/resource_index/packages
+[3.636s] copying resource/ament_clang_tidy -> /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_clang_tidy/share/ament_index/resource_index/packages
+[3.636s] running install_egg_info
+[3.647s] Copying ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info to /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_clang_tidy/lib/python3.10/site-packages/ament_clang_tidy-0.12.6-py3.10.egg-info
+[3.678s] running install_scripts
+[3.689s] Installing ament_clang_tidy script to /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_clang_tidy/bin
+[3.689s] writing list of installed files to '/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_clang_tidy/install.log'
+[3.945s] Invoked command in '/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/ament/ament_lint/ament_clang_tidy' returned '0': AMENT_PREFIX_PATH=/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_copyright:/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_pep257:/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_flake8:/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_lint PATH=/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_copyright/bin:/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_pep257/bin:/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_clang_tidy/prefix_override:/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_clang_tidy/lib/python3.10/site-packages:/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages:/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages:/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_clang_tidy build --build-base /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_clang_tidy/build install --record /home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_clang_tidy/install.log --single-version-externally-managed

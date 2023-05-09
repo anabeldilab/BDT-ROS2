@@ -1,8 +1,0 @@
-/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/common_interfaces/CMakeFiles/uninstall.dir
-/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/common_interfaces/CMakeFiles/common_interfaces_uninstall.dir
-/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/common_interfaces/CMakeFiles/test.dir
-/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/common_interfaces/CMakeFiles/edit_cache.dir
-/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/common_interfaces/CMakeFiles/rebuild_cache.dir
-/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/common_interfaces/CMakeFiles/list_install_components.dir
-/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/common_interfaces/CMakeFiles/install.dir
-/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/common_interfaces/CMakeFiles/install/local.dir

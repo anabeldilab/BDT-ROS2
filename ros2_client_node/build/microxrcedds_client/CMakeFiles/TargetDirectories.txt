@@ -1,7 +1,0 @@
-/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir
-/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/microxrcedds_client/CMakeFiles/edit_cache.dir
-/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/microxrcedds_client/CMakeFiles/rebuild_cache.dir
-/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/microxrcedds_client/CMakeFiles/list_install_components.dir
-/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/microxrcedds_client/CMakeFiles/install.dir
-/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/microxrcedds_client/CMakeFiles/install/local.dir
-/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/microxrcedds_client/CMakeFiles/install/strip.dir

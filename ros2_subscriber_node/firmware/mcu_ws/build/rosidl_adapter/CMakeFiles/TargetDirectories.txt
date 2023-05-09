@@ -1,0 +1,11 @@
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rosidl_adapter/CMakeFiles/uninstall.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rosidl_adapter/CMakeFiles/rosidl_adapter_uninstall.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rosidl_adapter/CMakeFiles/ament_cmake_python_copy_rosidl_adapter.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rosidl_adapter/CMakeFiles/ament_cmake_python_copy_rosidl_adapter_setup.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rosidl_adapter/CMakeFiles/ament_cmake_python_build_rosidl_adapter_egg.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rosidl_adapter/CMakeFiles/test.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rosidl_adapter/CMakeFiles/edit_cache.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rosidl_adapter/CMakeFiles/rebuild_cache.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rosidl_adapter/CMakeFiles/list_install_components.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rosidl_adapter/CMakeFiles/install.dir
+/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rosidl_adapter/CMakeFiles/install/local.dir

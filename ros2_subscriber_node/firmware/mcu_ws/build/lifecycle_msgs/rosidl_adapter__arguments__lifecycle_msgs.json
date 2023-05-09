@@ -1,0 +1,13 @@
+{
+  "package_name": "lifecycle_msgs",
+  "non_idl_tuples": [
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/ros2/rcl_interfaces/lifecycle_msgs:msg/State.msg",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/ros2/rcl_interfaces/lifecycle_msgs:msg/Transition.msg",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/ros2/rcl_interfaces/lifecycle_msgs:msg/TransitionDescription.msg",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/ros2/rcl_interfaces/lifecycle_msgs:msg/TransitionEvent.msg",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/ros2/rcl_interfaces/lifecycle_msgs:srv/ChangeState.srv",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/ros2/rcl_interfaces/lifecycle_msgs:srv/GetAvailableStates.srv",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/ros2/rcl_interfaces/lifecycle_msgs:srv/GetAvailableTransitions.srv",
+    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/ros2/rcl_interfaces/lifecycle_msgs:srv/GetState.srv"
+  ]
+}

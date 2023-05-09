@@ -1,1 +1,0 @@
-/mnt/d/prueba/TFG-ROS2/ros2_client_node/build/micro_ros_demos_rclc/temp_install/configured_subscriber/configured_subscriber

@@ -1,0 +1,250 @@
+[0.000000] (-) TimerEvent: {}
+[0.002409] (micro_ros_setup) JobQueued: {'identifier': 'micro_ros_setup', 'dependencies': OrderedDict()}
+[0.002509] (micro_ros_setup) JobStarted: {'identifier': 'micro_ros_setup'}
+[0.045143] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'cmake'}
+[0.045836] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '/home/alu0101206011/TFG-ROS2/ros2_client_node/src/micro_ros_setup', '-DCMAKE_INSTALL_PREFIX=/home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup'], 'cwd': '/home/alu0101206011/TFG-ROS2/ros2_client_node/build/micro_ros_setup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alu0101206011'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('HOME', '/home/alu0101206011'), ('OLDPWD', '/home/alu0101206011/TFG-ROS2'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/alu0101206011/TFG-ROS2/ros2_client_node/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alu0101206011'), ('NAME', 'DESKTOP-JKMU7OT'), ('WSL_INTEROP', '/run/WSL/9738_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/home/alu0101206011/.local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/alu0101206011/.local/bin:/usr/local/texlive/2023/install-tl.log:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcast/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/Git/cmd:/mnt/c/Windows/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Anabel Díaz Labrador/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '914280e6-42d9-40e2-9747-2bc8213e87df'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', '172.29.64.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/alu0101206011/TFG-ROS2/ros2_client_node/build/micro_ros_setup'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/opt/ros/humble'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[0.095115] (-) TimerEvent: {}
+[0.195497] (-) TimerEvent: {}
+[0.265296] (micro_ros_setup) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.295652] (-) TimerEvent: {}
+[0.396072] (-) TimerEvent: {}
+[0.496740] (-) TimerEvent: {}
+[0.597355] (-) TimerEvent: {}
+[0.697864] (-) TimerEvent: {}
+[0.798617] (-) TimerEvent: {}
+[0.899205] (-) TimerEvent: {}
+[0.999893] (-) TimerEvent: {}
+[1.036597] (micro_ros_setup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[1.100042] (-) TimerEvent: {}
+[1.200581] (-) TimerEvent: {}
+[1.301089] (-) TimerEvent: {}
+[1.401566] (-) TimerEvent: {}
+[1.502068] (-) TimerEvent: {}
+[1.566427] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.602224] (-) TimerEvent: {}
+[1.702760] (-) TimerEvent: {}
+[1.803224] (-) TimerEvent: {}
+[1.817205] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.831261] (micro_ros_setup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.832100] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.833833] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.840583] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.903360] (-) TimerEvent: {}
+[2.003761] (-) TimerEvent: {}
+[2.104240] (-) TimerEvent: {}
+[2.107529] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.123545] (micro_ros_setup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.123983] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.124713] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.132882] (micro_ros_setup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.204391] (-) TimerEvent: {}
+[2.304781] (-) TimerEvent: {}
+[2.405188] (-) TimerEvent: {}
+[2.472354] (micro_ros_setup) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[2.505344] (-) TimerEvent: {}
+[2.605725] (-) TimerEvent: {}
+[2.680568] (micro_ros_setup) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.705862] (-) TimerEvent: {}
+[2.806271] (-) TimerEvent: {}
+[2.841281] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.880011] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.886524] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.890069] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.906454] (-) TimerEvent: {}
+[2.910910] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.915067] (micro_ros_setup) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.923753] (micro_ros_setup) StdoutLine: {'line': b'-- Generating done\n'}
+[2.925709] (micro_ros_setup) StdoutLine: {'line': b'-- Build files have been written to: /home/alu0101206011/TFG-ROS2/ros2_client_node/build/micro_ros_setup\n'}
+[2.934264] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[2.935814] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'build'}
+[2.937769] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alu0101206011/TFG-ROS2/ros2_client_node/build/micro_ros_setup', '--', '-j12', '-l12'], 'cwd': '/home/alu0101206011/TFG-ROS2/ros2_client_node/build/micro_ros_setup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alu0101206011'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('HOME', '/home/alu0101206011'), ('OLDPWD', '/home/alu0101206011/TFG-ROS2'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/alu0101206011/TFG-ROS2/ros2_client_node/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alu0101206011'), ('NAME', 'DESKTOP-JKMU7OT'), ('WSL_INTEROP', '/run/WSL/9738_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/home/alu0101206011/.local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/alu0101206011/.local/bin:/usr/local/texlive/2023/install-tl.log:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcast/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/Git/cmd:/mnt/c/Windows/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Anabel Díaz Labrador/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '914280e6-42d9-40e2-9747-2bc8213e87df'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', '172.29.64.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/alu0101206011/TFG-ROS2/ros2_client_node/build/micro_ros_setup'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/opt/ros/humble'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[2.994964] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[3.006622] (-) TimerEvent: {}
+[3.029230] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'install'}
+[3.042823] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/alu0101206011/TFG-ROS2/ros2_client_node/build/micro_ros_setup'], 'cwd': '/home/alu0101206011/TFG-ROS2/ros2_client_node/build/micro_ros_setup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alu0101206011'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('HOME', '/home/alu0101206011'), ('OLDPWD', '/home/alu0101206011/TFG-ROS2'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/alu0101206011/TFG-ROS2/ros2_client_node/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alu0101206011'), ('NAME', 'DESKTOP-JKMU7OT'), ('WSL_INTEROP', '/run/WSL/9738_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/home/alu0101206011/.local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/alu0101206011/.local/bin:/usr/local/texlive/2023/install-tl.log:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcast/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/Git/cmd:/mnt/c/Windows/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Anabel Díaz Labrador/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '914280e6-42d9-40e2-9747-2bc8213e87df'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', '172.29.64.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/alu0101206011/TFG-ROS2/ros2_client_node/build/micro_ros_setup'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup:/opt/ros/humble'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[3.055811] (micro_ros_setup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.056825] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup\n'}
+[3.057431] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup\n'}
+[3.058128] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh\n'}
+[3.058484] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv\n'}
+[3.058854] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh\n'}
+[3.059200] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv\n'}
+[3.059481] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash\n'}
+[3.059757] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh\n'}
+[3.060112] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh\n'}
+[3.060428] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv\n'}
+[3.060685] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/share/micro_ros_setup/package.dsv\n'}
+[3.061249] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup\n'}
+[3.061774] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake\n'}
+[3.062053] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake\n'}
+[3.062314] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/share/micro_ros_setup/package.xml\n'}
+[3.062606] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config\n'}
+[3.062972] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos\n'}
+[3.063345] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/crazyflie21\n'}
+[3.063765] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta\n'}
+[3.064256] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh\n'}
+[3.064816] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos\n'}
+[3.065078] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh\n'}
+[3.065252] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos\n'}
+[3.065572] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh\n'}
+[3.065887] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml\n'}
+[3.066383] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh\n'}
+[3.067073] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/olimex-stm32-e407\n'}
+[3.067440] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta\n'}
+[3.067864] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh\n'}
+[3.068312] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos\n'}
+[3.068863] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh\n'}
+[3.069120] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos\n'}
+[3.069475] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh\n'}
+[3.069722] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml\n'}
+[3.070399] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh\n'}
+[3.070789] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/esp32\n'}
+[3.071770] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta\n'}
+[3.072283] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/esp32/build.sh\n'}
+[3.073030] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/esp32/README.md\n'}
+[3.073582] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/esp32/board.repos\n'}
+[3.073821] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/esp32/create.sh\n'}
+[3.074157] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos\n'}
+[3.074490] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/esp32/configure.sh\n'}
+[3.074880] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/esp32/package.xml\n'}
+[3.075177] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/esp32/flash.sh\n'}
+[3.075462] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos\n'}
+[3.075919] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/list_apps.sh\n'}
+[3.078158] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/nucleo_f446ze\n'}
+[3.078342] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta\n'}
+[3.078489] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh\n'}
+[3.078697] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos\n'}
+[3.078872] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh\n'}
+[3.079051] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos\n'}
+[3.079200] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh\n'}
+[3.079338] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml\n'}
+[3.079503] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh\n'}
+[3.079727] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt\n'}
+[3.079889] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/nucleo_f446re\n'}
+[3.080024] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta\n'}
+[3.080160] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh\n'}
+[3.080295] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos\n'}
+[3.080427] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh\n'}
+[3.080560] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos\n'}
+[3.080748] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh\n'}
+[3.080891] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml\n'}
+[3.083474] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh\n'}
+[3.083869] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/nucleo_f746zg\n'}
+[3.084127] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta\n'}
+[3.084550] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh\n'}
+[3.084798] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos\n'}
+[3.085027] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh\n'}
+[3.085366] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos\n'}
+[3.085771] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh\n'}
+[3.086185] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml\n'}
+[3.086585] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh\n'}
+[3.086983] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/nucleo_f767zi\n'}
+[3.087549] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta\n'}
+[3.087761] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh\n'}
+[3.087942] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos\n'}
+[3.088116] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh\n'}
+[3.088325] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos\n'}
+[3.088497] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh\n'}
+[3.088674] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml\n'}
+[3.089021] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh\n'}
+[3.089351] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/host\n'}
+[3.089671] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/host/dev_uros_packages.repos\n'}
+[3.089993] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/host/generic\n'}
+[3.090486] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/host/generic/build.sh\n'}
+[3.090731] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta\n'}
+[3.091003] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/host/generic/create.sh\n'}
+[3.091405] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/host/generic/client_host_packages.repos\n'}
+[3.092009] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/host/generic/package.xml\n'}
+[3.092287] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/host/generic/flash.sh\n'}
+[3.092620] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/host/client_ros2_packages.txt\n'}
+[3.092966] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/host/dev_ros2_packages.txt\n'}
+[3.093303] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/zephyr\n'}
+[3.093645] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos\n'}
+[3.093969] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/zephyr/generic\n'}
+[3.094415] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta\n'}
+[3.094703] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/zephyr/generic/build.sh\n'}
+[3.095143] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/zephyr/generic/supported_platforms\n'}
+[3.095414] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/zephyr/generic/board.repos\n'}
+[3.095833] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/zephyr/generic/create.sh\n'}
+[3.096064] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos\n'}
+[3.096381] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/zephyr/generic/configure.sh\n'}
+[3.096786] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/zephyr/generic/package.xml\n'}
+[3.097222] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/zephyr/generic/flash.sh\n'}
+[3.097454] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/zephyr/list_apps.sh\n'}
+[3.097597] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt\n'}
+[3.097891] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/android\n'}
+[3.098205] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/android/dev_uros_packages.repos\n'}
+[3.098501] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/android/generic\n'}
+[3.098826] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/android/generic/client-colcon.meta\n'}
+[3.099143] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/android/generic/build.sh\n'}
+[3.099524] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/android/generic/create.sh\n'}
+[3.099690] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos\n'}
+[3.100008] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/android/generic/package.xml\n'}
+[3.100372] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/android/generic/flash.sh\n'}
+[3.100795] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/android/dev_ros2_packages.txt\n'}
+[3.101103] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/client_uros_packages.repos\n'}
+[3.101437] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/generate_lib\n'}
+[3.102753] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos\n'}
+[3.103227] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/generate_lib/generic\n'}
+[3.103665] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta\n'}
+[3.103974] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/generate_lib/generic/build.sh\n'}
+[3.104332] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake\n'}
+[3.104665] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/generate_lib/generic/create.sh\n'}
+[3.104992] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos\n'}
+[3.105344] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/generate_lib/generic/package.xml\n'}
+[3.105696] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/generate_lib/generic/flash.sh\n'}
+[3.106062] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt\n'}
+[3.106437] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/mbed\n'}
+[3.107110] (-) TimerEvent: {}
+[3.107533] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/mbed/dev_uros_packages.repos\n'}
+[3.108013] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/mbed/generic\n'}
+[3.108415] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/mbed/generic/build.sh\n'}
+[3.108691] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/mbed/generic/supported_platforms\n'}
+[3.109156] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/mbed/generic/board.repos\n'}
+[3.109493] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/mbed/generic/create.sh\n'}
+[3.109821] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/mbed/generic/client_uros_packages.repos\n'}
+[3.110139] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/mbed/generic/package.xml\n'}
+[3.110483] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/mbed/generic/flash.sh\n'}
+[3.110803] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/mbed/list_apps.sh\n'}
+[3.111116] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/mbed/dev_ros2_packages.txt\n'}
+[3.111459] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/agent_uros_packages.repos\n'}
+[3.111937] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/renesas_ra\n'}
+[3.112216] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/renesas_ra/dev_uros_packages.repos\n'}
+[3.112918] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/renesas_ra/ra6m5\n'}
+[3.113225] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/renesas_ra/ra6m5/client-colcon.meta\n'}
+[3.113443] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/renesas_ra/ra6m5/build.sh\n'}
+[3.113585] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/renesas_ra/ra6m5/board.repos\n'}
+[3.113718] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/renesas_ra/ra6m5/create.sh\n'}
+[3.113849] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/renesas_ra/ra6m5/client_uros_packages.repos\n'}
+[3.113978] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/renesas_ra/ra6m5/configure.sh\n'}
+[3.114107] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/renesas_ra/ra6m5/flash.sh\n'}
+[3.114251] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/renesas_ra/list_apps.sh\n'}
+[3.114654] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/renesas_ra/dev_ros2_packages.txt\n'}
+[3.115154] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/client_ros2_packages.txt\n'}
+[3.115473] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/raspbian\n'}
+[3.115893] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos\n'}
+[3.116479] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/raspbian/generic\n'}
+[3.116727] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta\n'}
+[3.116948] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/raspbian/generic/build.sh\n'}
+[3.117688] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/raspbian/generic/supported_platforms\n'}
+[3.118028] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/raspbian/generic/create.sh\n'}
+[3.118414] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos\n'}
+[3.119179] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/raspbian/generic/configure.sh\n'}
+[3.119537] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/raspbian/generic/flash.sh\n'}
+[3.119878] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt\n'}
+[3.120198] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/agent_ros2_packages.txt\n'}
+[3.120534] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/./config/utils.sh\n'}
+[3.121676] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh\n'}
+[3.121942] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh\n'}
+[3.122202] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh\n'}
+[3.122479] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh\n'}
+[3.122733] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh\n'}
+[3.123038] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh\n'}
+[3.123314] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh\n'}
+[3.123570] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py\n'}
+[3.123824] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh\n'}
+[3.125861] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/alu0101206011/TFG-ROS2/ros2_client_node/install/micro_ros_setup/lib/micro_ros_setup/component\n'}
+[3.126129] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[3.207464] (-) TimerEvent: {}
+[3.258648] (micro_ros_setup) JobEnded: {'identifier': 'micro_ros_setup', 'rc': 0}
+[3.261216] (-) EventReactorShutdown: {}
