@@ -1,3 +1,6 @@
 [submodule "ros2_agent_node/src/micro_ros_setup"]
 	path = ros2_agent_node/src/micro_ros_setup
 	url = https://github.com/micro-ROS/micro_ros_setup.git
+[submodule "ros2_subscriber_node/firmware/freertos_apps"]
+	path = ros2_subscriber_node/firmware/freertos_apps
+	url = https://github.com/micro-ROS/micro_ros_setup
