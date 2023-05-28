@@ -1,7 +1,0 @@
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_lint_common/CMakeFiles/uninstall.dir
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_lint_common/CMakeFiles/ament_lint_common_uninstall.dir
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_lint_common/CMakeFiles/edit_cache.dir
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_lint_common/CMakeFiles/rebuild_cache.dir
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_lint_common/CMakeFiles/list_install_components.dir
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_lint_common/CMakeFiles/install.dir
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_lint_common/CMakeFiles/install/local.dir

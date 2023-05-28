@@ -1,7 +1,0 @@
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_cmake_nose/CMakeFiles/uninstall.dir
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_cmake_nose/CMakeFiles/ament_cmake_nose_uninstall.dir
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_cmake_nose/CMakeFiles/edit_cache.dir
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_cmake_nose/CMakeFiles/rebuild_cache.dir
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_cmake_nose/CMakeFiles/list_install_components.dir
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_cmake_nose/CMakeFiles/install.dir
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/dev_ws/build/ament_cmake_nose/CMakeFiles/install/local.dir

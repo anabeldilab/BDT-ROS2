@@ -1,6 +1,0 @@
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/include/libyaml_vendor/yaml.h
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/lib/libyaml.a
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/cmake/yamlConfig.cmake
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/cmake/yamlTargets.cmake
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/cmake/yamlTargets-debug.cmake
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/cmake/yamlConfigVersion.cmake

@@ -1,7 +1,0 @@
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build/CMakeFiles/yaml.dir
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build/CMakeFiles/edit_cache.dir
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build/CMakeFiles/rebuild_cache.dir
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build/CMakeFiles/list_install_components.dir
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build/CMakeFiles/install.dir
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build/CMakeFiles/install/local.dir
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build/CMakeFiles/install/strip.dir

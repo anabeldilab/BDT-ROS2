@@ -1,6 +1,0 @@
-{
-  "package_name": "rosgraph_msgs",
-  "non_idl_tuples": [
-    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/ros2/rcl_interfaces/rosgraph_msgs:msg/Clock.msg"
-  ]
-}

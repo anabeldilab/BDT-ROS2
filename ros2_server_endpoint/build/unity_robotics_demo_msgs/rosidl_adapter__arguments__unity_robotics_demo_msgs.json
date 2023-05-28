@@ -1,9 +1,0 @@
-{
-  "package_name": "unity_robotics_demo_msgs",
-  "non_idl_tuples": [
-    "/mnt/d/prueba/TFG-ROS2/ros2_server_endpoint/src/unity_robotics_demo_msgs:msg/PosRot.msg",
-    "/mnt/d/prueba/TFG-ROS2/ros2_server_endpoint/src/unity_robotics_demo_msgs:msg/UnityColor.msg",
-    "/mnt/d/prueba/TFG-ROS2/ros2_server_endpoint/src/unity_robotics_demo_msgs:srv/PositionService.srv",
-    "/mnt/d/prueba/TFG-ROS2/ros2_server_endpoint/src/unity_robotics_demo_msgs:srv/ObjectPoseService.srv"
-  ]
-}

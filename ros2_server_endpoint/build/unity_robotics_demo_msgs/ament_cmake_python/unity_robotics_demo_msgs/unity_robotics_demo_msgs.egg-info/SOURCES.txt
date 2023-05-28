@@ -1,6 +1,0 @@
-setup.py
-unity_robotics_demo_msgs/__init__.py
-unity_robotics_demo_msgs.egg-info/PKG-INFO
-unity_robotics_demo_msgs.egg-info/SOURCES.txt
-unity_robotics_demo_msgs.egg-info/dependency_links.txt
-unity_robotics_demo_msgs.egg-info/top_level.txt

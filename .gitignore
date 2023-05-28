@@ -1,52 +1,32 @@
-# Prerequisites
-*.d
+*/install/
+*/log/
+*/build/
+*/firmware/dev_ws/
+*/firmware/toolchain/
+*/firmware/mcu_ws/
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Ignore generated docs
+*.dox
+*.wikidoc
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# eclipse stuff
+.project
+.cproject
 
-# Precompiled Headers
-*.gch
-*.pch
+# qcreator stuff
+CMakeLists.txt.user
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+srv/_*.py
+*.pcd
+*.pyc
+qtcreator-*
+*.user
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+*~
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# Emacs
+.#*
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Colcon custom files
+COLCON_IGNORE
+AMENT_IGNORE

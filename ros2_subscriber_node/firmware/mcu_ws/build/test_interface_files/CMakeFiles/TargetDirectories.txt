@@ -1,7 +1,0 @@
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/test_interface_files/CMakeFiles/uninstall.dir
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/test_interface_files/CMakeFiles/test_interface_files_uninstall.dir
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/test_interface_files/CMakeFiles/edit_cache.dir
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/test_interface_files/CMakeFiles/rebuild_cache.dir
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/test_interface_files/CMakeFiles/list_install_components.dir
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/test_interface_files/CMakeFiles/install.dir
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/test_interface_files/CMakeFiles/install/local.dir

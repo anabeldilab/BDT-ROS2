@@ -1,7 +1,0 @@
-/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/microxrcedds_agent.dir
-/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/edit_cache.dir
-/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/rebuild_cache.dir
-/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/list_install_components.dir
-/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/install.dir
-/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/install/local.dir
-/mnt/d/prueba/TFG-ROS2/ros2_agent_node/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/install/strip.dir

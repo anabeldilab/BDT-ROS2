@@ -56,7 +56,7 @@ Additionally, any new application folder must be registered in firmware/freertos
 
 ```bash
 # Configure step
-ros2 run micro_ros_setup configure_firmware.sh string_subscriber -t serial --dev /dev/ttyUSB0
+ros2 run micro_ros_setup configure_firmware.sh servo_string_subscriber -t serial --dev /dev/ttyUSB0
 
 # Build step
 ros2 run micro_ros_setup build_firmware.sh

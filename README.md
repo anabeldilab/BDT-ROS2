@@ -1,62 +1,39 @@
 # Control of Electromechanical Devices using BCI: ROS projects
 
+## About
+This project is about controlling of electromechanincal devices using BCI. The project is divided in two parts:
+- ROS nodes
+- Unity project
+
+The ROS nodes are responsible for the communication between the Unity project and the microcontroller. The Unity project is responsible for the communication between the ROS nodes and the BCI. The microcontroller is responsible for the communication between the ROS nodes and the electromechanical devices.
+
+## Requirements
+- [ROS 2](https://docs.ros.org/en/rolling/Releases/Release-Humble-Hawksbill.html)
+- [Unity](https://unity.com/)
+- [ESP32-WROOM-32D](https://www.espressif.com/en/products/socs/esp32)
+- [micro-ROS](https://micro.ros.org/)
+- [NextMind](https://www.next-mind.com/)
+- [Servomotor](https://en.wikipedia.org/wiki/Servomotor)
+
+
+## Versions
+- ROS 2 Humble Hawksbill
+- Unity 2020.3.14f1 
+- Ubuntu 22.04.2 LTS 
+- ESP32-WROOM-32D 
+
 ## ROS nodes Setup
 - ROS publisher node (Unity)
 - ROS Agent node
 - ROS subscriber node (Microros)
 
-## Configure ROS on the microcontroller
-```bash
-# Create a workspace and download the micro-ROS tools
-source /opt/ros/$ROS_DISTRO/setup.bash
-git clone -b $ROS_DISTRO https://github.com/micro-ROS/micro_ros_setup.git src/micro_ros_setup
+### ROS publisher node (Unity)
+The ROS publisher node is responsible for the communication between the Unity project and the microcontroller. The node is responsible for publishing the data from the BCI to the microcontroller. The node is implemented in C# using the [Unity-Robotics-Hub](https://github.com/Unity-Technologies/Unity-Robotics-Hub)
 
-# Update dependencies using rosdep
-sudo apt update && rosdep update
-rosdep install --from-paths src --ignore-src -y
+### ROS Agent node
+The ROS Agent node is responsible for the communication between the ROS publisher node and the ROS subscriber node. The node is implemented in C using the [micro-ROS](https://micro.ros.org/)
 
-# Build micro-ROS tools and source them
-sudo apt install python3-colcon-common-extensions
-colcon build
-source install/local_setup.bash
-```
-### Client 
-
-```bash
-# Create firmware step
-ros2 run micro_ros_setup create_firmware_ws.sh host
-
-``` 
-
-Once the command is executed, a folder named 'firmware' should be present in your workspace. This step takes care of, among other things, downloading a set of micro-ROS applications for Linux, which are located at src/uros/micro-ROS-demos/rclc. Each application is represented by a folder that contains the following files:
-main.c: This file contains the logic of the application.
-CMakeLists.txt: This is the CMake file that contains the script to compile the application.
-
-To create a custom application, the user should register a folder <my_app> in this location, containing the two files just described. Additionally, any new application folder must be registered in *src/uros/micro-ROS-demos/rclc/CMakeLists.txt* by adding the following line:
-*export_executable(<my_app>)*
+### ROS subscriber node (Microros)
+The ROS subscriber node is responsible for the communication between the ROS Agent node and the microcontroller. The node is responsible for subscribing to the data from the ROS Agent node and sending the data to the microcontroller. The node is implemented in C using the [micro-ROS](https://micro.ros.org/)
 
 
-```bash
-# Build step
-ros2 run micro_ros_setup build_firmware.sh
-source install/local_setup.bash 
-```
-### Agent
-
-```bash
-# Download micro-ROS-Agent packages
-ros2 run micro_ros_setup create_agent_ws.sh
-
-# Build step
-ros2 run micro_ros_setup build_agent.sh
-source install/local_setup.bash
-```
-
-## Run nodes
-```bash
-# Run a micro-ROS agent
-ros2 run micro_ros_agent micro_ros_agent udp4 --port 8888
-
-# Serial connection
-ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyUSB0
-```

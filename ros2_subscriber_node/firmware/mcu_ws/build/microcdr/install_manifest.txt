@@ -1,8 +1,0 @@
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/lib/libmicrocdr.a
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/include/ucdr/microcdr.h
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/include/ucdr/visibility.h
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/include/ucdr/config.h
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/share/microcdr/cmake/microcdrTargets.cmake
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/share/microcdr/cmake/microcdrTargets-debug.cmake
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/share/microcdr/cmake/microcdrConfig.cmake
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/install/share/microcdr/cmake/microcdrConfigVersion.cmake

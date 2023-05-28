@@ -1,8 +1,0 @@
-{
-  "package_name": "statistics_msgs",
-  "non_idl_tuples": [
-    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/ros2/rcl_interfaces/statistics_msgs:msg/MetricsMessage.msg",
-    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/ros2/rcl_interfaces/statistics_msgs:msg/StatisticDataPoint.msg",
-    "/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/ros2/rcl_interfaces/statistics_msgs:msg/StatisticDataType.msg"
-  ]
-}

@@ -1,9 +1,0 @@
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rosidl_typesupport_introspection_tests/CMakeFiles/uninstall.dir
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rosidl_typesupport_introspection_tests/CMakeFiles/rosidl_typesupport_introspection_tests_uninstall.dir
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rosidl_typesupport_introspection_tests/CMakeFiles/test.dir
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rosidl_typesupport_introspection_tests/CMakeFiles/edit_cache.dir
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rosidl_typesupport_introspection_tests/CMakeFiles/rebuild_cache.dir
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rosidl_typesupport_introspection_tests/CMakeFiles/list_install_components.dir
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rosidl_typesupport_introspection_tests/CMakeFiles/install.dir
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rosidl_typesupport_introspection_tests/CMakeFiles/install/local.dir
-/home/alu0101206011/TFG-ROS2/ros2_client_node/firmware/mcu_ws/build/rosidl_typesupport_introspection_tests/CMakeFiles/install/strip.dir
