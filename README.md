@@ -1,4 +1,4 @@
-# Control of Electromechanical Devices using BCI: ROS projects
+# Bachelor's Degree Thesis: Control of Electromechanical Devices using BCI: ROS projects
 
 ## About
 This project is about controlling of electromechanincal devices using BCI. The project is divided in two parts:
